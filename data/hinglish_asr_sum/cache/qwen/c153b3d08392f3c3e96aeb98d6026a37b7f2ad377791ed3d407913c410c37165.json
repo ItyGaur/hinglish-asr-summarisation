@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-31T12:47:48+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W16",
+ "condition": "noise:hi:0.2",
+ "out_lang": "en",
+ "input_tokens": 2031,
+ "summary": "In this tutorial, you learn about storage class specifiers in C programming using the GCC compiler on Ubuntu 11.10. Storage class specifiers tell the compiler where to store variables and how they behave. The tutorial covers `auto` and `static` specifiers.\n\n`Auto` variables are local to their function and must be initialized at declaration. They occupy CPU memory but are not initialized by default. An example shows declaring and using an `auto` variable within a function. Compiling and running this code demonstrates the behavior of `auto` variables.\n\n`Static` variables, on the other hand, are also local to their function but retain their value between function calls. They are initialized to zero if not specified otherwise and persist in CPU memory even after the program exits. The tutorial provides an example of using `static` variables across multiple function calls, showing how their values remain unchanged between calls.\n\nThe tutorial guides you through modifying the code to use `static` initialization and recompiling it to see the difference in behavior."
+}

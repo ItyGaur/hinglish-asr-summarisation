@@ -1,0 +1,76 @@
+{
+ "created": "2026-10-31T02:35:14+00:00",
+ "template_id": "judge",
+ "variant": 0,
+ "request": {
+  "model": "gemini-3.8-flash",
+  "system_instruction": "You are a strict, consistent evaluator of summary content. Output only JSON that matches the schema.",
+  "input": "Decide, for each numbered fact, whether the SUMMARY conveys it.\n\nA fact is supported if the summary states its core information or clearly implies it, even in different words, in another language (English, Hindi or Hinglish) or in another script. It is not supported if it is missing, only vaguely related, or contradicted. Judge each fact independently, using only the summary.\n\nSUMMARY:\n<<<\nThis tutorial introduces command-line arguments in C programming using Ubuntu 11.10 and GCC compiler version 4.6.1. It explains how to pass arguments to the `main` function and process them within the program. The `argc` variable holds the number of command-line arguments, while `argv` is an array of strings containing the actual arguments. The first argument (`argv[0]`) is the program name, and subsequent arguments are the command-line inputs. The tutorial demonstrates this by compiling and running a sample program that prints all passed arguments. Initially, without any arguments, only the program name is displayed. After passing multiple arguments like \"sunday\", \"monday\", and \"tuesday\", the program correctly identifies and prints each argument, including the program name as the first argument. The key takeaway is understanding how to use `argc` and `argv` to handle different numbers of command-line arguments in C programs.\n>>>\n\nFACTS:\n1. The stdio.h header file defines core input and output functions.\n2. argc shows the total number of command line arguments provided to the program.\n3. argc includes the actual name of the program in its count.\n4. argv stores the actual arguments beginning from index 0.\n5. Index 0 of argv contains the name of the program.\n6. Index 1 of argv contains the first argument passed to the program.\n7. The terminal is opened by pressing the Ctrl + Alt + T keys together.\n8. The compilation command entered in the terminal is gcc main-with-args.c -o args.\n9. Executing the program without arguments gives a total count of 1 because the zeroth argument is the executable filename itself.\n10. Passing sunday, monday, and tuesday as arguments produces a total argument count of 4.\n\nReturn exactly one judgement per fact id.",
+  "generation_config": {
+   "max_output_tokens": 4096
+  },
+  "response_format": {
+   "mime_type": "application/json",
+   "schema": {
+    "$defs": {
+     "Judgement": {
+      "properties": {
+       "id": {
+        "title": "Id",
+        "type": "integer"
+       },
+       "supported": {
+        "title": "Supported",
+        "type": "boolean"
+       }
+      },
+      "required": [
+       "id",
+       "supported"
+      ],
+      "title": "Judgement",
+      "type": "object"
+     }
+    },
+    "properties": {
+     "judgements": {
+      "items": {
+       "$ref": "#/$defs/Judgement"
+      },
+      "title": "Judgements",
+      "type": "array"
+     }
+    },
+    "required": [
+     "judgements"
+    ],
+    "title": "Judgements",
+    "type": "object"
+   }
+  }
+ },
+ "output_text": "{\n  \"judgements\": [\n    {\"id\": 1, \"supported\": false},\n    {\"id\": 2, \"supported\": true},\n    {\"id\": 3, \"supported\": true},\n    {\"id\": 4, \"supported\": true},\n    {\"id\": 5, \"supported\": true},\n    {\"id\": 6, \"supported\": false},\n    {\"id\": 7, \"supported\": false},\n    {\"id\": 8, \"supported\": false},\n    {\"id\": 9, \"supported\": false},\n    {\"id\": 10, \"supported\": false}\n  ]\n}",
+ "response_model": "gemini-3.8-flash",
+ "response_id": "v1_ChZyVlBsYW9HZ05iQ1VtdGtQd0s3X2FBEhZyVlBsYW9HZ05iQ1VtdGtQd0s3X2FB",
+ "usage": {
+  "initial_input_tokens": 614,
+  "input_tokens_by_modality": [
+   {
+    "modality": "text",
+    "tokens": 496
+   }
+  ],
+  "total_cached_tokens": 0,
+  "total_input_tokens": 496,
+  "total_output_tokens": 145,
+  "total_thought_tokens": 1707,
+  "total_tokens": 2348,
+  "total_tool_use_tokens": 0
+ },
+ "meta": {
+  "window_id": "W06",
+  "condition": "oracle",
+  "out_lang": "en",
+  "kind": "summary"
+ }
+}

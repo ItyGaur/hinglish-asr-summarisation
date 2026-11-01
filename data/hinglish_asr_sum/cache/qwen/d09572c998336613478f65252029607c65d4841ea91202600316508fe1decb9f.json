@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-31T12:42:58+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W18",
+ "condition": "noise:en:0.4",
+ "out_lang": "en",
+ "input_tokens": 2888,
+ "summary": "This tutorial covers using the \"Find\" and \"Replace\" feature in LibreOffice Writer, along with the \"Spell Check\" feature. It starts by opening a resume document and demonstrating how to use the \"Find and Replace\" function to locate and replace specific text throughout the document. Users learn to enter the text to find in the \"Search for\" field and the replacement text in the \"Replace with\" field. Advanced options include searching backward, replacing only selected text, and using regular expressions. The tutorial also explains how to enable spell checking, which checks spelling from the current cursor position to the end of the selection or document. To customize the spell check settings, users can change the default language to English (USA) and ensure the correct dictionary is used. Finally, the tutorial shows how to activate auto-spell check by clicking the appropriate button."
+}

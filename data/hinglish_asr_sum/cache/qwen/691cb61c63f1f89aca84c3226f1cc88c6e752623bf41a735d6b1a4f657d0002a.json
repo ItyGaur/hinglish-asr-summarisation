@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-30T15:36:07+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W12",
+ "condition": "noise:en:0.2",
+ "out_lang": "en",
+ "input_tokens": 1564,
+ "summary": "This tutorial covers `typedef` and `union` in C programming using Ubuntu 11.10 with GCC version 4.6.1. `typedef` allows users to assign a new name to an existing data type or user-defined type, making the code more readable and easier to modify. The syntax for `typedef` is `typedef existing_name alias_name`. An example provided uses `typedef unsigned int uint` to simplify variable declarations in a palindrome checking program. The program checks if a given three-digit number is a palindrome and outputs the result.\n\nThe tutorial then introduces `union`, which groups different data types into a single entity but allocates the same storage space for all its members. Only one member can be accessed at a time. A `union` example demonstrates calculating the total marks of a student with three subjects: English, Maths, and Science. The program calculates and displays the total marks, resulting in a total of 228. The tutorial concludes by highlighting the difference between `union` and `struct`: while `struct` can hold multiple members with different data types in separate spaces, `union` shares the same space among its members."
+}

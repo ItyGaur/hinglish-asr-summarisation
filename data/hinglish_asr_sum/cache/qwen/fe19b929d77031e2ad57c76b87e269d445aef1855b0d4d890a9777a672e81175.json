@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-31T12:53:50+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W23",
+ "condition": "noise:hi:0.5",
+ "out_lang": "en",
+ "input_tokens": 2775,
+ "summary": "The tutorial covers various features of LibreOffice Impress, a presentation software. It starts with opening a sample presentation and explains different view options like Normal, Outline, Slide Sorter, and Notes view. The Normal view shows slides as they would appear during a presentation. The Outline view displays slide contents in a hierarchical structure. Users can rearrange slides using the Slide Sorter view by dragging and dropping them. Notes view allows adding notes to each slide, which can be useful for the presenter. The tutorial also demonstrates how to customize slide layouts and backgrounds, and how to use master pages to maintain consistency across all slides. Additionally, it shows how to add and organize elements on slides, such as text and images, and how to manage the tasks pane for better workflow. Overall, the tutorial provides a comprehensive guide to creating and customizing presentations in LibreOffice Impress."
+}

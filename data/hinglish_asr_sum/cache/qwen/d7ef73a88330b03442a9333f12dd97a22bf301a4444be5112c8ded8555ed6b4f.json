@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-31T12:39:04+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W17",
+ "condition": "noise:en:0.2",
+ "out_lang": "en",
+ "input_tokens": 2035,
+ "summary": "The tutorial covers how to use presentation notes in LibreOffice Impress for creating and formatting notes during a presentation. Notes serve two purposes: providing additional content or references for the presenter and offering a space for notes on each slide. To add notes, select the notes tab, click on the notes box below each slide, and start typing. Notes can be formatted by selecting text, choosing a font type and size, and adding bullet points. A notes master can be created to standardize formatting across all notes. To customize notes, choose a slide, select the notes placeholder, and change its size and appearance using the formatting tools. The tutorial also demonstrates adding logos and shapes to notes, such as triangles, and customizing their colors and fills."
+}

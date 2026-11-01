@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-30T14:23:38+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W06",
+ "condition": "asr:whisper-small",
+ "out_lang": "en",
+ "input_tokens": 2445,
+ "summary": "The tutorial covers how to write and execute a C program using command-line arguments on a Unix-like system with GCC compiler version 4.6.1. It explains the use of `stdio.h` and `stdlib.h` headers for input/output functions and numeric conversions. The program takes multiple command-line arguments, displaying their count and values. The `main` function accepts two arguments: `argc` for the number of arguments and `argv` as an array of strings representing the arguments. The tutorial demonstrates compiling and running the program from the terminal, showing how different numbers of arguments affect the output. It also highlights the importance of including the program name as the first argument in `argv`. The video concludes by summarizing the key points and directing viewers to the project repository for further details."
+}

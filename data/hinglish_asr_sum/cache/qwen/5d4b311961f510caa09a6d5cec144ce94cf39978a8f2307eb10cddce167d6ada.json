@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-30T15:39:42+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W03",
+ "condition": "noise:en:0.4",
+ "out_lang": "en",
+ "input_tokens": 2137,
+ "summary": "This tutorial covers how to use snippets in the Gedit text editor on Ubuntu Linux 14.04. Snippets are pre-written lines of code that help reduce repetitive typing. To enable snippets in Gedit, you need to install the Snippets plugin from the Edit > Preferences menu under the Plugin System tab. After enabling snippets, typing \"if\" followed by Tab will automatically complete the if statement. The Intelligent Text Completion plugin also provides auto-closing brackets and quotes. You can manage your snippets by selecting Tools > Manage Snippets, where you can view, edit, or create new snippets. For example, creating a \"helloWorld\" snippet involves clicking the plus icon, typing \"helloworld,\" and then editing the panel with a simple C code. Snippets significantly reduce redundancy in coding, making the development process more efficient."
+}

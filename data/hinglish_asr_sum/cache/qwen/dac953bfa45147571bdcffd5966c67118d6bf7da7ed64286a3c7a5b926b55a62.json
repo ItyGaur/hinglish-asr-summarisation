@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-30T15:45:50+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W02",
+ "condition": "noise:hi:0.1",
+ "out_lang": "en",
+ "input_tokens": 2141,
+ "summary": "This tutorial introduces the use of gedit, a text editor available on Ubuntu Linux and other operating systems. It covers how to install gedit on Ubuntu Linux using the Ubuntu Software Centre or by opening it from the Dash Home. The tutorial explains how to create a new document, save and close files, and navigate through the interface. Key features include the menu bar, toolbars, and status bar. It also demonstrates saving a file with a specific name and location, closing the current document, and reopening it later. The tutorial emphasizes the importance of saving files regularly to prevent data loss due to unexpected shutdowns or crashes."
+}

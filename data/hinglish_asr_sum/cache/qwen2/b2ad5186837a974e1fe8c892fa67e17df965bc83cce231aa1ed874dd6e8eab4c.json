@@ -1,0 +1,18 @@
+{
+ "created": "recovered_from_summaries.csv",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W03",
+ "condition": "oracle",
+ "out_lang": "en",
+ "input_tokens": 1903,
+ "summary": "This tutorial covers using snippets in the gedit text editor, primarily for programming tasks. Snippets are pre-defined pieces of text or source code that can save time by reducing the need for repetitive typing. To enable snippets in gedit, you must activate the plugin via the Edit > Preferences menu under the Plugins tab. Once enabled, typing `if` followed by Tab inserts an if statement with default conditions and brackets. The intelligent text completion feature automatically closes brackets and quotes. The Manage Snippets dialog allows you to view and customize existing snippets; clicking on a snippet shows its syntax. For creating custom snippets, go to Tools > Manage Snippets, select the language, click the plus icon, and define your snippet's content. This tutorial demonstrates how to use predefined snippets like `if` and `else if`, and how to create a simple \"Hello World\" snippet for basic C programs."
+}

@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-30T15:55:51+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W05",
+ "condition": "noise:hi:0.4",
+ "out_lang": "en",
+ "input_tokens": 3060,
+ "summary": "This tutorial covers setting up Mozilla Thunderbird on Ubuntu Linux 12.04. It explains how to download and launch Thunderbird, configure email accounts, and manage multiple accounts. Thunderbird supports various email protocols like POP3 and IMAP, allowing you to manage multiple email accounts from different providers such as Gmail and Yahoo. For installation on Ubuntu, you can use the Software Center or download it directly from the Mozilla website for Windows versions like XP, Vista, and 7.\n\nThunderbird has a user-friendly interface with options to customize the menu bar and access advanced features. The application divides into two panels: one displays folders and another shows email accounts. To set up two email accounts, you need at least two valid email addresses. After configuring, you log into each email account through a web browser, enabling POP3 for downloading emails.\n\nThe tutorial also highlights Thunderbird’s ability to organize messages by date, sender, priority, and custom labels. It emphasizes the importance of having at least two valid email accounts for Thunderbird to function properly."
+}

@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-30T15:31:46+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W06",
+ "condition": "noise:en:0.1",
+ "out_lang": "en",
+ "input_tokens": 1694,
+ "summary": "This tutorial covers command-line arguments in C programming using the Ubuntu operating system and GCC compiler version 4.6.1. It explains how to pass arguments to a program's `main` function and how these arguments are accessed within the program. The `argc` variable holds the number of arguments passed, while `argv` is an array of strings containing the actual arguments. The first argument (`argv[0]`) is the program name, and subsequent arguments start from `argv[1]`. The tutorial demonstrates this by compiling and running a sample program named `main-hyphen-args.c`, which prints out the number and values of the command-line arguments. Initially, without any arguments, only the program name is displayed. After passing arguments like \"sunday\", \"monday\", and \"tuesday\", the program correctly identifies and prints each argument. The key takeaway is understanding how to use `argc` and `argv` to handle different numbers of command-line arguments in C programs."
+}

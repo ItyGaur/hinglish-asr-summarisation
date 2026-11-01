@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-30T16:00:37+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W12",
+ "condition": "noise:hi:0.5",
+ "out_lang": "en",
+ "input_tokens": 1658,
+ "summary": "The tutorial covers `typedef` and `union` in C programming. `typedef` allows users to create aliases for existing data types, making the code more readable and easier to understand. For example, `typedef unsigned int uint;` creates an alias `uint` for `unsigned int`. This can simplify declarations like `uint num;` instead of `unsigned int num;`.\n\nThe tutorial also explains `union`, which groups multiple variables into a single block of memory, allowing only one variable to be accessed at a time. Each `union` member shares the same memory location. An example provided demonstrates a `student` union with `english`, `maths`, and `science` scores. Accessing different members requires specific statements. The tutorial includes compiling and running examples using GCC, such as checking if a number is a palindrome or calculating the total score from a `union` variable.\n\nThe key difference between `struct` and `union` is that `struct` allocates separate memory for each member, while `union` shares the same memory location among its members."
+}

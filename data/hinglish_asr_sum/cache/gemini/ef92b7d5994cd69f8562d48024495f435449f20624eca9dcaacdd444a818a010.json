@@ -1,0 +1,73 @@
+{
+ "created": "2026-10-30T17:16:32+00:00",
+ "template_id": "lexicon",
+ "variant": 0,
+ "request": {
+  "model": "gemini-3.8-flash",
+  "system_instruction": "You are a precise Hindi-English transliteration assistant. Output only JSON that matches the schema.",
+  "input": "For each English word below, give the spelling a Hindi speaker would normally use when writing that English word in Devanagari script. Transliterate the pronunciation; do not translate the meaning. Examples: click -> क्लिक, file -> फ़ाइल, terminal -> टर्मिनल. For abbreviations, spell out the letter names (pdf -> पीडीएफ). Return exactly one item per input word, with the input word copied unchanged into \"word\".\n\nWords:\n2d\na\na1\naccess\naccount\naccounts\nachieve\nacross\nactions\nactivity\nadd\naddress\nadvanced\nafter\nagreement\nalbany\nalias\nalign\naligning\nalkali\nall\nalt\nalternatives\namerican\nan\nand\nanimation\nanimations\nany\napplication\napplications\napply\narbitrary\nare\narea\nargc\nargs\nargument\narguments\nargv\narial\naround\narrow\nas\nasterisk\nat\natom\nattributes\nauto\nautocorrect\nautomatic\nautospellcheck\navalable\nbackground\nbackgrounds\nbackwards\nbandwidth\nbanner\nbanners\nbar\nbars\nbasic\nbe\nbeam\nbecome\nbenefits\nbinding\nbitmap\nblack\nblank\nblink\nblock\nblockfig\nblue\nbody\nbold\nbond\nbook\nborder\nbox\nboxes\nbraces\nbrackets\nbreak\nbrochure\nbrowser\nbullet\nbulleted\nbullets\nbutton\nbuttons\nc\nca\ncalcium\ncalls\ncan\ncannot\ncapital\ncd\ncdac\ncenter\ncentre\nchange\nchanges\ncharacter\ncheck\nchemical\nchoose\nclass\nclick\nclose\ncml\ncmyk\ncode\ncollection\ncolon\ncolor\ncolour\ncolours\ncolumn\ncolumns\ncom\ncommand\ncommands\ncompany\ncompiler\ncomplete\ncompletion\ncomputer\ncomputers\ncondition\nconnection\ncontains\ncontent\ncontents\ncontext\ncontrol\ncontrols\ncopies\ncopy\ncore\ncorresponding\ncost\ncosts\ncpu\ncrash\ncreate\ncross\nctrl\ncurly",
+  "generation_config": {
+   "max_output_tokens": 8192
+  },
+  "response_format": {
+   "mime_type": "application/json",
+   "schema": {
+    "$defs": {
+     "Pair": {
+      "properties": {
+       "word": {
+        "title": "Word",
+        "type": "string"
+       },
+       "devanagari": {
+        "title": "Devanagari",
+        "type": "string"
+       }
+      },
+      "required": [
+       "word",
+       "devanagari"
+      ],
+      "title": "Pair",
+      "type": "object"
+     }
+    },
+    "properties": {
+     "items": {
+      "items": {
+       "$ref": "#/$defs/Pair"
+      },
+      "title": "Items",
+      "type": "array"
+     }
+    },
+    "required": [
+     "items"
+    ],
+    "title": "Lexicon",
+    "type": "object"
+   }
+  }
+ },
+ "output_text": "{\"items\":[{\"word\":\"2d\",\"devanagari\":\"टूडी\"},{\"word\":\"a\",\"devanagari\":\"ए\"},{\"word\":\"a1\",\"devanagari\":\"ए1\"},{\"word\":\"access\",\"devanagari\":\"एक्सेस\"},{\"word\":\"account\",\"devanagari\":\"अकाउंट\"},{\"word\":\"accounts\",\"devanagari\":\"अकाउंट्स\"},{\"word\":\"achieve\",\"devanagari\":\"अचीव\"},{\"word\":\"across\",\"devanagari\":\"अक्रॉस\"},{\"word\":\"actions\",\"devanagari\":\"एक्शन्स\"},{\"word\":\"activity\",\"devanagari\":\"एक्टिविटी\"},{\"word\":\"add\",\"devanagari\":\"ऐड\"},{\"word\":\"address\",\"devanagari\":\"एड्रेस\"},{\"word\":\"advanced\",\"devanagari\":\"एडवांस्ड\"},{\"word\":\"after\",\"devanagari\":\"आफ्टर\"},{\"word\":\"agreement\",\"devanagari\":\"एग्रीमेंट\"},{\"word\":\"albany\",\"devanagari\":\"अल्बानी\"},{\"word\":\"alias\",\"devanagari\":\"एलियास\"},{\"word\":\"align\",\"devanagari\":\"अलाइन\"},{\"word\":\"aligning\",\"devanagari\":\"अलाइनिंग\"},{\"word\":\"alkali\",\"devanagari\":\"अल्कली\"},{\"word\":\"all\",\"devanagari\":\"ऑल\"},{\"word\":\"alt\",\"devanagari\":\"ऑल्ट\"},{\"word\":\"alternatives\",\"devanagari\":\"अल्टरनेटिव्स\"},{\"word\":\"american\",\"devanagari\":\"अमेरिकन\"},{\"word\":\"an\",\"devanagari\":\"एन\"},{\"word\":\"and\",\"devanagari\":\"एंड\"},{\"word\":\"animation\",\"devanagari\":\"एनिमेशन\"},{\"word\":\"animations\",\"devanagari\":\"एनिमेशन्स\"},{\"word\":\"any\",\"devanagari\":\"एनी\"},{\"word\":\"application\",\"devanagari\":\"एप्लिकेशन\"},{\"word\":\"applications\",\"devanagari\":\"एप्लिकेशन्स\"},{\"word\":\"apply\",\"devanagari\":\"अप्लाई\"},{\"word\":\"arbitrary\",\"devanagari\":\"आर्बिट्रेरी\"},{\"word\":\"are\",\"devanagari\":\"आर\"},{\"word\":\"area\",\"devanagari\":\"एरिया\"},{\"word\":\"argc\",\"devanagari\":\"आर्गसी\"},{\"word\":\"args\",\"devanagari\":\"आर्ग्स\"},{\"word\":\"argument\",\"devanagari\":\"आर्गुमेंट\"},{\"word\":\"arguments\",\"devanagari\":\"आर्गुमेंट्स\"},{\"word\":\"argv\",\"devanagari\":\"आर्गवी\"},{\"word\":\"arial\",\"devanagari\":\"एरियल\"},{\"word\":\"around\",\"devanagari\":\"अराउंड\"},{\"word\":\"arrow\",\"devanagari\":\"एरो\"},{\"word\":\"as\",\"devanagari\":\"ऐज़\"},{\"word\":\"asterisk\",\"devanagari\":\"एस्टरिस्क\"},{\"word\":\"at\",\"devanagari\":\"एट\"},{\"word\":\"atom\",\"devanagari\":\"एटम\"},{\"word\":\"attributes\",\"devanagari\":\"एट्रीब्यूट्स\"},{\"word\":\"auto\",\"devanagari\":\"ऑटो\"},{\"word\":\"autocorrect\",\"devanagari\":\"ऑटोकरेक्ट\"},{\"word\":\"automatic\",\"devanagari\":\"ऑटोमैटिक\"},{\"word\":\"autospellcheck\",\"devanagari\":\"ऑटोस्पेलचेक\"},{\"word\":\"avalable\",\"devanagari\":\"अवेलेबल\"},{\"word\":\"background\",\"devanagari\":\"बैकग्राउंड\"},{\"word\":\"backgrounds\",\"devanagari\":\"बैकग्राउंड्स\"},{\"word\":\"backwards\",\"devanagari\":\"बैकवर्ड्स\"},{\"word\":\"bandwidth\",\"devanagari\":\"बैंडविड्थ\"},{\"word\":\"banner\",\"devanagari\":\"बैनर\"},{\"word\":\"banners\",\"devanagari\":\"बैनर्स\"},{\"word\":\"bar\",\"devanagari\":\"बार\"},{\"word\":\"bars\",\"devanagari\":\"बार्स\"},{\"word\":\"basic\",\"devanagari\":\"बेसिक\"},{\"word\":\"be\",\"devanagari\":\"बी\"},{\"word\":\"beam\",\"devanagari\":\"बीम\"},{\"word\":\"become\",\"devanagari\":\"बिकम\"},{\"word\":\"benefits\",\"devanagari\":\"बेनिफिट्स\"},{\"word\":\"binding\",\"devanagari\":\"बाइंडिंग\"},{\"word\":\"bitmap\",\"devanagari\":\"बिटमैप\"},{\"word\":\"black\",\"devanagari\":\"ब्लैक\"},{\"word\":\"blank\",\"devanagari\":\"ब्लैंक\"},{\"word\":\"blink\",\"devanagari\":\"ब्लिंक\"},{\"word\":\"block\",\"devanagari\":\"ब्लॉक\"},{\"word\":\"blockfig\",\"devanagari\":\"ब्लॉकफिग\"},{\"word\":\"blue\",\"devanagari\":\"ब्लू\"},{\"word\":\"body\",\"devanagari\":\"बॉडी\"},{\"word\":\"bold\",\"devanagari\":\"बोल्ड\"},{\"word\":\"bond\",\"devanagari\":\"बॉन्ड\"},{\"word\":\"book\",\"devanagari\":\"बुक\"},{\"word\":\"border\",\"devanagari\":\"बॉर्डर\"},{\"word\":\"box\",\"devanagari\":\"बॉक्स\"},{\"word\":\"boxes\",\"devanagari\":\"बॉक्सेज़\"},{\"word\":\"braces\",\"devanagari\":\"ब्रेसेज़\"},{\"word\":\"brackets\",\"devanagari\":\"ब्रैकेट्स\"},{\"word\":\"break\",\"devanagari\":\"ब्रेक\"},{\"word\":\"brochure\",\"devanagari\":\"ब्रोशर\"},{\"word\":\"browser\",\"devanagari\":\"ब्राउज़र\"},{\"word\":\"bullet\",\"devanagari\":\"बुलेट\"},{\"word\":\"bulleted\",\"devanagari\":\"बुलेटेड\"},{\"word\":\"bullets\",\"devanagari\":\"बुलेट्स\"},{\"word\":\"button\",\"devanagari\":\"बटन\"},{\"word\":\"buttons\",\"devanagari\":\"बटन्स\"},{\"word\":\"c\",\"devanagari\":\"सी\"},{\"word\":\"ca\",\"devanagari\":\"सीए\"},{\"word\":\"calcium\",\"devanagari\":\"कैल्शियम\"},{\"word\":\"calls\",\"devanagari\":\"कॉल्स\"},{\"word\":\"can\",\"devanagari\":\"कैन\"},{\"word\":\"cannot\",\"devanagari\":\"कैनॉट\"},{\"word\":\"capital\",\"devanagari\":\"कैपिटल\"},{\"word\":\"cd\",\"devanagari\":\"सीडी\"},{\"word\":\"cdac\",\"devanagari\":\"सीडैक\"},{\"word\":\"center\",\"devanagari\":\"सेंटर\"},{\"word\":\"centre\",\"devanagari\":\"सेंटर\"},{\"word\":\"change\",\"devanagari\":\"चेंज\"},{\"word\":\"changes\",\"devanagari\":\"चेंजेज़\"},{\"word\":\"character\",\"devanagari\":\"कैरेक्टर\"},{\"word\":\"check\",\"devanagari\":\"चेक\"},{\"word\":\"chemical\",\"devanagari\":\"केमिकल\"},{\"word\":\"choose\",\"devanagari\":\"चूज़\"},{\"word\":\"class\",\"devanagari\":\"क्लास\"},{\"word\":\"click\",\"devanagari\":\"क्लिक\"},{\"word\":\"close\",\"devanagari\":\"क्लोज़\"},{\"word\":\"cml\",\"devanagari\":\"सीएमएल\"},{\"word\":\"cmyk\",\"devanagari\":\"सीएमवाईके\"},{\"word\":\"code\",\"devanagari\":\"कोड\"},{\"word\":\"collection\",\"devanagari\":\"कलेक्शन\"},{\"word\":\"colon\",\"devanagari\":\"कोलन\"},{\"word\":\"color\",\"devanagari\":\"कलर\"},{\"word\":\"colour\",\"devanagari\":\"कलर\"},{\"word\":\"colours\",\"devanagari\":\"कलर्स\"},{\"word\":\"column\",\"devanagari\":\"कॉलम\"},{\"word\":\"columns\",\"devanagari\":\"कॉलम्स\"},{\"word\":\"com\",\"devanagari\":\"कॉम\"},{\"word\":\"command\",\"devanagari\":\"कमांड\"},{\"word\":\"commands\",\"devanagari\":\"कमांड्स\"},{\"word\":\"company\",\"devanagari\":\"कंपनी\"},{\"word\":\"compiler\",\"devanagari\":\"कंपाइलर\"},{\"word\":\"complete\",\"devanagari\":\"कम्पलीट\"},{\"word\":\"completion\",\"devanagari\":\"कम्प्लीशन\"},{\"word\":\"computer\",\"devanagari\":\"कंप्यूटर\"},{\"word\":\"computers\",\"devanagari\":\"कंप्यूटर्स\"},{\"word\":\"condition\",\"devanagari\":\"कंडीशन\"},{\"word\":\"connection\",\"devanagari\":\"कनेक्शन\"},{\"word\":\"contains\",\"devanagari\":\"कंटेन्स\"},{\"word\":\"content\",\"devanagari\":\"कंटेंट\"},{\"word\":\"contents\",\"devanagari\":\"कंटेंट्स\"},{\"word\":\"context\",\"devanagari\":\"कॉन्टेक्स्ट\"},{\"word\":\"control\",\"devanagari\":\"कंट्रोल\"},{\"word\":\"controls\",\"devanagari\":\"कंट्रोल्स\"},{\"word\":\"copies\",\"devanagari\":\"कॉपीज़\"},{\"word\":\"copy\",\"devanagari\":\"कॉपी\"},{\"word\":\"core\",\"devanagari\":\"कोर\"},{\"word\":\"corresponding\",\"devanagari\":\"कॉरेस्पोंडिंग\"},{\"word\":\"cost\",\"devanagari\":\"कॉस्ट\"},{\"word\":\"costs\",\"devanagari\":\"कॉस्ट्स\"},{\"word\":\"cpu\",\"devanagari\":\"सीपीयू\"},{\"word\":\"crash\",\"devanagari\":\"क्रैश\"},{\"word\":\"create\",\"devanagari\":\"क्रिएट\"},{\"word\":\"cross\",\"devanagari\":\"क्रॉस\"},{\"word\":\"ctrl\",\"devanagari\":\"सीटीआरएल\"},{\"word\":\"curly\",\"devanagari\":\"कर्ली\"}]}",
+ "response_model": "gemini-3.8-flash",
+ "response_id": "v1_Chd0OF9rYXR5UkViYjVqckVQMGZxenNRVRIXdDhfa2F0eVJFYmI1anJFUDBmcXpzUVU",
+ "usage": {
+  "initial_input_tokens": 556,
+  "input_tokens_by_modality": [
+   {
+    "modality": "text",
+    "tokens": 436
+   }
+  ],
+  "total_cached_tokens": 0,
+  "total_input_tokens": 436,
+  "total_output_tokens": 1919,
+  "total_thought_tokens": 1942,
+  "total_tokens": 4297,
+  "total_tool_use_tokens": 0
+ },
+ "meta": {
+  "batch": 0
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-30T14:32:17+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W07",
+ "condition": "noise:en:0.1",
+ "out_lang": "en",
+ "input_tokens": 2678,
+ "summary": "This tutorial explains how to perform peer review using LibreOffice Writer's document peer review feature. It starts by opening an existing document and setting up the \"Record Changes\" option for tracking edits. Users can add comments, delete text, or make changes that are clearly visible in the document. The author can accept or reject these changes and then incorporate them back into the document when saved. The tutorial demonstrates this process using documents like \"sevenreasonstoadoptfoss.odt\" and \"governmentsupportforfossinindia.odt\". It shows how to insert new text, delete existing text, and comment on specific lines. The document highlights each reviewer's work with different colors, making it easy to distinguish between their edits. The tutorial also illustrates how multiple reviewers can edit the same document simultaneously, with each change shown in a different color."
+}

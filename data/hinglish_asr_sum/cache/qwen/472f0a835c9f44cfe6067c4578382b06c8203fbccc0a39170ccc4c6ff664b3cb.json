@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-31T12:37:29+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W20",
+ "condition": "noise:en:0.1",
+ "out_lang": "en",
+ "input_tokens": 2069,
+ "summary": "In this tutorial, you learn how to create and present slides using LibreOffice Impress. You can present slides on a computer screen or project them onto a display. To start a presentation, you can click on the \"Slide Show\" option from the main menu or press F5. During the presentation, you can navigate between slides using arrow keys or right-click for the context menu to choose 'Next' or 'End Show'. You can also use the Escape key to exit the slide show. To annotate during the presentation, you can enable the 'Mouse Pointer as Pen' option, which allows you to write or draw on the slides. For transitions between slides, you can change the order by dragging and dropping slides in the Slide Sorter view. Transitions can be applied to selected slides, and you can adjust their speed and add sound effects through the Modify Transitions option. This tutorial covers the basics of creating and presenting slides, including slide transitions and annotations."
+}

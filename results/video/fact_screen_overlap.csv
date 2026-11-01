@@ -1,0 +1,269 @@
+window_id,fact_id,fact,tag,screen_share,fact_type
+W00,W00_F00,A shortcut for Mozilla Thunderbird can be added by dragging its icon onto the launcher.,hi,0.2857142857142857,speech_only
+W00,W00_F01,Unread emails in the inbox are indicated by bold text.,hi,0.3333333333333333,speech_only
+W00,W00_F02,New emails are retrieved by clicking the Get Mail icon and choosing get all new messages.,mixed,0.14285714285714285,speech_only
+W00,W00_F03,Clicking the From column heading arranges the messages in alphabetical order.,hi,0.14285714285714285,speech_only
+W00,W00_F04,Clicking the Subject heading sorts the inbox messages by subject.,hi,0.42857142857142855,speech_only
+W00,W00_F05,Tagging an email as important displays that message in red.,hi,0.5,on_screen
+W00,W00_F06,Clicking the tagged icon in the Quick Filter toolbar filters the view to show only tagged messages.,hi,0.5454545454545454,on_screen
+W00,W00_F07,Related messages shown in sequence or as a conversation are defined as message threads.,hi,0.25,speech_only
+W00,W00_F08,Clicking the threading symbol next to a thread reveals the complete conversation.,hi,0.0,speech_only
+W00,W00_F09,Clicking the thread icon again exits the thread view.,hi,0.16666666666666666,speech_only
+W01,W01_F00,A slide background refers to all colors and effects applied behind the content of the slide.,hi,0.8888888888888888,on_screen
+W01,W01_F01,Any alteration made to the master slide applies to every slide in the presentation.,hi,0.2857142857142857,speech_only
+W01,W01_F02,"The Slide Master view is opened by navigating to View, selecting Master, and clicking Slide Master from the main menu.",mixed,0.3333333333333333,speech_only
+W01,W01_F03,"The master view toolbar can be used to create, delete, and rename master pages.",hi,0.42857142857142855,speech_only
+W01,W01_F04,A white background can be applied by choosing the blank option under bitmap fill in the Page Setup dialog box.,mixed,0.5384615384615384,on_screen
+W01,W01_F05,The text color can be set to black from the Font Effects tab within the Character dialog box.,en,0.6666666666666666,on_screen
+W01,W01_F06,A light blue color can be applied to a slide by selecting Blue 8 from the color fill dropdown menu in Page Setup.,mixed,0.6363636363636364,on_screen
+W01,W01_F07,The basic shapes toolbar at the bottom of the screen allows users to draw various basic shapes.,hi,0.2,speech_only
+W01,W01_F08,"When drawing a rectangle, the cursor displays a plus sign accompanied by a capital letter I.",mixed,0.0,speech_only
+W01,W01_F09,The control points that appear on a selected object are eight small blue squares used to resize it.,hi,0.2,speech_only
+W02,W02_F00,Gedit text editor comes pre-installed in the Ubuntu Linux operating system.,hi,0.7777777777777778,on_screen
+W02,W02_F01,Gedit can be launched by searching for gedit in Dash Home and clicking the text editor icon.,mixed,0.4444444444444444,speech_only
+W02,W02_F02,"Gedit can also be launched via the terminal by pressing Ctrl + Alt + T, typing gedit, and pressing Enter.",hi,0.14285714285714285,speech_only
+W02,W02_F03,The default tab name assigned to a new document in gedit is Untitled Document 1.,mixed,0.6666666666666666,on_screen
+W02,W02_F04,An asterisk displayed next to a file name in the tab indicates that the file has not been saved.,hi,0.2857142857142857,speech_only
+W02,W02_F05,The status bar displays the cursor position in terms of line number and column number.,mixed,0.1111111111111111,speech_only
+W02,W02_F06,"The default text mode in gedit is insert mode, indicated as ins.",hi,0.2857142857142857,speech_only
+W02,W02_F07,"To save a file, click the File option in the menu bar and select Save.",mixed,0.42857142857142855,speech_only
+W02,W02_F08,"To close an open file, click File in the menu bar and choose Close.",mixed,0.42857142857142855,speech_only
+W02,W02_F09,A new file can be created by clicking the plus sign icon on the toolbar.,hi,0.14285714285714285,speech_only
+W02,W02_F10,An existing document can be opened by clicking File in the menu bar and selecting Open.,mixed,0.375,speech_only
+W03,W03_F00,Snippets are lines of text or source code frequently used while writing programs.,hi,0.875,on_screen
+W03,W03_F01,Snippets is a default plugin in the gedit text editor.,en,0.8333333333333334,on_screen
+W03,W03_F02,"The snippets plugin can be enabled in gedit via Edit, Preferences, checking the snippets box in the plugin tab, and clicking close.",mixed,0.5555555555555556,on_screen
+W03,W03_F03,"Typing ""if"" and pressing the Tab key automatically inserts the structure of an if statement.",hi,0.16666666666666666,speech_only
+W03,W03_F04,"When an if statement snippet is inserted, the cursor defaults to the condition word.",hi,0.2857142857142857,speech_only
+W03,W03_F05,Auto-closing brackets and quotes is a feature of the intelligent text completion plugin.,en,0.5,on_screen
+W03,W03_F06,Selecting Tools and Manage Snippets from the main menu opens the Manage Snippets dialog box.,en,0.4444444444444444,speech_only
+W03,W03_F07,Selecting C and clicking its triangle symbol lists all snippets available for C.,hi,0.14285714285714285,speech_only
+W03,W03_F08,The tab trigger for the else if snippet is elif.,hi,0.75,on_screen
+W03,W03_F09,"Typing ""elif"" and pressing Tab inserts the syntax for an else if statement.",hi,0.42857142857142855,speech_only
+W03,W03_F10,Clicking the plus icon at the bottom right of the window allows the user to create a new snippet.,hi,0.4,speech_only
+W04,W04_F00,The sampleimpress.odp presentation is opened to begin the tutorial.,hi,0.0,speech_only
+W04,W04_F01,A text box is selected by clicking on its text and then clicking on the visible border.,hi,0.4,speech_only
+W04,W04_F02,The entrance tab controls the way an object appears on the screen.,hi,0.2,speech_only
+W04,W04_F03,The diagonal squares animation is selected under the basic category.,mixed,0.7142857142857143,on_screen
+W04,W04_F04,The wedge animation under basic animation is chosen with the speed set to medium.,mixed,0.5714285714285714,on_screen
+W04,W04_F05,Multiple animations can be selected for preview by holding down the Shift key.,hi,0.25,speech_only
+W04,W04_F06,The order of animations can be modified using the change order buttons.,hi,0.4,speech_only
+W04,W04_F07,Double-clicking the first animation in the list opens the effects options dialog box.,mixed,0.3333333333333333,speech_only
+W04,W04_F08,The animation direction can be adjusted to from right to top under settings.,en,0.5,on_screen
+W04,W04_F09,An animation delay can be increased in the delay field under the timing tab.,mixed,0.42857142857142855,speech_only
+W05,W05_F00,Mozilla Thunderbird is a cross-platform email client capable of functioning across different operating systems.,hi,0.36363636363636365,speech_only
+W05,W05_F01,Thunderbird allows users to download email messages from external accounts onto their local computer.,hi,0.8,on_screen
+W05,W05_F02,Using POP3 allows users to consolidate accounts into a single inbox inside Thunderbird.,hi,0.4444444444444444,speech_only
+W05,W05_F03,"Messages in Thunderbird can be grouped by attributes such as date, sender priority, or custom labels.",hi,0.7,on_screen
+W05,W05_F04,Mozilla Thunderbird can be installed on Ubuntu Linux using the Ubuntu Software Center.,hi,0.7142857142857143,on_screen
+W05,W05_F05,"In Ubuntu, Thunderbird is opened by typing thunderbird into Dash Home and clicking on the application icon.",hi,0.2222222222222222,speech_only
+W05,W05_F06,"Shortcut icons for Get Mail, Write, and Address Book are located beneath the main menu bar in Thunderbird.",mixed,0.36363636363636365,speech_only
+W05,W05_F07,"The Thunderbird interface contains two panels, with the left panel showing account folders.",hi,0.2222222222222222,speech_only
+W05,W05_F08,"In Gmail, POP configuration settings are accessed under the Forwarding and POP/IMAP tab.",hi,0.5,on_screen
+W05,W05_F09,Enabling POP in Gmail involves selecting the enable POP option under POP download and saving the changes.,hi,0.4,speech_only
+W06,W06_F00,The stdio.h header file defines core input and output functions.,mixed,0.125,speech_only
+W06,W06_F01,argc shows the total number of command line arguments provided to the program.,hi,0.6666666666666666,on_screen
+W06,W06_F02,argc includes the actual name of the program in its count.,hi,0.3333333333333333,speech_only
+W06,W06_F03,argv stores the actual arguments beginning from index 0.,hi,0.3333333333333333,speech_only
+W06,W06_F04,Index 0 of argv contains the name of the program.,mixed,0.2,speech_only
+W06,W06_F05,Index 1 of argv contains the first argument passed to the program.,mixed,0.42857142857142855,speech_only
+W06,W06_F06,The terminal is opened by pressing the Ctrl + Alt + T keys together.,mixed,0.0,speech_only
+W06,W06_F07,The compilation command entered in the terminal is gcc main-with-args.c -o args.,en,0.3333333333333333,speech_only
+W06,W06_F08,Executing the program without arguments gives a total count of 1 because the zeroth argument is the executable filename itself.,hi,0.38461538461538464,speech_only
+W06,W06_F09,"Passing sunday, monday, and tuesday as arguments produces a total argument count of 4.",mixed,0.6666666666666666,on_screen
+W07,W07_F00,"To activate change tracking, go to Edit, select Changes, and choose the Record option.",hi,0.3333333333333333,speech_only
+W07,W07_F01,The Show option under Changes must be enabled to visibly record upcoming edits.,hi,0.2,speech_only
+W07,W07_F02,Newly inserted text appears in a different color.,hi,0.3333333333333333,speech_only
+W07,W07_F03,"Hovering the mouse over inserted text displays the editor's name, insertion date, and time.",hi,0.09090909090909091,speech_only
+W07,W07_F04,The reviewer name attached to edits is determined by the username entered during LibreOffice installation.,hi,0.2,speech_only
+W07,W07_F05,"Deleting text does not erase it immediately, but flags the line as marked for deletion.",hi,0.1111111111111111,speech_only
+W07,W07_F06,"Moving the cursor over deleted text displays the deletion message with reviewer name, date, and time.",hi,0.25,speech_only
+W07,W07_F07,LibreOffice Writer displays edits from different reviewers in distinct colors to distinguish their work.,hi,0.3,speech_only
+W07,W07_F08,Hovering over edited content in the document confirms whether additions and deletions were made by a specific peer.,hi,0.0,speech_only
+W07,W07_F09,A point concerning government institutions developing and promoting FOSS is added at the end of the document.,en,0.3333333333333333,speech_only
+W08,W08_F00,Print Layout and Web Layout are the two primary view options in LibreOffice Writer.,mixed,0.7142857142857143,on_screen
+W08,W08_F01,The Web Layout option displays how the document will appear in a web browser.,mixed,0.5,on_screen
+W08,W08_F02,Full screen mode is useful for editing documents and displaying them on a projector.,hi,0.4444444444444444,speech_only
+W08,W08_F03,Pressing the Escape key exits Full Screen mode.,mixed,0.3333333333333333,speech_only
+W08,W08_F04,"A new page break is inserted by choosing Insert, Manual Break, selecting Page Break, and clicking OK.",mixed,0.375,speech_only
+W08,W08_F05,The Zoom and View Layout dialog box contains the headings Zoom Factor and View Layout.,mixed,0.5,on_screen
+W08,W08_F06,The 'Fit width and height' option fits the document across the full length and width of the page.,mixed,0.4444444444444444,speech_only
+W08,W08_F07,The 100% view displays the page in its actual size.,hi,0.6,on_screen
+W08,W08_F08,A custom zoom factor can be entered in the Variable field.,hi,0.5,on_screen
+W08,W08_F09,Selecting the Automatic view layout option displays pages side by side.,hi,0.4444444444444444,speech_only
+W08,W08_F10,The controls on the Writer status bar also permit changing the document's view layout and zoom.,hi,0.5555555555555556,on_screen
+W09,W09_F00,The Impress workspace has five tabs known as view buttons.,mixed,0.2857142857142857,speech_only
+W09,W09_F01,Notes view enables users to attach notes to each slide that do not show up during the presentation.,hi,0.4444444444444444,speech_only
+W09,W09_F02,Handout view provides the capability to print slides as handouts and select how many slides appear per page.,hi,0.2727272727272727,speech_only
+W09,W09_F03,The Slides pane on the left of the screen shows thumbnails of the presentation slides.,hi,0.25,speech_only
+W09,W09_F04,A new blank slide can be added after a selected slide by choosing Insert and then Slide.,hi,0.25,speech_only
+W09,W09_F05,A duplicate slide can be created by clicking Insert and then Duplicate Slide.,mixed,0.3333333333333333,speech_only
+W09,W09_F06,"In Slide Sorter view, a slide can be copied and pasted after the final slide by selecting the After option.",hi,0.3333333333333333,speech_only
+W09,W09_F07,Font family and font size can be adjusted using the text format toolbar.,mixed,0.42857142857142855,speech_only
+W09,W09_F08,A dialog box to customize font style and size can be opened by selecting Character under the Format menu.,hi,0.18181818181818182,speech_only
+W09,W09_F09,Font color can be altered by clicking the down arrow situated next to the font color icon.,hi,0.1111111111111111,speech_only
+W09,W09_F10,"Text formatting options such as bold, italics, and underline can be applied using toolbar icons.",mixed,0.2,speech_only
+W10,W10_F00,LibreOffice Impress is equivalent to Microsoft Office PowerPoint.,mixed,1.0,on_screen
+W10,W10_F01,"LibreOffice Impress is free, open-source software available at no cost for use and distribution.",hi,0.5,on_screen
+W10,W10_F02,GNU/Linux can be used as the operating system for LibreOffice Impress.,hi,1.0,on_screen
+W10,W10_F03,Users should choose the complete option when installing Impress.,hi,0.5714285714285714,on_screen
+W10,W10_F04,"The Impress window contains title bars, menu bars, standard bars, formatting bars, and status bars.",en,0.4,speech_only
+W10,W10_F05,A presentation can be initiated from a template by choosing Recommendation of a Strategy.,mixed,0.3333333333333333,speech_only
+W10,W10_F06,Slide designs can be selected by choosing Presentation Backgrounds and then Blue Border.,en,0.25,speech_only
+W10,W10_F07,Original can be chosen in the output medium field during presentation setup.,mixed,0.125,speech_only
+W10,W10_F08,The presenter's name or organization name can be entered in the designated name field.,hi,0.0,speech_only
+W10,W10_F09,Impress presentations are saved with the Open Document Format odp extension.,en,0.5714285714285714,on_screen
+W10,W10_F10,A presentation can be closed by clicking File and then Close.,hi,0.4,speech_only
+W11,W11_F00,"The terminal can be opened by pressing the Ctrl, Alt, and T keys together.",hi,0.0,speech_only
+W11,W11_F01,JChemPaint is launched from the desktop by running the Java jar command in the terminal.,en,0.42857142857142855,speech_only
+W11,W11_F02,The lower toolbar includes buttons to enter an element symbol via keyboard and select a new drawing symbol from the periodic table.,en,0.4166666666666667,speech_only
+W11,W11_F03,Clicking the periodic table button opens the Choose an element window containing a built-in periodic table.,en,0.36363636363636365,speech_only
+W11,W11_F04,Hovering the cursor over an element like oxygen displays its information inside the info box.,hi,0.09090909090909091,speech_only
+W11,W11_F05,The enter element text box allows users to type an element's symbol directly.,mixed,0.375,speech_only
+W11,W11_F06,The show implicit hydrogens check box should be deselected in the preferences window if it is checked.,mixed,0.5555555555555556,on_screen
+W11,W11_F07,Single bonds to fluorine are initiated by clicking the fluorine button and the single bond button.,mixed,0.125,speech_only
+W11,W11_F08,A small blue circle appears when placing the cursor over the xenon atom.,hi,0.0,speech_only
+W11,W11_F09,Right-clicking on the xenon atom opens its atom popup menu.,mixed,0.3333333333333333,speech_only
+W11,W11_F10,Selecting calcium from the alkali earth metals list replaces the xenon atom with calcium.,hi,0.4,speech_only
+W12,W12_F00,The typedef keyword is used to provide symbolic names or aliases to existing or user-defined data types.,hi,0.5,on_screen
+W12,W12_F01,The syntax of typedef is typedef existing _ name alias _ name.,en,0.8333333333333334,on_screen
+W12,W12_F02,An example of typedef is typedef unsigned int uint;.,en,0.75,on_screen
+W12,W12_F03,The palindrome program is compiled using the command gcc pallindrome.c -o pallindrome.,en,0.3333333333333333,speech_only
+W12,W12_F04,Executing the palindrome program with the input 121 yields the output that the given number is a palindrome number.,en,0.3333333333333333,speech_only
+W12,W12_F05,A union is a collection of different data types held together.,hi,0.42857142857142855,speech_only
+W12,W12_F06,"A union allocates a single, common storage space for all of its members.",hi,0.7142857142857143,on_screen
+W12,W12_F07,Only one member of a union can be accessed at a time.,hi,0.2,speech_only
+W12,W12_F08,"In union.c, a union named student is declared with the variables english, maths, and science.",hi,0.4444444444444444,speech_only
+W12,W12_F09,A union variable named stud is declared inside the main function.,mixed,0.375,speech_only
+W12,W12_F10,Running the compiled union program displays the output total is 228.,en,0.25,speech_only
+W13,W13_F00,JChemPaint is a 2D chemical structure editor and viewer.,mixed,0.8,on_screen
+W13,W13_F01,JChemPaint is a free and open-source cross-platform application developed in Java.,mixed,0.7142857142857143,on_screen
+W13,W13_F02,"JChemPaint allows importing and exporting structure data in plaintext formats such as SMILES, Molfile, CML, and InChIKeys.",mixed,0.5833333333333334,on_screen
+W13,W13_F03,Java must be installed on the system to run JChemPaint.,hi,0.6,on_screen
+W13,W13_F04,Java can be installed on Ubuntu using the Synaptic Package Manager.,hi,0.8333333333333334,on_screen
+W13,W13_F05,The downloaded JChemPaint file should be moved from the Downloads folder to the Desktop.,mixed,0.5,on_screen
+W13,W13_F06,"The terminal on Ubuntu can be opened by pressing Ctrl, Alt, and T together.",hi,0.16666666666666666,speech_only
+W13,W13_F07,Typing 'cd desktop' and pressing Enter navigates to the Desktop directory in the terminal.,en,0.2857142857142857,speech_only
+W13,W13_F08,Running the Java jar command in the terminal launches the JChemPaint window.,en,0.2857142857142857,speech_only
+W13,W13_F09,JChemPaint can only be opened from the terminal.,hi,0.25,speech_only
+W13,W13_F10,"On Windows, Java Runtime Environment 7 is installed by accepting the license agreement and choosing the executable installer link.",mixed,0.25,speech_only
+W14,W14_F00,The demonstration uses Ubuntu 12.04 and Mozilla Thunderbird 13.01.,hi,0.42857142857142855,speech_only
+W14,W14_F01,A new folder can be initiated by right-clicking an email account and choosing the new folder option.,mixed,0.42857142857142855,speech_only
+W14,W14_F02,Emails can be moved from the inbox to the important mails folder via drag and drop.,hi,0.625,on_screen
+W14,W14_F03,Clicking search messages under advanced features launches the message search interface.,hi,0.5555555555555556,on_screen
+W14,W14_F04,Search criteria can be set to query messages matching a particular subject term such as ten interesting.,hi,0.3,speech_only
+W14,W14_F05,A filter is a rule applied to organise and sort messages within a mailbox.,hi,0.375,speech_only
+W14,W14_F06,Selecting manage message filters in advanced features displays the message filters dialog box.,mixed,0.5555555555555556,on_screen
+W14,W14_F07,A filter action can be configured to move matching messages to a selected folder.,mixed,0.5,on_screen
+W14,W14_F08,Clicking run now applies the newly created filter immediately to the mailbox.,hi,0.14285714285714285,speech_only
+W14,W14_F09,"Thunderbird configures Gmail accounts automatically, but other email accounts must be configured manually.",hi,0.5,on_screen
+W14,W14_F10,POP functionality must be enabled inside the Yahoo account before configuring it in Thunderbird.,hi,0.4444444444444444,speech_only
+W15,W15_F00,The demonstration is performed using the GNU/Linux operating system and LibreOffice suite version 3.3.4.,hi,0.3333333333333333,speech_only
+W15,W15_F01,Aligning text to the left positions it along the left margin of the document page.,hi,0.375,speech_only
+W15,W15_F02,Justify alignment evenly spaces text between the left and right margins of the page.,hi,0.3,speech_only
+W15,W15_F03,Bullets and numbering can be accessed through the Format option on the menu bar.,hi,0.42857142857142855,speech_only
+W15,W15_F04,Pressing the Enter key automatically inserts a new bullet point or incremental number.,hi,0.0,speech_only
+W15,W15_F05,The Tab and Shift keys are used to increase and decrease indentation levels for bullets.,hi,0.14285714285714285,speech_only
+W15,W15_F06,Bullets and numbering can be disabled by selecting the Numbering Off option.,en,0.4,speech_only
+W15,W15_F07,"Text can be copied by selecting it, right-clicking, and clicking the copy option.",mixed,0.2857142857142857,speech_only
+W15,W15_F08,The keyboard shortcut to copy text is Ctrl + C.,hi,0.4,speech_only
+W15,W15_F09,The keyboard shortcut to paste text is Ctrl + V.,mixed,0.4,speech_only
+W16,W16_F00,The demonstration uses Ubuntu Linux OS version 11.10 and GCC compiler version 4.6.1.,hi,0.625,on_screen
+W16,W16_F01,Storage class specifiers inform the compiler where to store a variable.,hi,0.75,on_screen
+W16,W16_F02,"The syntax for storage class specifiers consists of the storage specifier, data type, and variable name.",en,0.5,on_screen
+W16,W16_F03,The auto keyword declares an automatic variable that has local scope.,mixed,0.8571428571428571,on_screen
+W16,W16_F04,Automatic variables are not initialized automatically and must be initialized explicitly during declaration.,hi,0.625,on_screen
+W16,W16_F05,The storage space for auto variables is CPU memory.,en,0.8,on_screen
+W16,W16_F06,Declaring an auto variable globally outside a function produces a file scope declaration error.,en,0.45454545454545453,speech_only
+W16,W16_F07,An auto variable cannot be initialized globally because it is local to a function.,hi,0.5,on_screen
+W16,W16_F08,Static variables are initialized to zero.,mixed,0.75,on_screen
+W16,W16_F09,Static variables are not destroyed even after program control exits a block.,hi,0.8888888888888888,on_screen
+W16,W16_F10,The value of a static variable is retained across different function calls.,hi,0.625,on_screen
+W16,W16_F11,The storage space for static variables is CPU memory.,en,0.8,on_screen
+W17,W17_F00,Notes in Impress serve as additional reference material for the audience or as cues to assist the presenter during a talk.,hi,0.5,on_screen
+W17,W17_F01,Clicking on the Notes tab displays a notes text box below the slide for typing notes.,hi,0.375,speech_only
+W17,W17_F02,"Notes text can be formatted directly using the font type dropdown, font size dropdown, and bullet icon.",mixed,0.4,speech_only
+W17,W17_F03,"To create standard formatting for all notes, open the Notes Master by clicking View, then Master, and selecting Notes Master.",mixed,0.4,speech_only
+W17,W17_F04,There is a notes master for each master slide utilized in the presentation.,hi,0.6,on_screen
+W17,W17_F05,Formatting preferences set on the notes master apply automatically to all notes throughout the presentation.,hi,0.5,on_screen
+W17,W17_F06,Text formatting in the notes master can be adjusted by choosing options such as font size 32 and red font color under Character dialog box.,mixed,0.5333333333333333,on_screen
+W17,W17_F07,Shapes such as an isosceles triangle can be added from Basic Shapes on the drawing toolbar to act as a logo.,mixed,0.0,speech_only
+W17,W17_F08,A shape's fill color can be modified via Area in the context menu by selecting Color and choosing Blue 7.,mixed,0.2,speech_only
+W17,W17_F09,Moving the slide placeholder towards the top of the screen creates more space to resize the notes placeholder.,hi,0.18181818181818182,speech_only
+W18,W18_F00,The demonstration runs on the GNU/Linux operating system using LibreOffice suite version 3.3.4.,hi,0.6666666666666666,on_screen
+W18,W18_F01,The Find and Replace feature searches for text and can replace text throughout the document.,hi,0.7142857142857143,on_screen
+W18,W18_F02,Find and Replace can be accessed by clicking the Edit option and then selecting Find and Replace.,mixed,0.5,on_screen
+W18,W18_F03,Clicking Find All highlights every occurrence of the specified search text across the document.,hi,0.4,speech_only
+W18,W18_F04,Clicking Replace All substitutes every instance of the searched text with the replacement text.,hi,0.2222222222222222,speech_only
+W18,W18_F05,The backwards option in Find and Replace searches through text from the bottom upward.,hi,0.75,on_screen
+W18,W18_F06,Spellcheck is used to detect spelling errors across the entire document or within a selected portion of text.,hi,0.36363636363636365,speech_only
+W18,W18_F07,Spellcheck checks for spelling errors and provides the option to add an unrecognized word to the user dictionary.,hi,0.6,on_screen
+W18,W18_F08,Language configuration is accessed by clicking Tools on the menu bar and selecting Options.,mixed,0.25,speech_only
+W18,W18_F09,"Under the Default languages for documents settings, the Western language field is changed to English USA.",hi,0.5454545454545454,on_screen
+W18,W18_F10,The AutoSpellcheck option must be enabled on the toolbar to utilize spelling and grammar checking.,hi,0.3333333333333333,speech_only
+W19,W19_F00,"A newsletter is a publication distributed to subscribers at regular intervals, containing multiple columns to facilitate reading articles.",hi,0.16666666666666666,speech_only
+W19,W19_F01,"A new text document can be opened by clicking File, New, and then Text Document.",mixed,0.5,on_screen
+W19,W19_F02,Columns are added to a document by clicking Format on the menu bar and selecting Columns.,mixed,0.375,speech_only
+W19,W19_F03,"The columns dialog box allows setting the number, width, spacing, and separator line properties of the columns.",hi,0.45454545454545453,speech_only
+W19,W19_F04,Setting the value of the columns field to 2 creates two columns in the text area.,hi,0.2857142857142857,speech_only
+W19,W19_F05,"When typing reaches the end of the first column, the cursor automatically advances to the next column.",hi,0.2222222222222222,speech_only
+W19,W19_F06,Pictures can be inserted and resized to properly fit inside a column.,hi,0.0,speech_only
+W19,W19_F07,"A manual column break is inserted by clicking Insert, selecting Manual Break, choosing Column break, and clicking OK.",mixed,0.25,speech_only
+W19,W19_F08,Selecting Green 4 from the background color icon changes the background of selected text to light green.,mixed,0.1,speech_only
+W19,W19_F09,Banners can be added to the document by selecting the Text option from the Drawing toolbar and placing a text box.,hi,0.3,speech_only
+W19,W19_F10,Text animation options can be accessed by right-clicking the text and selecting Text from the context menu.,hi,0.125,speech_only
+W19,W19_F11,Selecting the Blink effect from the Text Animation tab causes the text to flash.,hi,0.14285714285714285,speech_only
+W20,W20_F00,Presentations cannot be edited while in slide show mode.,hi,0.8333333333333334,on_screen
+W20,W20_F01,The F5 function key can be used to start a slide show.,hi,0.5,on_screen
+W20,W20_F02,Pressing the escape button exits the slide show.,hi,0.5,on_screen
+W20,W20_F03,The mouse pointer as pen option allows users to draw and write on the presentation during slide show mode.,hi,0.4166666666666667,speech_only
+W20,W20_F04,Pressing the space bar advances the presentation to the next slide.,hi,0.3333333333333333,speech_only
+W20,W20_F05,Slide transitions are visual effects applied when moving from one slide to another in a presentation.,hi,0.5,on_screen
+W20,W20_F06,Clicking on the Slide Sorter tab displays all slides in the presentation.,hi,0.8333333333333334,on_screen
+W20,W20_F07,Slides can be rearranged by dragging and dropping a selected slide to a new position.,hi,0.42857142857142855,speech_only
+W20,W20_F08,Transitions can be applied to slides by selecting slide transitions in the task pane.,en,0.5714285714285714,on_screen
+W20,W20_F09,Transition speed can be adjusted by selecting an option from the speed dropdown menu.,hi,0.2857142857142857,speech_only
+W21,W21_F00,A presentation can be printed by selecting File then Print or by pressing the Ctrl and P keys together.,hi,0.3333333333333333,speech_only
+W21,W21_F01,"Under the Document field in the General tab, available presentation print options include slides, handouts, notes, and outline.",en,0.8461538461538461,on_screen
+W21,W21_F02,"In the LibreOffice Impress tab under Content, users can choose to print the slide name, date and time, and hidden pages.",en,0.6923076923076923,on_screen
+W21,W21_F03,Selecting the draw a border around each page option creates a black border around each printed page.,hi,0.5,on_screen
+W21,W21_F04,The brochure option formats slides to be printed as a booklet suitable for binding.,hi,0.25,speech_only
+W21,W21_F05,The default handout configuration places four slides per page ordered from left to right and then down.,hi,0.5454545454545454,on_screen
+W21,W21_F06,Size options under the LibreOffice Impress tab are disabled when printing handouts because print size is determined by sheet size and slide count.,hi,0.7142857142857143,on_screen
+W21,W21_F07,Notes for a slide can be added by navigating to the slide and clicking the Notes tab.,hi,0.3333333333333333,speech_only
+W21,W21_F08,Selecting notes under the Document field displays typed slide notes at the bottom of the slide in the print preview.,hi,0.45454545454545453,speech_only
+W21,W21_F09,Size options in the LibreOffice Impress tab are unavailable when printing notes.,hi,0.7142857142857143,on_screen
+W22,W22_F00,"The terminal can be opened by simultaneously pressing the Ctrl, Alt, and T keys.",hi,0.0,speech_only
+W22,W22_F01,JChemPaint preferences can be accessed through the Edit menu.,hi,0.6,on_screen
+W22,W22_F02,"The choose background color window contains tabs labeled Swatches, HSB, and RGB.",mixed,0.5555555555555556,on_screen
+W22,W22_F03,The Windows operating system provides two extra tabs named HSL and CMYK for color selection.,mixed,0.3,speech_only
+W22,W22_F04,"The Look and Feel section dropdown includes options for System, Metal, Nimbus, Motif, GTK, and Windows.",mixed,0.45454545454545453,speech_only
+W22,W22_F05,The user interface language dropdown includes American English alongside other languages.,hi,0.6,on_screen
+W22,W22_F06,American English is chosen as the default user interface language.,mixed,0.5714285714285714,on_screen
+W22,W22_F07,Modifying the user interface language changes the text on the menu bar and status bar.,hi,0.4444444444444444,speech_only
+W22,W22_F08,The templates menu tool can alternatively be accessed from the side toolbar.,mixed,0.14285714285714285,speech_only
+W22,W22_F09,Clicking the All Templates tab opens the structure templates window displaying templates with their structures.,mixed,0.42857142857142855,speech_only
+W23,W23_F00,LibreOffice Impress opens in Normal view by default.,hi,0.6666666666666666,on_screen
+W23,W23_F01,Users can return to Normal view by clicking the Normal tab or selecting View and then Normal.,hi,0.2857142857142857,speech_only
+W23,W23_F02,Slides can be created and edited in Normal view.,hi,0.4,speech_only
+W23,W23_F03,Slide designs can be selected and changed from the Master Pages section of the Tasks pane.,mixed,0.4444444444444444,speech_only
+W23,W23_F04,Outline view arranges slide contents sequentially below one another like a table.,hi,0.4,speech_only
+W23,W23_F05,"Outline view allows rearranging line items by moving them up, down, or across lines.",hi,0.18181818181818182,speech_only
+W23,W23_F06,Slide Sorter view is used to sort slides into any desired sequence.,hi,0.5714285714285714,on_screen
+W23,W23_F07,Notes view allows presenters to write speaker notes to assist them during a presentation.,hi,0.2,speech_only
+W23,W23_F08,Notes written in Notes view remain visible to the presenter on the monitor but hidden from the audience.,hi,0.3333333333333333,speech_only
+W23,W23_F09,The Tasks pane can be displayed or hidden by clicking View and selecting Tasks Pane.,hi,0.375,speech_only
+W23,W23_F10,The slide layout can be changed using the Layout section in the Tasks pane.,hi,0.3333333333333333,speech_only
+W24,W24_F00,The file block.fig is opened in Xfig and saved as feedback.fig using the Save As option.,hi,0.625,on_screen
+W24,W24_F01,Grids can be added to the drawing area by clicking on grids.,hi,0.16666666666666666,speech_only
+W24,W24_F02,The functions of the mouse buttons are displayed in the upper right and vary depending on the current activity.,hi,0.4,speech_only
+W24,W24_F03,"Clicking the left mouse button on the vertical scroll bar scrolls the canvas up, while the right mouse button scrolls it down.",hi,0.3,speech_only
+W24,W24_F04,The canvas can be moved up or down by clicking the middle mouse button and dragging.,hi,0.125,speech_only
+W24,W24_F05,The top scroll bar is used to navigate the canvas horizontally to the left or right.,hi,0.16666666666666666,speech_only
+W24,W24_F06,"A box is copied by clicking to select it, moving the cursor to a new location, and clicking again.",hi,0.14285714285714285,speech_only
+W24,W24_F07,The text tool is selected by clicking the text box icon marked by 't' on the left panel.,hi,0.25,speech_only
+W24,W24_F08,The text font size is configured by entering 16 into the value box and clicking set.,hi,0.375,speech_only
+W24,W24_F09,Center alignment for text is chosen using the text justification button in the attribute panel.,hi,0.125,speech_only
+W24,W24_F10,"The text ""control"" is entered in the center of the box.",hi,0.4,speech_only
+W24,W24_F11,The polyline button is chosen to insert lines with arrows.,hi,0.0,speech_only
+W24,W24_F12,Arrowhead settings are adjusted using the arrow mode button in the attribute panel.,hi,0.25,speech_only

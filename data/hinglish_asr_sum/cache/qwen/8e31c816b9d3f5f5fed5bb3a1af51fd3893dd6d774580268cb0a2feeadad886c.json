@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-30T15:49:37+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W04",
+ "condition": "noise:hi:0.2",
+ "out_lang": "en",
+ "input_tokens": 2077,
+ "summary": "In this tutorial, you learn how to use custom animations in Impress, a presentation software from the LibreOffice suite. The tutorial uses GNU Linux as the operating system and LibreOffice version 3.3.4. To start, open a sample presentation file and navigate to the slides pane. Click on the thumbnail of the slide you want to customize. Select the text box or object you wish to animate by clicking on it. Then, go to the right side of the Impress window and click on the \"Tasks\" pane. From there, click on \"Custom Animation\" and then \"Add.\" This opens the Custom Animation dialog box where you can choose the type of animation. The \"Entrance\" tab controls the appearance of objects on the screen. You can also adjust the speed and order of animations. After adding an animation, you can preview it by clicking the play button. To add more animations, select another text box and repeat the process. You can also select multiple animations using Shift and play them together. The tutorial demonstrates changing default animation properties, such as direction and delay, to customize the animation's behavior."
+}

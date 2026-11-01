@@ -1,0 +1,78 @@
+{
+ "created": "2026-10-30T11:34:18+00:00",
+ "template_id": "reference",
+ "variant": 0,
+ "request": {
+  "model": "gemini-3.8-flash",
+  "system_instruction": "You are a careful annotator building evaluation data for summarisation research. Follow the instructions exactly and output only JSON that matches the schema.",
+  "input": "Below is the exact human transcript of a segment of a recorded software tutorial. The speaker code-mixes Hindi and English: Hindi is mostly written in Devanagari and English mostly in Latin script, but some English words are written in Devanagari.\n\nProduce two things.\n\n1. \"summary\": an English summary of the segment's content, 120-180 words, plain prose, covering the main steps, concepts and facts taught. Do not mention the speaker, the tutorial series, greetings, credits, funding or websites.\n\n2. \"facts\": 8 to 15 atomic facts that a good summary of this segment should contain.\n- Each fact is one short, self-contained English sentence stating a single piece of content (a step, setting, definition, command or result).\n- Exclude greetings, credits, acknowledgements, funding and website information.\n- Facts must not overlap.\n- For each fact, \"evidence\" must be copied EXACTLY, character for character, from the transcript: one contiguous excerpt of 3 to 25 words that states the fact. Do not translate, transliterate, correct or shorten words inside the excerpt.\n\nTranscript:\n<<<\nc में typedef and union पर spoken tutorial में आपका स्वागत है इस tutorial में हम कुछ उदाहरणों की मदद से निम्न के बारे में सीखेंगे इस tutorial के लिए मैं उपयोग कर रही हूँ उबन्टु ऑपरेटिंग सिस्टम वर्शन 1110 उबन्टु पर gcc compiler वर्शन 461 इस tutorial के अनुसरण के लिए आपको c tutorials के साथ परिचित होना चाहिए यदि नहीं तो सम्बंधित tutorials के लिए हमारी दर्शायी website पर जाएँ मैं typedef keyword के परिचय के साथ शुरू करुँगी typedef कीवर्ड मौजूदा type या userdefined डेटाटाइप्स को प्रतीकात्मक name देने में उपयोग होते है यह commands के लिए alias यानी उपनाम परिभाषित करने का एक तरीका है यह code को स्पष्टता प्रदान करने में मदद करता है यह code को समझना और बदलना आसान बनाता है syntax: typedef existing _ name alias _ name उदाहरण: typedef unsigned int uint; अब एक उदाहरण code को देखते हैं ध्यान दें हमारी फाइल का नाम pallindrome c है इस program में हम जाँचेंगे कि दिया गया number pallindrome है या नहीं हमने typedef कीवर्ड प्रयोग करके unsigned int datatype को uint उपनाम दिया है यहाँ हम variables को घोषित करने के लिए uint का प्रयोग कर रहे हैं यह pallindrome के लिए logic है अब program को निष्पादित करते हैं अब अपने keyboard पर एक साथ ctrl + alt + t कीज़ दबाकर terminal खोलें type करें: gcc space pallindrome dot c space hyphen o space pallindrome enter दबाएं type करें: dot slash pallindrome हम देखते हैं: enter any three digit number मैं 121 प्रविष्ट करुँगी output है: given number is a palindrome number अब हम union datatype के बारे में सीखेंगे union साथ में रखे गए भिन्न डेटाटाइप्स का एक collection है union अपने सारे members के लिए एक समान storage space निर्धारित करता है हम एक बार में union के केवल एक member को access कर सकते हैं syntax1: हमारे पास एक वैकल्पिक syntax भी है अब एक उदाहरण देखते हैं मेरे पास एक code file है; अब इसे देखते हैं ध्यान दें हमारी फाइल का नाम union dot c हम student named union को घोषित कर चुके हैं यहाँ हमारे पास तीन variables हैं english maths और science main function में हमने एक union variable stud घोषित किया है यहाँ हम निम्न union variable प्रयोग करके union members को access कर सकते हैं: फिर हम कुल अंकों की गणना करते हैं और इसे प्रदर्शित करते हैं अब इसे निष्पादित करते हैं terminal पर type करें gcc space union dot c space hyphen o space union output दिखाता है: total is 228 अब structure और union के बीच अंतर देखते हैं union अपने सारे members के लिए एक समान storage space निर्धारित करता है\n>>>",
+  "generation_config": {
+   "max_output_tokens": 8192
+  },
+  "response_format": {
+   "mime_type": "application/json",
+   "schema": {
+    "$defs": {
+     "Fact": {
+      "properties": {
+       "fact": {
+        "title": "Fact",
+        "type": "string"
+       },
+       "evidence": {
+        "title": "Evidence",
+        "type": "string"
+       }
+      },
+      "required": [
+       "fact",
+       "evidence"
+      ],
+      "title": "Fact",
+      "type": "object"
+     }
+    },
+    "properties": {
+     "summary": {
+      "title": "Summary",
+      "type": "string"
+     },
+     "facts": {
+      "items": {
+       "$ref": "#/$defs/Fact"
+      },
+      "title": "Facts",
+      "type": "array"
+     }
+    },
+    "required": [
+     "summary",
+     "facts"
+    ],
+    "title": "Reference",
+    "type": "object"
+   }
+  }
+ },
+ "output_text": "{\n  \"summary\": \"The tutorial demonstrates the use of typedef and union in C programming. The typedef keyword assigns symbolic names or aliases to existing or user-defined data types, enhancing code clarity and ease of modification. Its syntax is demonstrated by defining unsigned int as uint in a palindrome verification program. The program is compiled using gcc and executed via the terminal, successfully confirming a three-digit palindrome input. Next, the tutorial explains the union data type, which is a collection of different data types grouped together. Unlike structures, a union allocates a single shared storage space for all its members, meaning only one member can be accessed at a time. An example code named union.c demonstrates a union called student containing variables for English, Maths, and Science marks. Within the main function, a union variable named stud is declared, its members are accessed to compute total marks, and the compiled program outputs the total as 228.\",\n  \"facts\": [\n    {\n      \"fact\": \"The typedef keyword is used to provide symbolic names or aliases to existing or user-defined data types.\",\n      \"evidence\": \"typedef कीवर्ड मौजूदा type या userdefined डेटाटाइप्स को प्रतीकात्मक name देने में उपयोग होते है\"\n    },\n    {\n      \"fact\": \"The syntax of typedef is typedef existing _ name alias _ name.\",\n      \"evidence\": \"syntax: typedef existing _ name alias _ name\"\n    },\n    {\n      \"fact\": \"An example of typedef is typedef unsigned int uint;.\",\n      \"evidence\": \"उदाहरण: typedef unsigned int uint;\"\n    },\n    {\n      \"fact\": \"The palindrome program is compiled using the command gcc pallindrome.c -o pallindrome.\",\n      \"evidence\": \"type करें: gcc space pallindrome dot c space hyphen o space pallindrome enter दबाएं\"\n    },\n    {\n      \"fact\": \"Executing the palindrome program with the input 121 yields the output that the given number is a palindrome number.\",\n      \"evidence\": \"मैं 121 प्रविष्ट करुँगी output है: given number is a palindrome number\"\n    },\n    {\n      \"fact\": \"A union is a collection of different data types held together.\",\n      \"evidence\": \"union साथ में रखे गए भिन्न डेटाटाइप्स का एक collection है\"\n    },\n    {\n      \"fact\": \"A union allocates a single, common storage space for all of its members.\",\n      \"evidence\": \"union अपने सारे members के लिए एक समान storage space निर्धारित करता है\"\n    },\n    {\n      \"fact\": \"Only one member of a union can be accessed at a time.\",\n      \"evidence\": \"हम एक बार में union के केवल एक member को access कर सकते हैं\"\n    },\n    {\n      \"fact\": \"In union.c, a union named student is declared with the variables english, maths, and science.\",\n      \"evidence\": \"student named union को घोषित कर चुके हैं यहाँ हमारे पास तीन variables हैं english maths और science\"\n    },\n    {\n      \"fact\": \"A union variable named stud is declared inside the main function.\",\n      \"evidence\": \"main function में हमने एक union variable stud घोषित किया है\"\n    },\n    {\n      \"fact\": \"Running the compiled union program displays the output total is 228.\",\n      \"evidence\": \"output दिखाता है: total is 228\"\n    }\n  ]\n}",
+ "response_model": "gemini-3.8-flash",
+ "response_id": "v1_ChZSNERrYW9EMUhyUG5xdHNQMTRDNFdREhZSNERrYW9EMUhyUG5xdHNQMTRDNFdR",
+ "usage": {
+  "initial_input_tokens": 933,
+  "input_tokens_by_modality": [
+   {
+    "modality": "text",
+    "tokens": 799
+   }
+  ],
+  "total_cached_tokens": 0,
+  "total_input_tokens": 799,
+  "total_output_tokens": 736,
+  "total_thought_tokens": 0,
+  "total_tokens": 1535,
+  "total_tool_use_tokens": 0
+ },
+ "meta": {
+  "window_id": "W12"
+ }
+}

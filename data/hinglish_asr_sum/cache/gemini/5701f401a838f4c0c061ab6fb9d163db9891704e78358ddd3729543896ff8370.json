@@ -1,0 +1,76 @@
+{
+ "created": "2026-10-31T02:32:44+00:00",
+ "template_id": "judge",
+ "variant": 0,
+ "request": {
+  "model": "gemini-3.8-flash",
+  "system_instruction": "You are a strict, consistent evaluator of summary content. Output only JSON that matches the schema.",
+  "input": "Decide, for each numbered fact, whether the SUMMARY conveys it.\n\nA fact is supported if the summary states its core information or clearly implies it, even in different words, in another language (English, Hindi or Hinglish) or in another script. It is not supported if it is missing, only vaguely related, or contradicted. Judge each fact independently, using only the summary.\n\nSUMMARY:\n<<<\nThis tutorial introduces the gedit text editor for Ubuntu Linux and Windows systems. It covers how to install gedit on Ubuntu Linux using the Ubuntu Software Centre or by opening it from the Dash Home. On Windows, instructions for installation are provided via a link. The tutorial explains how to create a new file, open an existing one, and save changes. It also demonstrates closing files and opening them again. Key features like the menu bar, toolbars, and status bar are introduced. The tutorial shows how to switch between overwrite and insert modes, save files with names, and handle unsaved changes. It emphasizes the importance of saving files regularly to prevent data loss due to power cuts or system crashes.\n>>>\n\nFACTS:\n1. Gedit text editor comes pre-installed in the Ubuntu Linux operating system.\n2. Gedit can be launched by searching for gedit in Dash Home and clicking the text editor icon.\n3. Gedit can also be launched via the terminal by pressing Ctrl + Alt + T, typing gedit, and pressing Enter.\n4. The default tab name assigned to a new document in gedit is Untitled Document 1.\n5. An asterisk displayed next to a file name in the tab indicates that the file has not been saved.\n6. The status bar displays the cursor position in terms of line number and column number.\n7. The default text mode in gedit is insert mode, indicated as ins.\n8. To save a file, click the File option in the menu bar and select Save.\n9. To close an open file, click File in the menu bar and choose Close.\n10. A new file can be created by clicking the plus sign icon on the toolbar.\n11. An existing document can be opened by clicking File in the menu bar and selecting Open.\n\nReturn exactly one judgement per fact id.",
+  "generation_config": {
+   "max_output_tokens": 4096
+  },
+  "response_format": {
+   "mime_type": "application/json",
+   "schema": {
+    "$defs": {
+     "Judgement": {
+      "properties": {
+       "id": {
+        "title": "Id",
+        "type": "integer"
+       },
+       "supported": {
+        "title": "Supported",
+        "type": "boolean"
+       }
+      },
+      "required": [
+       "id",
+       "supported"
+      ],
+      "title": "Judgement",
+      "type": "object"
+     }
+    },
+    "properties": {
+     "judgements": {
+      "items": {
+       "$ref": "#/$defs/Judgement"
+      },
+      "title": "Judgements",
+      "type": "array"
+     }
+    },
+    "required": [
+     "judgements"
+    ],
+    "title": "Judgements",
+    "type": "object"
+   }
+  }
+ },
+ "output_text": "{\n  \"judgements\": [\n    {\"id\": 1, \"supported\": false},\n    {\"id\": 2, \"supported\": false},\n    {\"id\": 3, \"supported\": false},\n    {\"id\": 4, \"supported\": false},\n    {\"id\": 5, \"supported\": false},\n    {\"id\": 6, \"supported\": false},\n    {\"id\": 7, \"supported\": false},\n    {\"id\": 8, \"supported\": false},\n    {\"id\": 9, \"supported\": false},\n    {\"id\": 10, \"supported\": false},\n    {\"id\": 11, \"supported\": false}\n  ]\n}",
+ "response_model": "gemini-3.8-flash",
+ "response_id": "v1_ChdGbFBsYXNLdkFwYUlxdHNQb2N6bmlBRRIXRmxQbGFzS3ZBcGFJcXRzUG9jem5pQUU",
+ "usage": {
+  "initial_input_tokens": 607,
+  "input_tokens_by_modality": [
+   {
+    "modality": "text",
+    "tokens": 489
+   }
+  ],
+  "total_cached_tokens": 0,
+  "total_input_tokens": 489,
+  "total_output_tokens": 160,
+  "total_thought_tokens": 1413,
+  "total_tokens": 2062,
+  "total_tool_use_tokens": 0
+ },
+ "meta": {
+  "window_id": "W02",
+  "condition": "oracle",
+  "out_lang": "en",
+  "kind": "summary"
+ }
+}

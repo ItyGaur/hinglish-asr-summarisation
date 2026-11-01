@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-31T12:35:17+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W17",
+ "condition": "asr:whisper-small",
+ "out_lang": "en",
+ "input_tokens": 3037,
+ "summary": "In this tutorial, you learn how to create and print presentation notes using LibreOffice Impress. Notes are useful for speakers to refer to during presentations or as references for viewers. To add notes, click on the Notes tab at the bottom of each slide. You can type your notes there. For formatting, select the text box, then choose a smaller font size from the top-left corner. To format all notes in a presentation, create a Notes Master by clicking on the View menu, then Notes Master. Notes Masters are similar to slide templates where you can apply formatting that will be applied to all notes slides. To change the appearance of notes, select the first note slide, highlight the text, and use the top-right corner of the Impress window to adjust font effects like bold and color. You can also insert shapes, such as triangles, from the Basic Shapes toolbar. Right-click on the triangle shape, select Context Menu, and choose Edit Text to place it on the notes page. Adjust the notes place holder by selecting it, pressing Shift+Ctrl+Down, and dragging it to the desired position. This tutorial covers the basics of creating, formatting, and customizing presentation notes in LibreOffice Impress."
+}

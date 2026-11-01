@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-30T14:26:44+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W23",
+ "condition": "asr:whisper-small",
+ "out_lang": "en",
+ "input_tokens": 3061,
+ "summary": "The tutorial covers the features and usage of LibreOffice Impress for creating presentations in the Linux environment. It explains how to switch between normal and slide view, create and edit slides, and add content such as tables and bullet points. Users can also customize slide layouts and notes, which can be accessed during the presentation. The tutorial demonstrates how to use the task pane to upload slides, navigate through slides, and apply various formatting options like background colors. Additionally, it shows how to use the notes page to take notes during the presentation and how to adjust the slide sorter view for better organization. Overall, the session aims to help users create professional-looking presentations with a dark background and light text, using the features of LibreOffice Impress effectively."
+}

@@ -1,0 +1,73 @@
+{
+ "created": "2026-10-30T17:29:03+00:00",
+ "template_id": "lexicon",
+ "variant": 0,
+ "request": {
+  "model": "gemini-3.8-flash",
+  "system_instruction": "You are a precise Hindi-English transliteration assistant. Output only JSON that matches the schema.",
+  "input": "For each English word below, give the spelling a Hindi speaker would normally use when writing that English word in Devanagari script. Transliterate the pronunciation; do not translate the meaning. Examples: click -> क्लिक, file -> फ़ाइल, terminal -> टर्मिनल. For abbreviations, spell out the letter names (pdf -> पीडीएफ). Return exactly one item per input word, with the input word copied unchanged into \"word\".\n\nWords:\ncurrent\ncursor\ncustom\ncustomized\ncut\ndark\ndash\ndata\ndatatype\ndate\ndeclaration\ndefault\ndelay\ndeleted\ndependence\ndesign\ndesktop\ndesktops\ndevelop\ndevelopment\ndiagonal\ndialog\ndiamond\ndigit\ndirection\ndirectly\ndistinct\ndocument\ndocuments\ndot\ndouble\ndoubleclick\ndown\ndownload\ndownloaded\ndownloads\ndownloadsoracle\ndrag\ndraw\ndrawing\ndrop\ndropdown\nduplicate\neach\nearth\nedit\nediting\neditor\neffect\neffects\nelement\nelements\nelif\nelse\nemail\nenable\nend\nenglish\nenter\nentrance\nenvironment\nerror\nescape\nexe\nexisting\nexplore\nexport\nexpressions\nextension\nf\nf5\nfactor\nfactorand\nfathers\nfeature\nfeatures\nfeedback\nfeedbackfig\nfeel\nfees\nfew\nfield\nfile\nfilename\nfiles\nfilescope\nfill\nfilter\nfilters\nfind\nfirefox\nfit\nfix\nfluorine\nfolder\nfollowing\nfont\nfor\nform\nformat\nformats\nformatting\nforwarding\nfoss\nfree\nfrom\nfull\nfunction\nfunctions\ngcc\ngedit\ngeneral\nget\ngithub\ngiven\nglobally\ngmail\ngmailcom\ngnu\ngoal\ngovernment\ngovernmentsupportforfossinindia\ngovernmentsupportforfossinindiaodt\ngrammar\ngray\ngreen\ngrids\ngtk\nh\nhand\nhandles\nhandout\nhandouts\nhas\nheader\nheading\nheadings\nheight\nhelloworld\nhidden\nhighlight\nholder\nhome\nhousewife\nhsb\nhsl\nhsv\nhtml\nhusewife\nhydrogens",
+  "generation_config": {
+   "max_output_tokens": 8192
+  },
+  "response_format": {
+   "mime_type": "application/json",
+   "schema": {
+    "$defs": {
+     "Pair": {
+      "properties": {
+       "word": {
+        "title": "Word",
+        "type": "string"
+       },
+       "devanagari": {
+        "title": "Devanagari",
+        "type": "string"
+       }
+      },
+      "required": [
+       "word",
+       "devanagari"
+      ],
+      "title": "Pair",
+      "type": "object"
+     }
+    },
+    "properties": {
+     "items": {
+      "items": {
+       "$ref": "#/$defs/Pair"
+      },
+      "title": "Items",
+      "type": "array"
+     }
+    },
+    "required": [
+     "items"
+    ],
+    "title": "Lexicon",
+    "type": "object"
+   }
+  }
+ },
+ "output_text": "{\"items\":[{\"word\":\"current\",\"devanagari\":\"करंट\"},{\"word\":\"cursor\",\"devanagari\":\"कर्सर\"},{\"word\":\"custom\",\"devanagari\":\"कस्टम\"},{\"word\":\"customized\",\"devanagari\":\"कस्टमाइज़्ड\"},{\"word\":\"cut\",\"devanagari\":\"कट\"},{\"word\":\"dark\",\"devanagari\":\"डार्क\"},{\"word\":\"dash\",\"devanagari\":\"डैश\"},{\"word\":\"data\",\"devanagari\":\"डेटा\"},{\"word\":\"datatype\",\"devanagari\":\"डेटाटाइप\"},{\"word\":\"date\",\"devanagari\":\"डेट\"},{\"word\":\"declaration\",\"devanagari\":\"डिक्लेरेशन\"},{\"word\":\"default\",\"devanagari\":\"डिफ़ॉल्ट\"},{\"word\":\"delay\",\"devanagari\":\"डिले\"},{\"word\":\"deleted\",\"devanagari\":\"डिलीटेड\"},{\"word\":\"dependence\",\"devanagari\":\"डिपेंडेंस\"},{\"word\":\"design\",\"devanagari\":\"डिज़ाइन\"},{\"word\":\"desktop\",\"devanagari\":\"डेस्कटॉप\"},{\"word\":\"desktops\",\"devanagari\":\"डेस्कटॉप्स\"},{\"word\":\"develop\",\"devanagari\":\"डेवलप\"},{\"word\":\"development\",\"devanagari\":\"डेवलपमेंट\"},{\"word\":\"diagonal\",\"devanagari\":\"डायगोनल\"},{\"word\":\"dialog\",\"devanagari\":\"डायलॉग\"},{\"word\":\"diamond\",\"devanagari\":\"डायमंड\"},{\"word\":\"digit\",\"devanagari\":\"डिजिट\"},{\"word\":\"direction\",\"devanagari\":\"डायरेक्शन\"},{\"word\":\"directly\",\"devanagari\":\"डायरेक्टली\"},{\"word\":\"distinct\",\"devanagari\":\"डिस्टिंक्ट\"},{\"word\":\"document\",\"devanagari\":\"डॉक्यूमेंट\"},{\"word\":\"documents\",\"devanagari\":\"डॉक्यूमेंट्स\"},{\"word\":\"dot\",\"devanagari\":\"डॉट\"},{\"word\":\"double\",\"devanagari\":\"डबल\"},{\"word\":\"doubleclick\",\"devanagari\":\"डबलक्लिक\"},{\"word\":\"down\",\"devanagari\":\"डाउन\"},{\"word\":\"download\",\"devanagari\":\"डाउनलोड\"},{\"word\":\"downloaded\",\"devanagari\":\"डाउनलोडेड\"},{\"word\":\"downloads\",\"devanagari\":\"डाउनलोड्स\"},{\"word\":\"downloadsoracle\",\"devanagari\":\"डाउनलोड्सओरेकल\"},{\"word\":\"drag\",\"devanagari\":\"ड्रैग\"},{\"word\":\"draw\",\"devanagari\":\"ड्रॉ\"},{\"word\":\"drawing\",\"devanagari\":\"ड्रॉइंग\"},{\"word\":\"drop\",\"devanagari\":\"ड्रॉप\"},{\"word\":\"dropdown\",\"devanagari\":\"ड्रॉपडाउन\"},{\"word\":\"duplicate\",\"devanagari\":\"डुप्लीकेट\"},{\"word\":\"each\",\"devanagari\":\"ईच\"},{\"word\":\"earth\",\"devanagari\":\"अर्थ\"},{\"word\":\"edit\",\"devanagari\":\"एडिट\"},{\"word\":\"editing\",\"devanagari\":\"एडिटिंग\"},{\"word\":\"editor\",\"devanagari\":\"एडिटर\"},{\"word\":\"effect\",\"devanagari\":\"इफेक्ट\"},{\"word\":\"effects\",\"devanagari\":\"इफेक्ट्स\"},{\"word\":\"element\",\"devanagari\":\"एलिमेंट\"},{\"word\":\"elements\",\"devanagari\":\"एलिमेंट्स\"},{\"word\":\"elif\",\"devanagari\":\"एलिफ़\"},{\"word\":\"else\",\"devanagari\":\"एल्स\"},{\"word\":\"email\",\"devanagari\":\"ईमेल\"},{\"word\":\"enable\",\"devanagari\":\"इनेबल\"},{\"word\":\"end\",\"devanagari\":\"एंड\"},{\"word\":\"english\",\"devanagari\":\"इंग्लिश\"},{\"word\":\"enter\",\"devanagari\":\"एंटर\"},{\"word\":\"entrance\",\"devanagari\":\"एंट्रेंस\"},{\"word\":\"environment\",\"devanagari\":\"एनवायरनमेंट\"},{\"word\":\"error\",\"devanagari\":\"एरर\"},{\"word\":\"escape\",\"devanagari\":\"एस्केप\"},{\"word\":\"exe\",\"devanagari\":\"ईएक्सई\"},{\"word\":\"existing\",\"devanagari\":\"एग्ज़िस्टिंग\"},{\"word\":\"explore\",\"devanagari\":\"एक्सप्लोर\"},{\"word\":\"export\",\"devanagari\":\"एक्सपोर्ट\"},{\"word\":\"expressions\",\"devanagari\":\"एक्सप्रेशन्स\"},{\"word\":\"extension\",\"devanagari\":\"एक्सटेंशन\"},{\"word\":\"f\",\"devanagari\":\"एफ\"},{\"word\":\"f5\",\"devanagari\":\"एफ5\"},{\"word\":\"factor\",\"devanagari\":\"फ़ैक्टर\"},{\"word\":\"factorand\",\"devanagari\":\"फ़ैक्टरएंड\"},{\"word\":\"fathers\",\"devanagari\":\"फ़ादर्स\"},{\"word\":\"feature\",\"devanagari\":\"फ़ीचर\"},{\"word\":\"features\",\"devanagari\":\"फ़ीचर्स\"},{\"word\":\"feedback\",\"devanagari\":\"फ़ीडबैक\"},{\"word\":\"feedbackfig\",\"devanagari\":\"फ़ीडबैकफ़िग\"},{\"word\":\"feel\",\"devanagari\":\"फ़ील\"},{\"word\":\"fees\",\"devanagari\":\"फ़ीस\"},{\"word\":\"few\",\"devanagari\":\"फ़्यू\"},{\"word\":\"field\",\"devanagari\":\"फ़ील्ड\"},{\"word\":\"file\",\"devanagari\":\"फ़ाइल\"},{\"word\":\"filename\",\"devanagari\":\"फ़ाइलनेम\"},{\"word\":\"files\",\"devanagari\":\"फ़ाइल्स\"},{\"word\":\"filescope\",\"devanagari\":\"फ़ाइलस्कोप\"},{\"word\":\"fill\",\"devanagari\":\"फ़िल\"},{\"word\":\"filter\",\"devanagari\":\"फ़िल्टर\"},{\"word\":\"filters\",\"devanagari\":\"फ़िल्टर्स\"},{\"word\":\"find\",\"devanagari\":\"फ़ाइंड\"},{\"word\":\"firefox\",\"devanagari\":\"फ़ायरफ़ॉक्स\"},{\"word\":\"fit\",\"devanagari\":\"फ़िट\"},{\"word\":\"fix\",\"devanagari\":\"फ़िक्स\"},{\"word\":\"fluorine\",\"devanagari\":\"फ़्लोरीन\"},{\"word\":\"folder\",\"devanagari\":\"फ़ोल्डर\"},{\"word\":\"following\",\"devanagari\":\"फ़ॉलोइंग\"},{\"word\":\"font\",\"devanagari\":\"फ़ॉन्ट\"},{\"word\":\"for\",\"devanagari\":\"फ़ॉर\"},{\"word\":\"form\",\"devanagari\":\"फ़ॉर्म\"},{\"word\":\"format\",\"devanagari\":\"फ़ॉर्मेट\"},{\"word\":\"formats\",\"devanagari\":\"फ़ॉर्मेट्स\"},{\"word\":\"formatting\",\"devanagari\":\"फ़ॉर्मेटिंग\"},{\"word\":\"forwarding\",\"devanagari\":\"फ़ॉरवर्डिंग\"},{\"word\":\"foss\",\"devanagari\":\"फ़ॉस\"},{\"word\":\"free\",\"devanagari\":\"फ्री\"},{\"word\":\"from\",\"devanagari\":\"फ्रॉम\"},{\"word\":\"full\",\"devanagari\":\"फुल\"},{\"word\":\"function\",\"devanagari\":\"फ़ंक्शन\"},{\"word\":\"functions\",\"devanagari\":\"फ़ंक्शन्स\"},{\"word\":\"gcc\",\"devanagari\":\"जीसीसी\"},{\"word\":\"gedit\",\"devanagari\":\"जीएडिट\"},{\"word\":\"general\",\"devanagari\":\"जनरल\"},{\"word\":\"get\",\"devanagari\":\"गेट\"},{\"word\":\"github\",\"devanagari\":\"गिटहब\"},{\"word\":\"given\",\"devanagari\":\"गिवन\"},{\"word\":\"globally\",\"devanagari\":\"ग्लोबली\"},{\"word\":\"gmail\",\"devanagari\":\"जीमेल\"},{\"word\":\"gmailcom\",\"devanagari\":\"जीमेलकॉम\"},{\"word\":\"gnu\",\"devanagari\":\"ग्नू\"},{\"word\":\"goal\",\"devanagari\":\"गोल\"},{\"word\":\"government\",\"devanagari\":\"गवर्नमेंट\"},{\"word\":\"governmentsupportforfossinindia\",\"devanagari\":\"गवर्नमेंटसपोर्टफ़ॉरफ़ॉसइनइंडिया\"},{\"word\":\"governmentsupportforfossinindiaodt\",\"devanagari\":\"गवर्नमेंटसपोर्टफ़ॉरफ़ॉसइनइंडियाओडीटी\"},{\"word\":\"grammar\",\"devanagari\":\"ग्रामर\"},{\"word\":\"gray\",\"devanagari\":\"ग्रे\"},{\"word\":\"green\",\"devanagari\":\"ग्रीन\"},{\"word\":\"grids\",\"devanagari\":\"ग्रिड्स\"},{\"word\":\"gtk\",\"devanagari\":\"जीटीके\"},{\"word\":\"h\",\"devanagari\":\"एच\"},{\"word\":\"hand\",\"devanagari\":\"हैंड\"},{\"word\":\"handles\",\"devanagari\":\"हैंडल्स\"},{\"word\":\"handout\",\"devanagari\":\"हैंडआउट\"},{\"word\":\"handouts\",\"devanagari\":\"हैंडआउट्स\"},{\"word\":\"has\",\"devanagari\":\"हैज़\"},{\"word\":\"header\",\"devanagari\":\"हेडर\"},{\"word\":\"heading\",\"devanagari\":\"हेडिंग\"},{\"word\":\"headings\",\"devanagari\":\"हेडिंग्स\"},{\"word\":\"height\",\"devanagari\":\"हाइट\"},{\"word\":\"helloworld\",\"devanagari\":\"हेलोवर्ल्ड\"},{\"word\":\"hidden\",\"devanagari\":\"हिडन\"},{\"word\":\"highlight\",\"devanagari\":\"हाइलाइट\"},{\"word\":\"holder\",\"devanagari\":\"होल्डर\"},{\"word\":\"home\",\"devanagari\":\"होम\"},{\"word\":\"housewife\",\"devanagari\":\"हाउसवाइफ़\"},{\"word\":\"hsb\",\"devanagari\":\"एचएसबी\"},{\"word\":\"hsl\",\"devanagari\":\"एचएसएल\"},{\"word\":\"hsv\",\"devanagari\":\"एचएसवी\"},{\"word\":\"html\",\"devanagari\":\"एचटीएमएल\"},{\"word\":\"husewife\",\"devanagari\":\"हाउसवाइफ़\"},{\"word\":\"hydrogens\",\"devanagari\":\"हाइड्रोजन्स\"}]}",
+ "response_model": "gemini-3.8-flash",
+ "response_id": "v1_Chd1dExrYXAzek85N2RfdU1QOXFlUXVRWRIXdXRMa2FwM3pPOTdkX3VNUDlxZVF1UVk",
+ "usage": {
+  "initial_input_tokens": 565,
+  "input_tokens_by_modality": [
+   {
+    "modality": "text",
+    "tokens": 445
+   }
+  ],
+  "total_cached_tokens": 0,
+  "total_input_tokens": 445,
+  "total_output_tokens": 1973,
+  "total_thought_tokens": 1039,
+  "total_tokens": 3457,
+  "total_tool_use_tokens": 0
+ },
+ "meta": {
+  "batch": 1
+ }
+}

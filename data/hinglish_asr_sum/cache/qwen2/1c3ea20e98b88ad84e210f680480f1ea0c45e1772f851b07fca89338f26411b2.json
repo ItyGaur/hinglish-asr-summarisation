@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-30T14:26:10+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W20",
+ "condition": "asr:whisper-small",
+ "out_lang": "en",
+ "input_tokens": 2818,
+ "summary": "The tutorial explains how to create and navigate slides in LibreOffice Impress. To move between slides, you can use the arrow keys or right-click on the context menu. Alternatively, clicking the slide show button or pressing space bar advances to the next slide. To change the slide order, select the slide, drag it to the desired position, and release. Slide transitions can be applied by selecting the slide, then choosing from the slide show settings. You can also adjust the transition speed using the task pane. The tutorial covers basic navigation, slide management, and presentation flow in LibreOffice Impress."
+}

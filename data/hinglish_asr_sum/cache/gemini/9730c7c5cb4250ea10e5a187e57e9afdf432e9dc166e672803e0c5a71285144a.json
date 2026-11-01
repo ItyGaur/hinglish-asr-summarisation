@@ -1,0 +1,76 @@
+{
+ "created": "2026-10-31T02:37:21+00:00",
+ "template_id": "judge",
+ "variant": 0,
+ "request": {
+  "model": "gemini-3.8-flash",
+  "system_instruction": "You are a strict, consistent evaluator of summary content. Output only JSON that matches the schema.",
+  "input": "Decide, for each numbered fact, whether the SUMMARY conveys it.\n\nA fact is supported if the summary states its core information or clearly implies it, even in different words, in another language (English, Hindi or Hinglish) or in another script. It is not supported if it is missing, only vaguely related, or contradicted. Judge each fact independently, using only the summary.\n\nSUMMARY:\n<<<\nThis tutorial covers various view options in LibreOffice Writer for document viewing and editing. It explains how to switch between Print Layout and Web Layout views using the menu bar. For Print Layout, users click on View > Print Layout, and for Web Layout, they click on View > Web Layout. Full-screen mode can be accessed via View > Full Screen. To add a new page, users insert a manual page break. Zoom options allow adjusting the display size of the document, with features like Fit Width and Height, Fit to Width, and customizable zoom factors. The View Layout option lets users see different parts of the document on one or multiple pages. The status bar provides controls to change the view layout and zoom level, including icons for Single Column Mode and Book Mode.\n>>>\n\nFACTS:\n1. Print Layout and Web Layout are the two primary view options in LibreOffice Writer.\n2. The Web Layout option displays how the document will appear in a web browser.\n3. Full screen mode is useful for editing documents and displaying them on a projector.\n4. Pressing the Escape key exits Full Screen mode.\n5. A new page break is inserted by choosing Insert, Manual Break, selecting Page Break, and clicking OK.\n6. The Zoom and View Layout dialog box contains the headings Zoom Factor and View Layout.\n7. The 'Fit width and height' option fits the document across the full length and width of the page.\n8. The 100% view displays the page in its actual size.\n9. A custom zoom factor can be entered in the Variable field.\n10. Selecting the Automatic view layout option displays pages side by side.\n11. The controls on the Writer status bar also permit changing the document's view layout and zoom.\n\nReturn exactly one judgement per fact id.",
+  "generation_config": {
+   "max_output_tokens": 4096
+  },
+  "response_format": {
+   "mime_type": "application/json",
+   "schema": {
+    "$defs": {
+     "Judgement": {
+      "properties": {
+       "id": {
+        "title": "Id",
+        "type": "integer"
+       },
+       "supported": {
+        "title": "Supported",
+        "type": "boolean"
+       }
+      },
+      "required": [
+       "id",
+       "supported"
+      ],
+      "title": "Judgement",
+      "type": "object"
+     }
+    },
+    "properties": {
+     "judgements": {
+      "items": {
+       "$ref": "#/$defs/Judgement"
+      },
+      "title": "Judgements",
+      "type": "array"
+     }
+    },
+    "required": [
+     "judgements"
+    ],
+    "title": "Judgements",
+    "type": "object"
+   }
+  }
+ },
+ "output_text": "{\n  \"judgements\": [\n    {\n      \"id\": 1,\n      \"supported\": false\n    },\n    {\n      \"id\": 2,\n      \"supported\": false\n    },\n    {\n      \"id\": 3,\n      \"supported\": false\n    },\n    {\n      \"id\": 4,\n      \"supported\": false\n    },\n    {\n      \"id\": 5,\n      \"supported\": false\n    },\n    {\n      \"id\": 6,\n      \"supported\": false\n    },\n    {\n      \"id\": 7,\n      \"supported\": false\n    },\n    {\n      \"id\": 8,\n      \"supported\": false\n    },\n    {\n      \"id\": 9,\n      \"supported\": false\n    },\n    {\n      \"id\": 10,\n      \"supported\": false\n    },\n    {\n      \"id\": 11,\n      \"supported\": true\n    }\n  ]\n}",
+ "response_model": "gemini-3.8-flash",
+ "response_id": "v1_ChdTMVRsYW8yTU12R2Z6N0lQMzluRTZRMBIXUzFUbGFvMk1NdkdmejdJUDM5bkU2UTA",
+ "usage": {
+  "initial_input_tokens": 599,
+  "input_tokens_by_modality": [
+   {
+    "modality": "text",
+    "tokens": 481
+   }
+  ],
+  "total_cached_tokens": 0,
+  "total_input_tokens": 481,
+  "total_output_tokens": 236,
+  "total_thought_tokens": 507,
+  "total_tokens": 1224,
+  "total_tool_use_tokens": 0
+ },
+ "meta": {
+  "window_id": "W08",
+  "condition": "oracle",
+  "out_lang": "en",
+  "kind": "summary"
+ }
+}

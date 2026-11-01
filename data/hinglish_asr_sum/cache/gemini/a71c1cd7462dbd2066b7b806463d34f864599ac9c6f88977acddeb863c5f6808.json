@@ -1,0 +1,78 @@
+{
+ "created": "2026-10-30T12:56:29+00:00",
+ "template_id": "reference",
+ "variant": 0,
+ "request": {
+  "model": "gemini-3.8-flash",
+  "system_instruction": "You are a careful annotator building evaluation data for summarisation research. Follow the instructions exactly and output only JSON that matches the schema.",
+  "input": "Below is the exact human transcript of a segment of a recorded software tutorial. The speaker code-mixes Hindi and English: Hindi is mostly written in Devanagari and English mostly in Latin script, but some English words are written in Devanagari.\n\nProduce two things.\n\n1. \"summary\": an English summary of the segment's content, 120-180 words, plain prose, covering the main steps, concepts and facts taught. Do not mention the speaker, the tutorial series, greetings, credits, funding or websites.\n\n2. \"facts\": 8 to 15 atomic facts that a good summary of this segment should contain.\n- Each fact is one short, self-contained English sentence stating a single piece of content (a step, setting, definition, command or result).\n- Exclude greetings, credits, acknowledgements, funding and website information.\n- Facts must not overlap.\n- For each fact, \"evidence\" must be copied EXACTLY, character for character, from the transcript: one contiguous excerpt of 3 to 25 words that states the fact. Do not translate, transliterate, correct or shorten words inside the excerpt.\n\nTranscript:\n<<<\nलिबर ऑफिस writer के text typing और बुनियादी स्वरूपण यानि basic formatting के इस tutorial में आपका स्वागत है इस tutorial में हम निम्नलिखित सीखेंगे writer में aligning text bullets और क्रमांकन numbering writer में cut copy paste options bold underline और italic options writer में font नेम font size font color documents में इन विशेषताओं का उपयोग करके plain text documents की तुलना में पढ़ने के लिए अधिक आकर्षित और अधिक सरल बनाएँ यहाँ हम अपने operating system के रूप में gnu/लिनक्स का उपयोग कर रहे हैं और लिबर ऑफिस suite version 334 हम पहले writer में aligning text के बारे में सीखेंगे आप writer में अपनी पसंद का एक नया document open कर सकते हैं और इन विशेषताओं को कार्यान्वित कर सकते हैं चूँकि पिछले tutorial में हम पहले से ही resume odt नामक file बना चुके हैं हम इस file को open करेंगे हमने पहले से resume शब्द टाइप किया है और इसे पेज के center में अलाइन एकरेखित किया है अतः चलिए शब्द word चुनिए औरalign leftपर click करें आप देखेंगे कि resume शब्द leftअलाइंड हो गया है अर्थात यह document पेज के हाशिये की बायीं ओर हो गया है यदि हम align right पर click करते हैं आप देखेंगे कि resume शब्द अब पेज की दायीं ओर अलाइन हो गया है यदि हम justify पर click करते हैं आप देखेंगे कि resume शब्द अब इस तरह अलाइंड हो गया है कि text पेज के दायें और बायें हाशिये के मध्य समान रखा है यह विशेषता अधिक स्पष्ट होती है जब आपके पास text की line या paragraph हो इसे अन्डू करते हैं bullets और क्रमांकन उपयोगित होते हैं जब स्वतंत्र प्वॉइंट लिखा जाता है प्रत्येक प्वॉइंट bullet और क्रमांक से शुरू करें इस तरह document में लिखे गये विविध प्वॉइंट्स के बीच भेद कर सकते हैं यह menu bar में पहले format option पर क्लिक करके और फिर bullets and numbering पर क्लिक करके किया जाता है dialog box जिसे आप bullets and numbering option पर क्लिक करने के बाद देखते हैं वह आपको विविध tabs में विविध शैलियाँ styles प्रदान करता है जिसे आप अपने document में लागू कर सकते हैं क्रमांकन numbering option को चुनकर उसी तरह होता है और प्रत्येक line नये क्रमांक से शुरू होगी अतः चलिए numbering type स्टाइल के अंतर्गत दूसरी स्टाइल पर click करते हैं अब ok button पर click करें अब आप अपने पहले statement को type करने के लिए तैयार हैं चलिए type करेंname: ramesh अब statement टाइप करने के बाद enter की press करें आप देखेंगे कि now bullet प्वॉइंट और now वृद्धिशील number now गया है यहाँ आपके चुने प्रारूप के प्रकार के आधार पर bullets के भीतर bullets साथ ही साथ numbers के भीतर numbers हो सकते हैं अतः name  fathers name colon mahesh के रूप में रिज्यूम में दूसरा statement type करते हैं फिर से enter की press करें और mothers name colon shweta type करें उसी तरह हम अलग प्वॉइंट्स के रूप में fathers occupation colon government servant और mothers occupation colon housewife type करेंगे आप क्रमानुसार bullets के लिए indent बढ़ाने और घटाने के लिए टैब और shift कीज का उपयोग कर सकते हैं bullets and numbering option बंद करने के लिए पहले cursor housewife शब्द के आगे रखें और पहले enter की पर click करें और फिर bullets and numbering dialog box में  numbering off option पर click करें आप देखेंगे कि bullet स्टाइल दूसरे text के लिए अब उपलब्ध नहीं है जिसे आप type करेंगे ध्यान दें कि हमने अपने document में name शब्द दो बार टाइप किया है फिर से उसी text को टाइप करने के बजाय हम writer में copy और paste option का उपयोग कर सकते हैं तो चलिए सीखते हैं कि यह कैसे करें अब name mothers name text से name शब्द डिलीट कर देते हैं तथा copy और paste options का उपयोग करके name शब्द फिर से लिखते हैं name शब्द के साथ cursor ड्रैग करके fathers name text में पहले name शब्द को चुनें अब mouse पर right click करें और copy copy option पर click करें mothers शब्द के आगे cursor रखें फिर से mouse पर right click करें और paste option पर click करें name देखेंगे कि name शब्द अपने आप ही pasted हो गया है यहाँ इन options के लिए shortcut कीज भी हैंcopy करने के लिए ctrl + c और paste करने के लिए ctrl + v\n>>>",
+  "generation_config": {
+   "max_output_tokens": 8192
+  },
+  "response_format": {
+   "mime_type": "application/json",
+   "schema": {
+    "$defs": {
+     "Fact": {
+      "properties": {
+       "fact": {
+        "title": "Fact",
+        "type": "string"
+       },
+       "evidence": {
+        "title": "Evidence",
+        "type": "string"
+       }
+      },
+      "required": [
+       "fact",
+       "evidence"
+      ],
+      "title": "Fact",
+      "type": "object"
+     }
+    },
+    "properties": {
+     "summary": {
+      "title": "Summary",
+      "type": "string"
+     },
+     "facts": {
+      "items": {
+       "$ref": "#/$defs/Fact"
+      },
+      "title": "Facts",
+      "type": "array"
+     }
+    },
+    "required": [
+     "summary",
+     "facts"
+    ],
+    "title": "Reference",
+    "type": "object"
+   }
+  }
+ },
+ "output_text": "{\"summary\":\"LibreOffice Writer provides various basic formatting features to enhance plain text documents. Text alignment options include align left, align right, and justify, which distributes text evenly between page margins. Bullets and numbering allow users to distinguish independent points clearly. They are accessed through the Format menu under Bullets and Numbering, where users can select styles from various tabs. Pressing Enter starts a new line with an incremented number or bullet point, and nested bullets or numbers can be created. The Tab and Shift keys increase or decrease bullet indentation levels. Bullets or numbering can be disabled using the Numbering Off option after pressing Enter. Furthermore, repetitive text entry can be avoided using copy and paste functions. Users can select text, right-click to copy, position the cursor, and right-click to paste. Alternatively, keyboard shortcuts Ctrl + C and Ctrl + V can be used for copying and pasting text respectively.\",\"facts\":[{\"fact\":\"The demonstration is performed using the GNU/Linux operating system and LibreOffice suite version 3.3.4.\",\"evidence\":\"यहाँ हम अपने operating system के रूप में gnu/लिनक्स का उपयोग कर रहे हैं और लिबर ऑफिस suite version 334\"},{\"fact\":\"Aligning text to the left positions it along the left margin of the document page.\",\"evidence\":\"align leftपर click करें आप देखेंगे कि resume शब्द leftअलाइंड हो गया है\"},{\"fact\":\"Justify alignment evenly spaces text between the left and right margins of the page.\",\"evidence\":\"text पेज के दायें और बायें हाशिये के मध्य समान रखा है\"},{\"fact\":\"Bullets and numbering can be accessed through the Format option on the menu bar.\",\"evidence\":\"यह menu bar में पहले format option पर क्लिक करके और फिर bullets and numbering पर क्लिक करके किया जाता है\"},{\"fact\":\"Pressing the Enter key automatically inserts a new bullet point or incremental number.\",\"evidence\":\"statement टाइप करने के बाद enter की press करें आप देखेंगे कि now bullet प्वॉइंट और now वृद्धिशील number now गया है\"},{\"fact\":\"The Tab and Shift keys are used to increase and decrease indentation levels for bullets.\",\"evidence\":\"bullets के लिए indent बढ़ाने और घटाने के लिए टैब और shift कीज का उपयोग कर सकते हैं\"},{\"fact\":\"Bullets and numbering can be disabled by selecting the Numbering Off option.\",\"evidence\":\"numbering off option पर click करें\"},{\"fact\":\"Text can be copied by selecting it, right-clicking, and clicking the copy option.\",\"evidence\":\"mouse पर right click करें और copy copy option पर click करें\"},{\"fact\":\"The keyboard shortcut to copy text is Ctrl + C.\",\"evidence\":\"copy करने के लिए ctrl + c\"},{\"fact\":\"The keyboard shortcut to paste text is Ctrl + V.\",\"evidence\":\"paste करने के लिए ctrl + v\"}]}",
+ "response_model": "gemini-3.8-flash",
+ "response_id": "v1_ChdpNVBrYXJTQ05LeUtxdHNQbTd1dGdRRRIXaTVQa2FyU0NOS3lLcXRzUG03dXRnUUU",
+ "usage": {
+  "initial_input_tokens": 1226,
+  "input_tokens_by_modality": [
+   {
+    "modality": "text",
+    "tokens": 1092
+   }
+  ],
+  "total_cached_tokens": 0,
+  "total_input_tokens": 1092,
+  "total_output_tokens": 566,
+  "total_thought_tokens": 4254,
+  "total_tokens": 5912,
+  "total_tool_use_tokens": 0
+ },
+ "meta": {
+  "window_id": "W15"
+ }
+}

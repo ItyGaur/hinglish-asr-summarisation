@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-30T15:39:04+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W12",
+ "condition": "noise:en:0.3",
+ "out_lang": "en",
+ "input_tokens": 1602,
+ "summary": "In this C programming tutorial, the speaker explains the use of `typedef` and `union`. `typedef` is introduced as a keyword used to give a symbolic name to existing data types or user-defined data types, acting as an alias for commands, which helps in making the code more readable and easier to modify. An example of `typedef` is shown where `unsigned int` is given the alias `uint`. The tutorial then moves on to explain `union`, which is a collection that can hold different data types simultaneously but allocates the same storage space for all its members. Only one member can be accessed at a time. An example of using `union` is provided, where a `union` variable `stud` is declared within a function to store marks in English, Math, and Science, and the total marks are calculated and displayed. The difference between `union` and `structure` is also highlighted, noting that `union` allocates the same storage space for all its members. The tutorial concludes with compiling and running the examples using the GCC compiler on Ubuntu version 11.10."
+}

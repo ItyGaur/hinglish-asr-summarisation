@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-30T16:04:46+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W12",
+ "condition": "oracle",
+ "out_lang": "hinglish",
+ "input_tokens": 1538,
+ "summary": "C में `typedef` और `union` के बारे में यहाँ कुछ महत्वपूर्ण बातें हैं। `typedef` कीवर्ड एक मौजूदा डेटा टाइप को एक उपनाम देने में मदद करता है। यह इसे लिखने और समझने में आसानी प्रदान करता है। उदाहरण के लिए, `typedef unsigned int uint;` द्वारा `unsigned int` को `uint` के रूप में उपयोग किया जा सकता है।\n\n`union` एक डेटा टाइप है जो एक समान डेटा स्टोरेज स्पेस को रखता है लेकिन एक समय में एक सिंगल डेटा सदस्य को अक्�"
+}

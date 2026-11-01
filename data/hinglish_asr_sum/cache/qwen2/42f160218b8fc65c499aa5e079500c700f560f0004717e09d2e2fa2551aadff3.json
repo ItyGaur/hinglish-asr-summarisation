@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-30T14:26:44+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W22",
+ "condition": "asr:whisper-small",
+ "out_lang": "en",
+ "input_tokens": 2500,
+ "summary": "In this tutorial on Java Camp features, you will learn how to change the background color of the panel and user interface, include templates, and set the font size for small and inch keys. You will also learn to create stocks by including small and inch keys and write code in Java version 7. To change the panel background color, open Java Camp version 3.3.120, go to Preferences, select \"Look & Feel,\" choose Nimbus, and click OK. For the user interface, switch to Spanish from English by selecting it from the Language menu. To include templates, click on Templates in the menu bar, or use the Template toolbar. Explore various templates and select one to view its structure."
+}

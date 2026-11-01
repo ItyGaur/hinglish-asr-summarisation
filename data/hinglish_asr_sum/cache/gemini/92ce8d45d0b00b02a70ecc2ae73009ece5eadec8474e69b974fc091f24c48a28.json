@@ -1,0 +1,76 @@
+{
+ "created": "2026-10-31T02:31:49+00:00",
+ "template_id": "judge",
+ "variant": 0,
+ "request": {
+  "model": "gemini-3.8-flash",
+  "system_instruction": "You are a strict, consistent evaluator of summary content. Output only JSON that matches the schema.",
+  "input": "Decide, for each numbered fact, whether the SUMMARY conveys it.\n\nA fact is supported if the summary states its core information or clearly implies it, even in different words, in another language (English, Hindi or Hinglish) or in another script. It is not supported if it is missing, only vaguely related, or contradicted. Judge each fact independently, using only the summary.\n\nSUMMARY:\n<<<\nThis tutorial explains how to apply backgrounds and designs to slides using LibreOffice Impress on a GNU/Linux operating system. It covers customizing slide masters and applying them across all slides. To change the background, you select the Slide Master, then choose the desired background from the Format menu. For a white background, you set the fill to bitmap and choose blank. Changing text color to black improves readability against a white background. Adding colors or shapes involves selecting the appropriate options from the context menu or toolbar. The tutorial also demonstrates adding elements like logos and shapes, such as rectangles, to slides. Overall, it guides users through creating visually appealing presentations with customized backgrounds and designs.\n>>>\n\nFACTS:\n1. A slide background refers to all colors and effects applied behind the content of the slide.\n2. Any alteration made to the master slide applies to every slide in the presentation.\n3. The Slide Master view is opened by navigating to View, selecting Master, and clicking Slide Master from the main menu.\n4. The master view toolbar can be used to create, delete, and rename master pages.\n5. A white background can be applied by choosing the blank option under bitmap fill in the Page Setup dialog box.\n6. The text color can be set to black from the Font Effects tab within the Character dialog box.\n7. A light blue color can be applied to a slide by selecting Blue 8 from the color fill dropdown menu in Page Setup.\n8. The basic shapes toolbar at the bottom of the screen allows users to draw various basic shapes.\n9. When drawing a rectangle, the cursor displays a plus sign accompanied by a capital letter I.\n10. The control points that appear on a selected object are eight small blue squares used to resize it.\n\nReturn exactly one judgement per fact id.",
+  "generation_config": {
+   "max_output_tokens": 4096
+  },
+  "response_format": {
+   "mime_type": "application/json",
+   "schema": {
+    "$defs": {
+     "Judgement": {
+      "properties": {
+       "id": {
+        "title": "Id",
+        "type": "integer"
+       },
+       "supported": {
+        "title": "Supported",
+        "type": "boolean"
+       }
+      },
+      "required": [
+       "id",
+       "supported"
+      ],
+      "title": "Judgement",
+      "type": "object"
+     }
+    },
+    "properties": {
+     "judgements": {
+      "items": {
+       "$ref": "#/$defs/Judgement"
+      },
+      "title": "Judgements",
+      "type": "array"
+     }
+    },
+    "required": [
+     "judgements"
+    ],
+    "title": "Judgements",
+    "type": "object"
+   }
+  }
+ },
+ "output_text": "{\n  \"judgements\": [\n    {\n      \"id\": 1,\n      \"supported\": false\n    },\n    {\n      \"id\": 2,\n      \"supported\": true\n    },\n    {\n      \"id\": 3,\n      \"supported\": false\n    },\n    {\n      \"id\": 4,\n      \"supported\": false\n    },\n    {\n      \"id\": 5,\n      \"supported\": true\n    },\n    {\n      \"id\": 6,\n      \"supported\": false\n    },\n    {\n      \"id\": 7,\n      \"supported\": false\n    },\n    {\n      \"id\": 8,\n      \"supported\": false\n    },\n    {\n      \"id\": 9,\n      \"supported\": false\n    },\n    {\n      \"id\": 10,\n      \"supported\": false\n    }\n  ]\n}",
+ "response_model": "gemini-3.8-flash",
+ "response_id": "v1_Chc5bExsYXZXUkZjcS1xdHNQeUluZjhRdxIXOWxMbGF2V1JGY3EtcXRzUHlJbmY4UXc",
+ "usage": {
+  "initial_input_tokens": 595,
+  "input_tokens_by_modality": [
+   {
+    "modality": "text",
+    "tokens": 477
+   }
+  ],
+  "total_cached_tokens": 0,
+  "total_input_tokens": 477,
+  "total_output_tokens": 215,
+  "total_thought_tokens": 883,
+  "total_tokens": 1575,
+  "total_tool_use_tokens": 0
+ },
+ "meta": {
+  "window_id": "W01",
+  "condition": "oracle",
+  "out_lang": "en",
+  "kind": "summary"
+ }
+}

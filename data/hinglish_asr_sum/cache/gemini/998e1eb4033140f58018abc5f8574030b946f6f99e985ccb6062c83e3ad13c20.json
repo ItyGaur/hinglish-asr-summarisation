@@ -1,0 +1,76 @@
+{
+ "created": "2026-10-31T02:34:07+00:00",
+ "template_id": "judge",
+ "variant": 0,
+ "request": {
+  "model": "gemini-3.8-flash",
+  "system_instruction": "You are a strict, consistent evaluator of summary content. Output only JSON that matches the schema.",
+  "input": "Decide, for each numbered fact, whether the SUMMARY conveys it.\n\nA fact is supported if the summary states its core information or clearly implies it, even in different words, in another language (English, Hindi or Hinglish) or in another script. It is not supported if it is missing, only vaguely related, or contradicted. Judge each fact independently, using only the summary.\n\nSUMMARY:\n<<<\nThis tutorial covers creating custom animations in LibreOffice Impress, using a GNU Linux operating system and version 334 of the LibreOffice suite. To start, open a presentation file and select a slide. Choose an element on the slide, such as a text box, and then access the Custom Animation feature from the Tasks pane. The Custom Animation dialog box appears, where you can choose the type of animation, such as entrance or motion paths. You can also adjust the speed and order of animations. For example, you can set one animation to move diagonally and another to move in a wedge shape. Animations are added to the list in the order they are created. To change the order, double-click an animation to open the Effect Options dialog box. Here, you can modify properties like direction and delay. By adjusting these settings, you can create more dynamic and engaging presentations.\n>>>\n\nFACTS:\n1. The sampleimpress.odp presentation is opened to begin the tutorial.\n2. A text box is selected by clicking on its text and then clicking on the visible border.\n3. The entrance tab controls the way an object appears on the screen.\n4. The diagonal squares animation is selected under the basic category.\n5. The wedge animation under basic animation is chosen with the speed set to medium.\n6. Multiple animations can be selected for preview by holding down the Shift key.\n7. The order of animations can be modified using the change order buttons.\n8. Double-clicking the first animation in the list opens the effects options dialog box.\n9. The animation direction can be adjusted to from right to top under settings.\n10. An animation delay can be increased in the delay field under the timing tab.\n\nReturn exactly one judgement per fact id.",
+  "generation_config": {
+   "max_output_tokens": 4096
+  },
+  "response_format": {
+   "mime_type": "application/json",
+   "schema": {
+    "$defs": {
+     "Judgement": {
+      "properties": {
+       "id": {
+        "title": "Id",
+        "type": "integer"
+       },
+       "supported": {
+        "title": "Supported",
+        "type": "boolean"
+       }
+      },
+      "required": [
+       "id",
+       "supported"
+      ],
+      "title": "Judgement",
+      "type": "object"
+     }
+    },
+    "properties": {
+     "judgements": {
+      "items": {
+       "$ref": "#/$defs/Judgement"
+      },
+      "title": "Judgements",
+      "type": "array"
+     }
+    },
+    "required": [
+     "judgements"
+    ],
+    "title": "Judgements",
+    "type": "object"
+   }
+  }
+ },
+ "output_text": "{\n  \"judgements\": [\n    {\n      \"id\": 1,\n      \"supported\": false\n    },\n    {\n      \"id\": 2,\n      \"supported\": false\n    },\n    {\n      \"id\": 3,\n      \"supported\": false\n    },\n    {\n      \"id\": 4,\n      \"supported\": false\n    },\n    {\n      \"id\": 5,\n      \"supported\": false\n    },\n    {\n      \"id\": 6,\n      \"supported\": false\n    },\n    {\n      \"id\": 7,\n      \"supported\": false\n    },\n    {\n      \"id\": 8,\n      \"supported\": false\n    },\n    {\n      \"id\": 9,\n      \"supported\": false\n    },\n    {\n      \"id\": 10,\n      \"supported\": false\n    }\n  ]\n}",
+ "response_model": "gemini-3.8-flash",
+ "response_id": "v1_ChdsbFBsYXZpTE1xeWxtdGtQaE55X3NRMBIXbGxQbGF2aUxNcXlsbXRrUGhOeV9zUTA",
+ "usage": {
+  "initial_input_tokens": 589,
+  "input_tokens_by_modality": [
+   {
+    "modality": "text",
+    "tokens": 471
+   }
+  ],
+  "total_cached_tokens": 0,
+  "total_input_tokens": 471,
+  "total_output_tokens": 215,
+  "total_thought_tokens": 1054,
+  "total_tokens": 1740,
+  "total_tool_use_tokens": 0
+ },
+ "meta": {
+  "window_id": "W04",
+  "condition": "oracle",
+  "out_lang": "en",
+  "kind": "summary"
+ }
+}

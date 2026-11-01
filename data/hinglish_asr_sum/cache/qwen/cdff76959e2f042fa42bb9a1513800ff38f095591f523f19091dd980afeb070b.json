@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-30T15:59:51+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W09",
+ "condition": "noise:hi:0.5",
+ "out_lang": "en",
+ "input_tokens": 2898,
+ "summary": "This tutorial covers the basics of using Impress, a presentation software from LibreOffice, on a GNU/Linux system with LibreOffice version 3.3.4. It explains how to navigate the Impress interface, including various view modes like Normal, Outline, Notes, Handout, Slide Sorter, and others. Key steps include inserting and duplicating slides, adding titles, copying and pasting slides, and formatting text. The tutorial demonstrates how to change fonts, font sizes, and text styles using the toolbar and the Format menu. It also shows how to customize text colors and apply formatting options such as bold, italic, and underline directly within the text boxes."
+}

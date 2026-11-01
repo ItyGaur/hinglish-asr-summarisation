@@ -1,0 +1,78 @@
+{
+ "created": "2026-10-30T16:12:14+00:00",
+ "template_id": "reference",
+ "variant": 0,
+ "request": {
+  "model": "gemini-3.8-flash",
+  "system_instruction": "You are a careful annotator building evaluation data for summarisation research. Follow the instructions exactly and output only JSON that matches the schema.",
+  "input": "Below is the exact human transcript of a segment of a recorded software tutorial. The speaker code-mixes Hindi and English: Hindi is mostly written in Devanagari and English mostly in Latin script, but some English words are written in Devanagari.\n\nProduce two things.\n\n1. \"summary\": an English summary of the segment's content, 120-180 words, plain prose, covering the main steps, concepts and facts taught. Do not mention the speaker, the tutorial series, greetings, credits, funding or websites.\n\n2. \"facts\": 8 to 15 atomic facts that a good summary of this segment should contain.\n- Each fact is one short, self-contained English sentence stating a single piece of content (a step, setting, definition, command or result).\n- Exclude greetings, credits, acknowledgements, funding and website information.\n- Facts must not overlap.\n- For each fact, \"evidence\" must be copied EXACTLY, character for character, from the transcript: one contiguous excerpt of 3 to 25 words that states the fact. Do not translate, transliterate, correct or shorten words inside the excerpt.\n\nTranscript:\n<<<\nlibreoffice impress में slide बनाने पर spoken tutorial में आपका स्वागत है इस tutorial में हम in बारे में सीखेंगेः slide shows slide shows slide transitions slide transitions automatic shows automatic shows आप दर्शक के सामने slide प्रस्तुत करने के लिए slide shows का उपयोग कर सकते हैं slide shows desktops या projectors पर दिखाए जा सकते हैं slide shows पूर्ण computer screen लेता है प्रस्तुतियाँ slide show mode में संपादित नहीं की जा सकती हैं slide shows केवल प्रदर्शन के लिए हैं प्रस्तुति sampleimpress odp खोलें इस प्रस्तुति को slide show के रूप में देखें main menu से slide show पर click करें और फिर slide show settings पर click करें वैकल्पिक रूप से आप slide show को शुरू करने के लिए function की f5 को उपयोग कर सकते हैं प्रस्तुति slide show के रूप में प्रदर्शित होती है आप अपने keyboard पर arrow buttons का उपयोग करके slides के बीच navigate कर सकते हैं वैकल्पिक रूप से context menu के लिए दायाँclick करें और next चुनें यह आपको अगली slide पर ले जायेगा slide show से बाहर आने के लिए context menu के लिए दायाँclick करें यहाँ end show चुनें बाहर आने के लिए दूसरा तरीका है escape button दबाएँ आप mouse pointer as pen option का उपयोग करके अपने दर्शकों से बातचीत कर सकते हैं इस option को सक्षम करें और देखें यह कैसे कार्य करता है main menu से slide show और slide show settings पर click करें slide show dialog box प्रदर्शित होता है options के नीचे mouse pointer visible और mouse pointer as pen boxes को check करें dialog box को बंद करने के लिए ok पर click करें फिर से main menu से slide show पर और फिर slide show settings पर click करें ध्यान दें कि cursor अब pen में बदल गया है यह option आपको प्रस्तुति पर लिखने और कुछ बनाने की अनुमति देता है जब यह slide show mode में हो जब आप बायाँ mouse button दबाते हैं आप pen से रेखाचित्र button सकते हैं पहले प्वॉइंट के सामने एक tick mark बनाएँ tutorial को रोकें और इस नियतकार्य को करें एक impress slide पर एक छोटा चित्र बनाने के लिए sketch pen का उपयोग करें अब mouse button पर बायाँclick करें अगली slide प्रदर्शित होती है आप अगली slide को आगे बढ़ा सकते हैं जब आप space bar दबाते हैं slide show से बाहर आएँ context menu के लिए दायाँclick करें और end show पर click करें आगे slide transitions के बारे में सीखते हैं slide transitions क्या हैं ट्रांजिशनस्स प्रभाव हैं जो slides पर लागू किये जाते हैं जब हम प्रस्तुति में एक slides से दूसरी slides पर स्थानांतरण या transitions करते हैं main main में slide sorter टैब पर click करें प्रस्तुति की सभी slides यहाँ प्रदर्शित होती हैं आप इस दृश्य की प्रस्तुति में आसानी से slides का क्रम बदल सकते हैं slide 1 चुनें अब बायाँ mouse button दबाएँ slides 3 और 4 के बीच slide को drag और drop करें slides पुनः व्यवस्थित हो गयी हैं इस प्रक्रिया को undo करने के लिए ctrl + z की दबाएँ आप एक ही बार में प्रत्येक slide में भिन्न transitions जोड़ सकते हैं slide sorter view से पहली slide चुनें अब task pane में slide transitions पर click करें apply to selected slides के नीचे scroll करें और wipe up चुनें ध्यान दें कि transition प्रभाव मुख्य main में प्रदर्शित होते हैं आप speed dropdown menu से options का चुनाव करके transition की गति नियंत्रित कर सकते हैं modify transitions के नीचे speed dropdown box पर click करें medium पर click करें अब transition में ध्वनि set करें modify transitions के नीचे speed dropdown box पर click करें beam चुनें इसी तरह दूसरी slide चुनें task pane में slide transitions पर click करें\n>>>",
+  "generation_config": {
+   "max_output_tokens": 8192
+  },
+  "response_format": {
+   "mime_type": "application/json",
+   "schema": {
+    "$defs": {
+     "Fact": {
+      "properties": {
+       "fact": {
+        "title": "Fact",
+        "type": "string"
+       },
+       "evidence": {
+        "title": "Evidence",
+        "type": "string"
+       }
+      },
+      "required": [
+       "fact",
+       "evidence"
+      ],
+      "title": "Fact",
+      "type": "object"
+     }
+    },
+    "properties": {
+     "summary": {
+      "title": "Summary",
+      "type": "string"
+     },
+     "facts": {
+      "items": {
+       "$ref": "#/$defs/Fact"
+      },
+      "title": "Facts",
+      "type": "array"
+     }
+    },
+    "required": [
+     "summary",
+     "facts"
+    ],
+    "title": "Reference",
+    "type": "object"
+   }
+  }
+ },
+ "output_text": "{\n  \"summary\": \"In LibreOffice Impress, slide shows display presentations on full screens or projectors and cannot be edited during the show. Users can start a slide show using the F5 function key and navigate through slides using keyboard arrow keys, the space bar, or the right-click context menu. Pressing the Escape key or choosing End Show from the context menu exits the presentation. By enabling the mouse pointer visible and mouse pointer as pen options within the Slide Show Settings dialog box, presenters can draw or write directly on slides during a presentation. Slide transitions are visual effects applied when moving from one slide to another. Within the Slide Sorter tab, users can view all slides and easily rearrange their order by dragging and dropping them. Individual slides can have custom transition effects, such as Wipe Up, applied from the Slide Transition section in the Task Pane. Additionally, transition speed can be adjusted to options like medium, and transition sounds can be configured.\",\n  \"facts\": [\n    {\n      \"fact\": \"Presentations cannot be edited while in slide show mode.\",\n      \"evidence\": \"प्रस्तुतियाँ slide show mode में संपादित नहीं की जा सकती हैं\"\n    },\n    {\n      \"fact\": \"The F5 function key can be used to start a slide show.\",\n      \"evidence\": \"slide show को शुरू करने के लिए function की f5 को उपयोग कर सकते हैं\"\n    },\n    {\n      \"fact\": \"Pressing the escape button exits the slide show.\",\n      \"evidence\": \"बाहर आने के लिए दूसरा तरीका है escape button दबाएँ\"\n    },\n    {\n      \"fact\": \"The mouse pointer as pen option allows users to draw and write on the presentation during slide show mode.\",\n      \"evidence\": \"यह option आपको प्रस्तुति पर लिखने और कुछ बनाने की अनुमति देता है जब यह slide show mode में हो\"\n    },\n    {\n      \"fact\": \"Pressing the space bar advances the presentation to the next slide.\",\n      \"evidence\": \"आप अगली slide को आगे बढ़ा सकते हैं जब आप space bar दबाते हैं\"\n    },\n    {\n      \"fact\": \"Slide transitions are visual effects applied when moving from one slide to another in a presentation.\",\n      \"evidence\": \"ट्रांजिशनस्स प्रभाव हैं जो slides पर लागू किये जाते हैं जब हम प्रस्तुति में एक slides से दूसरी slides पर स्थानांतरण या transitions करते हैं\"\n    },\n    {\n      \"fact\": \"Clicking on the Slide Sorter tab displays all slides in the presentation.\",\n      \"evidence\": \"slide sorter टैब पर click करें प्रस्तुति की सभी slides यहाँ प्रदर्शित होती हैं\"\n    },\n    {\n      \"fact\": \"Slides can be rearranged by dragging and dropping a selected slide to a new position.\",\n      \"evidence\": \"slides 3 और 4 के बीच slide को drag और drop करें slides पुनः व्यवस्थित हो गयी हैं\"\n    },\n    {\n      \"fact\": \"Transitions can be applied to slides by selecting slide transitions in the task pane.\",\n      \"evidence\": \"task pane में slide transitions पर click करें\"\n    },\n    {\n      \"fact\": \"Transition speed can be adjusted by selecting an option from the speed dropdown menu.\",\n      \"evidence\": \"आप speed dropdown menu से options का चुनाव करके transition की गति नियंत्रित कर सकते हैं\"\n    }\n  ]\n}",
+ "response_model": "gemini-3.8-flash",
+ "response_id": "v1_Chc1c0RrYXRTVUM0YkgtOFlQa09YeWdBURIXNXNEa2F0U1VDNGJILThZUGtPWHlnQVE",
+ "usage": {
+  "initial_input_tokens": 1093,
+  "input_tokens_by_modality": [
+   {
+    "modality": "text",
+    "tokens": 959
+   }
+  ],
+  "total_cached_tokens": 0,
+  "total_input_tokens": 959,
+  "total_output_tokens": 707,
+  "total_thought_tokens": 1720,
+  "total_tokens": 3386,
+  "total_tool_use_tokens": 0
+ },
+ "meta": {
+  "window_id": "W20"
+ }
+}

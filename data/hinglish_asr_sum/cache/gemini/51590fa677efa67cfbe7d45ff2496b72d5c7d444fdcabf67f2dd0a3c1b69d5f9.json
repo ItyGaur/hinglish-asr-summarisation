@@ -1,0 +1,78 @@
+{
+ "created": "2026-10-30T11:23:23+00:00",
+ "template_id": "reference",
+ "variant": 0,
+ "request": {
+  "model": "gemini-3.8-flash",
+  "system_instruction": "You are a careful annotator building evaluation data for summarisation research. Follow the instructions exactly and output only JSON that matches the schema.",
+  "input": "Below is the exact human transcript of a segment of a recorded software tutorial. The speaker code-mixes Hindi and English: Hindi is mostly written in Devanagari and English mostly in Latin script, but some English words are written in Devanagari.\n\nProduce two things.\n\n1. \"summary\": an English summary of the segment's content, 120-180 words, plain prose, covering the main steps, concepts and facts taught. Do not mention the speaker, the tutorial series, greetings, credits, funding or websites.\n\n2. \"facts\": 8 to 15 atomic facts that a good summary of this segment should contain.\n- Each fact is one short, self-contained English sentence stating a single piece of content (a step, setting, definition, command or result).\n- Exclude greetings, credits, acknowledgements, funding and website information.\n- Facts must not overlap.\n- For each fact, \"evidence\" must be copied EXACTLY, character for character, from the transcript: one contiguous excerpt of 3 to 25 words that states the fact. Do not translate, transliterate, correct or shorten words inside the excerpt.\n\nTranscript:\n<<<\nलिबर ऑफिस writer में documents को प्रिंट तथा देखने के इस spoken tutorial में आपका स्वागत है इस tutorial में हम निम्नलिखित सीखेंगे documents को देखना डॉक्युमेन्ट्स को प्रिंट करना यहाँ हम अपने operating system के रूप में gnu/लिनक्स का उपयोग कर रहे हैं और लिबर ऑफिस suite version 334 अतः लिबर ऑफिस writer में विविध view options के बारे में सीख कर अपने tutorial की शुरूआत करते हैं यहाँ writer में मूलतः दो व्यापक उपयोगित view options हैं यह हैं print layout और web layout print layout option document print होने पर कैसे नज़र आएगा यह प्रदर्शित करेगा web layout option document web browser में कैसे नज़र आएगा यह प्रदर्शित करेगा यह उपयोगी है जब आपको html documents बनाने होते हैं तथा documents को एडिट करते वक्त full screen mode में उसे देखने के लिए print layout option के लिए view option पर click करें और फिर print layout option पर click करें web layout option के लिए मेन्यूबार में view option पर click करें और फिर web layout option पर click करें इन options के अलावा आप document को full screen mode में भी देख सकते हैं मेन्यूबार में view option click करें और फिर full screen option पर click करें डोक्युमेन्ट्स को एडिट करने तथा projector पर दिखाने के लिए full screen mode उपयोगी है full screen से बाहर in के लिए keyboard से escape की press करें हम देखते हैं कि document full screen mode से बाहर आया है अब view menu में print layout option पर click करें आगे बढ़ने से पहले अपने document में एक पेज जोड़ते हैं क्लिक करें insert>> manual break और page break option चुने फिर ok पर click करें इसके बारे में विस्तृत रूप से हम अगले tutorial में सीखेंगे zoom एक अन्य option है document को देखने के लिए मेन्यूबार में viewऑप्शन पर click करें और फिर zoom पर click करें zoom तथा view layout dialog box हमें दिखाई पड़ता है इन पर headings है zoom factorand view layout zoom factor वर्तमान document और उसी प्रकार के सभी documents को प्रदर्शित करने के लिए zoom factor sets करता है जिन्हें आप उसके बाद खोलते हो इसमें कई उपयोगी options हैं जिनकी चर्चा एकएक करके करेंगे optimalऑप्शन पर क्लिक करके आपको document का अधिक अनुकूल दृश्य मिलता है fit width and height view view document को पेज की संपूर्ण लम्बाई और चौड़ाई में सर्वत्र fit करता है इस प्रकार यह एक समय में एक पृष्ठ प्रदर्शित करता है यह document के विभिन्न पेजों को देखने और एडिट करने के लिए अधिक सरल बनाता है अगला option है fit to width यह पेज को इसकी चौड़ाई से fit करता है 100% view पेज को अपने वास्तविक size में प्रदर्शित करेगा आगे हमारे पास variable नामक अधिक महत्वपूर्ण viewing option है variable field में आप zoom factor enter कर सकते हैं जिसमें आप document प्रदर्शित करना चाहते हैं उदाहरणस्वरूप हम variable field में 75%  value enter करते हैं और फिर ok button पर click करते हैं वैसे ही documents को एडिट और देखने के लिए आप अपनी जरूरत और सुविधा के अनुसार zoom factor को बदल सकते हैं dialog box में अन्य feature view layout है view layout option text documents के लिए है इसका उपयोग document में विभिन्न view लेआउट settings के प्रभाव को देखने के लिए zoom factor को कम करने के लिए किया जाता है इसमें क्रमानुसार एक के नीचे एक और आस पास में पेज प्रदर्शित करने के लिए automatic और single page जैसे options हैं उदाहरणस्वरूप यदि हम zoom factor के अंदर fit width and height option चुनते हैं तो फिर view layout option के अंदर single page option पर click करें और आखिर में ok button पर click करें हम देखेंगे कि पेजेस एक नीचे एक प्रदर्शित होते हैं अब automaticऑप्शन पर click करें और फिर ok button पर click करें आप देखेंगे कि पेजेस आसपास प्रदर्शित होते हैं writer status bar पर the controls भी अपने document के view लेआउट और zoom को बदलने की अनुमति देते हैं view लेआउट icons बाएँ से दाएँ निम्नलिखित हैंsingle column mode single column mode asपास पेजेस के साथ view mode और एक खुली किताब के रूप में दो पेजेस के साथ book mode\n>>>",
+  "generation_config": {
+   "max_output_tokens": 8192
+  },
+  "response_format": {
+   "mime_type": "application/json",
+   "schema": {
+    "$defs": {
+     "Fact": {
+      "properties": {
+       "fact": {
+        "title": "Fact",
+        "type": "string"
+       },
+       "evidence": {
+        "title": "Evidence",
+        "type": "string"
+       }
+      },
+      "required": [
+       "fact",
+       "evidence"
+      ],
+      "title": "Fact",
+      "type": "object"
+     }
+    },
+    "properties": {
+     "summary": {
+      "title": "Summary",
+      "type": "string"
+     },
+     "facts": {
+      "items": {
+       "$ref": "#/$defs/Fact"
+      },
+      "title": "Facts",
+      "type": "array"
+     }
+    },
+    "required": [
+     "summary",
+     "facts"
+    ],
+    "title": "Reference",
+    "type": "object"
+   }
+  }
+ },
+ "output_text": "{\n  \"summary\": \"LibreOffice Writer provides multiple view options to display documents according to different needs. The Print Layout option displays the document as it will appear when printed, whereas Web Layout displays it as it would appear in a web browser, making it ideal for creating HTML documents. Users can access Full Screen mode through the View menu to edit documents or present them on a projector, and press the Escape key to exit. To adjust page magnification, the Zoom option in the View menu opens the Zoom and View Layout dialog box. Within this dialog, Zoom Factor includes settings such as Optimal, Fit width and height, Fit to width, 100% view, and a Variable field for custom zoom percentages. Furthermore, the View Layout section allows users to display pages sequentially one below another using Single page, or side by side using the Automatic option. Document view layouts and zoom can also be quickly adjusted using controls on the Writer status bar, including single column and book modes.\",\n  \"facts\": [\n    {\n      \"fact\": \"Print Layout and Web Layout are the two primary view options in LibreOffice Writer.\",\n      \"evidence\": \"यहाँ writer में मूलतः दो व्यापक उपयोगित view options हैं यह हैं print layout और web layout\"\n    },\n    {\n      \"fact\": \"The Web Layout option displays how the document will appear in a web browser.\",\n      \"evidence\": \"web layout option document web browser में कैसे नज़र आएगा यह प्रदर्शित करेगा\"\n    },\n    {\n      \"fact\": \"Full screen mode is useful for editing documents and displaying them on a projector.\",\n      \"evidence\": \"डोक्युमेन्ट्स को एडिट करने तथा projector पर दिखाने के लिए full screen mode उपयोगी है\"\n    },\n    {\n      \"fact\": \"Pressing the Escape key exits Full Screen mode.\",\n      \"evidence\": \"full screen से बाहर in के लिए keyboard से escape की press करें\"\n    },\n    {\n      \"fact\": \"A new page break is inserted by choosing Insert, Manual Break, selecting Page Break, and clicking OK.\",\n      \"evidence\": \"क्लिक करें insert>> manual break और page break option चुने फिर ok पर click करें\"\n    },\n    {\n      \"fact\": \"The Zoom and View Layout dialog box contains the headings Zoom Factor and View Layout.\",\n      \"evidence\": \"zoom तथा view layout dialog box हमें दिखाई पड़ता है इन पर headings है zoom factorand view layout\"\n    },\n    {\n      \"fact\": \"The 'Fit width and height' option fits the document across the full length and width of the page.\",\n      \"evidence\": \"fit width and height view view document को पेज की संपूर्ण लम्बाई और चौड़ाई में सर्वत्र fit करता है\"\n    },\n    {\n      \"fact\": \"The 100% view displays the page in its actual size.\",\n      \"evidence\": \"100% view पेज को अपने वास्तविक size में प्रदर्शित करेगा\"\n    },\n    {\n      \"fact\": \"A custom zoom factor can be entered in the Variable field.\",\n      \"evidence\": \"variable field में आप zoom factor enter कर सकते हैं जिसमें आप document प्रदर्शित करना चाहते हैं\"\n    },\n    {\n      \"fact\": \"Selecting the Automatic view layout option displays pages side by side.\",\n      \"evidence\": \"automaticऑप्शन पर click करें और फिर ok button पर click करें आप देखेंगे कि पेजेस आसपास प्रदर्शित होते हैं\"\n    },\n    {\n      \"fact\": \"The controls on the Writer status bar also permit changing the document's view layout and zoom.\",\n      \"evidence\": \"writer status bar पर the controls भी अपने document के view लेआउट और zoom को बदलने की अनुमति देते हैं\"\n    }\n  ]\n}",
+ "response_model": "gemini-3.8-flash",
+ "response_id": "v1_ChcxM3prYXNXZEZkaVVtdGtQMmNtVW9RMBIXMTN6a2FzV2RGZGlVbXRrUDJjbVVvUTA",
+ "usage": {
+  "initial_input_tokens": 1181,
+  "input_tokens_by_modality": [
+   {
+    "modality": "text",
+    "tokens": 1047
+   }
+  ],
+  "total_cached_tokens": 0,
+  "total_input_tokens": 1047,
+  "total_output_tokens": 787,
+  "total_thought_tokens": 2820,
+  "total_tokens": 4654,
+  "total_tool_use_tokens": 0
+ },
+ "meta": {
+  "window_id": "W08"
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-30T15:52:48+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W07",
+ "condition": "noise:hi:0.3",
+ "out_lang": "en",
+ "input_tokens": 2782,
+ "summary": "This tutorial explains how to perform peer review and document proofreading using LibreOffice Writer. It covers the process of tracking changes in a document and allowing reviewers to comment on it. The steps include opening an existing document, setting up change recording, and making edits. The tutorial demonstrates how to insert comments, delete text, and mark deletions. It also shows how to differentiate between original and edited text by changing the color. The document proofreading feature highlights changes in a different color, making them easier to spot. The tutorial then opens another document with previous edits and comments made by a reviewer, illustrating the changes. Overall, it provides a comprehensive guide on utilizing the document review features in LibreOffice Writer for collaborative editing and feedback."
+}

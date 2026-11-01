@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-30T15:51:19+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W14",
+ "condition": "noise:hi:0.2",
+ "out_lang": "en",
+ "input_tokens": 2754,
+ "summary": "This tutorial covers configuring email settings on Thunderbird for Gmail and Yahoo accounts. It explains how to add folders, search for specific emails, and set up filters. To add a folder, select the email account, right-click, choose \"New Folder,\" and name it (e.g., \"Important Mails\"). Dragging emails into this folder moves them there. Advanced filters can be set using the Search Messages feature, where you can specify criteria like subject and content. For example, searching for emails with \"Thunderbird\" in the subject moves them to the \"Important Mails\" folder. Filters can also be created to automatically move specific emails to designated folders. The tutorial demonstrates configuring a Yahoo account for POP access, allowing users to manage multiple email accounts within Thunderbird, including Gmail and Yahoo."
+}

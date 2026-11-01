@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-30T15:46:37+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W05",
+ "condition": "noise:hi:0.1",
+ "out_lang": "en",
+ "input_tokens": 2962,
+ "summary": "This tutorial introduces Mozilla Thunderbird, a simple email client available on multiple operating systems. It covers downloading and launching Thunderbird, configuring new email accounts, reading, writing, and sending emails, and logging out. Thunderbird supports various email services like Gmail and Yahoo, allowing you to manage multiple accounts. For Ubuntu Linux 12.04, you can install Thunderbird via the Ubuntu Software Center or download it directly from its website. To use Thunderbird, you need at least two valid email addresses with POP3 enabled. After installation, launch Thunderbird from the home menu icon, which appears as a circular button on the left corner of your desktop. The application interface includes a main menu with options and a toolbar with shortcuts for actions like getting mail, writing, and accessing the address book. Thunderbird is divided into two panels; the left panel displays folders from your Thunderbird accounts, while the right panel offers advanced features and options. The tutorial demonstrates setting up POP3 for Gmail by logging into the Gmail account, navigating to settings, and enabling POP3 for all emails."
+}

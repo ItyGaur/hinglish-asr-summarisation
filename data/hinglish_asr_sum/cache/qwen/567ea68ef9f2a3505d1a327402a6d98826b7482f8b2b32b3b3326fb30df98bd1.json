@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-31T12:36:00+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W19",
+ "condition": "asr:whisper-small",
+ "out_lang": "en",
+ "input_tokens": 3468,
+ "summary": "This tutorial explains how to create and customize newsletters using LibreOffice Writer. It starts with setting up columns for text flow, where you can specify the number of columns, column spacing, and line spacing. You can preview the layout and make adjustments by clicking on the appropriate buttons. Text flows from one column to another automatically, and you can insert images or change the text direction. To add a header, you can use the Insert button followed by a Header Line. For formatting, you can highlight text and apply different background colors or effects like bold or italic. The Text Options feature allows you to customize banners and text boxes within the document. Additionally, you can animate text using the Text Animation feature, which offers various effects to make your newsletter more engaging."
+}

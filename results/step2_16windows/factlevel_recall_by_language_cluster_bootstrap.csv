@@ -1,0 +1,13 @@
+condition,tag,n_decisions,recall,diff_vs_oracle,ci_lo,ci_hi
+oracle,all,169,0.414,,,
+oracle,hi,98,0.398,,,
+oracle,en,21,0.524,,,
+oracle,mixed,50,0.4,,,
+asr:trelis-hinglish-preview,all,169,0.391,-0.024,-0.135,0.089
+asr:trelis-hinglish-preview,hi,98,0.408,0.01,-0.115,0.141
+asr:trelis-hinglish-preview,en,21,0.143,-0.381,-0.647,-0.154
+asr:trelis-hinglish-preview,mixed,50,0.46,0.06,-0.14,0.233
+asr:whisper-small,all,169,0.207,-0.207,-0.304,-0.105
+asr:whisper-small,hi,98,0.214,-0.184,-0.298,-0.059
+asr:whisper-small,en,21,0.095,-0.429,-0.571,-0.294
+asr:whisper-small,mixed,50,0.24,-0.16,-0.346,0.0

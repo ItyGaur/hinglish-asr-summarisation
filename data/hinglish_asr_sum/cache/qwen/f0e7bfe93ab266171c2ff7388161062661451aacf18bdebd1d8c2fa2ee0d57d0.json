@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-30T15:48:45+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W01",
+ "condition": "noise:hi:0.2",
+ "out_lang": "en",
+ "input_tokens": 2425,
+ "summary": "This tutorial explains how to customize slide backgrounds in LibreOffice Impress, a presentation software. It starts by opening a sample presentation file and then demonstrates how to apply a custom background using the Slide Master feature. To do this, you select the Slide Master view from the View menu, where you can modify the master slide to change the background for all slides. You can choose from various background options or create a custom one by setting the background type to \"Bitmap\" and selecting \"Blank.\" For better visibility, it advises choosing a text color that contrasts well with the background. The tutorial also covers adding elements like logos and shapes to presentations. For example, you can insert a rectangle shape from the Basic Shapes toolbar to create a title area on the slide. By dragging the handles, you can resize and position the shape as needed."
+}

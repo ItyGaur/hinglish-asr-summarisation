@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-30T16:08:48+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W13",
+ "condition": "asr:trelis-hinglish-preview",
+ "out_lang": "hinglish",
+ "input_tokens": 2640,
+ "summary": "नमस्कार! इस tutorial में हम jcampaint के बारे में सीखेंगे। यह एक फ्री और ओपन सोर्स क्रॉस प्लेटफॉर्म एप्लीकेशन है जो जावा में विकसित है। यह चामकों और स्ट्रक्चर्स को संस्थापित करने और संस्थापित करने में मदद करता है।\n\nओबंटू ऑपरेटिंग सिस्टम पर jcampaint संस्थापित करने के लिए, आप फायरफॉक्स ब्राउजर खोलकर जेकैम्पेंट की डाउनलोड पेज जाकर एचटीटीपी://jcampaint.dotgithub.io लिंक पर क्लिक करें। फि�"
+}

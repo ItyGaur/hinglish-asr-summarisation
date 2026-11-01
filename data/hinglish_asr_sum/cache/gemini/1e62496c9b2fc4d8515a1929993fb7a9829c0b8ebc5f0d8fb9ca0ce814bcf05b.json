@@ -1,0 +1,78 @@
+{
+ "created": "2026-10-30T16:35:45+00:00",
+ "template_id": "reference",
+ "variant": 0,
+ "request": {
+  "model": "gemini-3.8-flash",
+  "system_instruction": "You are a careful annotator building evaluation data for summarisation research. Follow the instructions exactly and output only JSON that matches the schema.",
+  "input": "Below is the exact human transcript of a segment of a recorded software tutorial. The speaker code-mixes Hindi and English: Hindi is mostly written in Devanagari and English mostly in Latin script, but some English words are written in Devanagari.\n\nProduce two things.\n\n1. \"summary\": an English summary of the segment's content, 120-180 words, plain prose, covering the main steps, concepts and facts taught. Do not mention the speaker, the tutorial series, greetings, credits, funding or websites.\n\n2. \"facts\": 8 to 15 atomic facts that a good summary of this segment should contain.\n- Each fact is one short, self-contained English sentence stating a single piece of content (a step, setting, definition, command or result).\n- Exclude greetings, credits, acknowledgements, funding and website information.\n- Facts must not overlap.\n- For each fact, \"evidence\" must be copied EXACTLY, character for character, from the transcript: one contiguous excerpt of 3 to 25 words that states the fact. Do not translate, transliterate, correct or shorten words inside the excerpt.\n\nTranscript:\n<<<\nलिबर ऑफिस इंप्रेस में प्रस्तुति देखने पर ट्यूटोरियल में आपका स्वागत है इस ट्यूटोरियल में हम व्यू ऑप्शन्स और उनके उपयोग और मास्टर पेजेस के बारे में सीखेंगे यहाँ हम अपने operating system के रूप में gnu/linux और लिबर ऑफिस version 334 का उपयोग कर रहे हैं पहले अपनी प्रस्तुति sample impress open करते हैं लिबर ऑफिस impress में कई view options हैं जो आपको अच्छी प्रस्तुति बनाने में मदद करते हैं default रूप से जब आप लिबर ऑफिस impress शुरू करते हैं यह इस तरह दिखता है इसे normal view कहा जाता है जब प्रस्तुति किसी any view में होती है आप normal टैब पर क्लिक करके normal view में वापस आ सकते हैं या view और normal पर क्लिक करके normal view में आप slides बना सकते हैं और edit कर सकते हैं उदाहरणस्वरूप हम slides की डिजाइन बदल सकते हैं ऐसा करने के लिए overview नामक slide पर जाएँ दाईं ओर पर tasks pane में master पेजेस section used in this presentation के तहत हम slide डिजाइन देख सकते हैं जो है prs strategy इसके नीचे हम भी उपयोगित और उपयोग के लिए उपलब्ध slide डिजाइन्स देख सकते हैं आपके पसंदीदा किसी एक पर क्लिक करें वर्कस्पेस पैन में स्लाइड डिजाइन में बदलाव पर ध्यान दें देखिए स्लाइड डिजाइन बदलने के लिए यह कैसे आसान है आप डिजाइन्स भी जोड़ सकते हैं जिसे आपने अपने स्लाइड्स बैकग्राउंड के रूप में बनाया है अगला हम आउटलाइन व्यू देखेंगे आप इस व्यू पर जा सकते हैं या तो व्यू और आउटलाइन पर क्लिक करके या आउटलाइन टैब पर क्लिक करके इस view में आप देख सकते हैं कि slides contents table की तरह एक के नीचे एक व्यवस्थित हैं ये यहाँ slide headings हैं ध्यान दें कि slide heading का overview चिन्हांकित है यह इसलिए क्योंकि हम overview slide पर थे जब हमने outline टैब को चुना आप देख सकते हैं कि इन icons का आकार bullet प्वॉइंट की तरह है जब आप इन bullet प्वॉइंट्स के आसपास mouse रखते हैं cursor hand में बदल जाता है हम फिर उनको slide में पुनः व्यवस्थित करने के लिए इन line items को अप या down कर सकते हैं या across लाइन ctrl और z को प्रेस करके इन बदलावों को अन्डू करें ताकि हमारी प्रस्तुति इसके मूल form में दिखाई let हम slide को पुनःव्यवस्थित करने के लिए slide sorter we का उपयोग करते हैं हम we और slide sorter पर क्लिक करके slide sorter we पर जा सकते हैं या slide sorter टैब पर क्लिक करके यह view इच्छित क्रम में slides को sort करने के लिए उपयोगी है उदाहरणस्वरूप slide number 9 और slide number 10 में बदलाव करने के लिए slide number 10 पर click करें और slide को slide number 9 के आगे drag करें अब mouse button को छोड़ दें slides में अदलाबदली हो जाती है notes view में आप notes लिख सकते हैं जो कि आपको आपकी प्रस्तुति के समय मदद करेंगे notes view पर जाने के लिए view और फिर notes page पर click करें आप notes tab notes टैब पर भी click कर सकते हैं slides pane से development up to present slide चुनें notes भाग में कुछ text type करें जब आपकी स्लाइड्स प्रोजेक्टर पर दिखाई देती हैं आप अभी भी अपने मॉनिटर पर अपने नोट्स देखने के लिए सक्षम होंगे लेकिन आपके श्रोतागण नहीं tab normal टैब पर click करते हैं हम right में tasks पैन लेआउट section में प्रस्तुति का लेआउट बदल सकते हैं tasks pane को दिखाने और छिपाने के लिए view और tasks pane पर click करें यह या तो tasks pane को दिखायेगा या छिपायेगा चलिए slide के लेआउट को बदलने के लिए लेआउट section का उपयोग करते हैं development up to present named slide को चुनें लेआउट section से content over content टाइटल को चुनें यह slide के लेआउट को बदलता है अब हम इस tutorial की समाप्ति की ओर हैं संक्षेप में हमने सीखाव्यू options और उनके उपयोग और master पेजेस इस व्यापक नियतकार्य को करने की कोशिश करें एक नई प्रस्तुति बनाएँ dark blue background और light blue टाइटल क्षेत्र के साथ एक master बनाएँ निम्न link पर उपलब्ध video देखें\n>>>",
+  "generation_config": {
+   "max_output_tokens": 8192
+  },
+  "response_format": {
+   "mime_type": "application/json",
+   "schema": {
+    "$defs": {
+     "Fact": {
+      "properties": {
+       "fact": {
+        "title": "Fact",
+        "type": "string"
+       },
+       "evidence": {
+        "title": "Evidence",
+        "type": "string"
+       }
+      },
+      "required": [
+       "fact",
+       "evidence"
+      ],
+      "title": "Fact",
+      "type": "object"
+     }
+    },
+    "properties": {
+     "summary": {
+      "title": "Summary",
+      "type": "string"
+     },
+     "facts": {
+      "items": {
+       "$ref": "#/$defs/Fact"
+      },
+      "title": "Facts",
+      "type": "array"
+     }
+    },
+    "required": [
+     "summary",
+     "facts"
+    ],
+    "title": "Reference",
+    "type": "object"
+   }
+  }
+ },
+ "output_text": "{\n  \"summary\": \"LibreOffice Impress provides several view options to create, edit, and organize presentations. By default, Impress opens in Normal view, which is used for creating and editing slides. Users can also change slide designs from the Master Pages section in the Tasks pane. Outline view displays slide contents and headings arranged like a table, allowing presenters to reorganize text items up, down, or across lines. Slide Sorter view enables easy reordering of slides into any desired sequence through simple drag-and-drop operations. Notes view allows presenters to add speaker notes that remain visible on the presenter's monitor during a slideshow while staying hidden from the audience. Finally, the Tasks pane, which can be toggled via the View menu, contains a Layout section for modifying individual slide layouts, such as applying the Content over Content layout. Each view can be accessed either from the View menu or via its dedicated tab.\",\n  \"facts\": [\n    {\n      \"fact\": \"LibreOffice Impress opens in Normal view by default.\",\n      \"evidence\": \"default रूप से जब आप लिबर ऑफिस impress शुरू करते हैं यह इस तरह दिखता है इसे normal view कहा जाता है\"\n    },\n    {\n      \"fact\": \"Users can return to Normal view by clicking the Normal tab or selecting View and then Normal.\",\n      \"evidence\": \"आप normal टैब पर क्लिक करके normal view में वापस आ सकते हैं या view और normal पर क्लिक करके\"\n    },\n    {\n      \"fact\": \"Slides can be created and edited in Normal view.\",\n      \"evidence\": \"normal view में आप slides बना सकते हैं और edit कर सकते हैं\"\n    },\n    {\n      \"fact\": \"Slide designs can be selected and changed from the Master Pages section of the Tasks pane.\",\n      \"evidence\": \"tasks pane में master पेजेस section used in this presentation के तहत हम slide डिजाइन देख सकते हैं\"\n    },\n    {\n      \"fact\": \"Outline view arranges slide contents sequentially below one another like a table.\",\n      \"evidence\": \"इस view में आप देख सकते हैं कि slides contents table की तरह एक के नीचे एक व्यवस्थित हैं\"\n    },\n    {\n      \"fact\": \"Outline view allows rearranging line items by moving them up, down, or across lines.\",\n      \"evidence\": \"slide में पुनः व्यवस्थित करने के लिए इन line items को अप या down कर सकते हैं या across लाइन\"\n    },\n    {\n      \"fact\": \"Slide Sorter view is used to sort slides into any desired sequence.\",\n      \"evidence\": \"यह view इच्छित क्रम में slides को sort करने के लिए उपयोगी है\"\n    },\n    {\n      \"fact\": \"Notes view allows presenters to write speaker notes to assist them during a presentation.\",\n      \"evidence\": \"notes view में आप notes लिख सकते हैं जो कि आपको आपकी प्रस्तुति के समय मदद करेंगे\"\n    },\n    {\n      \"fact\": \"Notes written in Notes view remain visible to the presenter on the monitor but hidden from the audience.\",\n      \"evidence\": \"आप अभी भी अपने मॉनिटर पर अपने नोट्स देखने के लिए सक्षम होंगे लेकिन आपके श्रोतागण नहीं\"\n    },\n    {\n      \"fact\": \"The Tasks pane can be displayed or hidden by clicking View and selecting Tasks Pane.\",\n      \"evidence\": \"tasks pane को दिखाने और छिपाने के लिए view और tasks pane पर click करें\"\n    },\n    {\n      \"fact\": \"The slide layout can be changed using the Layout section in the Tasks pane.\",\n      \"evidence\": \"हम right में tasks पैन लेआउट section में प्रस्तुति का लेआउट बदल सकते हैं\"\n    }\n  ]\n}",
+ "response_model": "gemini-3.8-flash",
+ "response_id": "v1_ChZQY2JrYXFzMDFxWC00dy02dGRUZ0JREhZQY2JrYXFzMDFxWC00dy02dGRUZ0JR",
+ "usage": {
+  "initial_input_tokens": 1214,
+  "input_tokens_by_modality": [
+   {
+    "modality": "text",
+    "tokens": 1080
+   }
+  ],
+  "total_cached_tokens": 0,
+  "total_input_tokens": 1080,
+  "total_output_tokens": 775,
+  "total_thought_tokens": 2691,
+  "total_tokens": 4546,
+  "total_tool_use_tokens": 0
+ },
+ "meta": {
+  "window_id": "W23"
+ }
+}

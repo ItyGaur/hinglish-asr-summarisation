@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-31T12:47:48+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W24",
+ "condition": "noise:hi:0.1",
+ "out_lang": "en",
+ "input_tokens": 2337,
+ "summary": "This tutorial explains how to create a feedback block diagram using the Xfig software version 3.2 patch level 5. First, you start by opening the Xfig application and selecting the \"block\" option from the entry box or double-clicking on the \"blockfig\" file. After creating the initial block diagram, you can add grids to the canvas by clicking on the grid icon. The mouse buttons have different functions depending on their position; for example, the left button scrolls vertically, while the right button moves the canvas up or down. The middle button allows you to drag the canvas. To create a feedback diagram, copy a block, place it at a new location, and add text by clicking on the text box. Use the attributes panel to align the text centrally. Then, draw lines using the polyline tool and select the arrow mode to add arrows to represent the feedback connections."
+}

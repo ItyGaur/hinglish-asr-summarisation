@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-31T12:41:31+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W20",
+ "condition": "noise:en:0.3",
+ "out_lang": "en",
+ "input_tokens": 2261,
+ "summary": "In this tutorial, you learn how to create and present slides using Microsoft Office Impress. You can use slide shows to display slides on monitors or projectors, which take up the entire screen for presentations. Slide shows are read-only and cannot be edited during the presentation. To start a slide show, you can click on the \"Slide Show\" tab or press F5. During the show, you can navigate slides using arrow keys or right-clicking for a context menu with options like Next and End Show. Alternatively, pressing the Escape key also exits the slide show.\n\nYou can also use the Pointer Options to write or draw on the screen during the presentation. To enable this, go to the Slide Show tab, select \"Pointer Options,\" and check \"Pen.\" This allows you to write or draw on the slides.\n\nThe tutorial covers slide transitions, which are effects applied when moving from one slide to another. To change the order of slides, switch to the Slide Sorter view, select a slide, and drag it to a new position. You can apply different transitions to each slide by selecting them in the Slide Sorter view and choosing from various options like Wipe Up or Beam in the Task Pane. You can adjust the speed and add sound effects to transitions through the Modify Transitions section."
+}

@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-30T14:21:14+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W22",
+ "condition": "asr:trelis-hinglish-preview",
+ "out_lang": "en",
+ "input_tokens": 2367,
+ "summary": "This tutorial covers customizing the user interface of the jCampaign software, specifically changing the background color and selecting different themes and languages. To change the background color, you open the jCampaign preferences window via the Edit menu, then select the Background Color button to choose from various colors. For changing the look and feel, you switch to the Other Preferences tab and select a theme like Nimbus. To change the language, you go to the User Interface Language section and select a different language such as Spanish. Templates can be included by opening the Templates menu or using the side toolbar. The tutorial also explains how to view structural templates and their list."
+}

@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-30T14:22:58+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W03",
+ "condition": "asr:whisper-small",
+ "out_lang": "en",
+ "input_tokens": 2737,
+ "summary": "The tutorial covers setting up and using the Ismipits plugin in Aditex Aditor for static code analysis. First, you need to enable the Ismipits plugin by clicking on it from the Adetector Unrecognized Plugins list, checking its box, and then installing it. Next, open Aditex Aditor and create a new project. To write a simple test case, you can create a C program file named `test.c`. In this file, define a function with a single parameter and return type. Then, use the `main` function to call this test function. \n\nTo run the analysis, click on the \"Trigger\" button, which opens the Trigger panel. Here, select the \"Compile\" option and click on the \"Compile\" button. This compiles your code and triggers the static analysis. If there are any syntax errors, they will be highlighted in the Syntax panel. You can then correct them and re-run the analysis.\n\nFinally, to create your own Ismipits plugin, use the `plus one` button to add a new plugin, type the plugin name, and press Enter. This creates a basic structure for your plugin within the Aditex Aditor environment."
+}

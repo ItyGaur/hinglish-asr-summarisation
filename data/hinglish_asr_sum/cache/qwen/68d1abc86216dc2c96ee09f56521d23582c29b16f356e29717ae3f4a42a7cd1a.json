@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-30T15:58:49+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W04",
+ "condition": "noise:hi:0.5",
+ "out_lang": "en",
+ "input_tokens": 2227,
+ "summary": "The tutorial explains how to create custom animations in LibreOffice Impress, specifically for Ubuntu users. To start, open a sample Impress presentation and select the slides pane. Click on the thumbnail to view the default slide. To add custom animations, select the text box on the left side and then click on the border. In the Impress window, click on the task pane and select \"Custom Animation.\" Choose the \"Entrance\" tab to control the appearance of objects on the screen. You can set the animation speed and order using the basic animation options. Click \"OK\" to apply the changes. To preview the animation, click the play button. You can also select multiple animations by holding down the Shift key or clicking with the pen tool. Adjust the animation order using spacebar and change the default properties if needed. For detailed settings, double-click the animation to access the effects options dialog box. Here, you can adjust the timing, delay, and direction of the animation. Finally, click \"OK\" to save the changes and preview the updated animation sequence."
+}

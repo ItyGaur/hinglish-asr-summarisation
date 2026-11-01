@@ -1,0 +1,73 @@
+{
+ "created": "2026-10-30T18:44:50+00:00",
+ "template_id": "lexicon",
+ "variant": 0,
+ "request": {
+  "model": "gemini-3.8-flash",
+  "system_instruction": "You are a precise Hindi-English transliteration assistant. Output only JSON that matches the schema.",
+  "input": "For each English word below, give the spelling a Hindi speaker would normally use when writing that English word in Devanagari script. Transliterate the pronunciation; do not translate the meaning. Examples: click -> क्लिक, file -> फ़ाइल, terminal -> टर्मिनल. For abbreviations, spell out the letter names (pdf -> पीडीएफ). Return exactly one item per input word, with the input word copied unchanged into \"word\".\n\nWords:\nhyphen\ni\nicon\nicons\nif\nimap\nimplicit\nimport\nimportant\nimpress\nin\ninbox\ninchi\nincrement\nindent\nindex\nindia\ninput\nins\ninsert\ninserted\ninstalled\ninstitutions\nint\nintelligent\ninteresting\ninterface\ninternet\ninterval\nintroduction\nis\nisosceles\nisotopes\nit\nitalic\nitalics\nitems\njar\njava\njchempaint\njchempaint331210\njre7\njre7downloads\njre7windowsi586\njust\njustify\nkeyboard\nkeys\nkeyword\nkeywords\nlabel\nlanguage\nlanguages\nlauncher\nlayout\nlayouts\nleft\nlet\nlibreoffice\nlicense\nlife\nlight\nlike\nline\nlines\nlink\nlinux\nlocal\nlocale\nlogic\nlogo\nlong\nlook\nmachine\nmahesh\nmail\nmails\nmain\nmanage\nmanagement\nmanager\nmanish\nmanual\nmark\nmaster\nmatch\nmatching\nmaths\nmb\nmedium\nmember\nmembers\nmemory\nmenu\nmenus\nmessage\nmessages\nmetal\nmetals\nmicrosoft\nmiddle\nmode\nmodify\nmol\nmolecular\nmolfile\nmonday\nmore\nmothers\nmotif\nmouse\nmove\nmozilla\nms\nname\nnamed\nnature\nnavigate\nneeding\nnew\nnewsletter\nnext\nnic\nnimbus\nno\nnormal\nnote\nnotes\nnow\nnrcfoss\nnull\nnum\nnumber\nnumbering\nnumbers\nnumcheck\no\nobject\noccupation\nodp\nodt\nof\noff\noffice\nok\non\nonly\nopen\nopenjdk7jre\nopensource",
+  "generation_config": {
+   "max_output_tokens": 8192
+  },
+  "response_format": {
+   "mime_type": "application/json",
+   "schema": {
+    "$defs": {
+     "Pair": {
+      "properties": {
+       "word": {
+        "title": "Word",
+        "type": "string"
+       },
+       "devanagari": {
+        "title": "Devanagari",
+        "type": "string"
+       }
+      },
+      "required": [
+       "word",
+       "devanagari"
+      ],
+      "title": "Pair",
+      "type": "object"
+     }
+    },
+    "properties": {
+     "items": {
+      "items": {
+       "$ref": "#/$defs/Pair"
+      },
+      "title": "Items",
+      "type": "array"
+     }
+    },
+    "required": [
+     "items"
+    ],
+    "title": "Lexicon",
+    "type": "object"
+   }
+  }
+ },
+ "output_text": "{\"items\":[{\"word\":\"hyphen\",\"devanagari\":\"हाइफन\"},{\"word\":\"i\",\"devanagari\":\"आई\"},{\"word\":\"icon\",\"devanagari\":\"आइकन\"},{\"word\":\"icons\",\"devanagari\":\"आइकन्स\"},{\"word\":\"if\",\"devanagari\":\"इफ\"},{\"word\":\"imap\",\"devanagari\":\"आईमैप\"},{\"word\":\"implicit\",\"devanagari\":\"इम्प्लिसिट\"},{\"word\":\"import\",\"devanagari\":\"इम्पोर्ट\"},{\"word\":\"important\",\"devanagari\":\"इम्पोर्टेंट\"},{\"word\":\"impress\",\"devanagari\":\"इम्प्रेस\"},{\"word\":\"in\",\"devanagari\":\"इन\"},{\"word\":\"inbox\",\"devanagari\":\"इनबॉक्स\"},{\"word\":\"inchi\",\"devanagari\":\"इनची\"},{\"word\":\"increment\",\"devanagari\":\"इंक्रीमेंट\"},{\"word\":\"indent\",\"devanagari\":\"इंडेंट\"},{\"word\":\"index\",\"devanagari\":\"इंडेक्स\"},{\"word\":\"india\",\"devanagari\":\"इंडिया\"},{\"word\":\"input\",\"devanagari\":\"इनपुट\"},{\"word\":\"ins\",\"devanagari\":\"इन्स\"},{\"word\":\"insert\",\"devanagari\":\"इंसर्ट\"},{\"word\":\"inserted\",\"devanagari\":\"इंसर्टेड\"},{\"word\":\"installed\",\"devanagari\":\"इंस्टॉल्ड\"},{\"word\":\"institutions\",\"devanagari\":\"इंस्टीट्यूशंस\"},{\"word\":\"int\",\"devanagari\":\"इंट\"},{\"word\":\"intelligent\",\"devanagari\":\"इंटेलिजेंट\"},{\"word\":\"interesting\",\"devanagari\":\"इंटरेस्टिंग\"},{\"word\":\"interface\",\"devanagari\":\"इंटरफेस\"},{\"word\":\"internet\",\"devanagari\":\"इंटरनेट\"},{\"word\":\"interval\",\"devanagari\":\"इंटरवल\"},{\"word\":\"introduction\",\"devanagari\":\"इंट्रोडक्शन\"},{\"word\":\"is\",\"devanagari\":\"इज़\"},{\"word\":\"isosceles\",\"devanagari\":\"आइसोसेलीज़\"},{\"word\":\"isotopes\",\"devanagari\":\"आइसोटोप्स\"},{\"word\":\"it\",\"devanagari\":\"इट\"},{\"word\":\"italic\",\"devanagari\":\"इटैलिक\"},{\"word\":\"italics\",\"devanagari\":\"इटैलिक्स\"},{\"word\":\"items\",\"devanagari\":\"आइटम्स\"},{\"word\":\"jar\",\"devanagari\":\"जार\"},{\"word\":\"java\",\"devanagari\":\"जावा\"},{\"word\":\"jchempaint\",\"devanagari\":\"जेकेमपेंट\"},{\"word\":\"jchempaint331210\",\"devanagari\":\"जेकेमपेंट331210\"},{\"word\":\"jre7\",\"devanagari\":\"जेआरई7\"},{\"word\":\"jre7downloads\",\"devanagari\":\"जेआरई7डाउनलोड्स\"},{\"word\":\"jre7windowsi586\",\"devanagari\":\"जेआरई7विंडोजआई586\"},{\"word\":\"just\",\"devanagari\":\"जस्ट\"},{\"word\":\"justify\",\"devanagari\":\"जस्टिफाई\"},{\"word\":\"keyboard\",\"devanagari\":\"कीबोर्ड\"},{\"word\":\"keys\",\"devanagari\":\"कीज़\"},{\"word\":\"keyword\",\"devanagari\":\"कीवर्ड\"},{\"word\":\"keywords\",\"devanagari\":\"कीवर्ड्स\"},{\"word\":\"label\",\"devanagari\":\"लेबल\"},{\"word\":\"language\",\"devanagari\":\"लैंग्वेज\"},{\"word\":\"languages\",\"devanagari\":\"लैंग्वेजेस\"},{\"word\":\"launcher\",\"devanagari\":\"लॉन्चर\"},{\"word\":\"layout\",\"devanagari\":\"लेआउट\"},{\"word\":\"layouts\",\"devanagari\":\"लेआउट्स\"},{\"word\":\"left\",\"devanagari\":\"लेफ्ट\"},{\"word\":\"let\",\"devanagari\":\"लेट\"},{\"word\":\"libreoffice\",\"devanagari\":\"लिब्रेऑफिस\"},{\"word\":\"license\",\"devanagari\":\"लाइसेंस\"},{\"word\":\"life\",\"devanagari\":\"लाइफ\"},{\"word\":\"light\",\"devanagari\":\"लाइट\"},{\"word\":\"like\",\"devanagari\":\"लाइक\"},{\"word\":\"line\",\"devanagari\":\"लाइन\"},{\"word\":\"lines\",\"devanagari\":\"लाइन्स\"},{\"word\":\"link\",\"devanagari\":\"लिंक\"},{\"word\":\"linux\",\"devanagari\":\"लिनक्स\"},{\"word\":\"local\",\"devanagari\":\"लोकल\"},{\"word\":\"locale\",\"devanagari\":\"लोकेल\"},{\"word\":\"logic\",\"devanagari\":\"लॉजिक\"},{\"word\":\"logo\",\"devanagari\":\"लोगो\"},{\"word\":\"long\",\"devanagari\":\"लॉन्ग\"},{\"word\":\"look\",\"devanagari\":\"लुक\"},{\"word\":\"machine\",\"devanagari\":\"मशीन\"},{\"word\":\"mahesh\",\"devanagari\":\"महेश\"},{\"word\":\"mail\",\"devanagari\":\"मेल\"},{\"word\":\"mails\",\"devanagari\":\"मेल्स\"},{\"word\":\"main\",\"devanagari\":\"मेन\"},{\"word\":\"manage\",\"devanagari\":\"मैनेज\"},{\"word\":\"management\",\"devanagari\":\"मैनेजमेंट\"},{\"word\":\"manager\",\"devanagari\":\"मैनेजर\"},{\"word\":\"manish\",\"devanagari\":\"मनीष\"},{\"word\":\"manual\",\"devanagari\":\"मैनुअल\"},{\"word\":\"mark\",\"devanagari\":\"मार्क\"},{\"word\":\"master\",\"devanagari\":\"मास्टर\"},{\"word\":\"match\",\"devanagari\":\"मैच\"},{\"word\":\"matching\",\"devanagari\":\"मैचिंग\"},{\"word\":\"maths\",\"devanagari\":\"मैथ्स\"},{\"word\":\"mb\",\"devanagari\":\"एमबी\"},{\"word\":\"medium\",\"devanagari\":\"मीडियम\"},{\"word\":\"member\",\"devanagari\":\"मेंबर\"},{\"word\":\"members\",\"devanagari\":\"मेंबर्स\"},{\"word\":\"memory\",\"devanagari\":\"मेमोरी\"},{\"word\":\"menu\",\"devanagari\":\"मेन्यू\"},{\"word\":\"menus\",\"devanagari\":\"मेन्युज़\"},{\"word\":\"message\",\"devanagari\":\"मैसेज\"},{\"word\":\"messages\",\"devanagari\":\"मैसेजेस\"},{\"word\":\"metal\",\"devanagari\":\"मेटल\"},{\"word\":\"metals\",\"devanagari\":\"मेटल्स\"},{\"word\":\"microsoft\",\"devanagari\":\"माइक्रोसॉफ्ट\"},{\"word\":\"middle\",\"devanagari\":\"मिडिल\"},{\"word\":\"mode\",\"devanagari\":\"मोड\"},{\"word\":\"modify\",\"devanagari\":\"मॉडिफाई\"},{\"word\":\"mol\",\"devanagari\":\"मोल\"},{\"word\":\"molecular\",\"devanagari\":\"मॉलिक्यूलर\"},{\"word\":\"molfile\",\"devanagari\":\"मोलफाइल\"},{\"word\":\"monday\",\"devanagari\":\"मंडे\"},{\"word\":\"more\",\"devanagari\":\"मोर\"},{\"word\":\"mothers\",\"devanagari\":\"मदर्स\"},{\"word\":\"motif\",\"devanagari\":\"मोटिफ\"},{\"word\":\"mouse\",\"devanagari\":\"माउस\"},{\"word\":\"move\",\"devanagari\":\"मूव\"},{\"word\":\"mozilla\",\"devanagari\":\"मोज़िला\"},{\"word\":\"ms\",\"devanagari\":\"एमएस\"},{\"word\":\"name\",\"devanagari\":\"नेम\"},{\"word\":\"named\",\"devanagari\":\"नेम्ड\"},{\"word\":\"nature\",\"devanagari\":\"नेचर\"},{\"word\":\"navigate\",\"devanagari\":\"नेविगेट\"},{\"word\":\"needing\",\"devanagari\":\"नीडिंग\"},{\"word\":\"new\",\"devanagari\":\"न्यू\"},{\"word\":\"newsletter\",\"devanagari\":\"न्यूज़लेटर\"},{\"word\":\"next\",\"devanagari\":\"नेक्स्ट\"},{\"word\":\"nic\",\"devanagari\":\"एनआईसी\"},{\"word\":\"nimbus\",\"devanagari\":\"निम्बस\"},{\"word\":\"no\",\"devanagari\":\"नो\"},{\"word\":\"normal\",\"devanagari\":\"नॉर्मल\"},{\"word\":\"note\",\"devanagari\":\"नोट\"},{\"word\":\"notes\",\"devanagari\":\"नोट्स\"},{\"word\":\"now\",\"devanagari\":\"नाउ\"},{\"word\":\"nrcfoss\",\"devanagari\":\"एनआरसीएफओएसएस\"},{\"word\":\"null\",\"devanagari\":\"नल\"},{\"word\":\"num\",\"devanagari\":\"नम\"},{\"word\":\"number\",\"devanagari\":\"नंबर\"},{\"word\":\"numbering\",\"devanagari\":\"नंबरिंग\"},{\"word\":\"numbers\",\"devanagari\":\"नंबर्स\"},{\"word\":\"numcheck\",\"devanagari\":\"नमचेक\"},{\"word\":\"o\",\"devanagari\":\"ओ\"},{\"word\":\"object\",\"devanagari\":\"ऑब्जेक्ट\"},{\"word\":\"occupation\",\"devanagari\":\"ऑक्यूपेशन\"},{\"word\":\"odp\",\"devanagari\":\"ओडीपी\"},{\"word\":\"odt\",\"devanagari\":\"ओडीटी\"},{\"word\":\"of\",\"devanagari\":\"ऑफ\"},{\"word\":\"off\",\"devanagari\":\"ऑफ\"},{\"word\":\"office\",\"devanagari\":\"ऑफिस\"},{\"word\":\"ok\",\"devanagari\":\"ओके\"},{\"word\":\"on\",\"devanagari\":\"ऑन\"},{\"word\":\"only\",\"devanagari\":\"ओनली\"},{\"word\":\"open\",\"devanagari\":\"ओपन\"},{\"word\":\"openjdk7jre\",\"devanagari\":\"ओपनजेडीके7जेआरई\"},{\"word\":\"opensource\",\"devanagari\":\"ओपनसोर्स\"}]}",
+ "response_model": "gemini-3.8-flash",
+ "response_id": "v1_ChdQdVhrYXBEN0NwS2tfUFVQX0xUVm9BWRIXUHVYa2FwRDdDcEtrX1BVUF9MVFZvQVk",
+ "usage": {
+  "initial_input_tokens": 569,
+  "input_tokens_by_modality": [
+   {
+    "modality": "text",
+    "tokens": 449
+   }
+  ],
+  "total_cached_tokens": 0,
+  "total_input_tokens": 449,
+  "total_output_tokens": 1943,
+  "total_thought_tokens": 1212,
+  "total_tokens": 3604,
+  "total_tool_use_tokens": 0
+ },
+ "meta": {
+  "batch": 2
+ }
+}

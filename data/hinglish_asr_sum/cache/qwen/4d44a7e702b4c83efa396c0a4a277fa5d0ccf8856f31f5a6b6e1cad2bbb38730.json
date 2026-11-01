@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-31T12:50:53+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W16",
+ "condition": "noise:hi:0.4",
+ "out_lang": "en",
+ "input_tokens": 2059,
+ "summary": "This tutorial covers storage class specifiers in C programming, specifically focusing on the `auto` keyword. Storage class specifiers tell the compiler where to store variables and how long they should persist. The `auto` keyword declares a variable as local to a function, meaning it is automatically initialized each time the function is called. Variables declared with `auto` do not retain their values between function calls. An example demonstrates this by defining an `auto` variable within a function, which is reinitialized each time the function is called. To avoid errors, the variable must be initialized within its declaration. The tutorial also briefly touches on `static` variables, which are initialized only once and retain their values across multiple function calls, unlike `auto` variables."
+}

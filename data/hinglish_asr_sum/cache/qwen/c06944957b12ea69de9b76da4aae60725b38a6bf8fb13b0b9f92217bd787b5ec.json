@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-30T15:42:52+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W01",
+ "condition": "noise:en:0.5",
+ "out_lang": "en",
+ "input_tokens": 2855,
+ "summary": "This tutorial covers how to apply backgrounds and customize layouts in LibreOffice Impress, a presentation software. It starts with using pre-defined backgrounds provided by the software, which can be applied to all slides. Users can also create custom backgrounds through the slide master option, where changes made affect all slides. The tutorial demonstrates setting a white background for a slide and adjusting text color to ensure readability against the background. It also shows how to add colors and shapes like rectangles and circles to slides, and manipulate them using control points. Additionally, it explains how to insert a logo or other design elements into presentations, using basic shapes tools. Overall, the tutorial provides step-by-step guidance on enhancing slide designs in LibreOffice Impress."
+}

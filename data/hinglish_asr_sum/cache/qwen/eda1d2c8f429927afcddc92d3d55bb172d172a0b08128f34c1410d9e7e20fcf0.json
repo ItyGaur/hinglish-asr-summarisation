@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-30T15:44:22+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W08",
+ "condition": "noise:en:0.5",
+ "out_lang": "en",
+ "input_tokens": 2669,
+ "summary": "This tutorial covers how to view and print documents using LibreOffice Writer on a system running Gentoo Linux. It explains various view options such as Print Layout and Web Layout, which show how the document will look when printed or viewed in a web browser, respectively. These options are useful for creating HTML documents or editing formats. To switch between these views, you can click on the respective options in the menu bar. Full-screen mode can be accessed by clicking on Full Screen in the menu bar and then Full Screen Spellcheck. Inserting a page break involves selecting Insert > Manual Break > Page Break and clicking OK. Zoom options allow adjusting the display size of the document, with Fit Width and Height fitting the entire page within the window. Variable fields let you set custom zoom factors. The View Layout option for text documents helps see different layout settings. Controls on the Writer Status Bar also change the document's view layout and zoom. Single Column and Asides modes display one or two pages side by side."
+}

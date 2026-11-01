@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-30T14:19:00+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W10",
+ "condition": "asr:trelis-hinglish-preview",
+ "out_lang": "en",
+ "input_tokens": 2623,
+ "summary": "This tutorial introduces LibreOffice Impress, a free and open-source software for creating presentations. It covers installation on GNU/Linux using Synaptic Package Manager and accessing Impress through the LibreOffice suite. Key features include various toolbars such as Tile Bar, Menu Bar, Standard Bar, Formatting Bar, and Status Bar. The tutorial demonstrates creating a new presentation by selecting a template, customizing it with a name, subject, and heading, and saving it in the ODP format. It also explains how to save Impress documents as Microsoft PowerPoint presentations for compatibility. Additional steps include opening saved presentations and converting them back to Impress format for editing."
+}

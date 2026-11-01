@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-31T12:44:42+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W20",
+ "condition": "noise:en:0.5",
+ "out_lang": "en",
+ "input_tokens": 2406,
+ "summary": "In this tutorial, you learn how to create and present slides using Microsoft Impress. You can use slide shows to display slides on desktops or projectors, with the slides taking over the entire computer screen for presentation purposes only. To start a slide show, you can select the \"Slide Show\" option from the menu or press the F5 key. During the show, you can navigate between slides using arrow keys or right-clicking and selecting \"Next.\" To exit the slide show, right-click on the slide menu and choose \"End Show,\" or press the Escape key. You can also use the pen tool to interact with your audience during the presentation by checking the appropriate settings in the Slide Show settings.\n\nTransitions between slides are effects applied when moving from one slide to another. To change the order of slides, select the \"Slide Sorter\" tab and drag slides to rearrange them. You can apply different transitions to each slide by selecting the \"Transitions\" tab, choosing a transition effect like \"Wipe Up,\" and adjusting its speed and sound through the Speed and Sound options. This tutorial covers the basics of creating and presenting slides in Impress, including managing transitions and interacting with the audience."
+}

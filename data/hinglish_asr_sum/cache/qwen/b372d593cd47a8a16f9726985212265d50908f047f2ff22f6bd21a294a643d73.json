@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-30T15:34:37+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W05",
+ "condition": "noise:en:0.2",
+ "out_lang": "en",
+ "input_tokens": 2983,
+ "summary": "This tutorial introduces Mozilla Thunderbird, a simple email client available on various platforms. It covers downloading and launching Thunderbird, setting up new email accounts, and managing messages. Thunderbird supports multiple email accounts and can download emails from different providers like Gmail and Yahoo. For POP3 support, users need valid email accounts with the POP3 option enabled and an internet connection. To launch Thunderbird, click the Thunderbird icon on the dash home button. The application interface includes a main menu with options and shortcuts. Thunderbird is divided into two panels; the left panel shows folders from your Thunderbird accounts, while the right panel offers advanced features and options. The tutorial demonstrates configuring POP3 for Gmail by logging into the account, navigating to settings, enabling POP3 for all emails, and saving changes."
+}

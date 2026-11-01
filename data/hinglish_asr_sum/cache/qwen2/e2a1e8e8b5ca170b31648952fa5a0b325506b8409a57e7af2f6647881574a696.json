@@ -1,0 +1,18 @@
+{
+ "created": "recovered_from_summaries.csv",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W02",
+ "condition": "oracle",
+ "out_lang": "en",
+ "input_tokens": 2106,
+ "summary": "This tutorial introduces the gedit text editor for Ubuntu Linux and Windows systems. It covers how to install gedit on Ubuntu Linux using the Ubuntu Software Centre or by opening it from the Dash Home. On Windows, instructions for installation are provided via a link. The tutorial explains how to create a new file, open an existing one, and save changes. It also demonstrates closing files and opening them again. Key features like the menu bar, toolbars, and status bar are introduced. The tutorial shows how to switch between overwrite and insert modes, save files with names, and handle unsaved changes. It emphasizes the importance of saving files regularly to prevent data loss due to power cuts or system crashes."
+}

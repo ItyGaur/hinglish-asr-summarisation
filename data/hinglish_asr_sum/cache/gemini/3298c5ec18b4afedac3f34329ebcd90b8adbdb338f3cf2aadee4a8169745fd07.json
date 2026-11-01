@@ -1,0 +1,78 @@
+{
+ "created": "2026-10-30T11:28:14+00:00",
+ "template_id": "reference",
+ "variant": 0,
+ "request": {
+  "model": "gemini-3.8-flash",
+  "system_instruction": "You are a careful annotator building evaluation data for summarisation research. Follow the instructions exactly and output only JSON that matches the schema.",
+  "input": "Below is the exact human transcript of a segment of a recorded software tutorial. The speaker code-mixes Hindi and English: Hindi is mostly written in Devanagari and English mostly in Latin script, but some English words are written in Devanagari.\n\nProduce two things.\n\n1. \"summary\": an English summary of the segment's content, 120-180 words, plain prose, covering the main steps, concepts and facts taught. Do not mention the speaker, the tutorial series, greetings, credits, funding or websites.\n\n2. \"facts\": 8 to 15 atomic facts that a good summary of this segment should contain.\n- Each fact is one short, self-contained English sentence stating a single piece of content (a step, setting, definition, command or result).\n- Exclude greetings, credits, acknowledgements, funding and website information.\n- Facts must not overlap.\n- For each fact, \"evidence\" must be copied EXACTLY, character for character, from the transcript: one contiguous excerpt of 3 to 25 words that states the fact. Do not translate, transliterate, correct or shorten words inside the excerpt.\n\nTranscript:\n<<<\nलिबर ऑफिस impress में एक प्रस्तुति document बनाना और बुनियादी formatting के इस spoken tutorial में आपका स्वागत है इस tutorial में हम impress window के भागों के बारे में सीखेंगे और कैसे स्लाइड इन्सर्ट करें और कॉपी करें फॉन्ट तथा फॉन्ट को फॉर्मेट करना सीखेंगे यहाँ हम अपने ऑपरेटिंग सिस्टम के रूप में gnu/linux और लिबरऑफिस वर्जन 334 का उपयोग कर रहे हैं चलिए अपनी प्रस्तुति प्रेजैटेशन sample impress open करते हैं जिसे पिछले tutorial में बनाया था चलिए देखते हैं कि screen पर क्या क्या है मध्य में हम खाली जगह देखते है जोकि workspace है जहाँ हम काम करेंगे जैसे कि आप देख सकते हैं workspace में 5 tabs हैं जिन्हें view buttons कहते हैं फिलहाल normal टैब चुनित हैं यह मुख्य view है अलगअलग slides बनाने के लिए outline view प्रत्येक slide के outline format में विषय शीर्षक bulleted और क्रमांकित सूचियाँ बताता है notes view प्रत्येक slide में notes जोड़ने की सुविधा देता है जोकि प्रस्तुतिकरण के वक्त नज़र नहीं the handout view slides को हैन्डाउट के रूप में print करने की सुविधा देता है यहाँ हमें एक पेज पर कितने slides print करने हैं इसका चुनाव कर सकते हैं slide sorter view slides की थम्बनेल बताता है अब फिर से normal view button पर click करते हैं screen की बाईं ओर आप slides pane देखते हैं यह प्रस्तुति में slides के थम्बनेल सम्मिलित करता है दाएँ तरफ tasks pane हैं जिसमें अनुभाग है लेआउट्स section में पहले से ही कुछ सैम्पल लेआउट्स मौजूद हैं हम उनका उपयोग ऐसे ही कर सकते हैं या आवश्यकता अनुसार कुछ बदलाव करके उपयोग कर सकते हैं जैसे जैसे हम इन tutorial में आगे बढ़ेंगे इन sections को विस्तार में देखेंगे चलिए अब सीखते हैं कि कैसे slide को insert करें यानि जोड़ें slides pane में दूसरी slide पर क्लिक करके उसे चुनें अब insert और slide पर click करें हम देखते हैं कि दूसरी slide के बाद एक नई खाली slide जुड़ गई है slide पर शीर्षक लिखने के लिए टेक्स्टबार में click to add title पर click करें अब short term strategy type करें और text box के बाहर click करें अतः शीर्षक इस तरह से जोड़ सकते हैं यहाँ दो तरीके है जिससे हम slide की प्रतिलिपि डुप्लिकेट बना सकते हैं पहले तरीके को देखते हैं insert पर click करें और फिर duplicate slide पर click करें हम देख सकते हैं कि एक नई duplicate slide हमारी पहली बनाई गई slide के बाद जोड़ी गई है या तो workspace pane में जाकर slide sorter क्लिक करके slide sorter view पर जाएँ अब सातवीं स्लाइड को कॉपी करें स्लाइड पर राइट क्लिक करें और कांटेक्स्ट मेन्यू से copy चुनें आखरी स्लाइड पर राइट क्लिक करें paste पर क्लिक करें after चुनें और ok click करें प्रेसेंटेशन के अंत में आपने स्लाइड की एक कॉपी बना ली है चलिए अब फोंट्स और फोंट्स को फॉर्मेट करने के कुछ तरीके देखते हैं long term goal नामक slide पर double क्लिक करके उसे चुनते हैं body टेक्स्ट बॉक्स पर क्लिक करें और पुरे टेक्स्ट को चुनें अब इसे डिलीट करें अब निम्न टाइप करें : reduce costs reduce dependence on few vendors develop customized applications libreoffice writer documents में font का प्रकार और font size को जिस प्रकार बदला था यहाँ भी वैसे ही कर सकते हैं text की एक line चुनें text format टूलबार में font type को albany से arial black में बदलें और font size को 32 से 40 में बदलें text box से बाहर कहीं भी click करें ध्यान दें कि font बदल गई है हम main menu से format पर क्लिक करके और फिर character option पर क्लिक करके भी font को बदल सकते हैं यह एक डायलॉग बॉक्स खोलेगा जिसमें हम अपनी आवश्यकतानुसार फॉन्ट स्टाइल और साइज़ सेट कर सकते हैं इस डायलॉग बॉक्स को बंद करते हैं font का color बदलने के लिए हम development up to present नामक slide को चुनते हैं body text box पर click करते हैं और फिर सारे text को चुनते हैं font color icon के पास में डाउन arrow पर click करें और जो चाहिए वो color चुनें text box के बाहर कहीं भी click करें colour में हुए बदलाव को देखें libreoffice documents में जिस प्रकार से bold italics और underline जैसे formatting की थी यहाँ भी उसी प्रकार से कर सकते हैं recommendations नामक slide को चुनें body text box पर click करें और text की एक line चुनें अब bold italics और underline icons पर click करें\n>>>",
+  "generation_config": {
+   "max_output_tokens": 8192
+  },
+  "response_format": {
+   "mime_type": "application/json",
+   "schema": {
+    "$defs": {
+     "Fact": {
+      "properties": {
+       "fact": {
+        "title": "Fact",
+        "type": "string"
+       },
+       "evidence": {
+        "title": "Evidence",
+        "type": "string"
+       }
+      },
+      "required": [
+       "fact",
+       "evidence"
+      ],
+      "title": "Fact",
+      "type": "object"
+     }
+    },
+    "properties": {
+     "summary": {
+      "title": "Summary",
+      "type": "string"
+     },
+     "facts": {
+      "items": {
+       "$ref": "#/$defs/Fact"
+      },
+      "title": "Facts",
+      "type": "array"
+     }
+    },
+    "required": [
+     "summary",
+     "facts"
+    ],
+    "title": "Reference",
+    "type": "object"
+   }
+  }
+ },
+ "output_text": "{\"summary\": \"The LibreOffice Impress interface consists of a central workspace with five view buttons: Normal, Outline, Notes, Handout, and Slide Sorter. The Slides pane on the left displays slide thumbnails, while the Tasks pane on the right includes presentation layouts. Users can insert a new blank slide by selecting an existing slide in the Slides pane and clicking Insert followed by Slide. Slide titles can be added by typing directly into the designated title text box. Impress provides two methods to duplicate slides: using the Duplicate Slide command from the Insert menu or copying and pasting slides in Slide Sorter view using the context menu. For text formatting, users can adjust font family and size using the Text Format toolbar or through the Character dialog box accessed from the Format menu. Additionally, text color can be customized using the drop-down arrow next to the font color icon, and standard text styles such as bold, italics, and underline can be applied via their respective toolbar icons.\", \"facts\": [{\"fact\": \"The Impress workspace has five tabs known as view buttons.\", \"evidence\": \"workspace में 5 tabs हैं जिन्हें view buttons कहते हैं\"}, {\"fact\": \"Notes view enables users to attach notes to each slide that do not show up during the presentation.\", \"evidence\": \"notes view प्रत्येक slide में notes जोड़ने की सुविधा देता है जोकि प्रस्तुतिकरण के वक्त नज़र नहीं\"}, {\"fact\": \"Handout view provides the capability to print slides as handouts and select how many slides appear per page.\", \"evidence\": \"handout view slides को हैन्डाउट के रूप में print करने की सुविधा देता है\"}, {\"fact\": \"The Slides pane on the left of the screen shows thumbnails of the presentation slides.\", \"evidence\": \"screen की बाईं ओर आप slides pane देखते हैं यह प्रस्तुति में slides के थम्बनेल सम्मिलित करता है\"}, {\"fact\": \"A new blank slide can be added after a selected slide by choosing Insert and then Slide.\", \"evidence\": \"अब insert और slide पर click करें हम देखते हैं कि दूसरी slide के बाद एक नई खाली slide जुड़ गई है\"}, {\"fact\": \"A duplicate slide can be created by clicking Insert and then Duplicate Slide.\", \"evidence\": \"insert पर click करें और फिर duplicate slide पर click करें\"}, {\"fact\": \"In Slide Sorter view, a slide can be copied and pasted after the final slide by selecting the After option.\", \"evidence\": \"आखरी स्लाइड पर राइट क्लिक करें paste पर क्लिक करें after चुनें और ok click करें\"}, {\"fact\": \"Font family and font size can be adjusted using the text format toolbar.\", \"evidence\": \"text format टूलबार में font type को albany से arial black में बदलें और font size को 32 से 40 में बदलें\"}, {\"fact\": \"A dialog box to customize font style and size can be opened by selecting Character under the Format menu.\", \"evidence\": \"main menu से format पर क्लिक करके और फिर character option पर क्लिक करके भी font को बदल सकते हैं\"}, {\"fact\": \"Font color can be altered by clicking the down arrow situated next to the font color icon.\", \"evidence\": \"font color icon के पास में डाउन arrow पर click करें और जो चाहिए वो color चुनें\"}, {\"fact\": \"Text formatting options such as bold, italics, and underline can be applied using toolbar icons.\", \"evidence\": \"अब bold italics और underline icons पर click करें\"}]}",
+ "response_model": "gemini-3.8-flash",
+ "response_id": "v1_ChZLMzdrYXFuQUctYUdxdHNQMXBIemNREhZLMzdrYXFuQUctYUdxdHNQMXBIemNR",
+ "usage": {
+  "initial_input_tokens": 1249,
+  "input_tokens_by_modality": [
+   {
+    "modality": "text",
+    "tokens": 1115
+   }
+  ],
+  "total_cached_tokens": 0,
+  "total_input_tokens": 1115,
+  "total_output_tokens": 687,
+  "total_thought_tokens": 2872,
+  "total_tokens": 4674,
+  "total_tool_use_tokens": 0
+ },
+ "meta": {
+  "window_id": "W09"
+ }
+}

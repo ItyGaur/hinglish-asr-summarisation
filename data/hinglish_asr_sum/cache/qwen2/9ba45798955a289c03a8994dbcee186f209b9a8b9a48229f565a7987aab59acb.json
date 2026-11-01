@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-30T14:18:23+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W04",
+ "condition": "asr:trelis-hinglish-preview",
+ "out_lang": "en",
+ "input_tokens": 2167,
+ "summary": "This tutorial explains how to use custom animations in LibreOffice Impress, using GNU Linux and LibreOffice version 3.3.4. To start, open a sample presentation in Impress. Select the first text box on the slide by clicking it, then click its border to access the task pane. Click on \"Custom Animation\" to open the custom animation dialog box. The \"Entrance\" tab controls how objects are displayed. Choose \"Diagonal\" for the entrance effect and set the speed to \"Slow.\" Click \"OK\" to apply the animation. Scroll down to see the list of animations and click \"Play\" to preview them. Repeat this process for additional text boxes, adjusting the animation order and properties as needed. For example, you can change the direction of the animation from right to top by selecting the appropriate option in the effect options dialog box. Adjust the delay between animations to create a more dynamic presentation."
+}

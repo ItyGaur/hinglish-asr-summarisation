@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-31T12:36:00+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W21",
+ "condition": "asr:whisper-small",
+ "out_lang": "en",
+ "input_tokens": 3161,
+ "summary": "The tutorial explains how to print presentations using LibreOffice on a Linux system with version 3.3.4. It covers various printing options available in LibreOffice Impress. To print slides, you first select the desired slides from the sample presentation, set the print settings such as color, page range, and slide layout, and choose which parts of the slides to print. For single-page printing, you can select specific slides and use the \"Handouts\" option to print multiple slides per page. The tutorial also demonstrates how to print notes by typing them into the notes section and then printing them along with the slides. Additionally, it shows how to upload and print documents directly from the LibreOffice Impress tab. Overall, the tutorial provides a comprehensive guide on utilizing the printing features in LibreOffice for creating and distributing presentations."
+}

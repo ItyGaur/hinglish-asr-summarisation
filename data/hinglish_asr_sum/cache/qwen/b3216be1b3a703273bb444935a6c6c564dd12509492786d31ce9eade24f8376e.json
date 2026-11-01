@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-31T12:50:13+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W18",
+ "condition": "noise:hi:0.3",
+ "out_lang": "en",
+ "input_tokens": 2791,
+ "summary": "The tutorial explains how to use the \"Find and Replace\" feature in LibreOffice Writer, a popular open-source word processing software. It starts by navigating to the \"Edit\" menu, then selecting \"Find and Replace.\" Users can enter the text they want to find in the \"Search for\" field and the replacement text in the \"Replace with\" field. Clicking \"All Find All\" shows all instances of the searched text. Clicking \"All Replace All\" replaces all occurrences. Advanced options include searching backward, limiting the search to a selected portion of text, and using regular expressions. \n\nThe tutorial also covers the \"Spell Check\" feature. To enable it, go to the \"Tools\" menu, select \"Options,\" then choose \"Language Settings.\" Set the default language to English (USA) and ensure the correct dictionary is selected. Click \"OK\" to apply changes. The spell checker will then check the document or selected text from the current cursor position. Incorrect words are highlighted, and the software suggests corrections from the user's dictionary."
+}

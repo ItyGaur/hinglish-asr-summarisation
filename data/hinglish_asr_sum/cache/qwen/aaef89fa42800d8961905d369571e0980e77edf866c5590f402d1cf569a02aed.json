@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-30T15:58:01+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W02",
+ "condition": "noise:hi:0.5",
+ "out_lang": "en",
+ "input_tokens": 2338,
+ "summary": "This tutorial introduces the gedit text editor on Ubuntu Linux. To install gedit, you can use the Ubuntu Software Center or type `gedit` in the terminal. Once installed, you can open it from the Dash Home or by typing `gedit` in the terminal followed by pressing Enter. The gedit interface includes a menu bar with common commands like typing and editing, a tool bar, and a status bar showing file information such as line and column numbers. You can create a new document with a default name or save an existing one by clicking on the Save option in the menu bar. To close a file, select File > Close. The tutorial also covers opening files, saving them with a specific name, and handling unsaved changes through the status bar."
+}

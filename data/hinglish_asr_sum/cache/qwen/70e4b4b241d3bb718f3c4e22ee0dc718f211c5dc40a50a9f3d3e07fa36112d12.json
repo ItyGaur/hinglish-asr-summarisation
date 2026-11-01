@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-30T16:08:48+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W14",
+ "condition": "asr:trelis-hinglish-preview",
+ "out_lang": "hinglish",
+ "input_tokens": 2630,
+ "summary": "इस ट्यूटोरियल में हम सीखते हैं कि गूगल गैल्टी और याहू गैल्टी अकाउंट्स को थंडरबर्ड में कैंfigरेट कैसे करें। थंडरबर्ड विंडो खोलने के लिए थंडरबर्ड इक्यांस क्लिक करें। गैल्टी अकाउंट जोड़ने के लिए अकाउंट स्टेट्स चुनें और न्यू फोल्डर चुनें। फोल्डर डायलॉग बॉक्स में इम्पोर्टेंट मेल्स नाम दें और फोल्डर बनाएं। याहू अकाउंट को कैंfigरेट कर"
+}

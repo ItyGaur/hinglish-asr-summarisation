@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-30T15:48:00+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W14",
+ "condition": "noise:hi:0.1",
+ "out_lang": "en",
+ "input_tokens": 2765,
+ "summary": "This tutorial covers configuring account settings and email accounts using Mozilla Thunderbird on Ubuntu 12.04. It explains how to add folders to an email account, search for specific messages, and create filters to organize emails. To add a folder, right-click on the email account in the left panel, select \"New Folder,\" and name it (e.g., \"Important Mails\"). Dragging emails into this folder organizes them accordingly. Advanced filtering options allow searching by subject or content; for example, typing \"ten interesting\" in the search field finds relevant emails. Filters can also automatically move emails to specific folders based on criteria like the email subject. The tutorial demonstrates setting up Yahoo and other accounts within Thunderbird, emphasizing its ability to manage multiple email accounts efficiently."
+}

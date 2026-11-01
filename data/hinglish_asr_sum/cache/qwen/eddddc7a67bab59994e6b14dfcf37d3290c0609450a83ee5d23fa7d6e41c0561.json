@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-30T15:56:37+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W08",
+ "condition": "noise:hi:0.4",
+ "out_lang": "en",
+ "input_tokens": 2669,
+ "summary": "This tutorial covers how to use different view options in Microsoft Office Writer for document editing and printing. It starts with explaining the operating system used (GNU Linux) and the version of Office Writer (3.34). Key view options include Print Layout and Web Layout. To switch to Print Layout, click on the View option and then select Print Layout. For Web Layout, click on the View menu, then select View > Web Layout. Full screen mode can be accessed via the View menu or through the View tab by clicking on Full Screen. Exiting full screen mode can be done by pressing the Escape key. The tutorial also explains how to insert page breaks using Insert > Manual Break and Page Break. Zoom options allow adjusting the display size of the document, with features like Fit Width and Height, which adjust the view to fit the entire document within the window. Variable zoom factors can be set manually for precise control over document display. The tutorial concludes with instructions on using the View Layout option to change the display of text documents, including Single Column and Book modes for better document organization and readability."
+}

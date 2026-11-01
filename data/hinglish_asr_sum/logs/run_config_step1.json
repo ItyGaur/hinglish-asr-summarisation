@@ -1,0 +1,116 @@
+{
+  "started": "2026-10-30T09:12:52+00:00",
+  "python": "3.13.16",
+  "gpu": "Tesla T4, 15360 MiB",
+  "seed": 13,
+  "cublas12": "/usr/local/lib/python3.13/dist-packages/nvidia/cublas/lib",
+  "config": {
+    "N_WINDOWS": 25,
+    "MIN_WIN_SEC": 300.0,
+    "MAX_WIN_SEC": 600.0,
+    "MIN_EN_FRAC": 0.05,
+    "MIN_HI_FRAC": 0.3,
+    "GAP_SEC": 0.2,
+    "DUP_JACCARD": 0.5,
+    "N_BOOT": 2000,
+    "RUN_MODELS": [
+      "whisper-small",
+      "trelis-hinglish-preview"
+    ],
+    "ASR_MODELS": {
+      "whisper-small": {
+        "source": "small",
+        "compute_type": "float16",
+        "decode": {
+          "task": "transcribe",
+          "beam_size": 5,
+          "temperature": 0.0,
+          "condition_on_previous_text": false,
+          "vad_filter": false,
+          "initial_prompt": null,
+          "language": "hi",
+          "without_timestamps": false
+        }
+      },
+      "trelis-hinglish-preview": {
+        "source": "convert:Trelis/whisper-hinglish-preview",
+        "compute_type": "float16",
+        "decode": {
+          "task": "transcribe",
+          "beam_size": 5,
+          "temperature": 0.0,
+          "condition_on_previous_text": false,
+          "vad_filter": false,
+          "initial_prompt": null,
+          "language": "hi",
+          "without_timestamps": false
+        }
+      },
+      "abhishek-whisper-base-hinglish": {
+        "source": "hfct2:abhishekgautamm/whisper-base-hinglish:ct2/fp32",
+        "compute_type": "float16",
+        "decode": {
+          "task": "transcribe",
+          "beam_size": 5,
+          "temperature": 0.0,
+          "condition_on_previous_text": false,
+          "vad_filter": false,
+          "initial_prompt": null,
+          "language": "en",
+          "without_timestamps": true,
+          "no_repeat_ngram_size": 3,
+          "repetition_penalty": 1.1
+        }
+      }
+    }
+  },
+  "packages": {
+    "faster-whisper": "1.2.1",
+    "ctranslate2": "4.8.4",
+    "jiwer": "4.0.0",
+    "indic_transliteration": "2.3.82",
+    "transformers": "5.20.2",
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "scipy": "1.16.3",
+    "soundfile": "0.14.0"
+  },
+  "mucs_tar": {
+    "path": "/content/mucs_data/raw/Hindi-English_test.tar.gz",
+    "bytes": 443929204,
+    "sha256": "93e358b3bf8233a897fcd353c1f4f98fdda6b8c01b7eed17a70c7dd26e984b37"
+  },
+  "kaldi": {
+    "dir": "/content/mucs_data/raw/extracted/test/transcripts",
+    "mode": "kaldi_segments",
+    "n_utts": 3136,
+    "n_dropped": 0,
+    "n_recordings": 30,
+    "speech_hours": 5.178208333333334
+  },
+  "selection": {
+    "n_candidates": 48,
+    "n_eligible": 42,
+    "n_selected": 25,
+    "dup_utt_frac": 0.1278698979591837,
+    "n_dup_reco_pairs": 0,
+    "selected_minutes": 126.3
+  },
+  "asr_provenance": {
+    "whisper-small": {
+      "repo": "Systran/faster-whisper-small",
+      "revision": "536b0662742c02347bc0e980a01041f333bce120",
+      "device": "cuda",
+      "compute_type": "float16"
+    },
+    "trelis-hinglish-preview": {
+      "repo": "Trelis/whisper-hinglish-preview",
+      "revision": "eab1188fd2d0e91f2584229b32b3bfe1901c896c",
+      "converted_to": "/content/mucs_data/models/Trelis__whisper-hinglish-preview-ct2-fp16",
+      "feature_size": 128,
+      "device": "cuda",
+      "compute_type": "float16"
+    }
+  },
+  "finished": "2026-10-30T09:52:44+00:00"
+}

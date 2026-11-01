@@ -1,0 +1,78 @@
+{
+ "created": "2026-10-30T16:17:28+00:00",
+ "template_id": "reference",
+ "variant": 0,
+ "request": {
+  "model": "gemini-3.8-flash",
+  "system_instruction": "You are a careful annotator building evaluation data for summarisation research. Follow the instructions exactly and output only JSON that matches the schema.",
+  "input": "Below is the exact human transcript of a segment of a recorded software tutorial. The speaker code-mixes Hindi and English: Hindi is mostly written in Devanagari and English mostly in Latin script, but some English words are written in Devanagari.\n\nProduce two things.\n\n1. \"summary\": an English summary of the segment's content, 120-180 words, plain prose, covering the main steps, concepts and facts taught. Do not mention the speaker, the tutorial series, greetings, credits, funding or websites.\n\n2. \"facts\": 8 to 15 atomic facts that a good summary of this segment should contain.\n- Each fact is one short, self-contained English sentence stating a single piece of content (a step, setting, definition, command or result).\n- Exclude greetings, credits, acknowledgements, funding and website information.\n- Facts must not overlap.\n- For each fact, \"evidence\" must be copied EXACTLY, character for character, from the transcript: one contiguous excerpt of 3 to 25 words that states the fact. Do not translate, transliterate, correct or shorten words inside the excerpt.\n\nTranscript:\n<<<\nlibreoffice impress में प्रस्तुति को प्रिंट करने पर इस spoken tutorial में आपका स्वागत है इस tutorial में हम प्रिंट करने के विविध options देखेंगे slides हैण्डआउट्स notes और outline यहाँ हम अपने ऑपरेटिंग सिस्टम के रूप में gnu/linuxऔर लिबरऑफिस वर्जन 334 का उपयोग कर रहे हैं कभीकभी आपको आपकी प्रस्तुति की हार्डकॉपी print करनी होती है उदाहरण के लिए हो सकता है आप अपनी प्रस्तुति की copies अपने दर्शकों को देना चाहते हो अतः पहले अपनी प्रस्तुति sample impress पर double क्लिक करके उसे open करते हैं slides की prints लेने के लिए file और print पर click करें या फिर ctrl और p कीज़ साथ में press कर सकते हैं general और options tabs में settings जानने के लिए libreoffice writer के documents को देखने तथा प्रिंट करने वाले tutorial को देखें general टैब में print के अंदर document field में हम कई options देखते हैं जो की विशिष्ट रूप से impress में मौजूद है यह options हमें इच्छित format में अपनी slides की prints लेने की सुविधा देते हैं slides हैण्डआउट्स notes और outline हम slides option चुनते हैं चलिए tab libreoffice impress टैब पर click करते हैं यहाँ आप slide के भागों का colours का size का चुनाव कर सकते हैं जिन्हें print करना चाहते हैं content में slide name date and time और hidden pages चुनते हैं जैसे कि text विवरण देता है यह slide का name दिनांक और समय और यदि कोई छिपा हुआ पेज है उसे print करेगा color में gray scale चुनते हैं जैसे कि text विवरण देता है अन्य options slide को इसके मूल रंग में या black and white में print करेगा size में fit to printable page चुनते हैं आप दूसरे options को libreoffice impress टैब में खुद से देख सकते हैं जिस उद्देश्य से आप prints लेना चाहते हैं उसके आधार पर page layout टैब में कई options मौजूद हैं मानिए कि printout के एक ही पेज में आपको कुछ slides चाहिए अतः pages per sheet चुनें default रुप से यह एक pages पर एक slide prints करता है यह पेज का एक छोटा प्रीव्यू है dropdown arrow पर click करें और एक पेज पर कितने स्लाइड print करने हैं उसे चुनें यदि हम 2 चुनते हैं फिर प्रीव्यू में हम दो पेज देख सकते हैं यदि हम 6 चुनते हैं फिर प्रीव्यू में हम दो पेज देख सकते हैं draw a border around each page option को चुनते हैं यह प्रिंट करते समय प्रत्येक पेज पर एक काला border बनाता है यह पेज को अधिक आकर्षक बनाता है अगला option है brochure यह slides को पुस्तिका के रूप में print करने की सुविधा देता है जो binding के लिए आसान हो फिलहाल इस option को हम नहीं चुनेंगे आप खुद इसे बाद में देख लीजिए यह सुनिश्चित करें कि options टैब में सभी चेकबॉक्स अनचेक हैं यह चेकबॉक्स विशेष प्रयोजनों के लिए हैं इनकी चर्चा हम इस tutorial में नहीं करेंगे अब print button पर click करें यदि printer सही से कन्फिग्यर हुआ है तो printer printer करना शुरू करेगा अब handouts option के बारे में सीखते हैं file और print पर click करें और general टैब में print के अंदर document field में handout चुनें default रुप से एक पेज पर 4 slides होते हैं और default क्रम है बाएं से दाएं फिर नीचे इस प्रस्तुति के लिए इसे ऐसे ही रखें libreoffice impress टैब में आप देखेंगे कि size options चुने हुए नहीं हैं या निष्क्रिय हैं इसका कारण यह है कि print का size sheet में कितनी slides हैं और sheet की size द्वारा निर्धारित होता है अब print button पर click करें यदि printer सही से कन्फिग्यर हुआ है तो printer printer करना शुरू करेगा चलिए पहली slide पर जाते हैं और notes टैब पर click करें यहाँ note में हम type करेंगेthis is a sample note आपके notes print करने के लिए जो आपने अपनी slides के लिए टाइप किए थे file और print पर click करें general टैब में print के अंदर document field में notes option चुनें बाएं ओर प्रीव्यू पेज पर देखें यह slide के तल पर आपके टाइप किए हुए note दिखाएगा tab libreoffice impress टैब पर click करें ध्यान दें कि जब हम notes print करते हैं उसके लिए size options उपलब्ध नहीं हैं अब print button पर click करें यदि printer सही से कन्फिग्यर हुआ है तो printer print करना शुरू करेगा\n>>>",
+  "generation_config": {
+   "max_output_tokens": 8192
+  },
+  "response_format": {
+   "mime_type": "application/json",
+   "schema": {
+    "$defs": {
+     "Fact": {
+      "properties": {
+       "fact": {
+        "title": "Fact",
+        "type": "string"
+       },
+       "evidence": {
+        "title": "Evidence",
+        "type": "string"
+       }
+      },
+      "required": [
+       "fact",
+       "evidence"
+      ],
+      "title": "Fact",
+      "type": "object"
+     }
+    },
+    "properties": {
+     "summary": {
+      "title": "Summary",
+      "type": "string"
+     },
+     "facts": {
+      "items": {
+       "$ref": "#/$defs/Fact"
+      },
+      "title": "Facts",
+      "type": "array"
+     }
+    },
+    "required": [
+     "summary",
+     "facts"
+    ],
+    "title": "Reference",
+    "type": "object"
+   }
+  }
+ },
+ "output_text": "{\n  \"summary\": \"To print a presentation in LibreOffice Impress, open the print dialog using the File menu or by pressing Ctrl+P. In the General tab under Document, users can select print formats including slides, handouts, notes, and outline. When printing slides, the LibreOffice Impress tab allows customization of content (such as slide name, date and time, and hidden pages), color settings (original color, grayscale, or black and white), and size options like fitting to a printable page. The Page Layout tab enables printing multiple slides per sheet, choosing the number of slides per page, drawing borders around each page, or printing slides as a brochure for binding. For handouts, the default format places four slides per page ordered left to right and then downwards, with size options disabled. When printing notes typed in the slide's Notes tab, the preview displays the note at the bottom of the slide, and size options in the LibreOffice Impress tab are likewise unavailable.\",\n  \"facts\": [\n    {\n      \"fact\": \"A presentation can be printed by selecting File then Print or by pressing the Ctrl and P keys together.\",\n      \"evidence\": \"file और print पर click करें या फिर ctrl और p कीज़ साथ में press कर सकते हैं\"\n    },\n    {\n      \"fact\": \"Under the Document field in the General tab, available presentation print options include slides, handouts, notes, and outline.\",\n      \"evidence\": \"slides हैण्डआउट्स notes और outline\"\n    },\n    {\n      \"fact\": \"In the LibreOffice Impress tab under Content, users can choose to print the slide name, date and time, and hidden pages.\",\n      \"evidence\": \"content में slide name date and time और hidden pages चुनते हैं\"\n    },\n    {\n      \"fact\": \"Selecting the draw a border around each page option creates a black border around each printed page.\",\n      \"evidence\": \"draw a border around each page option को चुनते हैं यह प्रिंट करते समय प्रत्येक पेज पर एक काला border बनाता है\"\n    },\n    {\n      \"fact\": \"The brochure option formats slides to be printed as a booklet suitable for binding.\",\n      \"evidence\": \"अगला option है brochure यह slides को पुस्तिका के रूप में print करने की सुविधा देता है जो binding के लिए आसान हो\"\n    },\n    {\n      \"fact\": \"The default handout configuration places four slides per page ordered from left to right and then down.\",\n      \"evidence\": \"handout चुनें default रुप से एक पेज पर 4 slides होते हैं और default क्रम है बाएं से दाएं फिर नीचे\"\n    },\n    {\n      \"fact\": \"Size options under the LibreOffice Impress tab are disabled when printing handouts because print size is determined by sheet size and slide count.\",\n      \"evidence\": \"libreoffice impress टैब में आप देखेंगे कि size options चुने हुए नहीं हैं या निष्क्रिय हैं\"\n    },\n    {\n      \"fact\": \"Notes for a slide can be added by navigating to the slide and clicking the Notes tab.\",\n      \"evidence\": \"पहली slide पर जाते हैं और notes टैब पर click करें यहाँ note में हम type करेंगे\"\n    },\n    {\n      \"fact\": \"Selecting notes under the Document field displays typed slide notes at the bottom of the slide in the print preview.\",\n      \"evidence\": \"document field में notes option चुनें बाएं ओर प्रीव्यू पेज पर देखें यह slide के तल पर आपके टाइप किए हुए note दिखाएगा\"\n    },\n    {\n      \"fact\": \"Size options in the LibreOffice Impress tab are unavailable when printing notes.\",\n      \"evidence\": \"ध्यान दें कि जब हम notes print करते हैं उसके लिए size options उपलब्ध नहीं हैं\"\n    }\n  ]\n}",
+ "response_model": "gemini-3.8-flash",
+ "response_id": "v1_Chczc0hrYXVmX05yakxfdU1QejdUMG1BWRIXM3NIa2F1Zl9OcmpMX3VNUHo3VDBtQVk",
+ "usage": {
+  "initial_input_tokens": 1221,
+  "input_tokens_by_modality": [
+   {
+    "modality": "text",
+    "tokens": 1087
+   }
+  ],
+  "total_cached_tokens": 0,
+  "total_input_tokens": 1087,
+  "total_output_tokens": 790,
+  "total_thought_tokens": 3448,
+  "total_tokens": 5325,
+  "total_tool_use_tokens": 0
+ },
+ "meta": {
+  "window_id": "W21"
+ }
+}

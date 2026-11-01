@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-31T12:49:25+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W17",
+ "condition": "noise:hi:0.3",
+ "out_lang": "en",
+ "input_tokens": 2123,
+ "summary": "In this tutorial, you learn how to add and format notes outside the presentation slides in Microsoft Impress. Notes can be added for each slide to provide additional information or references. To add notes, select the \"Notes\" tab, click on the notes placeholder below the slide, and start typing. You can format the text by selecting a font type (e.g., TewgMono), font size (e.g., 18), and adding bullet points. For consistent formatting across all slides, use a notes master by clicking on the \"View\" menu and then \"Master.\" This sets a default format for all notes in the presentation. To customize individual notes, right-click on the notes placeholder, choose \"Format Area,\" and select a color (e.g., Blue 7). Finally, you can resize the notes placeholder to fit more content by dragging it to the top of the slide."
+}

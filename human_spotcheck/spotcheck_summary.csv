@@ -1,0 +1,5 @@
+check,n,agreement,kappa,kappa_ci,note
+judge vs human (30 decisions),30,0.967,0.9,0.63-1.00 (bootstrap),"1 disagreement: judge yes, human no (J19)"
+reference facts correct (evidence supports fact),105,0.9714285714285714,,,3 facts claim more than their excerpt
+language tag correct,105,0.9714285714285714,,,all 3 errors: en-tagged facts the human calls mixed (3 of 5 en facts in the sample)
+reference summary faithful,10,1.0,,,one minor wording note (sorted vs grouped)

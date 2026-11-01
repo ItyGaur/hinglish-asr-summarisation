@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-30T15:38:16+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W10",
+ "condition": "noise:en:0.3",
+ "out_lang": "en",
+ "input_tokens": 2484,
+ "summary": "This tutorial introduces LibreOffice Impress, a free and open-source presentation software similar to Microsoft PowerPoint. It covers installation on various operating systems, including Windows and Linux. Key features include creating a new presentation by selecting a template, customizing it with titles, menus, and formatting tools, and exporting presentations as PDFs or in the .odp format. The tutorial demonstrates how to open and save presentations, and how to convert LibreOffice Impress files to Microsoft PowerPoint format for compatibility. It also explains how to use LibreOffice Manager, which is particularly useful for students and professionals looking to create powerful presentations. The guide walks through the process of creating a basic presentation, including adding text, images, and transitions, and saving it for later use."
+}

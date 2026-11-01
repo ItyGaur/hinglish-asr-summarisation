@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-30T15:36:46+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W03",
+ "condition": "noise:en:0.3",
+ "out_lang": "en",
+ "input_tokens": 2103,
+ "summary": "This tutorial covers using snippets in a text editor to enhance coding efficiency. Snippets are predefined code segments that save users from repetitive typing. The tutorial uses the Gedit text editor on Ubuntu Linux 14.04. To enable snippets, you need to activate the Snippets plugin via the Preferences menu. Writing a C program, the tutorial demonstrates how to use the Intelligent Text Completion feature to automatically complete brackets and quotes. It also shows how to manage and view available snippets for C language through the Manage Snippets dialog. Users can create their own custom snippets by adding them to the Manage Snippets dialog under the Tools menu. The tutorial provides examples of using existing snippets like `if` and `elif`, and creating a simple \"Hello World\" snippet to demonstrate the process. Overall, it highlights how snippets can reduce redundancy and improve coding productivity."
+}

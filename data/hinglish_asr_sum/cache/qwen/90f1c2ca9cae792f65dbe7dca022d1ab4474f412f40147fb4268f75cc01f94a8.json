@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-31T12:39:53+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W22",
+ "condition": "noise:en:0.2",
+ "out_lang": "en",
+ "input_tokens": 1806,
+ "summary": "This tutorial covers the features of JChemPaint, a software for chemical structure editing. It begins by welcoming users to the tool and explaining how to change the background color of the panel and window. Users can access these settings via the \"Edit\" menu, then \"Preferences,\" where they can select from various color options or choose a different look and feel for the interface. Language preferences are also discussed, allowing users to switch between languages like American English, Spanish, and others. The tutorial then guides users on how to include templates in their work, both through the \"Templates\" menu and the side toolbar. Users can create and include structures using SMILES and InChI codes, and the tutorial demonstrates how to view and manage various templates available in the software."
+}

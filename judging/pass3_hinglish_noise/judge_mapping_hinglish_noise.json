@@ -1,0 +1,1204 @@
+{
+ "mapping": {
+  "H-W00-1": {
+   "window_id": "W00",
+   "condition": "noise:en:0.1",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W00-2": {
+   "window_id": "W00",
+   "condition": "asr:whisper-small",
+   "out_lang": "hinglish",
+   "kind": "summary"
+  },
+  "H-W00-3": {
+   "window_id": "W00",
+   "condition": "oracle",
+   "out_lang": "en",
+   "kind": "anchor_original"
+  },
+  "H-W00-4": {
+   "window_id": "W00",
+   "condition": "noise:hi:0.1",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W00-5": {
+   "window_id": "W00",
+   "condition": "noise:hi:0.3",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W00-6": {
+   "window_id": "W00",
+   "condition": "oracle",
+   "out_lang": "hinglish",
+   "kind": "summary"
+  },
+  "H-W00-7": {
+   "window_id": "W00",
+   "condition": "asr:trelis-hinglish-preview",
+   "out_lang": "hinglish",
+   "kind": "summary"
+  },
+  "H-W00-8": {
+   "window_id": "W00",
+   "condition": "noise:en:0.3",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W01-1": {
+   "window_id": "W01",
+   "condition": "asr:whisper-small",
+   "out_lang": "hinglish",
+   "kind": "summary"
+  },
+  "H-W01-2": {
+   "window_id": "W01",
+   "condition": "noise:en:0.1",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W01-3": {
+   "window_id": "W01",
+   "condition": "noise:en:0.3",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W01-4": {
+   "window_id": "W01",
+   "condition": "oracle",
+   "out_lang": "hinglish",
+   "kind": "summary"
+  },
+  "H-W01-5": {
+   "window_id": "W01",
+   "condition": "noise:hi:0.1",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W01-6": {
+   "window_id": "W01",
+   "condition": "oracle",
+   "out_lang": "en",
+   "kind": "anchor_original"
+  },
+  "H-W01-7": {
+   "window_id": "W01",
+   "condition": "asr:trelis-hinglish-preview",
+   "out_lang": "hinglish",
+   "kind": "summary"
+  },
+  "H-W01-8": {
+   "window_id": "W01",
+   "condition": "noise:hi:0.3",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W02-1": {
+   "window_id": "W02",
+   "condition": "asr:trelis-hinglish-preview",
+   "out_lang": "hinglish",
+   "kind": "summary"
+  },
+  "H-W02-2": {
+   "window_id": "W02",
+   "condition": "oracle",
+   "out_lang": "en",
+   "kind": "anchor_original"
+  },
+  "H-W02-3": {
+   "window_id": "W02",
+   "condition": "noise:en:0.3",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W02-4": {
+   "window_id": "W02",
+   "condition": "oracle",
+   "out_lang": "hinglish",
+   "kind": "summary"
+  },
+  "H-W02-5": {
+   "window_id": "W02",
+   "condition": "noise:hi:0.1",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W02-6": {
+   "window_id": "W02",
+   "condition": "noise:en:0.1",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W02-7": {
+   "window_id": "W02",
+   "condition": "noise:hi:0.3",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W02-8": {
+   "window_id": "W02",
+   "condition": "asr:whisper-small",
+   "out_lang": "hinglish",
+   "kind": "summary"
+  },
+  "H-W03-1": {
+   "window_id": "W03",
+   "condition": "noise:hi:0.1",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W03-2": {
+   "window_id": "W03",
+   "condition": "noise:hi:0.3",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W03-3": {
+   "window_id": "W03",
+   "condition": "noise:en:0.1",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W03-4": {
+   "window_id": "W03",
+   "condition": "noise:en:0.3",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W03-5": {
+   "window_id": "W03",
+   "condition": "oracle",
+   "out_lang": "hinglish",
+   "kind": "summary"
+  },
+  "H-W03-6": {
+   "window_id": "W03",
+   "condition": "oracle",
+   "out_lang": "en",
+   "kind": "anchor_original"
+  },
+  "H-W03-7": {
+   "window_id": "W03",
+   "condition": "asr:trelis-hinglish-preview",
+   "out_lang": "hinglish",
+   "kind": "summary"
+  },
+  "H-W03-8": {
+   "window_id": "W03",
+   "condition": "asr:whisper-small",
+   "out_lang": "hinglish",
+   "kind": "summary"
+  },
+  "H-W04-1": {
+   "window_id": "W04",
+   "condition": "noise:en:0.3",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W04-2": {
+   "window_id": "W04",
+   "condition": "asr:trelis-hinglish-preview",
+   "out_lang": "hinglish",
+   "kind": "summary"
+  },
+  "H-W04-3": {
+   "window_id": "W04",
+   "condition": "noise:en:0.1",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W04-4": {
+   "window_id": "W04",
+   "condition": "noise:hi:0.3",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W04-5": {
+   "window_id": "W04",
+   "condition": "asr:whisper-small",
+   "out_lang": "hinglish",
+   "kind": "summary"
+  },
+  "H-W04-6": {
+   "window_id": "W04",
+   "condition": "oracle",
+   "out_lang": "hinglish",
+   "kind": "summary"
+  },
+  "H-W04-7": {
+   "window_id": "W04",
+   "condition": "oracle",
+   "out_lang": "en",
+   "kind": "anchor_original"
+  },
+  "H-W04-8": {
+   "window_id": "W04",
+   "condition": "noise:hi:0.1",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W05-1": {
+   "window_id": "W05",
+   "condition": "oracle",
+   "out_lang": "hinglish",
+   "kind": "summary"
+  },
+  "H-W05-2": {
+   "window_id": "W05",
+   "condition": "noise:en:0.3",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W05-3": {
+   "window_id": "W05",
+   "condition": "asr:trelis-hinglish-preview",
+   "out_lang": "hinglish",
+   "kind": "summary"
+  },
+  "H-W05-4": {
+   "window_id": "W05",
+   "condition": "noise:hi:0.1",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W05-5": {
+   "window_id": "W05",
+   "condition": "noise:en:0.1",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W05-6": {
+   "window_id": "W05",
+   "condition": "oracle",
+   "out_lang": "en",
+   "kind": "anchor_original"
+  },
+  "H-W05-7": {
+   "window_id": "W05",
+   "condition": "noise:hi:0.3",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W05-8": {
+   "window_id": "W05",
+   "condition": "asr:whisper-small",
+   "out_lang": "hinglish",
+   "kind": "summary"
+  },
+  "H-W06-1": {
+   "window_id": "W06",
+   "condition": "oracle",
+   "out_lang": "hinglish",
+   "kind": "summary"
+  },
+  "H-W06-2": {
+   "window_id": "W06",
+   "condition": "oracle",
+   "out_lang": "en",
+   "kind": "anchor_original"
+  },
+  "H-W06-3": {
+   "window_id": "W06",
+   "condition": "noise:en:0.1",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W06-4": {
+   "window_id": "W06",
+   "condition": "noise:hi:0.1",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W06-5": {
+   "window_id": "W06",
+   "condition": "asr:whisper-small",
+   "out_lang": "hinglish",
+   "kind": "summary"
+  },
+  "H-W06-6": {
+   "window_id": "W06",
+   "condition": "asr:trelis-hinglish-preview",
+   "out_lang": "hinglish",
+   "kind": "summary"
+  },
+  "H-W06-7": {
+   "window_id": "W06",
+   "condition": "noise:en:0.3",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W06-8": {
+   "window_id": "W06",
+   "condition": "noise:hi:0.3",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W07-1": {
+   "window_id": "W07",
+   "condition": "oracle",
+   "out_lang": "en",
+   "kind": "anchor_original"
+  },
+  "H-W07-2": {
+   "window_id": "W07",
+   "condition": "noise:hi:0.3",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W07-3": {
+   "window_id": "W07",
+   "condition": "oracle",
+   "out_lang": "hinglish",
+   "kind": "summary"
+  },
+  "H-W07-4": {
+   "window_id": "W07",
+   "condition": "asr:whisper-small",
+   "out_lang": "hinglish",
+   "kind": "summary"
+  },
+  "H-W07-5": {
+   "window_id": "W07",
+   "condition": "noise:hi:0.1",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W07-6": {
+   "window_id": "W07",
+   "condition": "noise:en:0.1",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W07-7": {
+   "window_id": "W07",
+   "condition": "noise:en:0.3",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W07-8": {
+   "window_id": "W07",
+   "condition": "asr:trelis-hinglish-preview",
+   "out_lang": "hinglish",
+   "kind": "summary"
+  },
+  "H-W08-1": {
+   "window_id": "W08",
+   "condition": "noise:en:0.3",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W08-2": {
+   "window_id": "W08",
+   "condition": "asr:trelis-hinglish-preview",
+   "out_lang": "hinglish",
+   "kind": "summary"
+  },
+  "H-W08-3": {
+   "window_id": "W08",
+   "condition": "noise:en:0.1",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W08-4": {
+   "window_id": "W08",
+   "condition": "oracle",
+   "out_lang": "en",
+   "kind": "anchor_original"
+  },
+  "H-W08-5": {
+   "window_id": "W08",
+   "condition": "oracle",
+   "out_lang": "hinglish",
+   "kind": "summary"
+  },
+  "H-W08-6": {
+   "window_id": "W08",
+   "condition": "asr:whisper-small",
+   "out_lang": "hinglish",
+   "kind": "summary"
+  },
+  "H-W08-7": {
+   "window_id": "W08",
+   "condition": "noise:hi:0.1",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W08-8": {
+   "window_id": "W08",
+   "condition": "noise:hi:0.3",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W09-1": {
+   "window_id": "W09",
+   "condition": "asr:whisper-small",
+   "out_lang": "hinglish",
+   "kind": "summary"
+  },
+  "H-W09-2": {
+   "window_id": "W09",
+   "condition": "oracle",
+   "out_lang": "hinglish",
+   "kind": "summary"
+  },
+  "H-W09-3": {
+   "window_id": "W09",
+   "condition": "noise:hi:0.3",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W09-4": {
+   "window_id": "W09",
+   "condition": "asr:trelis-hinglish-preview",
+   "out_lang": "hinglish",
+   "kind": "summary"
+  },
+  "H-W09-5": {
+   "window_id": "W09",
+   "condition": "oracle",
+   "out_lang": "en",
+   "kind": "anchor_original"
+  },
+  "H-W09-6": {
+   "window_id": "W09",
+   "condition": "noise:hi:0.1",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W09-7": {
+   "window_id": "W09",
+   "condition": "noise:en:0.1",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W09-8": {
+   "window_id": "W09",
+   "condition": "noise:en:0.3",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W10-1": {
+   "window_id": "W10",
+   "condition": "oracle",
+   "out_lang": "en",
+   "kind": "anchor_original"
+  },
+  "H-W10-2": {
+   "window_id": "W10",
+   "condition": "asr:whisper-small",
+   "out_lang": "hinglish",
+   "kind": "summary"
+  },
+  "H-W10-3": {
+   "window_id": "W10",
+   "condition": "oracle",
+   "out_lang": "hinglish",
+   "kind": "summary"
+  },
+  "H-W10-4": {
+   "window_id": "W10",
+   "condition": "noise:en:0.3",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W10-5": {
+   "window_id": "W10",
+   "condition": "noise:en:0.1",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W10-6": {
+   "window_id": "W10",
+   "condition": "noise:hi:0.1",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W10-7": {
+   "window_id": "W10",
+   "condition": "noise:hi:0.3",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W10-8": {
+   "window_id": "W10",
+   "condition": "asr:trelis-hinglish-preview",
+   "out_lang": "hinglish",
+   "kind": "summary"
+  },
+  "H-W11-1": {
+   "window_id": "W11",
+   "condition": "asr:whisper-small",
+   "out_lang": "hinglish",
+   "kind": "summary"
+  },
+  "H-W11-2": {
+   "window_id": "W11",
+   "condition": "noise:en:0.3",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W11-3": {
+   "window_id": "W11",
+   "condition": "oracle",
+   "out_lang": "hinglish",
+   "kind": "summary"
+  },
+  "H-W11-4": {
+   "window_id": "W11",
+   "condition": "noise:hi:0.1",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W11-5": {
+   "window_id": "W11",
+   "condition": "noise:hi:0.3",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W11-6": {
+   "window_id": "W11",
+   "condition": "asr:trelis-hinglish-preview",
+   "out_lang": "hinglish",
+   "kind": "summary"
+  },
+  "H-W11-7": {
+   "window_id": "W11",
+   "condition": "oracle",
+   "out_lang": "en",
+   "kind": "anchor_original"
+  },
+  "H-W11-8": {
+   "window_id": "W11",
+   "condition": "noise:en:0.1",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W12-1": {
+   "window_id": "W12",
+   "condition": "noise:en:0.1",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W12-2": {
+   "window_id": "W12",
+   "condition": "asr:whisper-small",
+   "out_lang": "hinglish",
+   "kind": "summary"
+  },
+  "H-W12-3": {
+   "window_id": "W12",
+   "condition": "noise:en:0.3",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W12-4": {
+   "window_id": "W12",
+   "condition": "noise:hi:0.1",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W12-5": {
+   "window_id": "W12",
+   "condition": "oracle",
+   "out_lang": "en",
+   "kind": "anchor_original"
+  },
+  "H-W12-6": {
+   "window_id": "W12",
+   "condition": "asr:trelis-hinglish-preview",
+   "out_lang": "hinglish",
+   "kind": "summary"
+  },
+  "H-W12-7": {
+   "window_id": "W12",
+   "condition": "noise:hi:0.3",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W12-8": {
+   "window_id": "W12",
+   "condition": "oracle",
+   "out_lang": "hinglish",
+   "kind": "summary"
+  },
+  "H-W13-1": {
+   "window_id": "W13",
+   "condition": "oracle",
+   "out_lang": "hinglish",
+   "kind": "summary"
+  },
+  "H-W13-2": {
+   "window_id": "W13",
+   "condition": "asr:whisper-small",
+   "out_lang": "hinglish",
+   "kind": "summary"
+  },
+  "H-W13-3": {
+   "window_id": "W13",
+   "condition": "noise:hi:0.1",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W13-4": {
+   "window_id": "W13",
+   "condition": "asr:trelis-hinglish-preview",
+   "out_lang": "hinglish",
+   "kind": "summary"
+  },
+  "H-W13-5": {
+   "window_id": "W13",
+   "condition": "oracle",
+   "out_lang": "en",
+   "kind": "anchor_original"
+  },
+  "H-W13-6": {
+   "window_id": "W13",
+   "condition": "noise:en:0.1",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W13-7": {
+   "window_id": "W13",
+   "condition": "noise:hi:0.3",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W13-8": {
+   "window_id": "W13",
+   "condition": "noise:en:0.3",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W14-1": {
+   "window_id": "W14",
+   "condition": "noise:hi:0.3",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W14-2": {
+   "window_id": "W14",
+   "condition": "noise:en:0.1",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W14-3": {
+   "window_id": "W14",
+   "condition": "oracle",
+   "out_lang": "hinglish",
+   "kind": "summary"
+  },
+  "H-W14-4": {
+   "window_id": "W14",
+   "condition": "noise:en:0.3",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W14-5": {
+   "window_id": "W14",
+   "condition": "asr:whisper-small",
+   "out_lang": "hinglish",
+   "kind": "summary"
+  },
+  "H-W14-6": {
+   "window_id": "W14",
+   "condition": "noise:hi:0.1",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W14-7": {
+   "window_id": "W14",
+   "condition": "asr:trelis-hinglish-preview",
+   "out_lang": "hinglish",
+   "kind": "summary"
+  },
+  "H-W14-8": {
+   "window_id": "W14",
+   "condition": "oracle",
+   "out_lang": "en",
+   "kind": "anchor_original"
+  },
+  "H-W15-1": {
+   "window_id": "W15",
+   "condition": "asr:trelis-hinglish-preview",
+   "out_lang": "hinglish",
+   "kind": "summary"
+  },
+  "H-W15-2": {
+   "window_id": "W15",
+   "condition": "noise:en:0.3",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W15-3": {
+   "window_id": "W15",
+   "condition": "asr:whisper-small",
+   "out_lang": "hinglish",
+   "kind": "summary"
+  },
+  "H-W15-4": {
+   "window_id": "W15",
+   "condition": "noise:en:0.1",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W15-5": {
+   "window_id": "W15",
+   "condition": "oracle",
+   "out_lang": "en",
+   "kind": "anchor_original"
+  },
+  "H-W15-6": {
+   "window_id": "W15",
+   "condition": "noise:hi:0.1",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W15-7": {
+   "window_id": "W15",
+   "condition": "noise:hi:0.3",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W15-8": {
+   "window_id": "W15",
+   "condition": "oracle",
+   "out_lang": "hinglish",
+   "kind": "summary"
+  },
+  "H-W16-1": {
+   "window_id": "W16",
+   "condition": "asr:trelis-hinglish-preview",
+   "out_lang": "hinglish",
+   "kind": "summary"
+  },
+  "H-W16-2": {
+   "window_id": "W16",
+   "condition": "noise:hi:0.1",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W16-3": {
+   "window_id": "W16",
+   "condition": "noise:hi:0.3",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W16-4": {
+   "window_id": "W16",
+   "condition": "oracle",
+   "out_lang": "hinglish",
+   "kind": "summary"
+  },
+  "H-W16-5": {
+   "window_id": "W16",
+   "condition": "noise:en:0.3",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W16-6": {
+   "window_id": "W16",
+   "condition": "noise:en:0.1",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W16-7": {
+   "window_id": "W16",
+   "condition": "asr:whisper-small",
+   "out_lang": "hinglish",
+   "kind": "summary"
+  },
+  "H-W16-8": {
+   "window_id": "W16",
+   "condition": "oracle",
+   "out_lang": "en",
+   "kind": "anchor_original"
+  },
+  "H-W17-1": {
+   "window_id": "W17",
+   "condition": "noise:en:0.1",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W17-2": {
+   "window_id": "W17",
+   "condition": "asr:whisper-small",
+   "out_lang": "hinglish",
+   "kind": "summary"
+  },
+  "H-W17-3": {
+   "window_id": "W17",
+   "condition": "noise:hi:0.3",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W17-4": {
+   "window_id": "W17",
+   "condition": "noise:hi:0.1",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W17-5": {
+   "window_id": "W17",
+   "condition": "noise:en:0.3",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W17-6": {
+   "window_id": "W17",
+   "condition": "asr:trelis-hinglish-preview",
+   "out_lang": "hinglish",
+   "kind": "summary"
+  },
+  "H-W17-7": {
+   "window_id": "W17",
+   "condition": "oracle",
+   "out_lang": "en",
+   "kind": "anchor_original"
+  },
+  "H-W17-8": {
+   "window_id": "W17",
+   "condition": "oracle",
+   "out_lang": "hinglish",
+   "kind": "summary"
+  },
+  "H-W18-1": {
+   "window_id": "W18",
+   "condition": "noise:hi:0.3",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W18-2": {
+   "window_id": "W18",
+   "condition": "oracle",
+   "out_lang": "en",
+   "kind": "anchor_original"
+  },
+  "H-W18-3": {
+   "window_id": "W18",
+   "condition": "oracle",
+   "out_lang": "hinglish",
+   "kind": "summary"
+  },
+  "H-W18-4": {
+   "window_id": "W18",
+   "condition": "noise:en:0.1",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W18-5": {
+   "window_id": "W18",
+   "condition": "asr:trelis-hinglish-preview",
+   "out_lang": "hinglish",
+   "kind": "summary"
+  },
+  "H-W18-6": {
+   "window_id": "W18",
+   "condition": "noise:en:0.3",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W18-7": {
+   "window_id": "W18",
+   "condition": "asr:whisper-small",
+   "out_lang": "hinglish",
+   "kind": "summary"
+  },
+  "H-W18-8": {
+   "window_id": "W18",
+   "condition": "noise:hi:0.1",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W19-1": {
+   "window_id": "W19",
+   "condition": "noise:en:0.3",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W19-2": {
+   "window_id": "W19",
+   "condition": "noise:en:0.1",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W19-3": {
+   "window_id": "W19",
+   "condition": "asr:trelis-hinglish-preview",
+   "out_lang": "hinglish",
+   "kind": "summary"
+  },
+  "H-W19-4": {
+   "window_id": "W19",
+   "condition": "asr:whisper-small",
+   "out_lang": "hinglish",
+   "kind": "summary"
+  },
+  "H-W19-5": {
+   "window_id": "W19",
+   "condition": "oracle",
+   "out_lang": "hinglish",
+   "kind": "summary"
+  },
+  "H-W19-6": {
+   "window_id": "W19",
+   "condition": "noise:hi:0.3",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W19-7": {
+   "window_id": "W19",
+   "condition": "noise:hi:0.1",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W19-8": {
+   "window_id": "W19",
+   "condition": "oracle",
+   "out_lang": "en",
+   "kind": "anchor_original"
+  },
+  "H-W20-1": {
+   "window_id": "W20",
+   "condition": "noise:hi:0.1",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W20-2": {
+   "window_id": "W20",
+   "condition": "asr:whisper-small",
+   "out_lang": "hinglish",
+   "kind": "summary"
+  },
+  "H-W20-3": {
+   "window_id": "W20",
+   "condition": "noise:en:0.3",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W20-4": {
+   "window_id": "W20",
+   "condition": "noise:hi:0.3",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W20-5": {
+   "window_id": "W20",
+   "condition": "asr:trelis-hinglish-preview",
+   "out_lang": "hinglish",
+   "kind": "summary"
+  },
+  "H-W20-6": {
+   "window_id": "W20",
+   "condition": "oracle",
+   "out_lang": "en",
+   "kind": "anchor_original"
+  },
+  "H-W20-7": {
+   "window_id": "W20",
+   "condition": "oracle",
+   "out_lang": "hinglish",
+   "kind": "summary"
+  },
+  "H-W20-8": {
+   "window_id": "W20",
+   "condition": "noise:en:0.1",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W21-1": {
+   "window_id": "W21",
+   "condition": "noise:en:0.1",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W21-2": {
+   "window_id": "W21",
+   "condition": "asr:trelis-hinglish-preview",
+   "out_lang": "hinglish",
+   "kind": "summary"
+  },
+  "H-W21-3": {
+   "window_id": "W21",
+   "condition": "noise:hi:0.1",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W21-4": {
+   "window_id": "W21",
+   "condition": "noise:en:0.3",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W21-5": {
+   "window_id": "W21",
+   "condition": "oracle",
+   "out_lang": "en",
+   "kind": "anchor_original"
+  },
+  "H-W21-6": {
+   "window_id": "W21",
+   "condition": "noise:hi:0.3",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W21-7": {
+   "window_id": "W21",
+   "condition": "oracle",
+   "out_lang": "hinglish",
+   "kind": "summary"
+  },
+  "H-W21-8": {
+   "window_id": "W21",
+   "condition": "asr:whisper-small",
+   "out_lang": "hinglish",
+   "kind": "summary"
+  },
+  "H-W22-1": {
+   "window_id": "W22",
+   "condition": "noise:en:0.3",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W22-2": {
+   "window_id": "W22",
+   "condition": "noise:en:0.1",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W22-3": {
+   "window_id": "W22",
+   "condition": "oracle",
+   "out_lang": "hinglish",
+   "kind": "summary"
+  },
+  "H-W22-4": {
+   "window_id": "W22",
+   "condition": "noise:hi:0.3",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W22-5": {
+   "window_id": "W22",
+   "condition": "asr:trelis-hinglish-preview",
+   "out_lang": "hinglish",
+   "kind": "summary"
+  },
+  "H-W22-6": {
+   "window_id": "W22",
+   "condition": "noise:hi:0.1",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W22-7": {
+   "window_id": "W22",
+   "condition": "oracle",
+   "out_lang": "en",
+   "kind": "anchor_original"
+  },
+  "H-W22-8": {
+   "window_id": "W22",
+   "condition": "asr:whisper-small",
+   "out_lang": "hinglish",
+   "kind": "summary"
+  },
+  "H-W23-1": {
+   "window_id": "W23",
+   "condition": "asr:whisper-small",
+   "out_lang": "hinglish",
+   "kind": "summary"
+  },
+  "H-W23-2": {
+   "window_id": "W23",
+   "condition": "oracle",
+   "out_lang": "en",
+   "kind": "anchor_original"
+  },
+  "H-W23-3": {
+   "window_id": "W23",
+   "condition": "noise:en:0.1",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W23-4": {
+   "window_id": "W23",
+   "condition": "noise:hi:0.3",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W23-5": {
+   "window_id": "W23",
+   "condition": "oracle",
+   "out_lang": "hinglish",
+   "kind": "summary"
+  },
+  "H-W23-6": {
+   "window_id": "W23",
+   "condition": "noise:hi:0.1",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W23-7": {
+   "window_id": "W23",
+   "condition": "asr:trelis-hinglish-preview",
+   "out_lang": "hinglish",
+   "kind": "summary"
+  },
+  "H-W23-8": {
+   "window_id": "W23",
+   "condition": "noise:en:0.3",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W24-1": {
+   "window_id": "W24",
+   "condition": "oracle",
+   "out_lang": "en",
+   "kind": "anchor_original"
+  },
+  "H-W24-2": {
+   "window_id": "W24",
+   "condition": "asr:trelis-hinglish-preview",
+   "out_lang": "hinglish",
+   "kind": "summary"
+  },
+  "H-W24-3": {
+   "window_id": "W24",
+   "condition": "noise:hi:0.3",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W24-4": {
+   "window_id": "W24",
+   "condition": "noise:hi:0.1",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W24-5": {
+   "window_id": "W24",
+   "condition": "asr:whisper-small",
+   "out_lang": "hinglish",
+   "kind": "summary"
+  },
+  "H-W24-6": {
+   "window_id": "W24",
+   "condition": "oracle",
+   "out_lang": "hinglish",
+   "kind": "summary"
+  },
+  "H-W24-7": {
+   "window_id": "W24",
+   "condition": "noise:en:0.1",
+   "out_lang": "en",
+   "kind": "summary"
+  },
+  "H-W24-8": {
+   "window_id": "W24",
+   "condition": "noise:en:0.3",
+   "out_lang": "en",
+   "kind": "summary"
+  }
+ }
+}

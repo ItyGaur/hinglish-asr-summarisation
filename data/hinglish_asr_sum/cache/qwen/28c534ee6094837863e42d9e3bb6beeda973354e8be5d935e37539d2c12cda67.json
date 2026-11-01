@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-30T15:24:07+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W12",
+ "condition": "asr:trelis-hinglish-preview",
+ "out_lang": "en",
+ "input_tokens": 1889,
+ "summary": "This tutorial covers `typedef` and `union` keywords in C programming. The `typedef` keyword allows users to assign alternative names to existing or user-defined data types, making the code more readable and easier to modify. An example provided uses `typedef unsigned int uint` to simplify variable declarations. The tutorial demonstrates this by checking if a given number is a palindrome using `uint` for variable types.\n\nThe `union` keyword is introduced next, which groups different data types into a single collection but allocates storage space for only one member at a time. Two syntaxes for declaring unions are shown. An example union named `student` contains `english`, `maths`, and `science` fields. Accessing these fields and calculating the total marks is demonstrated. The tutorial concludes by comparing `union` with structures, noting that unions allocate the same storage space for all their members, whereas structures do not."
+}

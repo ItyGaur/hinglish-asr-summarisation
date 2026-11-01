@@ -1,0 +1,877 @@
+{
+ "VD-W00-a": {
+  "window_id": "W00",
+  "condition": "screen_only",
+  "kind": "video"
+ },
+ "VD-W00-b": {
+  "window_id": "W00",
+  "condition": "oracle+screen",
+  "kind": "video"
+ },
+ "VD-W00-c": {
+  "window_id": "W00",
+  "condition": "asr:trelis-hinglish-preview+screen",
+  "kind": "video"
+ },
+ "VD-W00-d": {
+  "window_id": "W00",
+  "condition": "asr:trelis-hinglish-preview",
+  "kind": "anchor_original"
+ },
+ "VD-W00-e": {
+  "window_id": "W00",
+  "condition": "oracle",
+  "kind": "anchor_original"
+ },
+ "VD-W00-f": {
+  "window_id": "W00",
+  "condition": "asr:whisper-small+screen",
+  "kind": "video"
+ },
+ "VD-W00-g": {
+  "window_id": "W00",
+  "condition": "asr:whisper-small",
+  "kind": "anchor_original"
+ },
+ "VD-W02-a": {
+  "window_id": "W02",
+  "condition": "screen_only",
+  "kind": "video"
+ },
+ "VD-W02-b": {
+  "window_id": "W02",
+  "condition": "asr:whisper-small+screen",
+  "kind": "video"
+ },
+ "VD-W02-c": {
+  "window_id": "W02",
+  "condition": "oracle",
+  "kind": "anchor_original"
+ },
+ "VD-W02-d": {
+  "window_id": "W02",
+  "condition": "asr:trelis-hinglish-preview+screen",
+  "kind": "video"
+ },
+ "VD-W02-e": {
+  "window_id": "W02",
+  "condition": "oracle+screen",
+  "kind": "video"
+ },
+ "VD-W02-f": {
+  "window_id": "W02",
+  "condition": "asr:trelis-hinglish-preview",
+  "kind": "anchor_original"
+ },
+ "VD-W02-g": {
+  "window_id": "W02",
+  "condition": "asr:whisper-small",
+  "kind": "anchor_original"
+ },
+ "VD-W03-a": {
+  "window_id": "W03",
+  "condition": "oracle",
+  "kind": "anchor_original"
+ },
+ "VD-W03-b": {
+  "window_id": "W03",
+  "condition": "screen_only",
+  "kind": "video"
+ },
+ "VD-W03-c": {
+  "window_id": "W03",
+  "condition": "asr:trelis-hinglish-preview",
+  "kind": "anchor_original"
+ },
+ "VD-W03-d": {
+  "window_id": "W03",
+  "condition": "asr:whisper-small+screen",
+  "kind": "video"
+ },
+ "VD-W03-e": {
+  "window_id": "W03",
+  "condition": "asr:trelis-hinglish-preview+screen",
+  "kind": "video"
+ },
+ "VD-W03-f": {
+  "window_id": "W03",
+  "condition": "oracle+screen",
+  "kind": "video"
+ },
+ "VD-W03-g": {
+  "window_id": "W03",
+  "condition": "asr:whisper-small",
+  "kind": "anchor_original"
+ },
+ "VD-W04-a": {
+  "window_id": "W04",
+  "condition": "oracle+screen",
+  "kind": "video"
+ },
+ "VD-W04-b": {
+  "window_id": "W04",
+  "condition": "asr:whisper-small",
+  "kind": "anchor_original"
+ },
+ "VD-W04-c": {
+  "window_id": "W04",
+  "condition": "asr:trelis-hinglish-preview+screen",
+  "kind": "video"
+ },
+ "VD-W04-d": {
+  "window_id": "W04",
+  "condition": "screen_only",
+  "kind": "video"
+ },
+ "VD-W04-e": {
+  "window_id": "W04",
+  "condition": "oracle",
+  "kind": "anchor_original"
+ },
+ "VD-W04-f": {
+  "window_id": "W04",
+  "condition": "asr:trelis-hinglish-preview",
+  "kind": "anchor_original"
+ },
+ "VD-W04-g": {
+  "window_id": "W04",
+  "condition": "asr:whisper-small+screen",
+  "kind": "video"
+ },
+ "VD-W05-a": {
+  "window_id": "W05",
+  "condition": "asr:whisper-small+screen",
+  "kind": "video"
+ },
+ "VD-W05-b": {
+  "window_id": "W05",
+  "condition": "oracle",
+  "kind": "anchor_original"
+ },
+ "VD-W05-c": {
+  "window_id": "W05",
+  "condition": "screen_only",
+  "kind": "video"
+ },
+ "VD-W05-d": {
+  "window_id": "W05",
+  "condition": "asr:trelis-hinglish-preview+screen",
+  "kind": "video"
+ },
+ "VD-W05-e": {
+  "window_id": "W05",
+  "condition": "asr:whisper-small",
+  "kind": "anchor_original"
+ },
+ "VD-W05-f": {
+  "window_id": "W05",
+  "condition": "oracle+screen",
+  "kind": "video"
+ },
+ "VD-W05-g": {
+  "window_id": "W05",
+  "condition": "asr:trelis-hinglish-preview",
+  "kind": "anchor_original"
+ },
+ "VD-W06-a": {
+  "window_id": "W06",
+  "condition": "screen_only",
+  "kind": "video"
+ },
+ "VD-W06-b": {
+  "window_id": "W06",
+  "condition": "asr:trelis-hinglish-preview",
+  "kind": "anchor_original"
+ },
+ "VD-W06-c": {
+  "window_id": "W06",
+  "condition": "oracle+screen",
+  "kind": "video"
+ },
+ "VD-W06-d": {
+  "window_id": "W06",
+  "condition": "asr:trelis-hinglish-preview+screen",
+  "kind": "video"
+ },
+ "VD-W06-e": {
+  "window_id": "W06",
+  "condition": "asr:whisper-small",
+  "kind": "anchor_original"
+ },
+ "VD-W06-f": {
+  "window_id": "W06",
+  "condition": "oracle",
+  "kind": "anchor_original"
+ },
+ "VD-W06-g": {
+  "window_id": "W06",
+  "condition": "asr:whisper-small+screen",
+  "kind": "video"
+ },
+ "VD-W07-a": {
+  "window_id": "W07",
+  "condition": "asr:whisper-small+screen",
+  "kind": "video"
+ },
+ "VD-W07-b": {
+  "window_id": "W07",
+  "condition": "oracle",
+  "kind": "anchor_original"
+ },
+ "VD-W07-c": {
+  "window_id": "W07",
+  "condition": "screen_only",
+  "kind": "video"
+ },
+ "VD-W07-d": {
+  "window_id": "W07",
+  "condition": "asr:trelis-hinglish-preview+screen",
+  "kind": "video"
+ },
+ "VD-W07-e": {
+  "window_id": "W07",
+  "condition": "asr:trelis-hinglish-preview",
+  "kind": "anchor_original"
+ },
+ "VD-W07-f": {
+  "window_id": "W07",
+  "condition": "asr:whisper-small",
+  "kind": "anchor_original"
+ },
+ "VD-W07-g": {
+  "window_id": "W07",
+  "condition": "oracle+screen",
+  "kind": "video"
+ },
+ "VD-W08-a": {
+  "window_id": "W08",
+  "condition": "asr:trelis-hinglish-preview+screen",
+  "kind": "video"
+ },
+ "VD-W08-b": {
+  "window_id": "W08",
+  "condition": "oracle",
+  "kind": "anchor_original"
+ },
+ "VD-W08-c": {
+  "window_id": "W08",
+  "condition": "oracle+screen",
+  "kind": "video"
+ },
+ "VD-W08-d": {
+  "window_id": "W08",
+  "condition": "asr:trelis-hinglish-preview",
+  "kind": "anchor_original"
+ },
+ "VD-W08-e": {
+  "window_id": "W08",
+  "condition": "asr:whisper-small",
+  "kind": "anchor_original"
+ },
+ "VD-W08-f": {
+  "window_id": "W08",
+  "condition": "screen_only",
+  "kind": "video"
+ },
+ "VD-W08-g": {
+  "window_id": "W08",
+  "condition": "asr:whisper-small+screen",
+  "kind": "video"
+ },
+ "VD-W10-a": {
+  "window_id": "W10",
+  "condition": "asr:whisper-small",
+  "kind": "anchor_original"
+ },
+ "VD-W10-b": {
+  "window_id": "W10",
+  "condition": "asr:whisper-small+screen",
+  "kind": "video"
+ },
+ "VD-W10-c": {
+  "window_id": "W10",
+  "condition": "oracle+screen",
+  "kind": "video"
+ },
+ "VD-W10-d": {
+  "window_id": "W10",
+  "condition": "asr:trelis-hinglish-preview",
+  "kind": "anchor_original"
+ },
+ "VD-W10-e": {
+  "window_id": "W10",
+  "condition": "asr:trelis-hinglish-preview+screen",
+  "kind": "video"
+ },
+ "VD-W10-f": {
+  "window_id": "W10",
+  "condition": "screen_only",
+  "kind": "video"
+ },
+ "VD-W10-g": {
+  "window_id": "W10",
+  "condition": "oracle",
+  "kind": "anchor_original"
+ },
+ "VD-W11-a": {
+  "window_id": "W11",
+  "condition": "screen_only",
+  "kind": "video"
+ },
+ "VD-W11-b": {
+  "window_id": "W11",
+  "condition": "asr:trelis-hinglish-preview+screen",
+  "kind": "video"
+ },
+ "VD-W11-c": {
+  "window_id": "W11",
+  "condition": "asr:trelis-hinglish-preview",
+  "kind": "anchor_original"
+ },
+ "VD-W11-d": {
+  "window_id": "W11",
+  "condition": "oracle",
+  "kind": "anchor_original"
+ },
+ "VD-W11-e": {
+  "window_id": "W11",
+  "condition": "oracle+screen",
+  "kind": "video"
+ },
+ "VD-W11-f": {
+  "window_id": "W11",
+  "condition": "asr:whisper-small+screen",
+  "kind": "video"
+ },
+ "VD-W11-g": {
+  "window_id": "W11",
+  "condition": "asr:whisper-small",
+  "kind": "anchor_original"
+ },
+ "VD-W12-a": {
+  "window_id": "W12",
+  "condition": "asr:whisper-small+screen",
+  "kind": "video"
+ },
+ "VD-W12-b": {
+  "window_id": "W12",
+  "condition": "asr:trelis-hinglish-preview+screen",
+  "kind": "video"
+ },
+ "VD-W12-c": {
+  "window_id": "W12",
+  "condition": "oracle+screen",
+  "kind": "video"
+ },
+ "VD-W12-d": {
+  "window_id": "W12",
+  "condition": "asr:whisper-small",
+  "kind": "anchor_original"
+ },
+ "VD-W12-e": {
+  "window_id": "W12",
+  "condition": "screen_only",
+  "kind": "video"
+ },
+ "VD-W12-f": {
+  "window_id": "W12",
+  "condition": "oracle",
+  "kind": "anchor_original"
+ },
+ "VD-W12-g": {
+  "window_id": "W12",
+  "condition": "asr:trelis-hinglish-preview",
+  "kind": "anchor_original"
+ },
+ "VD-W13-a": {
+  "window_id": "W13",
+  "condition": "asr:whisper-small",
+  "kind": "anchor_original"
+ },
+ "VD-W13-b": {
+  "window_id": "W13",
+  "condition": "asr:trelis-hinglish-preview+screen",
+  "kind": "video"
+ },
+ "VD-W13-c": {
+  "window_id": "W13",
+  "condition": "asr:whisper-small+screen",
+  "kind": "video"
+ },
+ "VD-W13-d": {
+  "window_id": "W13",
+  "condition": "oracle+screen",
+  "kind": "video"
+ },
+ "VD-W13-e": {
+  "window_id": "W13",
+  "condition": "oracle",
+  "kind": "anchor_original"
+ },
+ "VD-W13-f": {
+  "window_id": "W13",
+  "condition": "screen_only",
+  "kind": "video"
+ },
+ "VD-W13-g": {
+  "window_id": "W13",
+  "condition": "asr:trelis-hinglish-preview",
+  "kind": "anchor_original"
+ },
+ "VD-W14-a": {
+  "window_id": "W14",
+  "condition": "asr:whisper-small+screen",
+  "kind": "video"
+ },
+ "VD-W14-b": {
+  "window_id": "W14",
+  "condition": "asr:trelis-hinglish-preview",
+  "kind": "anchor_original"
+ },
+ "VD-W14-c": {
+  "window_id": "W14",
+  "condition": "oracle",
+  "kind": "anchor_original"
+ },
+ "VD-W14-d": {
+  "window_id": "W14",
+  "condition": "asr:whisper-small",
+  "kind": "anchor_original"
+ },
+ "VD-W14-e": {
+  "window_id": "W14",
+  "condition": "asr:trelis-hinglish-preview+screen",
+  "kind": "video"
+ },
+ "VD-W14-f": {
+  "window_id": "W14",
+  "condition": "screen_only",
+  "kind": "video"
+ },
+ "VD-W14-g": {
+  "window_id": "W14",
+  "condition": "oracle+screen",
+  "kind": "video"
+ },
+ "VD-W15-a": {
+  "window_id": "W15",
+  "condition": "oracle+screen",
+  "kind": "video"
+ },
+ "VD-W15-b": {
+  "window_id": "W15",
+  "condition": "asr:trelis-hinglish-preview+screen",
+  "kind": "video"
+ },
+ "VD-W15-c": {
+  "window_id": "W15",
+  "condition": "oracle",
+  "kind": "anchor_original"
+ },
+ "VD-W15-d": {
+  "window_id": "W15",
+  "condition": "screen_only",
+  "kind": "video"
+ },
+ "VD-W15-e": {
+  "window_id": "W15",
+  "condition": "asr:trelis-hinglish-preview",
+  "kind": "anchor_original"
+ },
+ "VD-W15-f": {
+  "window_id": "W15",
+  "condition": "asr:whisper-small+screen",
+  "kind": "video"
+ },
+ "VD-W15-g": {
+  "window_id": "W15",
+  "condition": "asr:whisper-small",
+  "kind": "anchor_original"
+ },
+ "VD-W16-a": {
+  "window_id": "W16",
+  "condition": "asr:trelis-hinglish-preview",
+  "kind": "anchor_original"
+ },
+ "VD-W16-b": {
+  "window_id": "W16",
+  "condition": "oracle+screen",
+  "kind": "video"
+ },
+ "VD-W16-c": {
+  "window_id": "W16",
+  "condition": "oracle",
+  "kind": "anchor_original"
+ },
+ "VD-W16-d": {
+  "window_id": "W16",
+  "condition": "asr:trelis-hinglish-preview+screen",
+  "kind": "video"
+ },
+ "VD-W16-e": {
+  "window_id": "W16",
+  "condition": "asr:whisper-small",
+  "kind": "anchor_original"
+ },
+ "VD-W16-f": {
+  "window_id": "W16",
+  "condition": "screen_only",
+  "kind": "video"
+ },
+ "VD-W16-g": {
+  "window_id": "W16",
+  "condition": "asr:whisper-small+screen",
+  "kind": "video"
+ },
+ "VD-W17-a": {
+  "window_id": "W17",
+  "condition": "asr:trelis-hinglish-preview+screen",
+  "kind": "video"
+ },
+ "VD-W17-b": {
+  "window_id": "W17",
+  "condition": "asr:whisper-small+screen",
+  "kind": "video"
+ },
+ "VD-W17-c": {
+  "window_id": "W17",
+  "condition": "asr:whisper-small",
+  "kind": "anchor_original"
+ },
+ "VD-W17-d": {
+  "window_id": "W17",
+  "condition": "asr:trelis-hinglish-preview",
+  "kind": "anchor_original"
+ },
+ "VD-W17-e": {
+  "window_id": "W17",
+  "condition": "oracle+screen",
+  "kind": "video"
+ },
+ "VD-W17-f": {
+  "window_id": "W17",
+  "condition": "oracle",
+  "kind": "anchor_original"
+ },
+ "VD-W17-g": {
+  "window_id": "W17",
+  "condition": "screen_only",
+  "kind": "video"
+ },
+ "VD-W18-a": {
+  "window_id": "W18",
+  "condition": "asr:trelis-hinglish-preview",
+  "kind": "anchor_original"
+ },
+ "VD-W18-b": {
+  "window_id": "W18",
+  "condition": "oracle",
+  "kind": "anchor_original"
+ },
+ "VD-W18-c": {
+  "window_id": "W18",
+  "condition": "asr:whisper-small+screen",
+  "kind": "video"
+ },
+ "VD-W18-d": {
+  "window_id": "W18",
+  "condition": "oracle+screen",
+  "kind": "video"
+ },
+ "VD-W18-e": {
+  "window_id": "W18",
+  "condition": "screen_only",
+  "kind": "video"
+ },
+ "VD-W18-f": {
+  "window_id": "W18",
+  "condition": "asr:trelis-hinglish-preview+screen",
+  "kind": "video"
+ },
+ "VD-W18-g": {
+  "window_id": "W18",
+  "condition": "asr:whisper-small",
+  "kind": "anchor_original"
+ },
+ "VD-W19-a": {
+  "window_id": "W19",
+  "condition": "oracle",
+  "kind": "anchor_original"
+ },
+ "VD-W19-b": {
+  "window_id": "W19",
+  "condition": "asr:whisper-small",
+  "kind": "anchor_original"
+ },
+ "VD-W19-c": {
+  "window_id": "W19",
+  "condition": "oracle+screen",
+  "kind": "video"
+ },
+ "VD-W19-d": {
+  "window_id": "W19",
+  "condition": "asr:trelis-hinglish-preview",
+  "kind": "anchor_original"
+ },
+ "VD-W19-e": {
+  "window_id": "W19",
+  "condition": "asr:whisper-small+screen",
+  "kind": "video"
+ },
+ "VD-W19-f": {
+  "window_id": "W19",
+  "condition": "asr:trelis-hinglish-preview+screen",
+  "kind": "video"
+ },
+ "VD-W19-g": {
+  "window_id": "W19",
+  "condition": "screen_only",
+  "kind": "video"
+ },
+ "VD-W20-a": {
+  "window_id": "W20",
+  "condition": "screen_only",
+  "kind": "video"
+ },
+ "VD-W20-b": {
+  "window_id": "W20",
+  "condition": "asr:trelis-hinglish-preview",
+  "kind": "anchor_original"
+ },
+ "VD-W20-c": {
+  "window_id": "W20",
+  "condition": "asr:whisper-small",
+  "kind": "anchor_original"
+ },
+ "VD-W20-d": {
+  "window_id": "W20",
+  "condition": "oracle+screen",
+  "kind": "video"
+ },
+ "VD-W20-e": {
+  "window_id": "W20",
+  "condition": "oracle",
+  "kind": "anchor_original"
+ },
+ "VD-W20-f": {
+  "window_id": "W20",
+  "condition": "asr:trelis-hinglish-preview+screen",
+  "kind": "video"
+ },
+ "VD-W20-g": {
+  "window_id": "W20",
+  "condition": "asr:whisper-small+screen",
+  "kind": "video"
+ },
+ "VD-W22-a": {
+  "window_id": "W22",
+  "condition": "asr:whisper-small+screen",
+  "kind": "video"
+ },
+ "VD-W22-b": {
+  "window_id": "W22",
+  "condition": "asr:trelis-hinglish-preview+screen",
+  "kind": "video"
+ },
+ "VD-W22-c": {
+  "window_id": "W22",
+  "condition": "oracle",
+  "kind": "anchor_original"
+ },
+ "VD-W22-d": {
+  "window_id": "W22",
+  "condition": "asr:whisper-small",
+  "kind": "anchor_original"
+ },
+ "VD-W22-e": {
+  "window_id": "W22",
+  "condition": "screen_only",
+  "kind": "video"
+ },
+ "VD-W22-f": {
+  "window_id": "W22",
+  "condition": "asr:trelis-hinglish-preview",
+  "kind": "anchor_original"
+ },
+ "VD-W22-g": {
+  "window_id": "W22",
+  "condition": "oracle+screen",
+  "kind": "video"
+ },
+ "VD-W24-a": {
+  "window_id": "W24",
+  "condition": "oracle+screen",
+  "kind": "video"
+ },
+ "VD-W24-b": {
+  "window_id": "W24",
+  "condition": "screen_only",
+  "kind": "video"
+ },
+ "VD-W24-c": {
+  "window_id": "W24",
+  "condition": "asr:trelis-hinglish-preview",
+  "kind": "anchor_original"
+ },
+ "VD-W24-d": {
+  "window_id": "W24",
+  "condition": "oracle",
+  "kind": "anchor_original"
+ },
+ "VD-W24-e": {
+  "window_id": "W24",
+  "condition": "asr:trelis-hinglish-preview+screen",
+  "kind": "video"
+ },
+ "VD-W24-f": {
+  "window_id": "W24",
+  "condition": "asr:whisper-small",
+  "kind": "anchor_original"
+ },
+ "VD-W24-g": {
+  "window_id": "W24",
+  "condition": "asr:whisper-small+screen",
+  "kind": "video"
+ },
+ "VD-W01-a": {
+  "window_id": "W01",
+  "condition": "screen_only",
+  "kind": "video"
+ },
+ "VD-W01-b": {
+  "window_id": "W01",
+  "condition": "oracle",
+  "kind": "anchor_original"
+ },
+ "VD-W01-c": {
+  "window_id": "W01",
+  "condition": "asr:trelis-hinglish-preview+screen",
+  "kind": "video"
+ },
+ "VD-W01-d": {
+  "window_id": "W01",
+  "condition": "oracle+screen",
+  "kind": "video"
+ },
+ "VD-W01-e": {
+  "window_id": "W01",
+  "condition": "asr:whisper-small",
+  "kind": "anchor_original"
+ },
+ "VD-W01-f": {
+  "window_id": "W01",
+  "condition": "asr:trelis-hinglish-preview",
+  "kind": "anchor_original"
+ },
+ "VD-W01-g": {
+  "window_id": "W01",
+  "condition": "asr:whisper-small+screen",
+  "kind": "video"
+ },
+ "VD-W09-a": {
+  "window_id": "W09",
+  "condition": "screen_only",
+  "kind": "video"
+ },
+ "VD-W09-b": {
+  "window_id": "W09",
+  "condition": "asr:trelis-hinglish-preview",
+  "kind": "anchor_original"
+ },
+ "VD-W09-c": {
+  "window_id": "W09",
+  "condition": "asr:whisper-small+screen",
+  "kind": "video"
+ },
+ "VD-W09-d": {
+  "window_id": "W09",
+  "condition": "oracle+screen",
+  "kind": "video"
+ },
+ "VD-W09-e": {
+  "window_id": "W09",
+  "condition": "asr:whisper-small",
+  "kind": "anchor_original"
+ },
+ "VD-W09-f": {
+  "window_id": "W09",
+  "condition": "oracle",
+  "kind": "anchor_original"
+ },
+ "VD-W09-g": {
+  "window_id": "W09",
+  "condition": "asr:trelis-hinglish-preview+screen",
+  "kind": "video"
+ },
+ "VD-W21-a": {
+  "window_id": "W21",
+  "condition": "oracle",
+  "kind": "anchor_original"
+ },
+ "VD-W21-b": {
+  "window_id": "W21",
+  "condition": "asr:whisper-small",
+  "kind": "anchor_original"
+ },
+ "VD-W21-c": {
+  "window_id": "W21",
+  "condition": "asr:trelis-hinglish-preview+screen",
+  "kind": "video"
+ },
+ "VD-W21-d": {
+  "window_id": "W21",
+  "condition": "asr:trelis-hinglish-preview",
+  "kind": "anchor_original"
+ },
+ "VD-W21-e": {
+  "window_id": "W21",
+  "condition": "asr:whisper-small+screen",
+  "kind": "video"
+ },
+ "VD-W21-f": {
+  "window_id": "W21",
+  "condition": "screen_only",
+  "kind": "video"
+ },
+ "VD-W21-g": {
+  "window_id": "W21",
+  "condition": "oracle+screen",
+  "kind": "video"
+ },
+ "VD-W23-a": {
+  "window_id": "W23",
+  "condition": "oracle",
+  "kind": "anchor_original"
+ },
+ "VD-W23-b": {
+  "window_id": "W23",
+  "condition": "oracle+screen",
+  "kind": "video"
+ },
+ "VD-W23-c": {
+  "window_id": "W23",
+  "condition": "screen_only",
+  "kind": "video"
+ },
+ "VD-W23-d": {
+  "window_id": "W23",
+  "condition": "asr:whisper-small",
+  "kind": "anchor_original"
+ },
+ "VD-W23-e": {
+  "window_id": "W23",
+  "condition": "asr:trelis-hinglish-preview+screen",
+  "kind": "video"
+ },
+ "VD-W23-f": {
+  "window_id": "W23",
+  "condition": "asr:whisper-small+screen",
+  "kind": "video"
+ },
+ "VD-W23-g": {
+  "window_id": "W23",
+  "condition": "asr:trelis-hinglish-preview",
+  "kind": "anchor_original"
+ }
+}

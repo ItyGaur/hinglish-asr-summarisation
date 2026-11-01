@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-31T12:53:03+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W16",
+ "condition": "noise:hi:0.5",
+ "out_lang": "en",
+ "input_tokens": 2113,
+ "summary": "In this tutorial, you learn about storage class specifiers in C programming, specifically focusing on `auto` and `static` keywords. Storage class specifiers tell the compiler where to store variables and how they behave. The `auto` keyword declares a local variable that is automatically initialized and does not persist beyond the function call. An example demonstrates declaring an `auto` variable within a function, which leads to a compilation error when trying to declare it globally. To fix this, the `auto` variable is initialized before its use. \n\nThe `static` keyword, introduced briefly, initializes a variable to zero and retains its value between function calls, unlike `auto` variables which are reinitialized each time. An example shows initializing a `static` variable within a function, demonstrating its persistence across multiple function calls. This tutorial uses Ubuntu 11.10 and GCC 4.6.1 compilers, and the examples are run in a terminal."
+}

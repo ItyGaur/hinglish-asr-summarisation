@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-30T16:06:47+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W05",
+ "condition": "asr:trelis-hinglish-preview",
+ "out_lang": "hinglish",
+ "input_tokens": 2545,
+ "summary": "आपको मुजला थंडरबर्ड के बारे में सीखने का स्वागत है। यह एक सरल email client है और विभिन्न operating system पर काम कर सकता है। आप इसे उबंटू सॉफ्टवेयर सेंटर या मोजला वेबसाइट से डाउनलोड कर सकते हैं। आपको दो वैध email accounts होने चाहिए। थंडरबर्ड को लॉन्च करने के लिए डेश घोंसला क्लिक करें और तारीख बांटने वाला बटन पर क्लिक करें। तब मेल अकाउंट सेटअप डायलॉग बॉक्स खुलेगा। इसमें आप अपने email"
+}

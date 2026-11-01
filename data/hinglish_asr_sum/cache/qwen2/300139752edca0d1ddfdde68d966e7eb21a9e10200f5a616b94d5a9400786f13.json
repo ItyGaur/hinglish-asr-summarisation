@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-30T14:25:28+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W16",
+ "condition": "asr:whisper-small",
+ "out_lang": "en",
+ "input_tokens": 2748,
+ "summary": "The tutorial covers the use of auto variables in C programming, specifically within the context of storage classes and compiler directives. It explains how to declare and initialize auto variables, which have local scope and are reinitialized each time a function is called. The tutorial demonstrates this by defining an auto variable inside a nested function and observing its behavior. It also discusses the error encountered when trying to globally initialize an auto variable and how to fix it. Additionally, the concept of static variables is revisited; these variables retain their value between function calls but are initialized only once. The tutorial shows how to declare and use static variables, emphasizing their persistence across multiple function calls without losing their values."
+}

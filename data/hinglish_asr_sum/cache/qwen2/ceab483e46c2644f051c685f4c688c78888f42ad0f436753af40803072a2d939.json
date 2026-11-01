@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-30T14:24:38+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W13",
+ "condition": "asr:whisper-small",
+ "out_lang": "en",
+ "input_tokens": 2608,
+ "summary": "This tutorial covers setting up JChemPaint on Windows 7 for chemical structure drawing and editing. It starts by installing necessary software including Java, Intended Connection, and Command Prompt. JChemPaint is described as a 2D chemical structure editor running on Java, compatible with multiple platforms. To install, open the web browser, navigate to JChemPaint's download page, and select the appropriate version (3.3.1210). Then, use the Command Prompt to run JChemPaint by navigating to its directory and typing `java -jar JChemPaint.jar`. For Windows system setup, download and install Java Runtime Environment (JRE) 7 from the official website. After installation, launch the JRE installer, accept the license agreement, and follow the installation prompts to complete the setup. Finally, JChemPaint can be launched from the Start menu or Command Prompt."
+}

@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-31T12:47:48+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W17",
+ "condition": "noise:hi:0.2",
+ "out_lang": "en",
+ "input_tokens": 2105,
+ "summary": "In this tutorial, you learn how to create and format notes for a presentation in Microsoft Office Impress. Notes are used to provide additional information or references for the audience, which can be accessed when the presenter shows the slides. To add notes, select the \"Notes\" tab, click on the notes placeholder below the slide, and start typing your notes. You can format the text by choosing a font type (e.g., TlwgMono), size (e.g., 18), and adding bullet points. For a consistent format across all slides, use a notes master by clicking on the \"View\" menu, then \"Master,\" and selecting \"Notes Master.\" This sets a standard format for all notes in the presentation.\n\nTo customize the appearance of notes, choose a specific slide, click on the notes placeholder, and adjust the font size (e.g., 32). Use the \"Format\" and \"Character\" options to change the font color (e.g., red) and apply effects. You can also add a logo by selecting basic shapes from the drawing toolbar, positioning it, and customizing its fill color (e.g., blue 7).\n\nFinally, you learn how to resize the notes placeholder and slide placeholder to fit your content better, ensuring the notes align with the slide's layout."
+}

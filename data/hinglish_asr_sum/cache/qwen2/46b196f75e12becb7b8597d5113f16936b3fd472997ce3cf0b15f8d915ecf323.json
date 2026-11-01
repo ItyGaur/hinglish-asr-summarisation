@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-30T14:20:24+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W16",
+ "condition": "asr:trelis-hinglish-preview",
+ "out_lang": "en",
+ "input_tokens": 2090,
+ "summary": "This tutorial covers storage class specifiers in C programming using Ubuntu 11.10 and GCC compiler version 4.6.1. It introduces auto, static, extern, and register keywords to specify where and how variables are stored, initialized, and their lifetimes. The auto keyword declares automatic variables with local scope, which must be explicitly initialized. These variables are stored in CPU memory. An example demonstrates calling an increment function four times within the main function, showing that auto variables cannot be globally initialized. The static keyword initializes variables to zero at program start and retains their values between function calls, stored in CPU memory. Another example illustrates this by reinitializing a static variable inside its function definition, demonstrating that it retains its value across multiple function calls."
+}

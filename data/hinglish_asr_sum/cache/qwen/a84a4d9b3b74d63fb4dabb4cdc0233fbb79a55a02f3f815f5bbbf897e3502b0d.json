@@ -1,0 +1,18 @@
+{
+ "created": "recovered_from_summaries.csv",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W04",
+ "condition": "oracle",
+ "out_lang": "en",
+ "input_tokens": 1996,
+ "summary": "This tutorial covers creating custom animations in LibreOffice Impress, using a GNU Linux operating system and version 334 of the LibreOffice suite. To start, open a presentation file and select a slide. Choose an element on the slide, such as a text box, and then access the Custom Animation feature from the Tasks pane. The Custom Animation dialog box appears, where you can choose the type of animation, such as entrance or motion paths. You can also adjust the speed and order of animations. For example, you can set one animation to move diagonally and another to move in a wedge shape. Animations are added to the list in the order they are created. To change the order, double-click an animation to open the Effect Options dialog box. Here, you can modify properties like direction and delay. By adjusting these settings, you can create more dynamic and engaging presentations."
+}

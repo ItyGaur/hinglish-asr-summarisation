@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-30T15:24:07+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W15",
+ "condition": "asr:trelis-hinglish-preview",
+ "out_lang": "en",
+ "input_tokens": 2479,
+ "summary": "This tutorial covers basic text alignment and formatting in LibreOffice Writer, using a GNU Linux operating system. It explains how to align text to the left, right, or justify it across the page edges. The tutorial also demonstrates how to use bullets and numbering for creating lists of points. Additionally, it shows how to copy and paste text within the document using both graphical interface and keyboard shortcuts (Ctrl+C for copy, Ctrl+V for paste). The session includes practical examples such as aligning text in a resume document, adding bullets and numbers to points, and formatting names and occupations. The overall aim is to make documents more visually appealing and easier to read by leveraging these features in Writer."
+}

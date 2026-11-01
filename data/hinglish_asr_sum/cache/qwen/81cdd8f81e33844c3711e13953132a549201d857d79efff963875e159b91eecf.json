@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-31T12:53:03+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W17",
+ "condition": "noise:hi:0.5",
+ "out_lang": "en",
+ "input_tokens": 2417,
+ "summary": "The tutorial covers how to add and format notes in Microsoft Office Impress for presentations. It starts by welcoming users and explaining the purpose of notes, which can be used for references or additional content. Users learn to open a sample presentation and add notes to slides. Notes can be formatted using the formatting toolbar, including changing fonts and sizes, and adding bullet points. To create a notes master, users select the View menu, then click on Notes Master. This allows them to set formatting priorities for all slides. Users can also customize the appearance of notes by changing colors and backgrounds. Additionally, they learn to insert shapes, such as triangles, and apply specific formatting to these elements. Finally, the tutorial shows how changes made in the notes master affect all slides and how to adjust the position and size of notes placeholders on individual slides."
+}

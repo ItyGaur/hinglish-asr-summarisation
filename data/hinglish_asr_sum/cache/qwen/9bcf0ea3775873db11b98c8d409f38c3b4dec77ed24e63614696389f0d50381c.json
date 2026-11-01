@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-30T16:03:45+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W11",
+ "condition": "oracle",
+ "out_lang": "hinglish",
+ "input_tokens": 1771,
+ "summary": "नमस्कार! इस tutorial में हम निम्न कुछ सीखेंगे: परिमाणी तendencies, अभिक्रिया बनाना, और rgroup query सेट करना। हम ubuntu लिनक्स OS का उपयोग करके jchempaint 3.3.1210 को चालू करेंगे। जानकारी box देखने के लिए अतिरिक्त buttons का उपयोग करें। अभियान्तर अवस्था तendencies के लिए निम्न करें: नीचे वाली टूलबार पर चुनें, तब नए drawing symbol चुनें, और एक नया उपस्थिति चुनें। ज़ेनॉनडाईफ्लूराइड xef2 का structure बनाने के लिए, edit menu में preferences"
+}

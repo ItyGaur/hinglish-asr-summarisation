@@ -1,0 +1,5 @@
+condition,baseline,gained,lost,both,gained_on_screen,n_facts
+oracle+screen,oracle,19,53,86,9,268
+asr:trelis-hinglish-preview+screen,asr:trelis-hinglish-preview,17,46,84,4,268
+asr:whisper-small+screen,asr:whisper-small,29,27,30,16,268
+screen_only,oracle,2,110,29,2,268

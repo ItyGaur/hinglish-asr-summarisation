@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-30T15:58:49+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W07",
+ "condition": "noise:hi:0.5",
+ "out_lang": "en",
+ "input_tokens": 3058,
+ "summary": "In this tutorial, you learn how to use the peer review feature in LibreOffice Writer for document editing and reviewing. To start, open an existing document and enable the \"Record Changes\" option to track edits. Click on \"Edit Changes\" to view and accept or reject changes. Ensure the \"Show Comments\" option is selected for clarity. Enter comments with a specific date and time, and highlight the text to make them more visible. You can also add timestamps and notes to the document, which will display the user's name and activity duration. For instance, you can comment on how Linux is a virus-resistant operating system due to its individual user data spaces. To delete text, select the line and click \"Delete.\" To revert changes, click \"Undo\" or \"Redo\" as needed. The tutorial demonstrates these features using sample documents like \"sevenreasonstoadoptfoss.odt\" and \"governmentsupportforfossinindia.odt,\" showing how edits and deletions are tracked and reviewed."
+}

@@ -1,0 +1,78 @@
+{
+ "created": "2026-10-30T10:51:43+00:00",
+ "template_id": "reference",
+ "variant": 0,
+ "request": {
+  "model": "gemini-3.8-flash",
+  "system_instruction": "You are a careful annotator building evaluation data for summarisation research. Follow the instructions exactly and output only JSON that matches the schema.",
+  "input": "Below is the exact human transcript of a segment of a recorded software tutorial. The speaker code-mixes Hindi and English: Hindi is mostly written in Devanagari and English mostly in Latin script, but some English words are written in Devanagari.\n\nProduce two things.\n\n1. \"summary\": an English summary of the segment's content, 120-180 words, plain prose, covering the main steps, concepts and facts taught. Do not mention the speaker, the tutorial series, greetings, credits, funding or websites.\n\n2. \"facts\": 8 to 15 atomic facts that a good summary of this segment should contain.\n- Each fact is one short, self-contained English sentence stating a single piece of content (a step, setting, definition, command or result).\n- Exclude greetings, credits, acknowledgements, funding and website information.\n- Facts must not overlap.\n- For each fact, \"evidence\" must be copied EXACTLY, character for character, from the transcript: one contiguous excerpt of 3 to 25 words that states the fact. Do not translate, transliterate, correct or shorten words inside the excerpt.\n\nTranscript:\n<<<\nthunderbird  का उपयोग कैसे करें इस स्पोकन ट्यूटोरियल में आपका स्वागत है इस tutorial में हम सीखेंगे कि: launcher में thunderbird  शॉर्टकट कैसे जोड़ें messages को टैग कैसे करें तीव्र बटलाव कैसे करें और मैसेजेस को श्रेणीबद्ध और क्रमबद्ध कैसे करें हम यह भी सीखेंगे : save as और print messages फाइल अटैच करना अकाईव मैसेजेसarchive messages activity manager देखना यहाँ हम उबंटू 1204 में मौजिला थंडरबर्ड 1301  का उपयोग कर रहे हैं जैसा कि हम thunderbird का अक्सर उपयोग करते हैं इसके लिए शॉर्टकट आइकन बनाएँ अब thunderbird  शॉर्टकट आइकन को launcher पर ड्रैग और ड्रॉप करें पहले dash home पर क्लिक करें सर्च फील्ड में thunderbird  टाइप करें सर्च फील्ड के नीचे thunderbird  आइकन दिखाई देता है इसे चुनें और बायें माउस बटन को न छोड़ें अब आइकन को launcher  पर ड्रैग और ड्रॉप करें और बायें माउस बटन को छोड़ दें इसे बंद करने के लिए dash home पर क्लिक करें launcher में thunderbird  आइकन पर क्लिक करें thunderbird विंडो खुलती है gmail dot com आईडी पर  stuserone नीचे  inbox पर क्लिक करें ध्यान दें कि कुछ मैसेजेस बोल्ड हैं ये अपठित मैसेजेस हैं get mail आइकन पर क्लिक करें और get all new messages चुनें हमें जीमेल अकाउंट से मैसेसेज प्राप्त हुए हैं मानिए कि हम इन मैसेजेस को sender द्वारा श्रेणीबद्ध करते हैं कॉलम हैडिंग from पर क्लिक करें मैसेजेस अब एक वर्णानुक्रमी क्रम में श्रेणीबद्ध हो गये हैं from पर फिर से क्लिक करें अब मैसेजेस विपरीत वर्णानुक्रमी क्रम में श्रेणीबद्ध हो गये हैं अबsubject द्वारा श्रेणीबद्ध करें subject पर क्लिक करें अब मैसेजेस subject द्वारा श्रेणीबद्ध हो गये हैं इस ट्यूटोरियल को रोकें और इस नियतकार्य को करने की कोशिश करें date received द्वारा मैसेसेज को श्रेणीबद्ध करें आप मैसेजेस को टैग भी कर सकते हैं इस तरह से आप आसानी से पता कर सकते हैं जिन मैसेजेस को आप फिर से खोलना चाहते हैं आप समान मैसेजेस को एक साथ इकट्ठा करने के लिए भी टैग्स का उपयोग कर सकते हैं अब मानते हैं कि आप एक मेल को महत्वपूर्ण के रूप में टैग करना चाहते हैं inbox पर क्लिक करें पहले मेल को चुनें टूलबार से tag आइकन पर क्लिक करें और important चुनें ध्यान दें कि वह मेल लालरंग में प्रदर्शित होता है निचले पैनल पर देखें मेल महत्वपूर्ण के रूप में टैग हो गया है टैग को हटाने के लिए पहले mail चुनें टूलबार में tag आइकन पर क्लिक करें और फिर से important पर क्लिक करें इनबॉक्स में पहले मेल को important के रूप में और दूसरे मेल को work के रूप में टैग करें यदि हम केवल उन मेल्स को देखना चाहते हैं जो कि राइट पैनल में टैग किये गये हैं क्या यह करना संभव होगा आप तीव्र बदलाव और मैसेसेज को देखने के लिए quick filter टूलबार का उपयोग कर सकते हैं टैग किये गये मैसेसेज को देखने के लिए quick filter टूलबार में tagged  आइकन पर क्लिक करें केवल हमारे द्वारा टैग किये मैसेजेस प्रदर्शित होते हैं अब tagged आइकन पर फिर से क्लिक करें अब हम सभी मेल्स देख सकते हैं अब मैसेज threads  के बारे में सीखते हैं मैसेज threads क्या हैं संबंधित मैसेज जो क्रम या वार्तालाप के रूप में प्रदर्शित होते हैं मैसेज threads  कहलाते हैं हम मैसेज threads का उपयोग एक सतत प्रवाह में एक पूरी वार्तालाप के रूप में संबंधित मैसेसेज को देखने के लिए करते हैं अब सीखते हैं कि यह कैसे करें message threads आइकन को प्रदर्शित करने के लिए इनबॉक्स के बायें कोने में क्लिक करें मेल्स वार्तालाप के रूप में प्रदर्शित होते हैं पूर्ण वार्तालाप देखने के लिए corresponding thread के आगे threading symbol पर क्लिक करें पूर्ण वार्तालाप मैसेज प्रिव्यू पैनल में दिखाई देता है thread व्यू से बाहर आने के लिए केवल thread आइकन पर फिर से क्लिक करें अब सीखते हैं कि मेल को फोल्डर में सेव और फिर प्रिंट कैसे करें इस ट्यूटोरियल के प्रयोजन के लिए: हमने डेस्क्टॉप पर एक नया फोल्डर बनाया है और इसे saved mails नाम दिया है\n>>>",
+  "generation_config": {
+   "max_output_tokens": 8192
+  },
+  "response_format": {
+   "mime_type": "application/json",
+   "schema": {
+    "$defs": {
+     "Fact": {
+      "properties": {
+       "fact": {
+        "title": "Fact",
+        "type": "string"
+       },
+       "evidence": {
+        "title": "Evidence",
+        "type": "string"
+       }
+      },
+      "required": [
+       "fact",
+       "evidence"
+      ],
+      "title": "Fact",
+      "type": "object"
+     }
+    },
+    "properties": {
+     "summary": {
+      "title": "Summary",
+      "type": "string"
+     },
+     "facts": {
+      "items": {
+       "$ref": "#/$defs/Fact"
+      },
+      "title": "Facts",
+      "type": "array"
+     }
+    },
+    "required": [
+     "summary",
+     "facts"
+    ],
+    "title": "Reference",
+    "type": "object"
+   }
+  }
+ },
+ "output_text": "{\n  \"summary\": \"To access Mozilla Thunderbird conveniently in Ubuntu, users can drag its application icon from Dash Home onto the desktop launcher. Within the application's inbox, bold text distinguishes unread emails, and new messages can be downloaded using the Get Mail option. Messages can be sorted in ascending or descending alphabetical order by clicking column headers like From or Subject. Thunderbird also enables organizing messages using tags such as Important or Work, with important emails highlighted in red. Tags can be removed by reselecting them, and the Quick Filter toolbar provides an option to display only tagged emails. Furthermore, Thunderbird supports message threads, grouping related correspondence into structured conversations. Users can enable threaded view from the corner of the inbox, inspect full conversation histories in the preview panel by clicking the threading symbol, and exit the view by clicking the thread icon again. Finally, emails can be saved into dedicated desktop folders for archiving and printing.\",\n  \"facts\": [\n    {\n      \"fact\": \"A shortcut for Mozilla Thunderbird can be added by dragging its icon onto the launcher.\",\n      \"evidence\": \"अब आइकन को launcher  पर ड्रैग और ड्रॉप करें\"\n    },\n    {\n      \"fact\": \"Unread emails in the inbox are indicated by bold text.\",\n      \"evidence\": \"ध्यान दें कि कुछ मैसेजेस बोल्ड हैं ये अपठित मैसेजेस हैं\"\n    },\n    {\n      \"fact\": \"New emails are retrieved by clicking the Get Mail icon and choosing get all new messages.\",\n      \"evidence\": \"get mail आइकन पर क्लिक करें और get all new messages चुनें\"\n    },\n    {\n      \"fact\": \"Clicking the From column heading arranges the messages in alphabetical order.\",\n      \"evidence\": \"कॉलम हैडिंग from पर क्लिक करें मैसेजेस अब एक वर्णानुक्रमी क्रम में श्रेणीबद्ध हो गये हैं\"\n    },\n    {\n      \"fact\": \"Clicking the Subject heading sorts the inbox messages by subject.\",\n      \"evidence\": \"subject पर क्लिक करें अब मैसेजेस subject द्वारा श्रेणीबद्ध हो गये हैं\"\n    },\n    {\n      \"fact\": \"Tagging an email as important displays that message in red.\",\n      \"evidence\": \"टूलबार से tag आइकन पर क्लिक करें और important चुनें ध्यान दें कि वह मेल लालरंग में प्रदर्शित होता है\"\n    },\n    {\n      \"fact\": \"Clicking the tagged icon in the Quick Filter toolbar filters the view to show only tagged messages.\",\n      \"evidence\": \"टैग किये गये मैसेजेस को देखने के लिए quick filter टूलबार में tagged  आइकन पर क्लिक करें\"\n    },\n    {\n      \"fact\": \"Related messages shown in sequence or as a conversation are defined as message threads.\",\n      \"evidence\": \"संबंधित मैसेज जो क्रम या वार्तालाप के रूप में प्रदर्शित होते हैं मैसेज threads  कहलाते हैं\"\n    },\n    {\n      \"fact\": \"Clicking the threading symbol next to a thread reveals the complete conversation.\",\n      \"evidence\": \"पूर्ण वार्तालाप देखने के लिए corresponding thread के आगे threading symbol पर क्लिक करें\"\n    },\n    {\n      \"fact\": \"Clicking the thread icon again exits the thread view.\",\n      \"evidence\": \"thread व्यू से बाहर आने के लिए केवल thread आइकन पर फिर से क्लिक करें\"\n    }\n  ]\n}",
+ "response_model": "gemini-3.8-flash",
+ "response_id": "v1_ChdHWGJrYXBYUk1fV1lxdHNQay1xY29RRRIXR1hia2FwWFJNX1dZcXRzUGstcWNvUUU",
+ "usage": {
+  "initial_input_tokens": 1266,
+  "input_tokens_by_modality": [
+   {
+    "modality": "text",
+    "tokens": 1132
+   }
+  ],
+  "total_cached_tokens": 0,
+  "total_input_tokens": 1132,
+  "total_output_tokens": 707,
+  "total_thought_tokens": 4225,
+  "total_tokens": 6064,
+  "total_tool_use_tokens": 0
+ },
+ "meta": {
+  "window_id": "W00"
+ }
+}

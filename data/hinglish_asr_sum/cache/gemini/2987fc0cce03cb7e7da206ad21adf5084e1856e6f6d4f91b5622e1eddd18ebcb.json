@@ -1,0 +1,78 @@
+{
+ "created": "2026-10-30T11:00:08+00:00",
+ "template_id": "reference",
+ "variant": 0,
+ "request": {
+  "model": "gemini-3.8-flash",
+  "system_instruction": "You are a careful annotator building evaluation data for summarisation research. Follow the instructions exactly and output only JSON that matches the schema.",
+  "input": "Below is the exact human transcript of a segment of a recorded software tutorial. The speaker code-mixes Hindi and English: Hindi is mostly written in Devanagari and English mostly in Latin script, but some English words are written in Devanagari.\n\nProduce two things.\n\n1. \"summary\": an English summary of the segment's content, 120-180 words, plain prose, covering the main steps, concepts and facts taught. Do not mention the speaker, the tutorial series, greetings, credits, funding or websites.\n\n2. \"facts\": 8 to 15 atomic facts that a good summary of this segment should contain.\n- Each fact is one short, self-contained English sentence stating a single piece of content (a step, setting, definition, command or result).\n- Exclude greetings, credits, acknowledgements, funding and website information.\n- Facts must not overlap.\n- For each fact, \"evidence\" must be copied EXACTLY, character for character, from the transcript: one contiguous excerpt of 3 to 25 words that states the fact. Do not translate, transliterate, correct or shorten words inside the excerpt.\n\nTranscript:\n<<<\nलिबर ऑफिस impress में custom animation custom animation पर spoken tutorial में आपका स्वागत है इस tutorial में हम impress में custom animation के बारे में सीखेंगे यहाँ हम अपने operating system के रूप में gnu/linux और libreoffice suite version 334 का उपयोग कर रहे हैं पहले प्रस्तुति sampleimpress odp खोलें slides pane से potential alternatives थंबनेल पर click करें यह slide अब main main पर प्रदर्शित होती है अब सीखते हैं कि अपनी प्रस्तुति को अधिक आकर्षित बनाने के लिए custom animation का उपयोग कैसे करें slide में बायीं ओर के पहले text box को चुनें यह करने के लिए text पर click करें और फिर दिखाई दे रहे border पर click करें impress window की दायीं ओर से tasks pane में custom animation पर click करें add पर click करें custom animation dialog box प्रदर्शित होता है ध्यान दें कि entrance टैब खुलता है entrance टैब screen पर वस्तु के प्रदर्शन के तरीके को नियंत्रित करता है हम इस श्रृंखला के बाद के tutorials में अन्य tabs सीखेंगे basic के नीचे diagonal squares चुनें आप गति को भी नियंत्रित कर सकते हैं जिस पर आपका animation प्रदर्शित होता है speed field में dropdown box पर click करें slow चुनें और ok पर click करें effect field आपको animations options set करने की अनुमति set है effect field के the पर box animations प्रदर्शित करता है जो प्रस्तुति में जोड़े गये हैं ध्यान दें कि पहला animation animation की सूची में जोड़ दिया गया है नीचे scroll करें और play पर click करें आपके द्वारा चुनित सभी animation का प्रिव्यू अब मुख्य main पर play होगा add slide में दूसरे text box को चुनें custom animation के नीचे add पर click करें custom animation dialog box में basic animation के नीचे wedge चुनें गति को medium set करें ok पर click करें ध्यान दें कि यह animation box में जोड़ दिया गया है ध्यान दें कि सूची के animation क्रमबद्ध हैं जैसे आपने इन्हें बनाया है दूसरे animation को चुनें play button पर click करें आप प्रिव्यू के लिए एक से भी अधिक animation चुन सकते हैं यह करने के लिए shift की पकड़कर रखें जब animation चुन रहे to play पर click करें आपके द्वारा चुनित सभी animations का प्रिव्यू play होता है add तीसरे text box को चुनें layouts में add पर click करें entrance टैब में basic के नीचे diamond चुनें गति slow set करें ok पर click करें प्रत्येक animation कुछ default properties के साथ शुरू होता है आप change order buttons का उपयोग करके animation के क्रम को भी बदल सकते हैं प्रत्येक animation के लिए default properties देखें और सीखें कि उनमें बदलाव कैसे करें सूची में पहले animation पर doubleclick करें यह diagonal squares option है effects options dialog box प्रदर्शित होता है default रूप से effects टैब प्रदर्शित होता है settings में direction dropdown पर click करें और from right to top चुनें इसमें प्रगति के रूप में दायें से animation की शुरूआत और शीर्ष की ओर स्थानांतरण के प्रभाव हैं dialog box को बंद करने के लिए ok पर click करें जिसे आपने जोड़ा है उस animation का निरीक्षण करने के लिए play button पर click करें इस animation पर फिर से doubleclick करें effect options dialog box दिखाई देता है timing टैब पर click करें delay field में delay को 10 sec तक बढाएँ इसमें animation शुरूआत के प्रभाव एक सैकंड के बाद हैं ok पर click करें अब पहले animation को चुनें play button पर click करें आप आपके द्वारा किये गये प्रभाव के बदलाव का निरीक्षण कर सकते हैं सूची में दूसरे animation पर doubleclick करें यह wedges option है जिसे हमने set किया effects options dialog box प्रदर्शित होता है\n>>>",
+  "generation_config": {
+   "max_output_tokens": 8192
+  },
+  "response_format": {
+   "mime_type": "application/json",
+   "schema": {
+    "$defs": {
+     "Fact": {
+      "properties": {
+       "fact": {
+        "title": "Fact",
+        "type": "string"
+       },
+       "evidence": {
+        "title": "Evidence",
+        "type": "string"
+       }
+      },
+      "required": [
+       "fact",
+       "evidence"
+      ],
+      "title": "Fact",
+      "type": "object"
+     }
+    },
+    "properties": {
+     "summary": {
+      "title": "Summary",
+      "type": "string"
+     },
+     "facts": {
+      "items": {
+       "$ref": "#/$defs/Fact"
+      },
+      "title": "Facts",
+      "type": "array"
+     }
+    },
+    "required": [
+     "summary",
+     "facts"
+    ],
+    "title": "Reference",
+    "type": "object"
+   }
+  }
+ },
+ "output_text": "{\n  \"summary\": \"To apply custom animations in LibreOffice Impress, open the presentation and select a slide from the slides pane. Select a text box by clicking on its text and border, then navigate to the tasks pane and open the Custom Animation panel. Clicking Add opens the Custom Animation dialog box on the Entrance tab, which governs how objects appear on the slide. Various animation effects, such as Diagonal Squares, Wedge, and Diamond under the Basic category, can be assigned to different text boxes, and their display speeds can be adjusted to Slow or Medium. Added animations are listed chronologically in the animations box and can be previewed using the Play button, either individually or simultaneously by holding the Shift key. Furthermore, double-clicking any listed animation opens the Effect Options dialog box. Users can modify custom properties such as motion direction under the Effects tab or introduce start delays under the Timing tab to refine presentation effects.\",\n  \"facts\": [\n    {\n      \"fact\": \"The sampleimpress.odp presentation is opened to begin the tutorial.\",\n      \"evidence\": \"पहले प्रस्तुति sampleimpress odp खोलें\"\n    },\n    {\n      \"fact\": \"A text box is selected by clicking on its text and then clicking on the visible border.\",\n      \"evidence\": \"text पर click करें और फिर दिखाई दे रहे border पर click करें\"\n    },\n    {\n      \"fact\": \"The entrance tab controls the way an object appears on the screen.\",\n      \"evidence\": \"entrance टैब screen पर वस्तु के प्रदर्शन के तरीके को नियंत्रित करता है\"\n    },\n    {\n      \"fact\": \"The diagonal squares animation is selected under the basic category.\",\n      \"evidence\": \"basic के नीचे diagonal squares चुनें\"\n    },\n    {\n      \"fact\": \"The wedge animation under basic animation is chosen with the speed set to medium.\",\n      \"evidence\": \"basic animation के नीचे wedge चुनें गति को medium set करें\"\n    },\n    {\n      \"fact\": \"Multiple animations can be selected for preview by holding down the Shift key.\",\n      \"evidence\": \"आप प्रिव्यू के लिए एक से भी अधिक animation चुन सकते हैं यह करने के लिए shift की पकड़कर रखें\"\n    },\n    {\n      \"fact\": \"The order of animations can be modified using the change order buttons.\",\n      \"evidence\": \"आप change order buttons का उपयोग करके animation के क्रम को भी बदल सकते हैं\"\n    },\n    {\n      \"fact\": \"Double-clicking the first animation in the list opens the effects options dialog box.\",\n      \"evidence\": \"सूची में पहले animation पर doubleclick करें यह diagonal squares option है effects options dialog box प्रदर्शित होता है\"\n    },\n    {\n      \"fact\": \"The animation direction can be adjusted to from right to top under settings.\",\n      \"evidence\": \"settings में direction dropdown पर click करें और from right to top चुनें\"\n    },\n    {\n      \"fact\": \"An animation delay can be increased in the delay field under the timing tab.\",\n      \"evidence\": \"timing टैब पर click करें delay field में delay को 10 sec तक बढाएँ\"\n    }\n  ]\n}",
+ "response_model": "gemini-3.8-flash",
+ "response_id": "v1_ChZLWGprYXBPbkRfZTdxdHNQaFBYVWFREhZLWGprYXBPbkRfZTdxdHNQaFBYVWFR",
+ "usage": {
+  "initial_input_tokens": 1079,
+  "input_tokens_by_modality": [
+   {
+    "modality": "text",
+    "tokens": 945
+   }
+  ],
+  "total_cached_tokens": 0,
+  "total_input_tokens": 945,
+  "total_output_tokens": 671,
+  "total_thought_tokens": 2568,
+  "total_tokens": 4184,
+  "total_tool_use_tokens": 0
+ },
+ "meta": {
+  "window_id": "W04"
+ }
+}

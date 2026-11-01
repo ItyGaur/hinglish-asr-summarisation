@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-30T15:36:07+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W15",
+ "condition": "noise:en:0.2",
+ "out_lang": "en",
+ "input_tokens": 2593,
+ "summary": "This tutorial covers basic text alignment and formatting in LibreOffice Writer using GNU/Linux. It explains how to align text to the left, right, or justify it across the page edges. The tutorial also demonstrates how to add bullets and numbering for better organization of points. To apply these features, you select the text, then use the Format menu to choose bullets or numbering. The tutorial shows how to change the indentation levels and styles for nested lists. Additionally, it teaches how to copy and paste text within a document by selecting the text, right-clicking to copy, moving the cursor, and right-clicking again to paste. Shortcut keys like Ctrl+C for copy and Ctrl+V for paste are also mentioned."
+}

@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-30T15:24:07+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W13",
+ "condition": "asr:trelis-hinglish-preview",
+ "out_lang": "en",
+ "input_tokens": 2621,
+ "summary": "This tutorial introduces Jcampaint, a free and open-source cross-platform chemical structure editor and viewer developed in Java. It covers installing Jcampaint on both Ubuntu 12.04 and Windows operating systems. For Ubuntu, you need an internet connection, synaptic package manager, knowledge of terminal commands, and Java installed via synaptic package manager. The process involves downloading Jcampaint from its GitHub repository, saving it to the desktop, and running it through the terminal. On Windows, Java must first be installed by downloading the Java SE Runtime Environment from the official website. After installation, Jcampaint can be downloaded and run similarly to the Ubuntu method. Jcampaint supports importing and exporting structure data in formats like SMILES and InChI. The tutorial also explains how to create structures using the tools and panels within the Jcampaint interface."
+}

@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-30T14:26:10+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W18",
+ "condition": "asr:whisper-small",
+ "out_lang": "en",
+ "input_tokens": 3481,
+ "summary": "This tutorial covers the use of Find and Replace features in LibreOffice Writer. It starts with navigating to the Find and Replace dialog box by first opening the Edit menu. Users can search for specific text within their document and replace it with desired text. Advanced options include various find types like backward and current selection, and regular expressions for complex searches. The Spelling Check feature helps identify and correct spelling errors, with settings for different languages. To switch the language from local to English (US), users select the appropriate settings in the Language menu. The Spelling and Grammar feature can be enabled through the Tools menu. Additionally, the tutorial explains how to use AutoCorrect to fix common typing mistakes. Overall, this guide provides a comprehensive overview of these essential editing tools in LibreOffice Writer."
+}

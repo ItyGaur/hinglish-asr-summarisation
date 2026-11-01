@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-31T12:49:25+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W16",
+ "condition": "noise:hi:0.3",
+ "out_lang": "en",
+ "input_tokens": 2043,
+ "summary": "In this tutorial, the speaker explains storage class specifiers in C programming using examples on Ubuntu 11.10 with GCC version 4.6.1. Storage class specifiers tell the compiler how to manage variables, including their lifetime and scope. The tutorial covers `auto` and `static` specifiers.\n\n`Auto` specifiers declare local variables within functions, which are automatically initialized to zero but must be explicitly initialized during declaration. An example shows declaring and initializing an `auto` variable inside a function named `increment`. Running the program initially results in an error because `auto` variables cannot be globally initialized. Fixing this involves reinitializing the variable within the function.\n\n`Static` specifiers also initialize variables to zero but retain their values between function calls, occupying space in CPU memory. An example demonstrates declaring a `static` variable in the same `increment` function, which retains its value across multiple function calls.\n\nThe tutorial concludes by showing how to compile and run these examples using the GCC compiler and terminal commands."
+}

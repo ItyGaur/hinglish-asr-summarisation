@@ -1,0 +1,78 @@
+{
+ "created": "2026-10-30T11:09:49+00:00",
+ "template_id": "reference",
+ "variant": 0,
+ "request": {
+  "model": "gemini-3.8-flash",
+  "system_instruction": "You are a careful annotator building evaluation data for summarisation research. Follow the instructions exactly and output only JSON that matches the schema.",
+  "input": "Below is the exact human transcript of a segment of a recorded software tutorial. The speaker code-mixes Hindi and English: Hindi is mostly written in Devanagari and English mostly in Latin script, but some English words are written in Devanagari.\n\nProduce two things.\n\n1. \"summary\": an English summary of the segment's content, 120-180 words, plain prose, covering the main steps, concepts and facts taught. Do not mention the speaker, the tutorial series, greetings, credits, funding or websites.\n\n2. \"facts\": 8 to 15 atomic facts that a good summary of this segment should contain.\n- Each fact is one short, self-contained English sentence stating a single piece of content (a step, setting, definition, command or result).\n- Exclude greetings, credits, acknowledgements, funding and website information.\n- Facts must not overlap.\n- For each fact, \"evidence\" must be copied EXACTLY, character for character, from the transcript: one contiguous excerpt of 3 to 25 words that states the fact. Do not translate, transliterate, correct or shorten words inside the excerpt.\n\nTranscript:\n<<<\nमोज़िला थंडरबर्ड mozilla thunderbird के परिचय पर स्पोकन ट्यूटोरियल में आपका स्वागत है इस ट्यूटोरियल में हम  मोज़िला थंडरबर्ड के बारें में सीखेंगे और थंडरबर्ड डाउनलोड संस्थापित करें और लॉन्च कैसे करें आप यह भी सीखेंगे कि कैसे : नया इमेल अकाऊंट कान्फिगर करेंडाऊनलोड करें और मैसेज पढ़ें लिखें और मैसेज भेजेंथंडरबर्ड को लॉग आऊट करें मोज़िला थंडरबर्ड एक सरल ईमेल क्लाईंट है यह एक बड़ा प्लेटफॉर्म सॉफ्टवेयर है जिसका अर्थ है कि यह विभिन्न आपरेटिंग सिस्टम पर कार्य कर सकता है यह आपको ईमेल मैसेसेज डाऊनलोड करने की इजाज़त देता है आपके दूसरे मेल अकाऊंट से आपके स्थानीय कंप्यूटर में यह आपके विभिन्न ईमेल अकाऊंट्स का प्रबंधन करता है थंडरबर्ड में कुछ उन्नत सुविधाएँ भी हैं आप जीमेल याहू और यूडोरा जैसे अन्य मेल अकाऊंट्स से अपने सभी ईमेल डेटा ले सकते हो जैसे मेल फ़ोल्डर और एड्रेस बुक अगर आप pop3 का इस्तेमाल करते हो तो आप थंडरबर्ड के सिंगल इनबॉक्स में pop3 अकाऊंट एकत्रित कर सकते हो विशेषताओं द्वारा आप मैसेज समूहीकृत कर सकते हैं जैसे date senderpriority या custom label यहाँ हम उबंटू लिनक्स 1204 पर मोज़िला थंडरबर्ड का उपयोग कर रहे हैं अगर आपके कंप्यूटर में मोज़िला थंडरबर्ड संस्थापित नहीं है आप उबंटू सॉफ्टवेयर सेंटर का उपयोग करके इसे संस्थापित कर सकते हैं उबंटू साफ्टवेयर सेंटर पर अधिक जानकारी के लिए कृपया इस वेबसाइट पर जाएँ आप मोज़िला वेबसाईट से भी थंडरबर्ड डाऊनलोड और संस्थापित कर सकते हैं मोज़िला थंडरबर्ड microsoft windows 2000 या नवीतम वर्ज़न जैसे ms windows xp या ms windows 7 के लिए भी उपलब्ध है इस बारे में अधिक जानकारी के लिए कृपया मोजिला वेबसाइट पर जाएँ मोज़िला थंडरबर्ड के इस्तेमाल के लिए आपके पास कम से कम दो वैध ईमेल पते होने चाहिए आप यह भी सुनिश्चित कर लें कि  ईमेल अकाऊंट में pop3 आप्शन सक्षम है और आपको यह सुनिश्चित करना होगा कि आप इंटरनेट से जुड़े हुए हैं थंडरबर्ड को लॉन्च करें पहले dash home पर क्लिक करें जो आपके कंप्यूटर के डेस्कटॉप के बाएँ कोने के उपर में एक गोल बटन है search box प्रदर्शित होता है अब thunderbird टाइप करें thunderbird आइकन प्रदर्शित होता है एप्लिकेशन खोलने के लिए उस पर क्लिक करें mail account setup डायलॉग बॉक्स खुलता है ऊपर बाएँ पर रेड क्रॉस बटन पर क्लिक करके इसे बंद करें मोज़िला थंडरबर्ड एप्लिकेशन खुलता है पहले मोज़िला थंडरबर्ड इंटरफ़ेस के साथ खुद को परिचित करें मोज़िला थंडरबर्ड इंटरफ़ेस में विभिन्न आप्शन्स के साथ मुख्य मेन्यू है मेन्यू बार पर मुख्य मेन्यू के नीचे शॉर्टकट आइकन्स उपलब्ध हैं उदाहरण के तौर पर यहाँ get mail write और address book के लिए शॉर्टकट आइकन्स हैं थंडरबर्ड दो पैनलों में विभाजित है बायाँ पैनल आपके थंडरबर्ड अकाऊंट में फ़ोल्डर्स को प्रदर्शित करता है जैसा कि अभी तक हमने मेल अकाऊंट कॉन्फ़िगर नहीं किया है यह पैनल अभी कोई भी फ़ोल्डर्स नहीं प्रदर्शित करेगा दाएँ पैनल पर email accounts के लिए advanced features और बहुत कुछ ऑप्सन्स हैं इस ट्यूटोरियल के प्रयोजन के लिए हमने पहले से ही दो ईमेल अकाऊंट्स बनाएँ हैं वे है: stuserone@gmailcom stusertwo@yahooin हमारा सुझाव है कि आप अपने दोनों ईमेल अकाउंट्स का उपयोग करें मैंने इन दोनों मेल खातों में pop3 विकल्प भी सक्षम किया है मैंने जीमेल में pop3 कैसे सक्षम किया सबसे पहले जीमेल अकाऊंट में लॉगिन करें एक नया ब्राउज़र खोलें और एड्रेस बार पर wwwgmailcom टाइप करें अब युज़र नेम stuserone@ gmailcom और फिर पासवर्ड प्रविष्ट करें जीमेल विंडो के दाएँ शीर्ष पर settings आइकन पर क्लिक करें settings ऑप्शन पर क्लिक करें सेटिंग्स विंडो प्रदर्शित होती है forwarding और pop/imap टैब पर क्लिक करें pop डाउनलोड में मैंने सभी मेल्स के लिए enable pop चुना है फिर save changes पर क्लिक करें जीमेल मेल विंडो प्रदर्शित होती है अब pop3 जीमेल में सक्षम है\n>>>",
+  "generation_config": {
+   "max_output_tokens": 8192
+  },
+  "response_format": {
+   "mime_type": "application/json",
+   "schema": {
+    "$defs": {
+     "Fact": {
+      "properties": {
+       "fact": {
+        "title": "Fact",
+        "type": "string"
+       },
+       "evidence": {
+        "title": "Evidence",
+        "type": "string"
+       }
+      },
+      "required": [
+       "fact",
+       "evidence"
+      ],
+      "title": "Fact",
+      "type": "object"
+     }
+    },
+    "properties": {
+     "summary": {
+      "title": "Summary",
+      "type": "string"
+     },
+     "facts": {
+      "items": {
+       "$ref": "#/$defs/Fact"
+      },
+      "title": "Facts",
+      "type": "array"
+     }
+    },
+    "required": [
+     "summary",
+     "facts"
+    ],
+    "title": "Reference",
+    "type": "object"
+   }
+  }
+ },
+ "output_text": "{\n  \"summary\": \"Mozilla Thunderbird is a cross-platform email client that allows users to manage multiple email accounts and download messages to a local computer. It supports importing mail folders and address books from services like Gmail, Yahoo, and Eudora. When using POP3, multiple accounts can be combined into a single inbox, and messages can be sorted by criteria such as date, priority, or custom labels. On Ubuntu Linux, Thunderbird can be installed via the Ubuntu Software Center and launched by searching for the application in Dash Home. The interface features a main menu with shortcuts for retrieving mail, composing messages, and opening the address book. It is divided into two panels: the left displays account folders, while the right offers advanced features and account options. To use Thunderbird with external services, POP3 must be enabled, which in Gmail is done under Settings in the Forwarding and POP/IMAP tab before saving changes.\",\n  \"facts\": [\n    {\n      \"fact\": \"Mozilla Thunderbird is a cross-platform email client capable of functioning across different operating systems.\",\n      \"evidence\": \"मोज़िला थंडरबर्ड एक सरल ईमेल क्लाईंट है यह एक बड़ा प्लेटफॉर्म सॉफ्टवेयर है जिसका अर्थ है कि यह विभिन्न आपरेटिंग सिस्टम पर कार्य कर सकता है\"\n    },\n    {\n      \"fact\": \"Thunderbird allows users to download email messages from external accounts onto their local computer.\",\n      \"evidence\": \"यह आपको ईमेल मैसेसेज डाऊनलोड करने की इजाज़त देता है आपके दूसरे मेल अकाऊंट से आपके स्थानीय कंप्यूटर में\"\n    },\n    {\n      \"fact\": \"Using POP3 allows users to consolidate accounts into a single inbox inside Thunderbird.\",\n      \"evidence\": \"अगर आप pop3 का इस्तेमाल करते हो तो आप थंडरबर्ड के सिंगल इनबॉक्स में pop3 अकाऊंट एकत्रित कर सकते हो\"\n    },\n    {\n      \"fact\": \"Messages in Thunderbird can be grouped by attributes such as date, sender priority, or custom labels.\",\n      \"evidence\": \"विशेषताओं द्वारा आप मैसेज समूहीकृत कर सकते हैं जैसे date senderpriority या custom label\"\n    },\n    {\n      \"fact\": \"Mozilla Thunderbird can be installed on Ubuntu Linux using the Ubuntu Software Center.\",\n      \"evidence\": \"आप उबंटू सॉफ्टवेयर सेंटर का उपयोग करके इसे संस्थापित कर सकते हैं\"\n    },\n    {\n      \"fact\": \"In Ubuntu, Thunderbird is opened by typing thunderbird into Dash Home and clicking on the application icon.\",\n      \"evidence\": \"अब thunderbird टाइप करें thunderbird आइकन प्रदर्शित होता है एप्लिकेशन खोलने के लिए उस पर क्लिक करें\"\n    },\n    {\n      \"fact\": \"Shortcut icons for Get Mail, Write, and Address Book are located beneath the main menu bar in Thunderbird.\",\n      \"evidence\": \"यहाँ get mail write और address book के लिए शॉर्टकट आइकन्स हैं\"\n    },\n    {\n      \"fact\": \"The Thunderbird interface contains two panels, with the left panel showing account folders.\",\n      \"evidence\": \"थंडरबर्ड दो पैनलों में विभाजित है बायाँ पैनल आपके थंडरबर्ड अकाऊंट में फ़ोल्डर्स को प्रदर्शित करता है\"\n    },\n    {\n      \"fact\": \"In Gmail, POP configuration settings are accessed under the Forwarding and POP/IMAP tab.\",\n      \"evidence\": \"forwarding और pop/imap टैब पर क्लिक करें\"\n    },\n    {\n      \"fact\": \"Enabling POP in Gmail involves selecting the enable POP option under POP download and saving the changes.\",\n      \"evidence\": \"pop डाउनलोड में मैंने सभी मेल्स के लिए enable pop चुना है फिर save changes पर क्लिक करें\"\n    }\n  ]\n}",
+ "response_model": "gemini-3.8-flash",
+ "response_id": "v1_Chd1SGprYXRUSkR0bVZtdGtQOGVQNDBBRRIXdUhqa2F0VEpEdG1WbXRrUDhlUDQwQUU",
+ "usage": {
+  "initial_input_tokens": 1302,
+  "input_tokens_by_modality": [
+   {
+    "modality": "text",
+    "tokens": 1168
+   }
+  ],
+  "total_cached_tokens": 0,
+  "total_input_tokens": 1168,
+  "total_output_tokens": 780,
+  "total_thought_tokens": 3796,
+  "total_tokens": 5744,
+  "total_tool_use_tokens": 0
+ },
+ "meta": {
+  "window_id": "W05"
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-30T16:06:47+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W07",
+ "condition": "asr:trelis-hinglish-preview",
+ "out_lang": "hinglish",
+ "input_tokens": 2547,
+ "summary": "नमस्कार दोस्तों, लिबर ऑफिस राइटर में डॉक्यूमेंट का peer review कैसे करें यह टीटोरियल में समझाया गया है। एक मौजूद document को खोलकर रिकॉर्ड चेंज्स विशेषता का उपयोग करके document का संपादन और peer review किया जा सकता है। यह लाभ देता है कि समीक्षक मौजूद text में टिप्पणी कर सकता है, टिप्पणी कर सकता है, delete कर सकता है या बदलाव कर सकता है जो कि समान document में स्पष्टता दिखाई देता है। लेखक द्वार"
+}

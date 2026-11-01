@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-30T16:02:44+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W05",
+ "condition": "oracle",
+ "out_lang": "hinglish",
+ "input_tokens": 2980,
+ "summary": "Mozilla Thunderbird का परिचय और इसका डाउनलोड और संस्थापन शुरू करना सीखेंगे। Thunderbird एक सरल ईमेल क्लाईंट है जो विभिन्न ऑपरेटिंग सिस्टम पर काम करता है। इसे उबंटू सॉफ्टवेयर सेंटर या Mozilla वेबसाइट से डाउनलोड कर सकते हैं। इसके लिए आपको दो वैध ईमेल अकाउंट्स होने चाहिए। Thunderbird को लॉन्च करने के लिए डेस्कटॉप के बाएँ कोने के उपर गोल बटन पर क्लिक करें। फिर मेल अकाउंट कॉन्फ़िगर करन"
+}

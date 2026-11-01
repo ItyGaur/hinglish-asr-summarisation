@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-30T15:25:01+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W00",
+ "condition": "asr:whisper-small",
+ "out_lang": "en",
+ "input_tokens": 3089,
+ "summary": "This tutorial explains how to manage messages in Gmail using Ubuntu 12.04 with Tandara Bad 13.01. To capture a screenshot, search for \"screenshot\" in the Dash, select it, launch it, and then close it by returning to the Dash. In the launcher, click on Tandara Bad to open Gmail. Navigate to the inbox, select unread messages, and click on them to view. Messages can be sorted by date or conversation thread; clicking on the From field sorts messages chronologically. To mark messages as read, click on the subject line and then the From field again. You can also tag messages for easy reference. To save messages as drafts, select the message, click on the Drafts folder, and then click on the Save Draft button. Filters can be used to show only specific messages; click on the All Mail filter, then click Drafts to display draft messages. To view unsent messages, click on the Drafts folder again. The tutorial also covers saving emails as attachments and printing messages. A new full-screen window named \"Saved Mails\" was created for this purpose."
+}

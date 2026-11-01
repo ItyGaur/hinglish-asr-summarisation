@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-30T14:30:12+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W20",
+ "condition": "script_shift",
+ "out_lang": "en",
+ "input_tokens": 2002,
+ "summary": "This tutorial covers creating and presenting slides using LibreOffice Impress. You can create slide shows for presentations on desktops or projectors, which cover the entire screen. Slide shows are for presentation purposes only and cannot be edited while in show mode. To start a slide show, you can click on the \"Slide Show\" option in the main menu or press F5. During the show, you can navigate between slides using arrow keys or right-click the context menu to go to the next slide or choose \"End Show.\" Alternatively, pressing the escape key also exits the slide show.\n\nThe tutorial explains how to use the mouse pointer as a pen to annotate slides during the presentation. This feature can be enabled by checking the \"Mouse Pointer Visible\" and \"Mouse Pointer as Pen\" boxes in the slide show settings dialog box. You can draw lines and add text on the slides when in slide show mode.\n\nThe tutorial also covers slide transitions, which are visual effects applied when moving from one slide to another. To change the order of slides, select the \"Slide Sorter\" tab and drag and drop slides. For applying transitions, select the desired slide, click on \"Slide Transitions,\" and choose an effect like \"Wipe Up.\" You can adjust the speed and add sound effects for each transition."
+}

@@ -1,0 +1,78 @@
+{
+ "created": "2026-10-30T11:39:17+00:00",
+ "template_id": "reference",
+ "variant": 0,
+ "request": {
+  "model": "gemini-3.8-flash",
+  "system_instruction": "You are a careful annotator building evaluation data for summarisation research. Follow the instructions exactly and output only JSON that matches the schema.",
+  "input": "Below is the exact human transcript of a segment of a recorded software tutorial. The speaker code-mixes Hindi and English: Hindi is mostly written in Devanagari and English mostly in Latin script, but some English words are written in Devanagari.\n\nProduce two things.\n\n1. \"summary\": an English summary of the segment's content, 120-180 words, plain prose, covering the main steps, concepts and facts taught. Do not mention the speaker, the tutorial series, greetings, credits, funding or websites.\n\n2. \"facts\": 8 to 15 atomic facts that a good summary of this segment should contain.\n- Each fact is one short, self-contained English sentence stating a single piece of content (a step, setting, definition, command or result).\n- Exclude greetings, credits, acknowledgements, funding and website information.\n- Facts must not overlap.\n- For each fact, \"evidence\" must be copied EXACTLY, character for character, from the transcript: one contiguous excerpt of 3 to 25 words that states the fact. Do not translate, transliterate, correct or shorten words inside the excerpt.\n\nTranscript:\n<<<\nअकाउंट सेटिंग्स और जीमेल अकाउंट को कन्फिगर करने पर ट्यूटोरियल में आपका स्वागत है इस tutorial में हम सीखेंगे: एक ईमेल अकाउंट में नये फोल्डर्स कैसे जोड़ें मैसेजेस को खोजने के लिए एडवांस्ड फिल्टर्स कैसे निर्धारित करें मैसेज फिल्टर्स को व्यवस्थित कैसे करें हम साथ ही सीखेंगे याहू अकाउंट को खुद से कन्फिगर करना विभिन्न ईमेल अकाउंट्स की व्यवस्था करना एक मेल अकाउंट के लिए अकाउंट सेटिंग्स को बदलना एक ईमेल अकाउंट को डिलीट करना यहाँ हम उबंटू 1204 पर मोज़िला थंडरबर्ड 1301 इस्तेमाल कर रहे हैं लॉन्चर में thunderbird आइकन पर क्लिक करें थंडरबर्ड विंडो खुलती है इस अकाउंट में एक और फोल्डर जोड़ें बाएँ पैनल से अकाउंट stuserone at gmail dot com चुनें stuserone at gmail dot com पर दायाँ क्लिक करें और new folder चुनें new folder डायलॉग बॉक्स प्रदर्शित होता है name फील्ड में important mails प्रविष्ट करें create folder पर क्लिक करें फोल्डर बन गया है! अब आप ज़रूरी मेलों को इनबॉक्सinbox से इस फोल्डर में स्थानांतरित कर सकते हैं इस मेल को चुनकर इनबॉक्स से important mails फोल्डर में ड्रैग और ड्रॉप करते हैं अब विभिन्न फिल्टर ऑप्शन्स का इस्तेमाल करके मैसेजेस को खोज सकते हैं अब बाएँ पैनल से अकाउंट stuserone@gmail dot com चुनें दाएँ पैनल में advanced features के नीचे search messages पर क्लिक करें search messages डायलॉग बॉक्स प्रदर्शित होता है मैसेजेस को खोजने के लिए डिफॉल्ट सेटिंग्स का इस्तेमाल करें डिफॉल्ट रूप से match all of the following ऑप्शन चुनित है डिफॉल्ट रूप से subject और contains भी चुनित हैं अगले फील्ड में ten interesting टाइप करें search पर क्लिक करें मैसेज जो subject नाम से मेल खाते हैं वह प्रदर्शित हैं आप इन खोजों को एक फोल्डर में भी सेव कर सकते हैं इस tutorial को रोकें और यह नियतकार्य करें मैसेज को तिथि से खोजें और उन्हें एक फोल्डर में सेव करें चलिए यह डायलॉग बॉक्स चुनते हैं इस मेल अकाउंट के लिए एक नया फिल्टर बनाते हैं फिल्टर एक नियम है जिसे आप अपने मेल बॉक्स के मैसेजेस को क्रमबद्ध करने के लिए लागू कर सकते हैं यहाँ हम सब्जेक्ट थंडरबर्ड वाले सभी मैसेजेस को important mails फोल्डर में स्थानांतरित करेंगे बाएं पैनल से अकाउंट tuserone@gmail dot com चुनें advanced features में manage message filters पर क्लिक करें message filters डायलॉग बॉक्स प्रदर्शित होता है new टैब पर क्लिक करें filter rules डायलॉग बॉक्स प्रदर्शित होता है filter name फील्ड में सब्जेक्ट thunderbird प्रविष्ट करें फिर से फिल्टर को निर्धारित करने के लिए डिफॉल्ट सेटिंग्स चुनें डिफॉल्ट रूप से match all of the following ऑप्शन चुनित है डिफॉल्ट रूप से subject और contains भी चुनित हैं अगले फील्ड में thunderbird टाइप करें फिर perform these actions field में ऑप्शन को move message to में बदलें अगले ड्रॉपडाउन पर क्लिक करें ब्राउज़ करें और फोल्डर important mails चुनें ok पर क्लिक करें message filters डायलॉग बॉक्स में फिल्टर प्रदर्शित होता है run now पर क्लिक करें डायलॉग बॉक्स को बंद करें अब important mails फोल्डर पर क्लिक करें ध्यान दें थंडरबर्ड सब्जेक्ट के साथ मेल्स इस फोल्डर में स्थानांतरित हो गये हैं आप थंडरबर्ड से विभिन्न ईमेल अकाउंट्स का संचालन कर सकते हैं इसका मतलब थंडरबर्ड का इस्तेमाल करके आप न केवल अपने जीमेल बल्कि याहू या कोई अन्य मेल अकाउंट से मेल्स प्राप्त भेज और व्यवस्थित कर सकते हैं जैसा कि आप जानते हैं जीमेल अकाउंट्स थंडरबर्ड के द्वारा स्वतः ही कन्फिगर हो जाते हैं दूसरे अकाउंट्स को खुद से कन्फिगर करना होगा थंडरबर्ड के ज़रिये याहू अकाउंट stusertwo@yahoo dot in को कन्फिगर करें मैंने याहू अकाउंट में pop को पहले से ही सक्षम किया है मैंने यह कैसे किया सबसे पहले मैंने अपने याहू अकाउंट में लॉगिन किया फिर एक नया ब्राउज़र खोला और एड्रेस बार में wwwyahooin टाइप किया\n>>>",
+  "generation_config": {
+   "max_output_tokens": 8192
+  },
+  "response_format": {
+   "mime_type": "application/json",
+   "schema": {
+    "$defs": {
+     "Fact": {
+      "properties": {
+       "fact": {
+        "title": "Fact",
+        "type": "string"
+       },
+       "evidence": {
+        "title": "Evidence",
+        "type": "string"
+       }
+      },
+      "required": [
+       "fact",
+       "evidence"
+      ],
+      "title": "Fact",
+      "type": "object"
+     }
+    },
+    "properties": {
+     "summary": {
+      "title": "Summary",
+      "type": "string"
+     },
+     "facts": {
+      "items": {
+       "$ref": "#/$defs/Fact"
+      },
+      "title": "Facts",
+      "type": "array"
+     }
+    },
+    "required": [
+     "summary",
+     "facts"
+    ],
+    "title": "Reference",
+    "type": "object"
+   }
+  }
+ },
+ "output_text": "{\n  \"summary\": \"Mozilla Thunderbird allows users to organise emails by adding custom folders, searching messages with advanced filters, and automating message management through filter rules. In Thunderbird, users can create a new folder, such as \\\"important mails,\\\" by right-clicking on an account and selecting the new folder option, allowing emails to be dragged and dropped directly from the inbox. The search messages tool under advanced features enables finding specific messages based on conditions like matching subject text, with options to save search results into a folder. Furthermore, message filters can be established to automatically sort incoming mail; for instance, rules can be defined to detect specific subject keywords and automatically move matching emails to a target folder when run. Thunderbird also supports managing multiple email accounts from providers like Gmail and Yahoo. While Gmail accounts can be configured automatically, accounts such as Yahoo require manual setup after enabling POP access within the account settings.\",\n  \"facts\": [\n    {\n      \"fact\": \"The demonstration uses Ubuntu 12.04 and Mozilla Thunderbird 13.01.\",\n      \"evidence\": \"यहाँ हम उबंटू 1204 पर मोज़िला थंडरबर्ड 1301 इस्तेमाल कर रहे हैं\"\n    },\n    {\n      \"fact\": \"A new folder can be initiated by right-clicking an email account and choosing the new folder option.\",\n      \"evidence\": \"stuserone at gmail dot com पर दायाँ क्लिक करें और new folder चुनें\"\n    },\n    {\n      \"fact\": \"Emails can be moved from the inbox to the important mails folder via drag and drop.\",\n      \"evidence\": \"इस मेल को चुनकर इनबॉक्स से important mails फोल्डर में ड्रैग और ड्रॉप करते हैं\"\n    },\n    {\n      \"fact\": \"Clicking search messages under advanced features launches the message search interface.\",\n      \"evidence\": \"दाएँ पैनल में advanced features के नीचे search messages पर क्लिक करें\"\n    },\n    {\n      \"fact\": \"Search criteria can be set to query messages matching a particular subject term such as ten interesting.\",\n      \"evidence\": \"अगले फील्ड में ten interesting टाइप करें search पर क्लिक करें\"\n    },\n    {\n      \"fact\": \"A filter is a rule applied to organise and sort messages within a mailbox.\",\n      \"evidence\": \"फिल्टर एक नियम है जिसे आप अपने मेल बॉक्स के मैसेजेस को क्रमबद्ध करने के लिए लागू कर सकते हैं\"\n    },\n    {\n      \"fact\": \"Selecting manage message filters in advanced features displays the message filters dialog box.\",\n      \"evidence\": \"advanced features में manage message filters पर क्लिक करें message filters डायलॉग बॉक्स प्रदर्शित होता है\"\n    },\n    {\n      \"fact\": \"A filter action can be configured to move matching messages to a selected folder.\",\n      \"evidence\": \"फिर perform these actions field में ऑप्शन को move message to में बदलें\"\n    },\n    {\n      \"fact\": \"Clicking run now applies the newly created filter immediately to the mailbox.\",\n      \"evidence\": \"message filters डायलॉग बॉक्स में फिल्टर प्रदर्शित होता है run now पर क्लिक करें\"\n    },\n    {\n      \"fact\": \"Thunderbird configures Gmail accounts automatically, but other email accounts must be configured manually.\",\n      \"evidence\": \"जीमेल अकाउंट्स थंडरबर्ड के द्वारा स्वतः ही कन्फिगर हो जाते हैं दूसरे अकाउंट्स को खुद से कन्फिगर करना होगा\"\n    },\n    {\n      \"fact\": \"POP functionality must be enabled inside the Yahoo account before configuring it in Thunderbird.\",\n      \"evidence\": \"मैंने याहू अकाउंट में pop को पहले से ही सक्षम किया है\"\n    }\n  ]\n}",
+ "response_model": "gemini-3.8-flash",
+ "response_id": "v1_ChdOb0hrYXBMRUU0YkJxdHNQc1lPS2tRMBIXTm9Ia2FwTEVFNGJCcXRzUHNZT0trUTA",
+ "usage": {
+  "initial_input_tokens": 1218,
+  "input_tokens_by_modality": [
+   {
+    "modality": "text",
+    "tokens": 1084
+   }
+  ],
+  "total_cached_tokens": 0,
+  "total_input_tokens": 1084,
+  "total_output_tokens": 780,
+  "total_thought_tokens": 2560,
+  "total_tokens": 4424,
+  "total_tool_use_tokens": 0
+ },
+ "meta": {
+  "window_id": "W14"
+ }
+}

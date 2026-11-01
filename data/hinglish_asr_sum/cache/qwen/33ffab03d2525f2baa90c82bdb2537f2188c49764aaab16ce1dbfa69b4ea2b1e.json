@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-30T15:25:40+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W04",
+ "condition": "asr:whisper-small",
+ "out_lang": "en",
+ "input_tokens": 3037,
+ "summary": "The tutorial explains how to create custom animations in a presentation software using version 3.4. First, select a text box by clicking on it, then click on the border to open the ImprEsso window. From the right side toolbar, click on the Custom Animation tab to set up custom animations. The Animation tab allows you to customize object display methods. You can also set basic animation properties like speed and direction. To play selected animations, click on the Play button. For more advanced animations, use the Animation Order buttons to change the sequence. The default properties for each animation can be viewed and adjusted by clicking on the animation in the list. The tutorial covers setting animation directions, frame rates, and playback effects. It also shows how to preview and adjust the impact of animations by playing them in sequence."
+}

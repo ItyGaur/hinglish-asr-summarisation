@@ -1,0 +1,135 @@
+{
+  "started": "2026-10-31T11:48:54+00:00",
+  "python": "3.13.16",
+  "gpu": "Tesla T4, 15360 MiB",
+  "seed": 13,
+  "config": {
+    "SEED": 13,
+    "ASR_TAG": "vad15",
+    "SENSITIVITY_EXCLUDE": [
+      "W07",
+      "W24"
+    ],
+    "USE_DRIVE": true,
+    "DRIVE_ROOT": "/content/drive/MyDrive/hinglish_asr_sum",
+    "LOCAL_ROOT": "/content/hinglish_asr_sum",
+    "GEMINI_MODEL": "gemini-3.8-flash",
+    "GEMINI_THINKING_LEVEL": null,
+    "MIN_SECONDS_BETWEEN_CALLS": 6.5,
+    "MAX_RETRIES": 8,
+    "MAX_INVALID_JSON_RETRIES": 2,
+    "QWEN_MODEL": "Qwen/Qwen2.5-7B-Instruct",
+    "QWEN_BATCH": 4,
+    "QWEN_MAX_NEW_TOKENS": 320,
+    "NOISE_LANGS": [
+      "hi",
+      "en"
+    ],
+    "NOISE_LEVELS": [
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5
+    ],
+    "NOISE_SEED": 0,
+    "NOISE_PROFILE_MODEL": "trelis-hinglish-preview",
+    "HINGLISH_OUTPUT_CONDITIONS": [
+      "oracle",
+      "asr:whisper-small",
+      "asr:trelis-hinglish-preview"
+    ],
+    "TAG_HI_MIN": 0.6,
+    "TAG_EN_MAX": 0.4,
+    "EVIDENCE_MIN_MATCH": 0.9,
+    "N_BOOT": 2000,
+    "SPOTCHECK_N_REF": 10,
+    "SPOTCHECK_N_JUDGE": 30,
+    "STABILITY_N": 20,
+    "PINS": [
+      "google-genai==2.34.0",
+      "jiwer==4.0.0",
+      "indic_transliteration==2.3.82",
+      "rouge-score==0.1.2",
+      "bert-score==0.3.13",
+      "bitsandbytes",
+      "accelerate"
+    ],
+    "IN_COLAB": true,
+    "ROOT": "/content/drive/MyDrive/hinglish_asr_sum",
+    "OUT_DIR": "/content/drive/MyDrive/hinglish_asr_sum/outputs",
+    "LOG_DIR": "/content/drive/MyDrive/hinglish_asr_sum/logs",
+    "S2_DIR": "/content/drive/MyDrive/hinglish_asr_sum/outputs/step2",
+    "CACHE_DIR": "/content/drive/MyDrive/hinglish_asr_sum/cache",
+    "FIG_DIR": "/content/drive/MyDrive/hinglish_asr_sum/outputs/step2/figures",
+    "PROMPT_LOG": "/content/drive/MyDrive/hinglish_asr_sum/logs/prompts_log.jsonl",
+    "RUN_CONFIG": "/content/drive/MyDrive/hinglish_asr_sum/logs/run_config_step2.json",
+    "WINDOWS": [
+      "W00",
+      "W01",
+      "W02",
+      "W03",
+      "W04",
+      "W05",
+      "W06",
+      "W07",
+      "W08",
+      "W09",
+      "W10",
+      "W11",
+      "W12",
+      "W13",
+      "W14",
+      "W15",
+      "W16",
+      "W17",
+      "W18",
+      "W19",
+      "W20",
+      "W21",
+      "W22",
+      "W23",
+      "W24"
+    ],
+    "ASR_MODELS_FOUND": [
+      "trelis-hinglish-preview",
+      "whisper-small"
+    ]
+  },
+  "packages": {
+    "google-genai": "2.34.0",
+    "transformers": "5.21.0",
+    "bitsandbytes": "0.50.2",
+    "accelerate": "1.15.0",
+    "torch": "2.11.0+cu130",
+    "jiwer": "4.0.0",
+    "rouge-score": "0.1.2",
+    "bert-score": "0.3.13",
+    "pydantic": "2.14.1"
+  },
+  "templates": {
+    "reference": "a2bf7642936a96ae8e764b1b94cacd77e89ecf302fc7004ae1c759a3cb2cd8ef",
+    "lexicon": "7bdb89946bba9964e836a63b04c7d53f618a42f26fe796584b4f56e5c95ed00e",
+    "judge": "805fa6198fdd011acb49eb1b3e20671b9c4e1898e11d558ce10f770eb7ef973c",
+    "summary_en": "2e9f483e0a9985c2ff358e8f8743dc697c02ec335095ed7e281fe14f39ca5e4e",
+    "summary_hinglish": "37442375df6dbdfa580089ae9af4ebed6b19101b7a0803683b7c84cdd0a99418"
+  },
+  "gemini_send_temperature": false,
+  "qwen": {
+    "model": "Qwen/Qwen2.5-7B-Instruct",
+    "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+    "quantization": "bnb nf4 4-bit, fp16 compute",
+    "generation": {
+      "max_new_tokens": 320,
+      "do_sample": false,
+      "temperature": null,
+      "top_p": null,
+      "top_k": null
+    },
+    "batch": 4
+  },
+  "bertscore": {
+    "model": "roberta-large",
+    "rescale_with_baseline": false
+  }
+}

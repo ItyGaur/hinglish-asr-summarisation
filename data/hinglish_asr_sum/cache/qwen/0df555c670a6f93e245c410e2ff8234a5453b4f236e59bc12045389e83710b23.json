@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-31T12:54:51+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W17",
+ "condition": "oracle",
+ "out_lang": "hinglish",
+ "input_tokens": 1838,
+ "summary": "लिबर ऑफिस impress में presentation notes कैसे लिखें और प्रिंट करें याद करेंगे। नोट्स दो उद्देश्यों के लिए लगातार लिखे जाते हैं: दर्शकों के लिए प्रत्येक slide पर अतिरिक्त सामग्री या रेफ्रेन्सेस और उद्घोषक को reference notes के ज़रिये मदद करने के लिए। नोट्स जोड़ने के लिए नोट्स टैब पर क्लिक करें और नोट्स टेक्स्ट बॉक्स में टाइप करें। नोट्स में टेक्स्ट को फॉर्मेट करने के लिए फॉंट टाइप और"
+}

@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-31T12:55:52+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W20",
+ "condition": "oracle",
+ "out_lang": "hinglish",
+ "input_tokens": 2021,
+ "summary": "LibreOffice Impress में slide बनाने का ट्रायल करेंगे। आप slide shows और transitions बना सकते हैं जो दर्शकों के सामने प्रदर्शित होते हैं। इसके लिए आप main menu से slide show चुनें और settings पर click करें। या फिर F5 फंक्शन की तरफ जाकर slide show शुरू कर सकते हैं। दर्शकों के सामने slide प्रस्तुत करने के लिए arrow buttons का उपयोग करें या context menu के लिए दायां click करें। यदि आप चाहते हैं कि दर्शकों से बातचीत करें, mouse pointer को pen बनाएँ। इसके लिए slide show settings में mouse pointer visible और pen चेक करे�"
+}

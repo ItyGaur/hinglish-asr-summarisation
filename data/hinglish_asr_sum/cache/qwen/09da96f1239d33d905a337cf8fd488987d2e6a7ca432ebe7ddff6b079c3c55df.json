@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-30T15:44:22+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W10",
+ "condition": "noise:en:0.5",
+ "out_lang": "en",
+ "input_tokens": 2642,
+ "summary": "This tutorial introduces LibreOffice Impress, a free software for creating presentations. It covers how to install LibreOffice Impress on various operating systems, including Windows and Linux. The tutorial explains how to launch Impress and create a new presentation by selecting templates and customizing them with titles, backgrounds, and content. It guides users through creating a basic presentation about benefits of services, saving it as an .odp file, and closing it. Additionally, it demonstrates how to save Impress presentations as Microsoft PowerPoint files using the \"Save As\" feature. The tutorial also touches on using LibreOffice Manager to manage Impress presentations and other LibreOffice components."
+}

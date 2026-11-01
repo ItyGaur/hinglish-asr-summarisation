@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-30T15:31:02+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W02",
+ "condition": "noise:en:0.1",
+ "out_lang": "en",
+ "input_tokens": 2160,
+ "summary": "This tutorial introduces how to use the Gedit text editor on various operating systems, primarily focusing on Ubuntu Linux and Windows. It covers installing Gedit, creating a new file, opening existing files, and saving them. On Ubuntu, Gedit is pre-installed, but can also be installed via the Ubuntu Software Centre. To open Gedit, you can click the Dash Home, search for it, or use the terminal command `gedit`. The interface includes a menu bar with file options like Save and Close, a toolbar with common icons, and a status bar showing cursor position and file save status. Files are saved by clicking File > Save, and the asterisk (*) indicates an unsaved file. Closing a file involves selecting File > Close. The tutorial also explains how to create new documents, save them with names, and reopen them later. Regularly saving files is recommended to prevent data loss due to power cuts or system crashes."
+}

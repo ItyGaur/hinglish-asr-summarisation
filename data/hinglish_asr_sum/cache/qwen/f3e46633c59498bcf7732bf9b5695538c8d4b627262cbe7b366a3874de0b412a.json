@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-30T15:59:51+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W08",
+ "condition": "noise:hi:0.5",
+ "out_lang": "en",
+ "input_tokens": 2716,
+ "summary": "This tutorial explains how to switch between different views in Microsoft Office Writer for printing and editing documents on a GNU/Linux system. It covers several key features:\n\n1. **Print Layout**: This view shows how the document will look when printed. To access it, click on the \"Print Layout\" option from the View menu.\n\n2. **Web Layout**: This view simulates how the document will appear in a web browser. Access it by clicking on the \"Web Layout\" option from the View menu.\n\n3. **Full Screen Mode**: This mode hides the menu bars, allowing you to focus on the document. To enter full screen, click on the Full Screen option in the View menu. To exit, press the Escape key.\n\n4. **Zoom Options**: You can adjust the zoom level using the Zoom option in the View menu. This allows you to fit the entire document or specific pages into the view. Options include Fit to Width, Fit to Page, and custom zoom factors.\n\n5. **View Layout Dialog Box**: This dialog box offers various layout options like Fit Width and Height, which adjust the display to fit the current document's dimensions.\n\n6. **Automatic and Single Page Views**: These options allow you to view multiple pages at once or one page at a time. Clicking Automatic in the View Layout dialog box will show adjacent pages.\n\n7. **Status Bar Controls**: The status bar provides controls for adjusting the view layout and zoom level.\n\nThese features help users efficiently edit and preview their documents in Microsoft Office Writer on a Linux system."
+}

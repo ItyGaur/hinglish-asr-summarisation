@@ -1,0 +1,78 @@
+{
+ "created": "2026-10-30T16:02:47+00:00",
+ "template_id": "reference",
+ "variant": 0,
+ "request": {
+  "model": "gemini-3.8-flash",
+  "system_instruction": "You are a careful annotator building evaluation data for summarisation research. Follow the instructions exactly and output only JSON that matches the schema.",
+  "input": "Below is the exact human transcript of a segment of a recorded software tutorial. The speaker code-mixes Hindi and English: Hindi is mostly written in Devanagari and English mostly in Latin script, but some English words are written in Devanagari.\n\nProduce two things.\n\n1. \"summary\": an English summary of the segment's content, 120-180 words, plain prose, covering the main steps, concepts and facts taught. Do not mention the speaker, the tutorial series, greetings, credits, funding or websites.\n\n2. \"facts\": 8 to 15 atomic facts that a good summary of this segment should contain.\n- Each fact is one short, self-contained English sentence stating a single piece of content (a step, setting, definition, command or result).\n- Exclude greetings, credits, acknowledgements, funding and website information.\n- Facts must not overlap.\n- For each fact, \"evidence\" must be copied EXACTLY, character for character, from the transcript: one contiguous excerpt of 3 to 25 words that states the fact. Do not translate, transliterate, correct or shorten words inside the excerpt.\n\nTranscript:\n<<<\nलिबर ऑफिस writer में find और replace विशेषता और autocorrect विशेषता का इस्तेमाल करने पर इस spoken tutorial में आपका स्वागत है इस tutorial में हम निम्न सीखेंगे: find और replace खोजने और बदले में रखना spellcheck वर्तनी की जाँच autocorrectस्वसुधारयहाँ हम अपने ऑपरेटिंग सिस्टम के रूप में gnu/लिनक्स और लिबर ऑफिस सूट वर्जन 334 का उपयोग कर रहे हैं चलिए अब राइटर में find and replace बटन के बारे में जानकर शुरू करते हैं यह टेक्स्ट के लिए खोजता है और/या पूरे डॉक्युमेंट में टेक्स्ट को बदलता है चलिए एक उदाहरण के द्वारा इसके बारे में और अधिक जानते हैं अतः सबसे पहले अपनी resume odt file खोलते हैं अब edit option पर click करें और फिर find and replace पर click करें इसके बदले में standard tool bar में button पर click करें आप देख सकते हैं कि एक डायलॉग बॉक्स search for और एक replace with फील्ड में दिखता है आप जिस टेक्स्ट को खोजना चाहते हैं उसको search for फील्ड में प्रविष्ट करें उदाहरणस्वरुप हमें document में हर वो स्थान जहाँ ramesh लिखा है वो खोजना है अतः search for field में ramesh type करें all find all पर click करें आप देख सकते हैं कि हमारे document में हर वो स्थान जहाँ ramesh लिखा है वो चिन्हांकित हो गया है आप इसे जिस text से बदलना चाहते हैं उसे replace with field में लिखें उदाहरणस्वरुप हम अपने document में ramesh को manish से बदलना चाहते हैं अतः हम replace with टैब में manish type करते हैं all replace all पर click करें आप देख सकते हैं कि हमारे document में हर जगह ramesh manish से बदल चुका है dialog box के बिलकुल नीचे हम more options button देखते हैं इस पर click करें more options button में विशिष्ट find and replace options की एक सूची होती है इसमें options होते हैं जैसे backwards जोकि text को नीचे से ऊपर की ओर खोजता है current selection only जोकि text को text के एक चुनित भाग में खोजता है इसमें अन्य advanced options होते हैं जैसे regular expressions search for styles और कुछ अन्य यहाँ dialog box के दायीं ओर तीन अन्य options हैं यह हैं attributes format और no format यह उपयोगकर्ता को विविध प्रकार के एडवांस्ड find खोज और replace के ऑप्शन्स प्रदान करता है चलिए इसे बंद करते हैं हम इनके बारे में और ज्यादा अधिक advanced tutorials में जानेंगे find and replace विशेषता के बारे में सीखने के बाद हम अब सीखेंगे कि libreoffice writer में spellcheck का इस्तेमाल करके वर्तनी कैसे जाँचे spellcheck का उपयोग पूरे document या text के चुनित भाग में वर्तनी त्रुटियों को जाँचने के लिए किया जाता है spellcheck cursor की वर्तमान स्थिति से शुरू होता है और document या चुनित भाग के अंत तक बढ़ता है आप फिर document के प्रारंभ से वर्तनी जाँच जारी रख सकते हैं spellcheck शब्दों में वर्तनी त्रुटियों को देखता है और आपको एक अज्ञात शब्द को उपयोगकर्ता के शब्दकोश में जोड़ने का ऑप्शन देता है चलिए देखते हैं कि यह कैसे लागू होता है प्रत्येक भाषा के लिए spell check विशेषता भिन्न होती है उदाहरणस्वरुप menu bar में tools option पर click करें और फिर options पर click करें dialog box जो दिखाई देता है उसमें language settings option पर click करें और अंत में languages पर click करें user interface option के अंदर यह सुनिश्चित कर लें कि default option english usa निर्धारित है उसके नीचे locale setting फील्ड में डाउन एरो पर क्लिक करें और फिर english usa ऑप्शन पर क्लिक करें अब default languages for documents हैडिंग के अंदर western फील्ड में डिफॉल्ट भाषा english india निर्धारित है चूँकि सम्भवतः english india के पास वो शब्दकोष न हो जिसकी अपेक्षा spell check को है हम भाषा को english usa में बदल देंगे अतः western फील्ड में डाउन एरो पर क्लिक करें और english usa ऑप्शन पर क्लिक करें अंततः ok बटन पर क्लिक करें अतः अब हम देखने के लिए तैयार हैं कि कैसे spellcheck विशेषता english usa भाषा के लिए कार्य करती है spelling and grammar विशेषता को इस्तेमाल करने के लिए यह सुनिश्चित कर लें कि autospellcheck option सक्षम है अतः toolbar में autospellcheck button पर click करते हैं यदि यह चालू नहीं है अपनी resume odt file के अंदर mothers occupation में हम वाक्य में housewife के लिए husewife गलत वर्तनी type करेंगे और space दबाएँ\n>>>",
+  "generation_config": {
+   "max_output_tokens": 8192
+  },
+  "response_format": {
+   "mime_type": "application/json",
+   "schema": {
+    "$defs": {
+     "Fact": {
+      "properties": {
+       "fact": {
+        "title": "Fact",
+        "type": "string"
+       },
+       "evidence": {
+        "title": "Evidence",
+        "type": "string"
+       }
+      },
+      "required": [
+       "fact",
+       "evidence"
+      ],
+      "title": "Fact",
+      "type": "object"
+     }
+    },
+    "properties": {
+     "summary": {
+      "title": "Summary",
+      "type": "string"
+     },
+     "facts": {
+      "items": {
+       "$ref": "#/$defs/Fact"
+      },
+      "title": "Facts",
+      "type": "array"
+     }
+    },
+    "required": [
+     "summary",
+     "facts"
+    ],
+    "title": "Reference",
+    "type": "object"
+   }
+  }
+ },
+ "output_text": "{\n  \"summary\": \"In LibreOffice Writer, the Find and Replace feature enables searching for and substituting text across a document. Users can open this tool via the Edit menu or the standard toolbar, input search terms in the Search for field, and enter substitutions in the Replace with field. Selecting Find All highlights every occurrence, while Replace All substitutes every instance immediately. The More Options menu offers specialized search parameters, such as searching backwards from bottom to top, restricting searches to current selections, or using regular expressions and formatting attributes. Additionally, the Spellcheck feature detects spelling errors from the cursor's current position to the end of the text and permits adding unknown words to the user dictionary. Because spell checking varies by language, users configure language preferences through Tools and Options under Language Settings, setting the Western default document language and locale to English USA. Finally, users can enable AutoSpellcheck from the toolbar to automatically identify spelling mistakes while typing.\",\n  \"facts\": [\n    {\n      \"fact\": \"The demonstration runs on the GNU/Linux operating system using LibreOffice suite version 3.3.4.\",\n      \"evidence\": \"यहाँ हम अपने ऑपरेटिंग सिस्टम के रूप में gnu/लिनक्स और लिबर ऑफिस सूट वर्जन 334 का उपयोग कर रहे हैं\"\n    },\n    {\n      \"fact\": \"The Find and Replace feature searches for text and can replace text throughout the document.\",\n      \"evidence\": \"यह टेक्स्ट के लिए खोजता है और/या पूरे डॉक्युमेंट में टेक्स्ट को बदलता है\"\n    },\n    {\n      \"fact\": \"Find and Replace can be accessed by clicking the Edit option and then selecting Find and Replace.\",\n      \"evidence\": \"edit option पर click करें और फिर find and replace पर click करें\"\n    },\n    {\n      \"fact\": \"Clicking Find All highlights every occurrence of the specified search text across the document.\",\n      \"evidence\": \"all find all पर click करें आप देख सकते हैं कि हमारे document में हर वो स्थान जहाँ ramesh लिखा है वो चिन्हांकित हो गया है\"\n    },\n    {\n      \"fact\": \"Clicking Replace All substitutes every instance of the searched text with the replacement text.\",\n      \"evidence\": \"all replace all पर click करें आप देख सकते हैं कि हमारे document में हर जगह ramesh manish से बदल चुका है\"\n    },\n    {\n      \"fact\": \"The backwards option in Find and Replace searches through text from the bottom upward.\",\n      \"evidence\": \"backwards जोकि text को नीचे से ऊपर की ओर खोजता है\"\n    },\n    {\n      \"fact\": \"Spellcheck is used to detect spelling errors across the entire document or within a selected portion of text.\",\n      \"evidence\": \"spellcheck का उपयोग पूरे document या text के चुनित भाग में वर्तनी त्रुटियों को जाँचने के लिए किया जाता है\"\n    },\n    {\n      \"fact\": \"Spellcheck checks for spelling errors and provides the option to add an unrecognized word to the user dictionary.\",\n      \"evidence\": \"spellcheck शब्दों में वर्तनी त्रुटियों को देखता है और आपको एक अज्ञात शब्द को उपयोगकर्ता के शब्दकोश में जोड़ने का ऑप्शन देता है\"\n    },\n    {\n      \"fact\": \"Language configuration is accessed by clicking Tools on the menu bar and selecting Options.\",\n      \"evidence\": \"menu bar में tools option पर click करें और फिर options पर click करें\"\n    },\n    {\n      \"fact\": \"Under the Default languages for documents settings, the Western language field is changed to English USA.\",\n      \"evidence\": \"western फील्ड में डाउन एरो पर क्लिक करें और english usa ऑप्शन पर क्लिक करें\"\n    },\n    {\n      \"fact\": \"The AutoSpellcheck option must be enabled on the toolbar to utilize spelling and grammar checking.\",\n      \"evidence\": \"spelling and grammar विशेषता को इस्तेमाल करने के लिए यह सुनिश्चित कर लें कि autospellcheck option सक्षम है\"\n    }\n  ]\n}",
+ "response_model": "gemini-3.8-flash",
+ "response_id": "v1_ChdXTDdrYXYtakZMbTdqTWNQeG9xOGlRTRIXV0w3a2F2LWpGTG03ak1jUHhvcThpUU0",
+ "usage": {
+  "initial_input_tokens": 1240,
+  "input_tokens_by_modality": [
+   {
+    "modality": "text",
+    "tokens": 1106
+   }
+  ],
+  "total_cached_tokens": 0,
+  "total_input_tokens": 1106,
+  "total_output_tokens": 836,
+  "total_thought_tokens": 2033,
+  "total_tokens": 3975,
+  "total_tool_use_tokens": 0
+ },
+ "meta": {
+  "window_id": "W18"
+ }
+}

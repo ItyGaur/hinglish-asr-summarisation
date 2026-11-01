@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-30T16:00:37+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W14",
+ "condition": "noise:hi:0.5",
+ "out_lang": "en",
+ "input_tokens": 2864,
+ "summary": "This tutorial explains how to configure a Linux email account using Thunderbird on Ubuntu 12.04 or later. It covers adding folders, moving emails between folders, and setting up advanced filters. To add a folder, you right-click on the Gmail account, select \"New Folder,\" and name it (e.g., \"Important Mails\"). To move emails, you select them from the inbox and drag them to the desired folder. Advanced filters can be set up by searching for specific emails based on subject or sender. For example, you can create a filter to move emails with the subject \"ten interesting\" to the \"Important Mails\" folder. You can also configure Thunderbird to manage multiple email accounts, allowing you to check multiple email services like Yahoo without opening separate browser tabs. The tutorial demonstrates configuring a Yahoo account to use POP from the start, which requires logging into the account and then opening the Yahoo URL in the browser."
+}

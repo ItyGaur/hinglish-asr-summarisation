@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-30T14:33:43+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W12",
+ "condition": "noise:en:0.1",
+ "out_lang": "en",
+ "input_tokens": 1542,
+ "summary": "In this tutorial, the speaker explains the use of `typedef` and `union` in C programming using examples. `typedef` is introduced as a keyword used to give a new name to an existing data type or user-defined data type, acting as an alias for commands, which helps in making the code more readable and easier to modify. An example provided is `typedef unsigned int uint`. The speaker then demonstrates how to use `typedef` in a program to check if a given number is a palindrome. The program uses `uint` as the data type for variables.\n\nNext, the concept of `union` is introduced. A `union` is a collection of different data types stored in a single block of memory, with the same storage space allocated for all its members. Only one member can be accessed at a time. The speaker provides an example where a `union` is used to store marks of a student in English, Maths, and Science. The total marks are calculated and displayed. The speaker also contrasts `union` with `struct`, noting that while `struct` allows multiple members to be accessed simultaneously, `union` restricts access to only one member at a time.\n\nTo run the programs, the speaker instructs users to open the terminal, compile the code using `gcc`, and execute it."
+}

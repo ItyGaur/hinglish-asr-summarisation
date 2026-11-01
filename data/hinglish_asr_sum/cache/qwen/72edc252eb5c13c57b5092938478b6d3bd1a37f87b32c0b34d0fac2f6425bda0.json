@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-30T15:58:49+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W06",
+ "condition": "noise:hi:0.5",
+ "out_lang": "en",
+ "input_tokens": 1855,
+ "summary": "This tutorial covers how to use command line arguments in C programming on Ubuntu 11.10 using GCC compiler version 4.6.1. It explains that `argc` represents the number of command-line arguments passed to the program, while `argv` holds the actual arguments as strings. The first element of `argv` (index 0) contains the program name, and subsequent elements contain the actual arguments passed to the program. The tutorial demonstrates this by compiling and running a sample C program that prints out the command-line arguments. When the user inputs \"sunday monday tuesday\", the program outputs \"Arguments: 4\" because there are four arguments including the program name. The tutorial concludes by emphasizing the importance of understanding command-line arguments for passing parameters to programs and provides a link to the full video for further learning."
+}

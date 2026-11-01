@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-31T12:53:03+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W18",
+ "condition": "noise:hi:0.5",
+ "out_lang": "en",
+ "input_tokens": 3257,
+ "summary": "The tutorial explains how to use the \"Find and Replace\" feature in LibreOffice Writer, a free office suite. It starts by navigating to the \"Find and Replace\" dialog box from the standard toolbar. Users can search for specific text and replace it throughout the document. The tutorial demonstrates this process using an example where \"ramesh\" is replaced with \"manish.\" Advanced options like backward search, case sensitivity, and regular expressions are also covered. Additionally, the tutorial explains how to enable spell checking in LibreOffice Writer. To do this, users go to the \"Tools\" menu, select \"Options,\" then choose \"Language Settings\" and set the default language to English (USA). The spell check feature is then enabled, and users can correct misspelled words as they type. The tutorial also mentions that the \"AutoSpellcheck\" button on the toolbar can be used to automatically check spelling while typing."
+}

@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-30T15:53:38+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W09",
+ "condition": "noise:hi:0.3",
+ "out_lang": "en",
+ "input_tokens": 2822,
+ "summary": "This tutorial covers creating and formatting presentations using LibreOffice Impress on GNU/Linux with version 3.3.4. It starts by opening a sample presentation and explaining the various view options such as Normal, Outline, Notes, Handout, and Slide Sorter views. The Normal view shows the workspace with five tabs for navigation. The Slide Sorter view displays thumbnail images of slides for easy arrangement.\n\nThe tutorial then demonstrates how to insert new slides by clicking on the Insert tab and selecting \"Slide.\" To add text, users can click on the Text Box in the Text Bar, type their content, and click outside the box to finalize. Slides can be duplicated by inserting a slide and then choosing \"Duplicate Slide\" from the context menu.\n\nFor formatting fonts, users can double-click on a slide to edit its text. They can change the font style and size through the Font dialog box accessed via the Format menu. Users can also adjust the text color by selecting the text and choosing a color from the Font Color icon.\n\nThe tutorial concludes with examples of applying bold, italic, and underline formatting to selected text within slides. Overall, it provides a comprehensive guide for basic presentation creation and editing in LibreOffice Impress."
+}

@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-30T16:01:39+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W03",
+ "condition": "oracle",
+ "out_lang": "hinglish",
+ "input_tokens": 1922,
+ "summary": "Gedit text editor mein snippets ka use kaise karein, usse create kaise karein aur kaise delete karein, wese bata diye gaye hain. Snippets text ya source code ke lines hain jo typing ko kam karte hain. Gedit mein default snippets plugin hai, usko activate karne ke liye main menu se edit aur preferences par click karo, plugin tab me snippets box check karo. C program likhne ke liye file numcheck.c naam se save karo, tab if statement ke liye cursor next line pe rakhke tab press karo. Intelligent text completion plugin se auto close brackets and quotes milte hain. Manage snippets dialog box se custom snippets add kar sakte hain, usse c ke liye click karo, c snippet list dekh sakte hain, click karo aur syntax dekh sakte hain. Custom snippet create karna ke liye tools aur manage snippets par click karo, c ke liye click karo, plus icon pe click karo, helloworld type karo, enter press karo, edit panel pe click karo aur simple c program type karo."
+}

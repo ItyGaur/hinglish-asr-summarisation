@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-30T16:01:39+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W01",
+ "condition": "oracle",
+ "out_lang": "hinglish",
+ "input_tokens": 2349,
+ "summary": "लिबर ऑफिस impress में slide के लिए background और डिजाइन लागू करने की विधि सीखेंगे। आप अपने गनु लिनक्स और लिबर ऑफिस 334 का उपयोग कर सकते हैं। फर्स्ट, आपको एक अंकिट बैकग्राउंड बनाना है। इसके लिए आप slide master चुनेंगे और यहाँ पर परिवर्तन कर सकते हैं। फिर आप फैन्स पेज पर जाकर फैन्स टैब पर क्लिक करके बैकग्राउंड को सफेद बना सकते हैं। फिर आप टाइपफेस टैब पर जाकर फॉन्ट एफे�"
+}

@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-30T15:51:19+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W12",
+ "condition": "noise:hi:0.2",
+ "out_lang": "en",
+ "input_tokens": 1585,
+ "summary": "In this tutorial, the speaker explains the use of `typedef` and `union` in C programming. `typedef` allows users to create aliases for existing data types, making the code more readable and easier to understand. For example, `typedef unsigned int uint;` creates an alias `uint` for `unsigned int`. The speaker demonstrates this by writing a program to check if a given number is a palindrome using `uint` as the data type for variables. The program compiles and runs successfully, displaying \"Given number is a palindrome number\" when the input is 121.\n\nThe tutorial then introduces `union`, which groups different data types into a single entity but allocates only one block of memory for all its members. Only one member can be accessed at a time. The speaker provides an example where a `union` named `student` contains three variables: `english`, `maths`, and `science`. A `union` variable `stud` is declared in the main function, allowing access to its members to calculate the total marks and display them. The program compiles and outputs the total marks as 228.\n\nThe tutorial concludes by highlighting the difference between `struct` and `union`: while `struct` allocates separate memory for each member, `union` shares the same memory block among its members."
+}

@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-31T12:43:49+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W16",
+ "condition": "noise:en:0.5",
+ "out_lang": "en",
+ "input_tokens": 2107,
+ "summary": "In this tutorial, the speaker explains storage class specifiers in C programming using Ubuntu 11.10 and GCC compiler version 4.6.1. Storage class specifiers tell the compiler where to store variables, how to save them, their initial values, and their lifetimes. The tutorial covers two specifiers: `auto` and `static`.\n\n`Auto` specifies that a variable has local scope and must be initialized explicitly each time it is declared. Variables with `auto` are stored in CPU memory. An example is shown where a function named `increment` is defined, and an `auto` variable `i` is declared within it. The program initially outputs zero because `i` is not initialized. To fix this, `i` is initialized before its declaration, and the program runs correctly, outputting zero.\n\n`Static` variables are also discussed briefly. They are initialized to zero and persist beyond the function's execution, maintaining their value across multiple function calls. An example demonstrates initializing a `static` variable `i` to zero, which retains its value between function calls.\n\nThe tutorial concludes with practical examples and commands to compile and run the programs, illustrating the effects of different storage class specifiers on variable behavior."
+}

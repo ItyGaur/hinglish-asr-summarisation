@@ -1,0 +1,78 @@
+{
+ "created": "2026-10-30T10:53:06+00:00",
+ "template_id": "reference",
+ "variant": 0,
+ "request": {
+  "model": "gemini-3.8-flash",
+  "system_instruction": "You are a careful annotator building evaluation data for summarisation research. Follow the instructions exactly and output only JSON that matches the schema.",
+  "input": "Below is the exact human transcript of a segment of a recorded software tutorial. The speaker code-mixes Hindi and English: Hindi is mostly written in Devanagari and English mostly in Latin script, but some English words are written in Devanagari.\n\nProduce two things.\n\n1. \"summary\": an English summary of the segment's content, 120-180 words, plain prose, covering the main steps, concepts and facts taught. Do not mention the speaker, the tutorial series, greetings, credits, funding or websites.\n\n2. \"facts\": 8 to 15 atomic facts that a good summary of this segment should contain.\n- Each fact is one short, self-contained English sentence stating a single piece of content (a step, setting, definition, command or result).\n- Exclude greetings, credits, acknowledgements, funding and website information.\n- Facts must not overlap.\n- For each fact, \"evidence\" must be copied EXACTLY, character for character, from the transcript: one contiguous excerpt of 3 to 25 words that states the fact. Do not translate, transliterate, correct or shorten words inside the excerpt.\n\nTranscript:\n<<<\nलिबर ऑफिस impress पर slide master और slide design के इस spoken tutorial में आपका स्वागत है इस tutorial में हम यह सीखेंगे कि slides के लिए backgrounds लेआउट कैसे लागू करें यहाँ हम अपने operating system के रूप में gnu/लिनक्स और लिबर ऑफिस suite version 334 का उपयोग कर रहे हैं background slide पर लागू किये गये सभी रंगों और प्रभावों को उद्घृत करता है जो विषयवस्तु के पीछे मौजूद हैं लिबर ऑफिस impress में कई background options हैं जो बेहतर प्रस्तुतियाँ बनाने में आपकी मदद करते हैं आप भी अपने खुद़ के custom backgrounds बना सकते हैं sampleimpress odp प्रस्तुति खोलें अपनी प्रस्तुति के लिए custom background बनाएँ हम इस background को प्रस्तुति की सभी slides में भी लागू करेंगे हम इस background को बनाने के लिए slide master option का इस्तेमाल करेंगे master slide पर किया गया कोई भी परिवर्तन प्रस्तुति के सभी slides के लिए लागू होता है main menu से view पर click करें master चुनें और slide master पर click करें master slide प्रदर्शित होती है ध्यान दें कि master view toolbar भी दिखाई देंता है आप इसका उपयोग master pages तैयार डिलीट और नाम परिवर्तन करने के लिए कर सकते हैं ध्यान दें कि वे दोनों slides अब दिखाई दे रही हैं यहाँ दो master pages हैं जिनका इस प्रस्तुति में उपयोग किया गया है tasks pane में master pages पर click करें field इस प्रस्तुति में इस्तेमाल किये master slides प्रदर्शित करता है master slide template जैसी है आप यहाँ formatting प्रिफरेंसेस set कर सकते हैं जो बाद में प्रस्तुति में सभी slides पर लागू किये जाते हैं पहले slides pane से slide 1 चुनें इस प्रस्तुति पर सफेद background लागू करें main menu से format पर click करें और page पर click करें page setup dialog box प्रदर्शित होता है background टैब पर click करें fill dropdown menu से bitmap option चुनें options की सूची से blank चुनें और ok click करें slide में अब सफेद background है ध्यान दें कि मौजूदा text color background के सामने बहुत अच्छी तरह से दिखाई नहीं दे रहा है हमेशा ऐसा रंग चुनें जो उसके background के सामने साफ़ दिखाई दे text का रंग काले में बदलें यह सफेद background के सामने text को स्पष्ट रूप से दिखाई देने लायक बनायेगा पहले text चुनें main menu से format पर click करें और character चुनें character dialog box प्रदर्शित होता है character dialog box से font effects टैब पर click करें font color dropdown से black चुनें ok पर click करें अब text काले रंग में है अब रंग को slide पर लागू करें context menu के लिए slide पर right click करें और slide और page setup पर click करें fill dropdown menu से color option चुनें blue 8 चुनें और ok पर click करें ध्यान दें कि जो हमने हल्का नीला रंग चुना है वह slide पर लागू हो गया है इस tutorial को रोकें और यह नियतकार्य करें एक नयी master slide तैयार करें और background के रूप में लालरंग लागू करें add सीखते हैं कि इस प्रस्तुति में अन्य डिजाइन एलिमेन्ट्स कैसे जोड़ें उदाहरणस्वरूप आप अपनी प्रस्तुति में एक logo जोड़ सकते हैं अपनी screen के नीचे basic shapes toolbar को देखें आप इसका उपयोग विभिन्न बुनियादी आकार बनाने के लिए कर सकते हैं जैसे वृत्त समचतुर्भुज squares आयत त्रिकोण और अंडाकार वृत्त slide के टाइटल क्षेत्र में एक आयत बनाएँ basic shapes toolbar से rectangle पर click करें अब टाइटल क्षेत्र में slide के ऊपर के बाएँ कोने पर cursor ले जाएँ आप capital i के साथ plus sign देखेंगे बायाँmouse button पकड़कर रखें और एक छोटा आयत बनाने के लिए drag करें अब mouse button छोड़ें आपने आयत बना लिया है आयत में आठ handles पर ध्यान दें handles या control प्वॉइन्ट्स छोटे नीले squares हैं जो चुनित object के स्लाइड्स पर दिखाई दे रहे हैं हम आयत के आकार को समायोजित करने के लिए इन control प्वॉइन्टस का उपयोग कर सकते हैं\n>>>",
+  "generation_config": {
+   "max_output_tokens": 8192
+  },
+  "response_format": {
+   "mime_type": "application/json",
+   "schema": {
+    "$defs": {
+     "Fact": {
+      "properties": {
+       "fact": {
+        "title": "Fact",
+        "type": "string"
+       },
+       "evidence": {
+        "title": "Evidence",
+        "type": "string"
+       }
+      },
+      "required": [
+       "fact",
+       "evidence"
+      ],
+      "title": "Fact",
+      "type": "object"
+     }
+    },
+    "properties": {
+     "summary": {
+      "title": "Summary",
+      "type": "string"
+     },
+     "facts": {
+      "items": {
+       "$ref": "#/$defs/Fact"
+      },
+      "title": "Facts",
+      "type": "array"
+     }
+    },
+    "required": [
+     "summary",
+     "facts"
+    ],
+    "title": "Reference",
+    "type": "object"
+   }
+  }
+ },
+ "output_text": "{\n  \"summary\": \"In LibreOffice Impress, a slide background encompasses all colors and graphic effects behind the slide content. Through the Slide Master feature, accessible from the View menu, modifications and formatting preferences can be applied uniformly across an entire presentation. The Master View toolbar allows users to create, delete, and rename master pages. Slide backgrounds can be customized using the Page Setup dialog box under the Format menu or via the right-click context menu, where options such as blank bitmaps or solid colors like Blue 8 can be selected. For optimal readability, text colors should contrast sharply with the background, and they can be modified through the Character dialog box on the Font Effects tab. Furthermore, design elements and basic geometric shapes, such as rectangles, circles, and triangles, can be inserted using the Basic Shapes toolbar at the bottom of the screen. When a shape is drawn, eight control points appear around it, allowing users to resize and adjust the object easily.\",\n  \"facts\": [\n    {\n      \"fact\": \"A slide background refers to all colors and effects applied behind the content of the slide.\",\n      \"evidence\": \"background slide पर लागू किये गये सभी रंगों और प्रभावों को उद्घृत करता है जो विषयवस्तु के पीछे मौजूद हैं\"\n    },\n    {\n      \"fact\": \"Any alteration made to the master slide applies to every slide in the presentation.\",\n      \"evidence\": \"master slide पर किया गया कोई भी परिवर्तन प्रस्तुति के सभी slides के लिए लागू होता है\"\n    },\n    {\n      \"fact\": \"The Slide Master view is opened by navigating to View, selecting Master, and clicking Slide Master from the main menu.\",\n      \"evidence\": \"main menu से view पर click करें master चुनें और slide master पर click करें\"\n    },\n    {\n      \"fact\": \"The master view toolbar can be used to create, delete, and rename master pages.\",\n      \"evidence\": \"master view toolbar भी दिखाई देंता है आप इसका उपयोग master pages तैयार डिलीट और नाम परिवर्तन करने के लिए कर सकते हैं\"\n    },\n    {\n      \"fact\": \"A white background can be applied by choosing the blank option under bitmap fill in the Page Setup dialog box.\",\n      \"evidence\": \"background टैब पर click करें fill dropdown menu से bitmap option चुनें options की सूची से blank चुनें\"\n    },\n    {\n      \"fact\": \"The text color can be set to black from the Font Effects tab within the Character dialog box.\",\n      \"evidence\": \"character dialog box से font effects टैब पर click करें font color dropdown से black चुनें\"\n    },\n    {\n      \"fact\": \"A light blue color can be applied to a slide by selecting Blue 8 from the color fill dropdown menu in Page Setup.\",\n      \"evidence\": \"fill dropdown menu से color option चुनें blue 8 चुनें और ok पर click करें\"\n    },\n    {\n      \"fact\": \"The basic shapes toolbar at the bottom of the screen allows users to draw various basic shapes.\",\n      \"evidence\": \"अपनी screen के नीचे basic shapes toolbar को देखें आप इसका उपयोग विभिन्न बुनियादी आकार बनाने के लिए कर सकते हैं\"\n    },\n    {\n      \"fact\": \"When drawing a rectangle, the cursor displays a plus sign accompanied by a capital letter I.\",\n      \"evidence\": \"आप capital i के साथ plus sign देखेंगे\"\n    },\n    {\n      \"fact\": \"The control points that appear on a selected object are eight small blue squares used to resize it.\",\n      \"evidence\": \"handles या control प्वॉइन्ट्स छोटे नीले squares हैं जो चुनित object के स्लाइड्स पर दिखाई दे रहे हैं\"\n    }\n  ]\n}",
+ "response_model": "gemini-3.8-flash",
+ "response_id": "v1_Chd3SGJrYXZ6Q05JYkJxdHNQc1lPS2tRMBIXd0hia2F2ekNOSWJCcXRzUHNZT0trUTA",
+ "usage": {
+  "initial_input_tokens": 1155,
+  "input_tokens_by_modality": [
+   {
+    "modality": "text",
+    "tokens": 1021
+   }
+  ],
+  "total_cached_tokens": 0,
+  "total_input_tokens": 1021,
+  "total_output_tokens": 774,
+  "total_thought_tokens": 3529,
+  "total_tokens": 5324,
+  "total_tool_use_tokens": 0
+ },
+ "meta": {
+  "window_id": "W01"
+ }
+}

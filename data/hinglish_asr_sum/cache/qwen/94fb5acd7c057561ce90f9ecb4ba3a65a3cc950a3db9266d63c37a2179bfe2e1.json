@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-31T12:48:43+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W19",
+ "condition": "noise:hi:0.2",
+ "out_lang": "en",
+ "input_tokens": 2762,
+ "summary": "This tutorial explains how to create newsletters with multiple columns using LibreOffice Writer. It starts by opening a new text document and naming it \"newsletter.\" To add columns, you select the \"Format\" menu, then \"Columns,\" where you can choose the number of columns, set their width, and define the spacing between them. You can also customize the appearance of each column, such as setting different background colors or adding images. The tutorial demonstrates how to switch between columns and continue typing in the next column automatically. Formatting options like aligning text, changing background colors, and applying text effects are also covered. Additionally, it shows how to insert text boxes for banners or advertisements within the document. Finally, the tutorial illustrates how to apply text animations, such as blinking, to make the newsletter more engaging."
+}

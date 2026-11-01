@@ -1,0 +1,967 @@
+{
+ "note": "bid -> bit string over numbered silver facts of that window (1=supported). Judge: Claude, blind to condition.",
+ "judgements": {
+  "W00-01": "1001101110",
+  "W00-02": "1001101000",
+  "W00-03": "1001101110",
+  "W00-04": "1111111111",
+  "W00-05": "0000000000",
+  "W00-06": "1001101100",
+  "W00-07": "1000000100",
+  "W00-08": "1000001100",
+  "W00-09": "1001101111",
+  "W00-10": "1001111101",
+  "W01-01": "0000000001",
+  "W01-02": "0110000100",
+  "W01-03": "0100000101",
+  "W01-04": "0110100101",
+  "W01-05": "0100000101",
+  "W01-06": "0100110000",
+  "W01-07": "0000001101",
+  "W01-08": "1111111101",
+  "W01-09": "0100000100",
+  "W01-10": "0110100101",
+  "W02-01": "01100000000",
+  "W02-02": "10100101000",
+  "W02-03": "01000000000",
+  "W02-04": "11100000000",
+  "W02-05": "00000100000",
+  "W02-06": "01101101100",
+  "W02-07": "11111111111",
+  "W02-08": "11101101001",
+  "W02-09": "01100101100",
+  "W02-10": "01100000000",
+  "W03-01": "10110110001",
+  "W03-02": "10110110001",
+  "W03-03": "10010000001",
+  "W03-04": "11111011111",
+  "W03-05": "00000000000",
+  "W03-06": "10000000000",
+  "W03-07": "10110000000",
+  "W03-08": "10111110001",
+  "W03-09": "10110110001",
+  "W03-10": "10100110000",
+  "W04-01": "1000011001",
+  "W04-02": "1110001011",
+  "W04-03": "1110001101",
+  "W04-04": "1010011001",
+  "W04-05": "1010001001",
+  "W04-06": "1000001101",
+  "W04-07": "1111110101",
+  "W04-08": "1110010101",
+  "W04-09": "0100001000",
+  "W04-10": "1000001101",
+  "W05-01": "1010101101",
+  "W05-02": "1100101100",
+  "W05-03": "1001100001",
+  "W05-04": "1101110001",
+  "W05-05": "1100001101",
+  "W05-06": "1111111111",
+  "W05-07": "1000000001",
+  "W05-08": "1001101100",
+  "W05-09": "1010110101",
+  "W05-10": "1100010101",
+  "W06-01": "0101110000",
+  "W06-02": "0101110100",
+  "W06-03": "0111110001",
+  "W06-04": "0101110001",
+  "W06-05": "0101110010",
+  "W06-06": "0101110001",
+  "W06-07": "1101110000",
+  "W06-08": "0111110111",
+  "W06-09": "1100000000",
+  "W06-10": "0111110001",
+  "W07-01": "0010010100",
+  "W07-02": "0000000000",
+  "W07-03": "1000000100",
+  "W07-04": "0010000100",
+  "W07-05": "0011100100",
+  "W07-06": "1111111110",
+  "W07-07": "0010000000",
+  "W07-08": "1011000000",
+  "W07-09": "0011000110",
+  "W07-10": "0010000100",
+  "W08-01": "11011010101",
+  "W08-02": "11010010111",
+  "W08-03": "10011010100",
+  "W08-04": "10000000101",
+  "W08-05": "11110100111",
+  "W08-06": "10011010101",
+  "W08-07": "00001000000",
+  "W08-08": "11001010101",
+  "W08-09": "11000010101",
+  "W08-10": "11001010111",
+  "W09-01": "10001000001",
+  "W09-02": "10000000001",
+  "W09-03": "10001101111",
+  "W09-04": "10000101001",
+  "W09-05": "10000001001",
+  "W09-06": "10000000001",
+  "W09-07": "00000000001",
+  "W09-08": "11010100111",
+  "W09-09": "10011111111",
+  "W09-10": "10000000101",
+  "W10-01": "01101000110",
+  "W10-02": "11101000010",
+  "W10-03": "11111111110",
+  "W10-04": "01100000010",
+  "W10-05": "01100000010",
+  "W10-06": "01101000010",
+  "W10-07": "01101000010",
+  "W10-08": "11000000010",
+  "W10-09": "01101000110",
+  "W10-10": "01101000010",
+  "W11-01": "00100100011",
+  "W11-02": "00100100010",
+  "W11-03": "00001100000",
+  "W11-04": "01100100010",
+  "W11-05": "01101100011",
+  "W11-06": "11111110111",
+  "W11-07": "01100100000",
+  "W11-08": "01100100000",
+  "W11-09": "01000100001",
+  "W11-10": "00000000010",
+  "W12-01": "10100111110",
+  "W12-02": "10100111011",
+  "W12-03": "10000111000",
+  "W12-04": "10100111011",
+  "W12-05": "10100111100",
+  "W12-06": "11100111001",
+  "W12-07": "10100011100",
+  "W12-08": "10101111111",
+  "W12-09": "10100111001",
+  "W12-10": "10100111111",
+  "W13-01": "11111111111",
+  "W13-02": "10111000100",
+  "W13-03": "11111000010",
+  "W13-04": "11010001100",
+  "W13-05": "11011000001",
+  "W13-06": "11111000000",
+  "W13-07": "10111000000",
+  "W13-08": "10010000101",
+  "W13-09": "10110000100",
+  "W13-10": "11110000100",
+  "W14-01": "01101001000",
+  "W14-02": "01001001001",
+  "W14-03": "00101001000",
+  "W14-04": "01111101111",
+  "W14-05": "01111001000",
+  "W14-06": "00001001000",
+  "W14-07": "00101011000",
+  "W14-08": "00001001010",
+  "W14-09": "01101001010",
+  "W14-10": "00100001000",
+  "W15-01": "0011111111",
+  "W15-02": "0001010011",
+  "W15-03": "0011000111",
+  "W15-04": "0000000011",
+  "W15-05": "0001000011",
+  "W15-06": "0000000011",
+  "W15-07": "0010000011",
+  "W15-08": "0000000011",
+  "W15-09": "0000001011",
+  "W15-10": "1001010111"
+ },
+ "mapping": {
+  "W00-01": {
+   "window_id": "W00",
+   "condition": "noise:en:0.5",
+   "kind": "summary"
+  },
+  "W00-02": {
+   "window_id": "W00",
+   "condition": "oracle",
+   "kind": "summary"
+  },
+  "W00-03": {
+   "window_id": "W00",
+   "condition": "noise:en:0.2",
+   "kind": "summary"
+  },
+  "W00-04": {
+   "window_id": "W00",
+   "condition": "silver_reference",
+   "kind": "reference_sanity"
+  },
+  "W00-05": {
+   "window_id": "W00",
+   "condition": "asr:whisper-small",
+   "kind": "summary"
+  },
+  "W00-06": {
+   "window_id": "W00",
+   "condition": "noise:hi:0.2",
+   "kind": "summary"
+  },
+  "W00-07": {
+   "window_id": "W00",
+   "condition": "noise:hi:0.5",
+   "kind": "summary"
+  },
+  "W00-08": {
+   "window_id": "W00",
+   "condition": "noise:en:0.4",
+   "kind": "summary"
+  },
+  "W00-09": {
+   "window_id": "W00",
+   "condition": "asr:trelis-hinglish-preview",
+   "kind": "summary"
+  },
+  "W00-10": {
+   "window_id": "W00",
+   "condition": "noise:hi:0.4",
+   "kind": "summary"
+  },
+  "W01-01": {
+   "window_id": "W01",
+   "condition": "noise:en:0.4",
+   "kind": "summary"
+  },
+  "W01-02": {
+   "window_id": "W01",
+   "condition": "asr:whisper-small",
+   "kind": "summary"
+  },
+  "W01-03": {
+   "window_id": "W01",
+   "condition": "noise:hi:0.4",
+   "kind": "summary"
+  },
+  "W01-04": {
+   "window_id": "W01",
+   "condition": "noise:hi:0.2",
+   "kind": "summary"
+  },
+  "W01-05": {
+   "window_id": "W01",
+   "condition": "noise:hi:0.5",
+   "kind": "summary"
+  },
+  "W01-06": {
+   "window_id": "W01",
+   "condition": "oracle",
+   "kind": "summary"
+  },
+  "W01-07": {
+   "window_id": "W01",
+   "condition": "noise:en:0.2",
+   "kind": "summary"
+  },
+  "W01-08": {
+   "window_id": "W01",
+   "condition": "silver_reference",
+   "kind": "reference_sanity"
+  },
+  "W01-09": {
+   "window_id": "W01",
+   "condition": "noise:en:0.5",
+   "kind": "summary"
+  },
+  "W01-10": {
+   "window_id": "W01",
+   "condition": "asr:trelis-hinglish-preview",
+   "kind": "summary"
+  },
+  "W02-01": {
+   "window_id": "W02",
+   "condition": "noise:en:0.2",
+   "kind": "summary"
+  },
+  "W02-02": {
+   "window_id": "W02",
+   "condition": "asr:whisper-small",
+   "kind": "summary"
+  },
+  "W02-03": {
+   "window_id": "W02",
+   "condition": "oracle",
+   "kind": "summary"
+  },
+  "W02-04": {
+   "window_id": "W02",
+   "condition": "noise:en:0.4",
+   "kind": "summary"
+  },
+  "W02-05": {
+   "window_id": "W02",
+   "condition": "asr:trelis-hinglish-preview",
+   "kind": "summary"
+  },
+  "W02-06": {
+   "window_id": "W02",
+   "condition": "noise:hi:0.4",
+   "kind": "summary"
+  },
+  "W02-07": {
+   "window_id": "W02",
+   "condition": "silver_reference",
+   "kind": "reference_sanity"
+  },
+  "W02-08": {
+   "window_id": "W02",
+   "condition": "noise:en:0.5",
+   "kind": "summary"
+  },
+  "W02-09": {
+   "window_id": "W02",
+   "condition": "noise:hi:0.5",
+   "kind": "summary"
+  },
+  "W02-10": {
+   "window_id": "W02",
+   "condition": "noise:hi:0.2",
+   "kind": "summary"
+  },
+  "W03-01": {
+   "window_id": "W03",
+   "condition": "oracle",
+   "kind": "summary"
+  },
+  "W03-02": {
+   "window_id": "W03",
+   "condition": "noise:en:0.4",
+   "kind": "summary"
+  },
+  "W03-03": {
+   "window_id": "W03",
+   "condition": "noise:en:0.5",
+   "kind": "summary"
+  },
+  "W03-04": {
+   "window_id": "W03",
+   "condition": "silver_reference",
+   "kind": "reference_sanity"
+  },
+  "W03-05": {
+   "window_id": "W03",
+   "condition": "asr:whisper-small",
+   "kind": "summary"
+  },
+  "W03-06": {
+   "window_id": "W03",
+   "condition": "asr:trelis-hinglish-preview",
+   "kind": "summary"
+  },
+  "W03-07": {
+   "window_id": "W03",
+   "condition": "noise:hi:0.4",
+   "kind": "summary"
+  },
+  "W03-08": {
+   "window_id": "W03",
+   "condition": "noise:hi:0.2",
+   "kind": "summary"
+  },
+  "W03-09": {
+   "window_id": "W03",
+   "condition": "noise:en:0.2",
+   "kind": "summary"
+  },
+  "W03-10": {
+   "window_id": "W03",
+   "condition": "noise:hi:0.5",
+   "kind": "summary"
+  },
+  "W04-01": {
+   "window_id": "W04",
+   "condition": "noise:en:0.2",
+   "kind": "summary"
+  },
+  "W04-02": {
+   "window_id": "W04",
+   "condition": "noise:en:0.5",
+   "kind": "summary"
+  },
+  "W04-03": {
+   "window_id": "W04",
+   "condition": "asr:trelis-hinglish-preview",
+   "kind": "summary"
+  },
+  "W04-04": {
+   "window_id": "W04",
+   "condition": "noise:hi:0.2",
+   "kind": "summary"
+  },
+  "W04-05": {
+   "window_id": "W04",
+   "condition": "noise:en:0.4",
+   "kind": "summary"
+  },
+  "W04-06": {
+   "window_id": "W04",
+   "condition": "oracle",
+   "kind": "summary"
+  },
+  "W04-07": {
+   "window_id": "W04",
+   "condition": "silver_reference",
+   "kind": "reference_sanity"
+  },
+  "W04-08": {
+   "window_id": "W04",
+   "condition": "noise:hi:0.5",
+   "kind": "summary"
+  },
+  "W04-09": {
+   "window_id": "W04",
+   "condition": "asr:whisper-small",
+   "kind": "summary"
+  },
+  "W04-10": {
+   "window_id": "W04",
+   "condition": "noise:hi:0.4",
+   "kind": "summary"
+  },
+  "W05-01": {
+   "window_id": "W05",
+   "condition": "asr:trelis-hinglish-preview",
+   "kind": "summary"
+  },
+  "W05-02": {
+   "window_id": "W05",
+   "condition": "noise:hi:0.2",
+   "kind": "summary"
+  },
+  "W05-03": {
+   "window_id": "W05",
+   "condition": "noise:hi:0.4",
+   "kind": "summary"
+  },
+  "W05-04": {
+   "window_id": "W05",
+   "condition": "noise:hi:0.5",
+   "kind": "summary"
+  },
+  "W05-05": {
+   "window_id": "W05",
+   "condition": "noise:en:0.4",
+   "kind": "summary"
+  },
+  "W05-06": {
+   "window_id": "W05",
+   "condition": "silver_reference",
+   "kind": "reference_sanity"
+  },
+  "W05-07": {
+   "window_id": "W05",
+   "condition": "asr:whisper-small",
+   "kind": "summary"
+  },
+  "W05-08": {
+   "window_id": "W05",
+   "condition": "oracle",
+   "kind": "summary"
+  },
+  "W05-09": {
+   "window_id": "W05",
+   "condition": "noise:en:0.5",
+   "kind": "summary"
+  },
+  "W05-10": {
+   "window_id": "W05",
+   "condition": "noise:en:0.2",
+   "kind": "summary"
+  },
+  "W06-01": {
+   "window_id": "W06",
+   "condition": "noise:en:0.5",
+   "kind": "summary"
+  },
+  "W06-02": {
+   "window_id": "W06",
+   "condition": "noise:hi:0.4",
+   "kind": "summary"
+  },
+  "W06-03": {
+   "window_id": "W06",
+   "condition": "noise:hi:0.2",
+   "kind": "summary"
+  },
+  "W06-04": {
+   "window_id": "W06",
+   "condition": "noise:en:0.2",
+   "kind": "summary"
+  },
+  "W06-05": {
+   "window_id": "W06",
+   "condition": "oracle",
+   "kind": "summary"
+  },
+  "W06-06": {
+   "window_id": "W06",
+   "condition": "noise:en:0.4",
+   "kind": "summary"
+  },
+  "W06-07": {
+   "window_id": "W06",
+   "condition": "asr:trelis-hinglish-preview",
+   "kind": "summary"
+  },
+  "W06-08": {
+   "window_id": "W06",
+   "condition": "silver_reference",
+   "kind": "reference_sanity"
+  },
+  "W06-09": {
+   "window_id": "W06",
+   "condition": "asr:whisper-small",
+   "kind": "summary"
+  },
+  "W06-10": {
+   "window_id": "W06",
+   "condition": "noise:hi:0.5",
+   "kind": "summary"
+  },
+  "W07-01": {
+   "window_id": "W07",
+   "condition": "asr:whisper-small",
+   "kind": "summary"
+  },
+  "W07-02": {
+   "window_id": "W07",
+   "condition": "noise:hi:0.5",
+   "kind": "summary"
+  },
+  "W07-03": {
+   "window_id": "W07",
+   "condition": "asr:trelis-hinglish-preview",
+   "kind": "summary"
+  },
+  "W07-04": {
+   "window_id": "W07",
+   "condition": "noise:en:0.4",
+   "kind": "summary"
+  },
+  "W07-05": {
+   "window_id": "W07",
+   "condition": "oracle",
+   "kind": "summary"
+  },
+  "W07-06": {
+   "window_id": "W07",
+   "condition": "silver_reference",
+   "kind": "reference_sanity"
+  },
+  "W07-07": {
+   "window_id": "W07",
+   "condition": "noise:hi:0.4",
+   "kind": "summary"
+  },
+  "W07-08": {
+   "window_id": "W07",
+   "condition": "noise:hi:0.2",
+   "kind": "summary"
+  },
+  "W07-09": {
+   "window_id": "W07",
+   "condition": "noise:en:0.2",
+   "kind": "summary"
+  },
+  "W07-10": {
+   "window_id": "W07",
+   "condition": "noise:en:0.5",
+   "kind": "summary"
+  },
+  "W08-01": {
+   "window_id": "W08",
+   "condition": "asr:trelis-hinglish-preview",
+   "kind": "summary"
+  },
+  "W08-02": {
+   "window_id": "W08",
+   "condition": "noise:hi:0.5",
+   "kind": "summary"
+  },
+  "W08-03": {
+   "window_id": "W08",
+   "condition": "noise:hi:0.4",
+   "kind": "summary"
+  },
+  "W08-04": {
+   "window_id": "W08",
+   "condition": "oracle",
+   "kind": "summary"
+  },
+  "W08-05": {
+   "window_id": "W08",
+   "condition": "silver_reference",
+   "kind": "reference_sanity"
+  },
+  "W08-06": {
+   "window_id": "W08",
+   "condition": "noise:hi:0.2",
+   "kind": "summary"
+  },
+  "W08-07": {
+   "window_id": "W08",
+   "condition": "asr:whisper-small",
+   "kind": "summary"
+  },
+  "W08-08": {
+   "window_id": "W08",
+   "condition": "noise:en:0.5",
+   "kind": "summary"
+  },
+  "W08-09": {
+   "window_id": "W08",
+   "condition": "noise:en:0.4",
+   "kind": "summary"
+  },
+  "W08-10": {
+   "window_id": "W08",
+   "condition": "noise:en:0.2",
+   "kind": "summary"
+  },
+  "W09-01": {
+   "window_id": "W09",
+   "condition": "noise:en:0.4",
+   "kind": "summary"
+  },
+  "W09-02": {
+   "window_id": "W09",
+   "condition": "noise:en:0.5",
+   "kind": "summary"
+  },
+  "W09-03": {
+   "window_id": "W09",
+   "condition": "oracle",
+   "kind": "summary"
+  },
+  "W09-04": {
+   "window_id": "W09",
+   "condition": "noise:en:0.2",
+   "kind": "summary"
+  },
+  "W09-05": {
+   "window_id": "W09",
+   "condition": "noise:hi:0.5",
+   "kind": "summary"
+  },
+  "W09-06": {
+   "window_id": "W09",
+   "condition": "asr:trelis-hinglish-preview",
+   "kind": "summary"
+  },
+  "W09-07": {
+   "window_id": "W09",
+   "condition": "asr:whisper-small",
+   "kind": "summary"
+  },
+  "W09-08": {
+   "window_id": "W09",
+   "condition": "noise:hi:0.2",
+   "kind": "summary"
+  },
+  "W09-09": {
+   "window_id": "W09",
+   "condition": "silver_reference",
+   "kind": "reference_sanity"
+  },
+  "W09-10": {
+   "window_id": "W09",
+   "condition": "noise:hi:0.4",
+   "kind": "summary"
+  },
+  "W10-01": {
+   "window_id": "W10",
+   "condition": "oracle",
+   "kind": "summary"
+  },
+  "W10-02": {
+   "window_id": "W10",
+   "condition": "noise:hi:0.4",
+   "kind": "summary"
+  },
+  "W10-03": {
+   "window_id": "W10",
+   "condition": "silver_reference",
+   "kind": "reference_sanity"
+  },
+  "W10-04": {
+   "window_id": "W10",
+   "condition": "noise:en:0.4",
+   "kind": "summary"
+  },
+  "W10-05": {
+   "window_id": "W10",
+   "condition": "noise:en:0.5",
+   "kind": "summary"
+  },
+  "W10-06": {
+   "window_id": "W10",
+   "condition": "noise:hi:0.2",
+   "kind": "summary"
+  },
+  "W10-07": {
+   "window_id": "W10",
+   "condition": "noise:hi:0.5",
+   "kind": "summary"
+  },
+  "W10-08": {
+   "window_id": "W10",
+   "condition": "asr:whisper-small",
+   "kind": "summary"
+  },
+  "W10-09": {
+   "window_id": "W10",
+   "condition": "asr:trelis-hinglish-preview",
+   "kind": "summary"
+  },
+  "W10-10": {
+   "window_id": "W10",
+   "condition": "noise:en:0.2",
+   "kind": "summary"
+  },
+  "W11-01": {
+   "window_id": "W11",
+   "condition": "oracle",
+   "kind": "summary"
+  },
+  "W11-02": {
+   "window_id": "W11",
+   "condition": "noise:hi:0.2",
+   "kind": "summary"
+  },
+  "W11-03": {
+   "window_id": "W11",
+   "condition": "asr:whisper-small",
+   "kind": "summary"
+  },
+  "W11-04": {
+   "window_id": "W11",
+   "condition": "noise:en:0.4",
+   "kind": "summary"
+  },
+  "W11-05": {
+   "window_id": "W11",
+   "condition": "noise:en:0.5",
+   "kind": "summary"
+  },
+  "W11-06": {
+   "window_id": "W11",
+   "condition": "silver_reference",
+   "kind": "reference_sanity"
+  },
+  "W11-07": {
+   "window_id": "W11",
+   "condition": "noise:hi:0.5",
+   "kind": "summary"
+  },
+  "W11-08": {
+   "window_id": "W11",
+   "condition": "noise:hi:0.4",
+   "kind": "summary"
+  },
+  "W11-09": {
+   "window_id": "W11",
+   "condition": "noise:en:0.2",
+   "kind": "summary"
+  },
+  "W11-10": {
+   "window_id": "W11",
+   "condition": "asr:trelis-hinglish-preview",
+   "kind": "summary"
+  },
+  "W12-01": {
+   "window_id": "W12",
+   "condition": "noise:en:0.5",
+   "kind": "summary"
+  },
+  "W12-02": {
+   "window_id": "W12",
+   "condition": "noise:hi:0.4",
+   "kind": "summary"
+  },
+  "W12-03": {
+   "window_id": "W12",
+   "condition": "asr:whisper-small",
+   "kind": "summary"
+  },
+  "W12-04": {
+   "window_id": "W12",
+   "condition": "noise:en:0.4",
+   "kind": "summary"
+  },
+  "W12-05": {
+   "window_id": "W12",
+   "condition": "asr:trelis-hinglish-preview",
+   "kind": "summary"
+  },
+  "W12-06": {
+   "window_id": "W12",
+   "condition": "noise:en:0.2",
+   "kind": "summary"
+  },
+  "W12-07": {
+   "window_id": "W12",
+   "condition": "noise:hi:0.5",
+   "kind": "summary"
+  },
+  "W12-08": {
+   "window_id": "W12",
+   "condition": "noise:hi:0.2",
+   "kind": "summary"
+  },
+  "W12-09": {
+   "window_id": "W12",
+   "condition": "oracle",
+   "kind": "summary"
+  },
+  "W12-10": {
+   "window_id": "W12",
+   "condition": "silver_reference",
+   "kind": "reference_sanity"
+  },
+  "W13-01": {
+   "window_id": "W13",
+   "condition": "silver_reference",
+   "kind": "reference_sanity"
+  },
+  "W13-02": {
+   "window_id": "W13",
+   "condition": "noise:hi:0.2",
+   "kind": "summary"
+  },
+  "W13-03": {
+   "window_id": "W13",
+   "condition": "noise:en:0.4",
+   "kind": "summary"
+  },
+  "W13-04": {
+   "window_id": "W13",
+   "condition": "oracle",
+   "kind": "summary"
+  },
+  "W13-05": {
+   "window_id": "W13",
+   "condition": "noise:en:0.5",
+   "kind": "summary"
+  },
+  "W13-06": {
+   "window_id": "W13",
+   "condition": "asr:trelis-hinglish-preview",
+   "kind": "summary"
+  },
+  "W13-07": {
+   "window_id": "W13",
+   "condition": "noise:hi:0.4",
+   "kind": "summary"
+  },
+  "W13-08": {
+   "window_id": "W13",
+   "condition": "asr:whisper-small",
+   "kind": "summary"
+  },
+  "W13-09": {
+   "window_id": "W13",
+   "condition": "noise:hi:0.5",
+   "kind": "summary"
+  },
+  "W13-10": {
+   "window_id": "W13",
+   "condition": "noise:en:0.2",
+   "kind": "summary"
+  },
+  "W14-01": {
+   "window_id": "W14",
+   "condition": "noise:hi:0.5",
+   "kind": "summary"
+  },
+  "W14-02": {
+   "window_id": "W14",
+   "condition": "noise:en:0.2",
+   "kind": "summary"
+  },
+  "W14-03": {
+   "window_id": "W14",
+   "condition": "noise:hi:0.4",
+   "kind": "summary"
+  },
+  "W14-04": {
+   "window_id": "W14",
+   "condition": "silver_reference",
+   "kind": "reference_sanity"
+  },
+  "W14-05": {
+   "window_id": "W14",
+   "condition": "noise:hi:0.2",
+   "kind": "summary"
+  },
+  "W14-06": {
+   "window_id": "W14",
+   "condition": "asr:whisper-small",
+   "kind": "summary"
+  },
+  "W14-07": {
+   "window_id": "W14",
+   "condition": "asr:trelis-hinglish-preview",
+   "kind": "summary"
+  },
+  "W14-08": {
+   "window_id": "W14",
+   "condition": "noise:en:0.5",
+   "kind": "summary"
+  },
+  "W14-09": {
+   "window_id": "W14",
+   "condition": "oracle",
+   "kind": "summary"
+  },
+  "W14-10": {
+   "window_id": "W14",
+   "condition": "noise:en:0.4",
+   "kind": "summary"
+  },
+  "W15-01": {
+   "window_id": "W15",
+   "condition": "silver_reference",
+   "kind": "reference_sanity"
+  },
+  "W15-02": {
+   "window_id": "W15",
+   "condition": "noise:en:0.5",
+   "kind": "summary"
+  },
+  "W15-03": {
+   "window_id": "W15",
+   "condition": "noise:en:0.2",
+   "kind": "summary"
+  },
+  "W15-04": {
+   "window_id": "W15",
+   "condition": "asr:whisper-small",
+   "kind": "summary"
+  },
+  "W15-05": {
+   "window_id": "W15",
+   "condition": "noise:hi:0.2",
+   "kind": "summary"
+  },
+  "W15-06": {
+   "window_id": "W15",
+   "condition": "noise:hi:0.5",
+   "kind": "summary"
+  },
+  "W15-07": {
+   "window_id": "W15",
+   "condition": "asr:trelis-hinglish-preview",
+   "kind": "summary"
+  },
+  "W15-08": {
+   "window_id": "W15",
+   "condition": "noise:hi:0.4",
+   "kind": "summary"
+  },
+  "W15-09": {
+   "window_id": "W15",
+   "condition": "oracle",
+   "kind": "summary"
+  },
+  "W15-10": {
+   "window_id": "W15",
+   "condition": "noise:en:0.4",
+   "kind": "summary"
+  }
+ }
+}

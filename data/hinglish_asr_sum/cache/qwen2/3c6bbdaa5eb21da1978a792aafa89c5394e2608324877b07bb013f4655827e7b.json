@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-30T14:30:55+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W24",
+ "condition": "script_shift",
+ "out_lang": "en",
+ "input_tokens": 2266,
+ "summary": "This tutorial explains how to create a feedback diagram using the software Xfig version 3.2 patch level 5. It starts with creating blocks using the `blockfig` command, which was previously used in the block tutorial. You open a file, enter the block name in the open entry box, and click open or double-click `blockfig`. Save the figure as \"feedbackfig\". To move the canvas, use the vertical scroll bar; the left mouse button moves it up, the right down, and the center button drags the canvas. For the horizontal scroll bar, left and right buttons move the canvas left and right, respectively. \n\nTo create a feedback diagram, copy a block, place it somewhere else, and add text by clicking on the text box. Adjust the text size by dragging the value box to 16 and clicking set. Align the text to the center by clicking the appropriate button in the attributes panel. If you make a mistake, you can correct it by clicking elsewhere and then back to the correct position. Finally, add arrows and lines by selecting the polyline button, choosing arrow mode and type, and clicking on the arrow head."
+}

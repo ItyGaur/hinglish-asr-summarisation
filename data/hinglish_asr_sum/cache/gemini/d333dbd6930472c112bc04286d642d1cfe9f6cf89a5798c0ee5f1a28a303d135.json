@@ -1,0 +1,78 @@
+{
+ "created": "2026-10-30T16:08:06+00:00",
+ "template_id": "reference",
+ "variant": 0,
+ "request": {
+  "model": "gemini-3.8-flash",
+  "system_instruction": "You are a careful annotator building evaluation data for summarisation research. Follow the instructions exactly and output only JSON that matches the schema.",
+  "input": "Below is the exact human transcript of a segment of a recorded software tutorial. The speaker code-mixes Hindi and English: Hindi is mostly written in Devanagari and English mostly in Latin script, but some English words are written in Devanagari.\n\nProduce two things.\n\n1. \"summary\": an English summary of the segment's content, 120-180 words, plain prose, covering the main steps, concepts and facts taught. Do not mention the speaker, the tutorial series, greetings, credits, funding or websites.\n\n2. \"facts\": 8 to 15 atomic facts that a good summary of this segment should contain.\n- Each fact is one short, self-contained English sentence stating a single piece of content (a step, setting, definition, command or result).\n- Exclude greetings, credits, acknowledgements, funding and website information.\n- Facts must not overlap.\n- For each fact, \"evidence\" must be copied EXACTLY, character for character, from the transcript: one contiguous excerpt of 3 to 25 words that states the fact. Do not translate, transliterate, correct or shorten words inside the excerpt.\n\nTranscript:\n<<<\nlibreoffice writer के कई columns में सूचनापत्र बनाने पर spoken tutorial में आपका स्वागत है इस tutorial में हम सीखेंगे कि लिबर ऑफिस writer में सूचनापत्रों को कैसे बनाएँ और कुछ कार्य जो उन पर कर सकते हैं कैसे करें यहाँ हम अपने operating system के रूप में gnu/लिनक्स और लिबर ऑफिस suite version 334 का उपयोग कर रहे हैं सूचनापत्र एक प्रकाशन की तरह उपयोगित है जिसे उनके ग्राहकों को समय के नियमित interval पर प्रचारित किया जाता है उदाहरणस्वरुपनियतकालिक पत्रिका प्रचारपुस्तिका और बहुत कुछ इसमें भागों के रूप में कईcolumns होते हैं और इन भागों में विभिन्न लेखों पर जाना पाठक के लिए सरल बनाता है लिबर ऑफिस writer का इस्तेमाल करके कोई भी सूचनापत्र बना सकता है जो लेखों का पढना काफी सरल और तेज़ बनाता है file new और text document option पर क्लिक करके एक नया text document खोलते हैं इस document को newsletter फाइल नाम से सेव करें अतः हमारे पास newsletter named नया text document है अब अपने document में columns प्रविष्ट करें यह करने के लिए पहले menu bar में format button पर click करें और फिर columns पर click करें विभिन्न options के साथ एक dialog box प्रदर्शित होता है जितने columns आपको चाहिए वह चुनें इन columns की width and spacing निर्धारित करते हैं साथ ही separator line विभाजक रेखा की विभिन्न विशेषतायें निर्धारित करते हैं हम columns field की value 2 बढ़ाकर सूचनापत्र document के लिए दो columns चुनेंगे columns field के बगल में पाँच icons आपको विभिन्न उपलब्ध प्रारूपों का प्रिव्यू दिखाते हैं अतः दूसरे प्रारूप पर click करें बाकी अन्य values जो columns की विशेषता परिभाषित करते हैं उन्हें default रखते हैं और ok button पर click करें आप देख सकते हैं कि text क्षेत्र में 2 columns प्रदर्शित होते हैं अपने पहले column में एक let लिखते हैं हम मोटे अक्षरों में font size 15 के साथ इसका शीर्षक nature देंगे और इसके नीचे हम इसपर एक लेख लिखेंगे आप देखते हैं कि पहले column के अंत पर पहुँचने के बाद cursor स्वतः ही अगले column में चला जाता है आप इस column में picture भी प्रविष्ट कर सकते हैं और उसका साइज फिर से बदल सकते हैं जिससे कि वह column में सही बैठ जाए अब कुछ spaces छोड़ने के बाद आप column में एक और लेख लिख सकते हैं अतः हम पहले मोटे अक्षरों में font size 15 के साथ इसे एक शीर्षक sports देंगे और इसके नीचे हम इसपर एक लेख लिखेंगे अतः आप देखते हैंcolumns इसे पाठक के लिए कई लेखों पर जाने के लिए सरल बना देता है कुछ वाक्यों को मिटा देते हैं जिससे कि हमारा let पहले column में ही बैठ जाए फिर आगे के columns तक पहुँचने के लिए insert button पर click करें और फिर manual break पर click करें dialog box जो दिखता है उसमें column break button पर click करें और फिर ok button पर click करें आप देखते हैं कि cursor अगले column में स्वतः ही आ जाता है अतः आप इस column में एक और लेख लिखना शुरू कर सकते हैं सभी संरूपण formatting options जैसे align left align right text में background color जोड़ना text को highlight करना और कई सारी विशेषताएँ text को आकर्षक बनाने के लिए उसमें जोड़ी जा सकती हैं उदाहरणस्वरूप हम text के भाग को चुनते हैं जिसमें हम पृष्ठभूमी रंग background color लागू करना चाहते हैं अब toolbar में background color icon पर click करें और फिर green 4 click करें हम देखते हैं कि चुनित text का पृष्ठभूमिरंग हल्के हरे में बदल गया है इस प्रकार से आप text के विभिन्न भागों को विभिन्न पृष्ठभूमीरंग दे सकते हैं यहाँ तक कि आप drawing toolbar में text option पर पहला क्लिक करके सूचनापत्र में banners भी जोड़ सकते हैं आप document में text box को कहीं भी रखें जहाँ लिखित text न हो text box के अंदर आप कोई भी text लिख सकते हैं जोकि banner या विज्ञापन की तरह कार्य करेगा अतः कुछ text type करते हैं जैसे this is a newsletter आप इस text में effects भी जोड़ सकते हैं उदाहरणस्वरूप पहले text पर दायाँ click करें और फिर menu में text option पर click करें एक dialog box प्रदर्शित होता है जिसमें text और text animation नामक tabs हैं text animation टैब पर click करें इस टैब के effects field में कई सारे options हैं सूचनापत्र में text को जगमगाने के लिए हम blink option पर click करते हैं\n>>>",
+  "generation_config": {
+   "max_output_tokens": 8192
+  },
+  "response_format": {
+   "mime_type": "application/json",
+   "schema": {
+    "$defs": {
+     "Fact": {
+      "properties": {
+       "fact": {
+        "title": "Fact",
+        "type": "string"
+       },
+       "evidence": {
+        "title": "Evidence",
+        "type": "string"
+       }
+      },
+      "required": [
+       "fact",
+       "evidence"
+      ],
+      "title": "Fact",
+      "type": "object"
+     }
+    },
+    "properties": {
+     "summary": {
+      "title": "Summary",
+      "type": "string"
+     },
+     "facts": {
+      "items": {
+       "$ref": "#/$defs/Fact"
+      },
+      "title": "Facts",
+      "type": "array"
+     }
+    },
+    "required": [
+     "summary",
+     "facts"
+    ],
+    "title": "Reference",
+    "type": "object"
+   }
+  }
+ },
+ "output_text": "{\n  \"summary\": \"Newsletters are regular publications with multiple columns that make reading and navigating articles easier. To create a newsletter in LibreOffice Writer, start a new text document and save it. Navigate to Format on the menu bar and select Columns to configure the desired number of columns, their width, spacing, and separator lines. Setting the columns field value to 2 creates two columns in the text area. Text entered fills the first column before automatically moving to the next column. Alternatively, to jump directly to the next column, click Insert, choose Manual Break, select Column break, and click OK. Images can also be inserted and resized to fit within columns. Writer supports various formatting options, including text alignment, highlighting, and setting text background colors. Additionally, banners or advertisements can be created by selecting the Text option from the Drawing toolbar to place a text box. Users can then apply animation effects, such as Blink, to make the text flash.\",\n  \"facts\": [\n    {\n      \"fact\": \"A newsletter is a publication distributed to subscribers at regular intervals, containing multiple columns to facilitate reading articles.\",\n      \"evidence\": \"सूचनापत्र एक प्रकाशन की तरह उपयोगित है जिसे उनके ग्राहकों को समय के नियमित interval पर प्रचारित किया जाता है\"\n    },\n    {\n      \"fact\": \"A new text document can be opened by clicking File, New, and then Text Document.\",\n      \"evidence\": \"file new और text document option पर क्लिक करके एक नया text document खोलते हैं\"\n    },\n    {\n      \"fact\": \"Columns are added to a document by clicking Format on the menu bar and selecting Columns.\",\n      \"evidence\": \"पहले menu bar में format button पर click करें और फिर columns पर click करें\"\n    },\n    {\n      \"fact\": \"The columns dialog box allows setting the number, width, spacing, and separator line properties of the columns.\",\n      \"evidence\": \"इन columns की width and spacing निर्धारित करते हैं साथ ही separator line विभाजक रेखा की विभिन्न विशेषतायें निर्धारित करते हैं\"\n    },\n    {\n      \"fact\": \"Setting the value of the columns field to 2 creates two columns in the text area.\",\n      \"evidence\": \"हम columns field की value 2 बढ़ाकर सूचनापत्र document के लिए दो columns चुनेंगे\"\n    },\n    {\n      \"fact\": \"When typing reaches the end of the first column, the cursor automatically advances to the next column.\",\n      \"evidence\": \"पहले column के अंत पर पहुँचने के बाद cursor स्वतः ही अगले column में चला जाता है\"\n    },\n    {\n      \"fact\": \"Pictures can be inserted and resized to properly fit inside a column.\",\n      \"evidence\": \"आप इस column में picture भी प्रविष्ट कर सकते हैं और उसका साइज फिर से बदल सकते हैं जिससे कि वह column में सही बैठ जाए\"\n    },\n    {\n      \"fact\": \"A manual column break is inserted by clicking Insert, selecting Manual Break, choosing Column break, and clicking OK.\",\n      \"evidence\": \"insert button पर click करें और फिर manual break पर click करें dialog box जो दिखता है उसमें column break button पर click करें\"\n    },\n    {\n      \"fact\": \"Selecting Green 4 from the background color icon changes the background of selected text to light green.\",\n      \"evidence\": \"toolbar में background color icon पर click करें और फिर green 4 click करें\"\n    },\n    {\n      \"fact\": \"Banners can be added to the document by selecting the Text option from the Drawing toolbar and placing a text box.\",\n      \"evidence\": \"drawing toolbar में text option पर पहला क्लिक करके सूचनापत्र में banners भी जोड़ सकते हैं\"\n    },\n    {\n      \"fact\": \"Text animation options can be accessed by right-clicking the text and selecting Text from the context menu.\",\n      \"evidence\": \"पहले text पर दायाँ click करें और फिर menu में text option पर click करें\"\n    },\n    {\n      \"fact\": \"Selecting the Blink effect from the Text Animation tab causes the text to flash.\",\n      \"evidence\": \"सूचनापत्र में text को जगमगाने के लिए हम blink option पर click करते हैं\"\n    }\n  ]\n}",
+ "response_model": "gemini-3.8-flash",
+ "response_id": "v1_ChdxTF9rYW9iaUo2N00zOUlQb0l2RG9RTRIXcUxfa2FvYmlKNjdNMzlJUG9JdkRvUU0",
+ "usage": {
+  "initial_input_tokens": 1236,
+  "input_tokens_by_modality": [
+   {
+    "modality": "text",
+    "tokens": 1102
+   }
+  ],
+  "total_cached_tokens": 0,
+  "total_input_tokens": 1102,
+  "total_output_tokens": 886,
+  "total_thought_tokens": 0,
+  "total_tokens": 1988,
+  "total_tool_use_tokens": 0
+ },
+ "meta": {
+  "window_id": "W19"
+ }
+}

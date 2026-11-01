@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-30T15:41:15+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W08",
+ "condition": "noise:en:0.4",
+ "out_lang": "en",
+ "input_tokens": 2604,
+ "summary": "This tutorial covers how to view and print documents using LibreOffice Writer on a system running Linux. It explains two primary view options: Print Layout and Web Layout. Print Layout shows how a document will look when printed, while Web Layout displays it as it would appear in a web browser, useful for creating HTML documents. To switch between these views, you can click on the respective options in the menu bar or use the Full Screen mode by clicking on View > Full Screen. \n\nThe tutorial also discusses the Zoom feature, which allows you to adjust the display size of the document for better editing and viewing. Various zoom factors can be set, and the dialog box offers additional features like fitting the page width and height, or setting a custom zoom factor. Other view options include fitting the page width, single page, and automatic page display modes, which can be toggled through the View menu or the Status Bar controls. These tools help users efficiently edit and view their documents in different layouts and sizes."
+}

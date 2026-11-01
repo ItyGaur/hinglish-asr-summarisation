@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-30T15:33:57+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W00",
+ "condition": "noise:en:0.2",
+ "out_lang": "en",
+ "input_tokens": 2844,
+ "summary": "This tutorial explains how to use Thunderbird on Ubuntu 12.04, focusing on adding a Thunderbird shortcut to the launcher, tagging emails, sorting messages by various criteria, and organizing them into threads. It covers adding a Thunderbird icon to the launcher by dragging and dropping from the Dash. The tutorial demonstrates sorting emails by sender, subject, and date received, and using tags to mark important or specific emails for easy reference. Quick filters allow viewing only tagged emails. The concept of email threads is introduced, showing related messages in a conversation format. To view threads, click the threading icon in the inbox corner. For printing emails, the tutorial shows creating a new folder named \"Saved Mails\" on the desktop."
+}

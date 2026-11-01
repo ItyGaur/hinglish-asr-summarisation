@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-31T12:42:13+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W17",
+ "condition": "noise:en:0.4",
+ "out_lang": "en",
+ "input_tokens": 2325,
+ "summary": "This tutorial covers how to create and manage notes in Microsoft PowerPoint for both presenter and audience purposes. Notes can be used as references during presentations or to add additional content on each slide. To add notes, click on the notes tab, then click below the slide where a text box appears. You can type and edit notes here. The tutorial explains how to customize notes by changing the font type, size, and color. It also shows how to add logos and shapes to notes using the drawing toolbar. Additionally, it demonstrates creating a notes master to apply formatting consistently across all slides. Finally, the tutorial guides users on resizing the notes placeholder to fit more text on the slide."
+}

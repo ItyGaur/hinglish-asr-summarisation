@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-30T14:17:47+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W00",
+ "condition": "asr:trelis-hinglish-preview",
+ "out_lang": "en",
+ "input_tokens": 2691,
+ "summary": "This tutorial explains how to use Thunderbird on Ubuntu 12.04, focusing on integrating it with the launcher, tagging messages, sorting them by various criteria, and organizing them into folders. To add Thunderbird to the launcher, drag its shortcut icon to the launcher after searching for it in the Dash. Messages can be sorted by sender, subject, or date received, and tagged for easy re-access. Important messages can be tagged using the toolbar. Quick filters help display only tagged messages. Message threads show related messages in conversation format; clicking the thread icon displays the full conversation, and clicking again returns to the list view. Messages can be saved to folders and printed, with examples showing saving to a \"Saved Mails\" folder on the desktop."
+}

@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-30T14:22:58+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W05",
+ "condition": "asr:whisper-small",
+ "out_lang": "en",
+ "input_tokens": 2893,
+ "summary": "This tutorial covers how to use Mozilla Thunderbird for email management, focusing on its advanced features and capabilities. It explains how to download and install Thunderbird on Ubuntu Linux 12.04, or from the official website for Windows 7 users. Key steps include setting up multiple email accounts using POP3 protocol, configuring Gmail, and managing emails through advanced features like custom labels and message filtering. The tutorial demonstrates creating a new Gmail account, logging in, and enabling POP3 by changing settings. It also highlights Thunderbird's interface, including the main menu, shortcut icons, and panels for managing email accounts."
+}

@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-30T15:45:50+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W03",
+ "condition": "noise:hi:0.1",
+ "out_lang": "en",
+ "input_tokens": 1956,
+ "summary": "This tutorial covers using snippets in the gedit text editor, primarily for programming tasks. Snippets are pre-written lines of text or source code that save users from repetitive typing. The tutorial explains how to enable and use default snippets in gedit. To activate snippets, you need to go to `Edit > Preferences`, then select the `Plugins` tab, scroll down, and check the `Snippets` box. The tutorial demonstrates creating and using a snippet for an `if` statement by typing `if` followed by `tab`. It also shows how to manage and customize existing snippets through the `Manage Snippets` dialog. Additionally, it guides users on how to create their own custom snippets by navigating to `Tools > Manage Snippets`, selecting the appropriate language, and clicking the plus icon to add a new snippet. The tutorial provides examples using C programming language to illustrate these concepts."
+}

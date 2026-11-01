@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-31T12:39:04+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W18",
+ "condition": "noise:en:0.2",
+ "out_lang": "en",
+ "input_tokens": 2777,
+ "summary": "This tutorial explains how to use the \"Find and Replace\" feature in LibreOffice Writer and perform spell checking. First, it demonstrates using the \"Find and Replace\" function to locate and replace specific text throughout a document. Users open their document, click on the \"Edit\" option, then \"Find and Replace,\" or use the standard toolbar button. They enter the text to find in the \"Search for\" field and the replacement text in the \"Replace with\" field. Clicking \"All Find All\" highlights all instances of the text, and clicking \"All Replace All\" replaces them. Advanced options include searching backward, limiting the search to selected text, and using advanced features like regular expressions.\n\nFor spell checking, the tutorial shows how to set the default language to English (USA) in the language settings. Users navigate to the \"Tools\" menu, select \"Options,\" choose \"Language Settings,\" and set the default language to English (USA). This ensures the spell checker uses the appropriate dictionary. The spell check feature can be activated from the toolbar by clicking the \"AutoSpellCheck\" button. Incorrect spellings, such as typing \"housewifa\" instead of \"housewife,\" are highlighted, allowing users to correct them."
+}

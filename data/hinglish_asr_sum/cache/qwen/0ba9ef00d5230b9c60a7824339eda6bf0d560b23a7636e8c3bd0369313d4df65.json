@@ -1,0 +1,18 @@
+{
+ "created": "recovered_from_summaries.csv",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W15",
+ "condition": "oracle",
+ "out_lang": "en",
+ "input_tokens": 2448,
+ "summary": "This tutorial covers basic text alignment and formatting in LibreOffice Writer. It starts by opening an existing document named \"resume\" and demonstrates how to align text to the left, right, or justify it using the alignment tools. The tutorial then explains how to add bullets and numbering to create a structured list of points, which can be customized through the bullets and numbering dialog box. It also shows how to indent text and toggle these features on and off. Additionally, the tutorial teaches how to copy and paste text within the document using both mouse commands and keyboard shortcuts (Ctrl+C for copy, Ctrl+V for paste). Overall, the session aims to make documents more visually appealing and easier to read by applying these formatting techniques."
+}

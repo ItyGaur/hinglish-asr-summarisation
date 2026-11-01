@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-30T15:27:22+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W12",
+ "condition": "asr:whisper-small",
+ "out_lang": "en",
+ "input_tokens": 2234,
+ "summary": "In this tutorial, you learn about using aliases for type definitions to make code more readable and maintainable. Aliases allow you to give names to types, making it easier to understand and modify code. The tutorial demonstrates this with an example where the variable `palindrome` is defined as an alias for `int`. It then shows how to compile and run the program using GCC.\n\nThe tutorial also covers unions, which store multiple different data types in a single storage space. You can access only one member of a union at a time. The syntax involves naming the union, then accessing its members within curly braces, followed by a semicolon. An example union named `unionType` is defined with members `english` and `farsi`, and a function uses this union to access its members.\n\nThe tutorial compiles the union example using GCC and highlights the difference between unions and aliases, emphasizing that unions allocate the same storage space for all their members."
+}

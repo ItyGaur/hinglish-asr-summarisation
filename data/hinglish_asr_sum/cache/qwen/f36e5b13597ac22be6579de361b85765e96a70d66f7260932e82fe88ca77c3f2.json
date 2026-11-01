@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-30T15:52:48+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W05",
+ "condition": "noise:hi:0.3",
+ "out_lang": "en",
+ "input_tokens": 3022,
+ "summary": "This tutorial introduces Mozilla Thunderbird, a simple email client available for various systems. It covers downloading and launching Thunderbird, configuring new email accounts, and managing multiple accounts. Thunderbird supports POP3 and IMAP protocols, allowing users to manage emails from different accounts on their local computer. The tutorial explains how to set up Thunderbird on Ubuntu Linux using the Software Center. For Windows users, it can be downloaded directly from the Mozilla website. To use Thunderbird effectively, users need at least two valid email accounts. The tutorial demonstrates setting up Gmail and Yahoo accounts with POP3 enabled. Users are instructed to log into their Gmail account via a web browser, navigate to settings, and enable POP3 for all emails. This allows Thunderbird to download and manage emails from these accounts."
+}

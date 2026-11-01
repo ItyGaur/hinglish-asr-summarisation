@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-30T15:38:16+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W08",
+ "condition": "noise:en:0.3",
+ "out_lang": "en",
+ "input_tokens": 2525,
+ "summary": "This tutorial covers how to use different view options in LibreOffice Writer to display and edit documents. It explains two primary view modes: Print Layout and Web Layout. To switch to Print Layout, click on the respective option and then select Print Layout. For Web Layout, choose the relevant option from the menu bar. Full Screen mode can be accessed via the View menu or by clicking on the Full Screen icon in the menu bar. \n\nThe tutorial also discusses Zoom options for adjusting the display of documents. Users can set a custom zoom factor or choose predefined options like Fit Width and Height, which scales the document to fit the entire width and height of the window. Another useful feature is the ability to automatically cycle through pages using the Zoom dialog box.\n\nAdditional view layout options include Single Column and Book modes, which change how multiple pages are displayed side by side or stacked vertically. The document's view layout and zoom settings can be adjusted using controls in the Status bar."
+}

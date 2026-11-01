@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-30T15:39:42+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W01",
+ "condition": "noise:en:0.4",
+ "out_lang": "en",
+ "input_tokens": 2791,
+ "summary": "This tutorial covers how to apply backgrounds and customize slide designs in LibreOffice Impress using Linux. It explains that Impress offers various background options to enhance presentations. Users can create custom backgrounds for their slides by modifying the Slide Master. To do this, they select the Slide Master from the Master view, then choose the desired background settings through the Format > Page dialog. For example, setting a white background makes text more readable. The tutorial also demonstrates adding colors and shapes like rectangles and logos to slides. Users can adjust the size and position of objects using control points. Overall, it guides users on creating visually appealing and consistent presentations in LibreOffice Impress."
+}

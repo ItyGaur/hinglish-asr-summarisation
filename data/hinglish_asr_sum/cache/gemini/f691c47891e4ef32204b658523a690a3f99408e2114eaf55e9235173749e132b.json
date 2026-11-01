@@ -1,0 +1,78 @@
+{
+ "created": "2026-10-30T10:57:45+00:00",
+ "template_id": "reference",
+ "variant": 0,
+ "request": {
+  "model": "gemini-3.8-flash",
+  "system_instruction": "You are a careful annotator building evaluation data for summarisation research. Follow the instructions exactly and output only JSON that matches the schema.",
+  "input": "Below is the exact human transcript of a segment of a recorded software tutorial. The speaker code-mixes Hindi and English: Hindi is mostly written in Devanagari and English mostly in Latin script, but some English words are written in Devanagari.\n\nProduce two things.\n\n1. \"summary\": an English summary of the segment's content, 120-180 words, plain prose, covering the main steps, concepts and facts taught. Do not mention the speaker, the tutorial series, greetings, credits, funding or websites.\n\n2. \"facts\": 8 to 15 atomic facts that a good summary of this segment should contain.\n- Each fact is one short, self-contained English sentence stating a single piece of content (a step, setting, definition, command or result).\n- Exclude greetings, credits, acknowledgements, funding and website information.\n- Facts must not overlap.\n- For each fact, \"evidence\" must be copied EXACTLY, character for character, from the transcript: one contiguous excerpt of 3 to 25 words that states the fact. Do not translate, transliterate, correct or shorten words inside the excerpt.\n\nTranscript:\n<<<\ngedit text editor में snippets पर spoken tutorial में आपका स्वागत है इस tutorial में हम default snippets का उपयोग नए snippets जोडना snippets डिलीट करना highlight matching brackets और document statistics के बारे में सीखेंगे इस tutorial को record करने के लिए मैं ऊबंटु लिनक्स 1404 ऑपरेटिंग सिस्टम gedit text editor 310 का उपयोग कर रही हूँ इस tutorial का अनुसरण करने के लिए आपको किसी भी operating system पर कार्य करने का अनुभव होना चाहिए snippests क्या हैं snippets text या source code की lines हैं जिनका उपयोग हम अक्सर program लिखते समय करते हैं यह यूजर को दोहराव typing करने से बचाता है snippets gedit text editor में एक default plugins है देखते हैं कि हमें snippets को कैसे बनाना या उपयोग करना है gedit text editor खोलें पहले हमें snippet plugin को सक्षम करने की जरूरत है main menu से edit और preferences पर click करें plugin टैब में नीचे scroll करें और snippets box check करें close पर click करें दी गई संख्या सकारात्मक या नकारात्मक की जाँच करने के लिए एक c program लिखते हैं पहले file को numcheck c नाम से सेव करें tutorial को रोकें और इस code को अपने gedit text editor में लिखें टाइप पूरा करने पर cursor को अगली line पर रखें tab if शब्द type करें और tab की दबाएँ क्या आप यहाँ स्वत: ही आये if statement की संरचना देख सकते हैं ध्यान दें cursor default रूप से condition शब्द पर है num = = 0 type करें condition शब्द ओवरराइट है आप स्वत: ही आये हुए open curly braces और end braces देख सकते हैं यह इसलिए क्योंकि हमनें पिछले tutorial में intelligent text completion नामक plugin जोडा था type करें printf open brackets double quotes ध्यान दें कि end double quotes भी स्वत: ही आ गया है स्मरण करें कि intelligent text completion का एक फीचर्स auto close brackets and quotes है अब जैसा कि यहाँ दिखाया गया है type करें अब main menu से tools और manage snippets चुनें manage snippets dialog box प्रदर्शित होता है बाईं ओर panel पर नीचे scroll करें और c चुनें इसके आगे त्रिकोण के चिन्ह पर click करें c के लिए सभी snippets की सूची यहाँ सूचिबद्ध हैं if snippet पर click करें ऊपरी दायें panel पर आप c language में if statement के लिए पूर्ण syntax देख सकते हैं नीचे दाईं ओर tab trigger field पर देखें यह default रूप से if प्रदर्शित कर रहा है अत: if टाइप करके और टैब की दबाकर पूर्ण if statement आ जाता है एक और else if नामक snippet देखते हैं बाएँ हाथ की ओर c के नीचे else if snippet पर click करें आप इसके लिए syntax को ऊपरी दायें panel पर देख सकते हैं ध्यान दें कि tab trigger में elif है close पर click करें अब देखते हैं कि अपने program में इस snippet का उपयोग कैसे करना है elif type करें और टैब दबाएँ आप देख सकते हैं कि else if के लिए syntax प्रविष्ट हो गया है यहाँ दिखाया गया program code type करें अत: snippets की सहायता के साथ हम अपने source code में दोहराव typing से बच सकते हैं आगे हम देखेंगे कि अपने खुद के snippet कैसे बनाना है अब main menu से tools और manage snippets पर click करें manage snippets dialog box में जो प्रदर्शित हो रहा है c चुनें window के नीचे दाईं ओर पर नए snippet को बनाने के लिए plus के icon पर click करें helloworld type करें औऱ enter दबाएँ edit panel पर click करें निम्न code type करें यह c में सरल बुनियादी program है\n>>>",
+  "generation_config": {
+   "max_output_tokens": 8192
+  },
+  "response_format": {
+   "mime_type": "application/json",
+   "schema": {
+    "$defs": {
+     "Fact": {
+      "properties": {
+       "fact": {
+        "title": "Fact",
+        "type": "string"
+       },
+       "evidence": {
+        "title": "Evidence",
+        "type": "string"
+       }
+      },
+      "required": [
+       "fact",
+       "evidence"
+      ],
+      "title": "Fact",
+      "type": "object"
+     }
+    },
+    "properties": {
+     "summary": {
+      "title": "Summary",
+      "type": "string"
+     },
+     "facts": {
+      "items": {
+       "$ref": "#/$defs/Fact"
+      },
+      "title": "Facts",
+      "type": "array"
+     }
+    },
+    "required": [
+     "summary",
+     "facts"
+    ],
+    "title": "Reference",
+    "type": "object"
+   }
+  }
+ },
+ "output_text": "{\"summary\": \"Snippets in the gedit text editor are reusable lines of text or source code that prevent repetitive typing during programming. The feature functions as a default plugin in gedit and can be enabled through the Preferences menu under the Edit option. In a C program, typing a trigger word such as \\\"if\\\" followed by the Tab key automatically inserts the full syntax of an if statement with the cursor positioned on the condition. The Snippets manager, accessed via the Tools menu, allows users to view and manage language-specific snippets. For instance, expanding the C section displays snippets like \\\"if\\\" and \\\"else if\\\", which uses \\\"elif\\\" as its tab trigger. In the Manage Snippets window, users can review syntax in the top-right panel and view the associated tab trigger. Furthermore, users can create new custom snippets by selecting the desired language, clicking the plus icon, naming the snippet, and entering the desired code in the edit panel.\", \"facts\": [{\"fact\": \"Snippets are lines of text or source code frequently used while writing programs.\", \"evidence\": \"snippets text या source code की lines हैं जिनका उपयोग हम अक्सर program लिखते समय करते हैं\"}, {\"fact\": \"Snippets is a default plugin in the gedit text editor.\", \"evidence\": \"snippets gedit text editor में एक default plugins है\"}, {\"fact\": \"The snippets plugin can be enabled in gedit via Edit, Preferences, checking the snippets box in the plugin tab, and clicking close.\", \"evidence\": \"main menu से edit और preferences पर click करें plugin टैब में नीचे scroll करें और snippets box check करें close पर click करें\"}, {\"fact\": \"Typing \\\"if\\\" and pressing the Tab key automatically inserts the structure of an if statement.\", \"evidence\": \"if शब्द type करें और tab की दबाएँ क्या आप यहाँ स्वत: ही आये if statement की संरचना देख सकते हैं\"}, {\"fact\": \"When an if statement snippet is inserted, the cursor defaults to the condition word.\", \"evidence\": \"ध्यान दें cursor default रूप से condition शब्द पर है\"}, {\"fact\": \"Auto-closing brackets and quotes is a feature of the intelligent text completion plugin.\", \"evidence\": \"intelligent text completion का एक फीचर्स auto close brackets and quotes है\"}, {\"fact\": \"Selecting Tools and Manage Snippets from the main menu opens the Manage Snippets dialog box.\", \"evidence\": \"main menu से tools और manage snippets चुनें manage snippets dialog box प्रदर्शित होता है\"}, {\"fact\": \"Selecting C and clicking its triangle symbol lists all snippets available for C.\", \"evidence\": \"c चुनें इसके आगे त्रिकोण के चिन्ह पर click करें c के लिए सभी snippets की सूची यहाँ सूचिबद्ध हैं\"}, {\"fact\": \"The tab trigger for the else if snippet is elif.\", \"evidence\": \"ध्यान दें कि tab trigger में elif है\"}, {\"fact\": \"Typing \\\"elif\\\" and pressing Tab inserts the syntax for an else if statement.\", \"evidence\": \"elif type करें और टैब दबाएँ आप देख सकते हैं कि else if के लिए syntax प्रविष्ट हो गया है\"}, {\"fact\": \"Clicking the plus icon at the bottom right of the window allows the user to create a new snippet.\", \"evidence\": \"window के नीचे दाईं ओर पर नए snippet को बनाने के लिए plus के icon पर click करें\"}]}",
+ "response_model": "gemini-3.8-flash",
+ "response_id": "v1_ChZmbmZrYW9PakhKQzBxdHNQX3AyU2NREhZmbmZrYW9PakhKQzBxdHNQX3AyU2NR",
+ "usage": {
+  "initial_input_tokens": 1076,
+  "input_tokens_by_modality": [
+   {
+    "modality": "text",
+    "tokens": 942
+   }
+  ],
+  "total_cached_tokens": 0,
+  "total_input_tokens": 942,
+  "total_output_tokens": 669,
+  "total_thought_tokens": 3677,
+  "total_tokens": 5288,
+  "total_tool_use_tokens": 0
+ },
+ "meta": {
+  "window_id": "W03"
+ }
+}

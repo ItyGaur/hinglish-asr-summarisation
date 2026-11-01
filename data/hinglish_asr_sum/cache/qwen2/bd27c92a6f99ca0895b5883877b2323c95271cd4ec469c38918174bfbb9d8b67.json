@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-30T14:23:38+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W09",
+ "condition": "asr:whisper-small",
+ "out_lang": "en",
+ "input_tokens": 3435,
+ "summary": "The tutorial covers creating and formatting slides in LibreOffice Impress, using Linux and LibreOffice version 3.3.4. It explains how to insert slides, customize layouts, and add text. Key steps include selecting the Normal tab, inserting a new slide, and adding a title by clicking on the Text Box. The tutorial demonstrates how to copy and paste slides, edit text size and style, change fonts, and apply custom colors. It also shows how to use the Font dialog box to set font styles and colors, and how to format text as bold, italic, or underlined."
+}

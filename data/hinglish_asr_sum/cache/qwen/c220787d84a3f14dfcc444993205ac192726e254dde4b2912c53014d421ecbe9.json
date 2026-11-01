@@ -1,0 +1,18 @@
+{
+ "created": "recovered_from_summaries.csv",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W11",
+ "condition": "oracle",
+ "out_lang": "en",
+ "input_tokens": 1752,
+ "summary": "This tutorial covers how to use the JChemPaint software for creating chemical structures and understanding periodic table trends. It starts by opening the JChemPaint window on Ubuntu Linux OS version 12.04 with Java version 7. Key steps include:\n\n1. Opening the periodic table trends view.\n2. Using the toolbar to add elements or select new drawing symbols.\n3. Clicking \"Enter an element symbol via keyboard\" and then selecting a new drawing symbol from the periodic table.\n4. Typing an element symbol in the text box and clicking OK to place it on the canvas.\n5. Creating xenon difluoride (XeF2) by editing the structure using the preferences menu to show implicit hydrogens.\n6. Drawing bonds between xenon and fluorine atoms.\n7. Accessing the atom popup menu for xenon to change its isotopes and properties, such as switching to alkali earth metals like calcium.\n\nThe tutorial emphasizes navigating the interface and customizing chemical structures within JChemPaint."
+}

@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-30T14:25:28+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W15",
+ "condition": "asr:whisper-small",
+ "out_lang": "en",
+ "input_tokens": 3386,
+ "summary": "The tutorial explains how to use a writer tool to format text and create bullet points and numbered lists. It starts by typing \"resume\" and selecting it to align left. Then, it demonstrates aligning text to the right and center, adjusting margins, and using bullets and numbering. To add bullets or numbering, one clicks on the respective options in the menu bar. The tutorial also covers inserting new bullet points and numbered items, and using Shift+Enter for line breaks. It shows how to format text with different styles and apply them consistently throughout the document. Additionally, it explains how to copy and paste text, delete text, and use shortcut keys like Ctrl+C for copying and Ctrl+V for pasting. Overall, the tutorial provides a comprehensive guide on basic text formatting and document editing techniques."
+}

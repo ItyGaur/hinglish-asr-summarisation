@@ -1,0 +1,78 @@
+{
+ "created": "2026-10-30T11:31:23+00:00",
+ "template_id": "reference",
+ "variant": 0,
+ "request": {
+  "model": "gemini-3.8-flash",
+  "system_instruction": "You are a careful annotator building evaluation data for summarisation research. Follow the instructions exactly and output only JSON that matches the schema.",
+  "input": "Below is the exact human transcript of a segment of a recorded software tutorial. The speaker code-mixes Hindi and English: Hindi is mostly written in Devanagari and English mostly in Latin script, but some English words are written in Devanagari.\n\nProduce two things.\n\n1. \"summary\": an English summary of the segment's content, 120-180 words, plain prose, covering the main steps, concepts and facts taught. Do not mention the speaker, the tutorial series, greetings, credits, funding or websites.\n\n2. \"facts\": 8 to 15 atomic facts that a good summary of this segment should contain.\n- Each fact is one short, self-contained English sentence stating a single piece of content (a step, setting, definition, command or result).\n- Exclude greetings, credits, acknowledgements, funding and website information.\n- Facts must not overlap.\n- For each fact, \"evidence\" must be copied EXACTLY, character for character, from the transcript: one contiguous excerpt of 3 to 25 words that states the fact. Do not translate, transliterate, correct or shorten words inside the excerpt.\n\nTranscript:\n<<<\nलिबर ऑफिस impress के परिचय पर tutorial में आपका स्वागत है इस tutorial में हम निम्न सीखेंगे लिबर ऑफिस impress का परिचय impress में विविध toolbars नई प्रस्तुति प्रज़ेन्टैशन कैसे तैयार करें ms powerpoint प्रस्तुतिकरण के रूप में सेव कैसे करें ms powerpoint प्रस्तुतिकरण को open कैसे करें और impress में pdf document कैसे export करें लिबर ऑफिस manager लिबर ऑफिस suite का प्रस्तुतिकरण manager है इसका उपयोग सशक्त प्रस्तुति को तैयार करने के लिए किया जाता है यह microsoft office powerpoint के समतुल्य है लिबर ऑफिस impress free open source साफ्टवेयर है उपयोग और वितरण के लिए निशुल्क उपलब्ध है लिबर ऑफिस suite के साथ शुरूआत करने के लिए आप या तो microsoft windows 2000 और इसके उच्च versions जैसे windows xp या ms windows 7 का उपयोग कर सकते हैं या आप अपने operating system के रूप में gnu/linux का उपयोग कर सकते हैं यहाँ हम अपने operating system के रूप में gnu/लिनक्स और लिबर ऑफिस version 334 का उपयोग कर रहे हैं यदि आपके पास लिबर ऑफिस suite संस्थापित नहीं है तो synaptic package manager का उपयोग करके impress को संस्थापित कर सकते हैं synaptic package manager पर अधिक जानकारी के लिए कृपया इस website का अनुकरण करें और इस वेब suite पर दिए गए निर्देशों का अनुकरण करके लिबर ऑफिस suite download करें लिबर ऑफिस suite के पहले tutorial में विस्तृत निर्देश उपलब्ध हैं याद रहे जब संस्थापन कर रहे हों impress का संस्थापन करने के लिए complete option का उपयोग करें यदि आपके पास लिबर ऑफिस suite पहले से ही संस्थापित हैः आप अपनी screen के top left में applications option पर क्लिक करके और फिर office पर क्लिक करके और फिर libreoffice option पर क्लिक करके लिबर office impress पा सकते हैं विविध लिबर ऑफिस घटकों के साथ एक नया dialog box खुलता है लिबर ऑफिस impress को access करने के लिए नए dialog box में presentation घटक पर click करें create पर click करें यह मुख्य impress window में एक खाली डॉक्युमेंट open करेगा अब impress window के मुख्य घटकों के बारे में सीखते हैं impress window में विविध toolbar हैं जैसे– टाइटल bars menu bars standard bars formatting bars और status bars हम toolbars के बारे में सीखेंगे जैसे ही tutorials आगे बढ़ेंगे हम अपनी पहली प्रस्तुति पर कार्य करने के लिए तैयार हैं अब file बंद करें applications पर जाएँ office पर click करें फिर libreoffice impress पर click करें from template पर click करें recommendation of a strategy चुनें और अगले button पर click करें select a slide design drop down में presentation backgrounds चुनें फिर blue border चुनें select an output medium field में original चुनें अगले बटन पर क्लिक करें यह slide ट्रैंजिशन बनाने के लिए step है सभी options को छोड़ दें जैसे वे हैं और next पर click करें what is your name field में आप अपना या अपनी संस्था का name लिख सकते हैं मैं a1 services type करूँगा what is the subject of your presentation field में benefits of open source type करें next पर click करें यह step प्रस्तुति का वर्णन करता है सभी options default रूप से चुनित हैं कुछ भी न बदलें वे प्रस्तुति के लिए सैम्पल headings हैं create पर click करें आपने अब लिबर ऑफिस impress में अपनी पहली प्रस्तुति बना दी है अब हम देखेंगे कि प्रस्तुति को सेव कैसे करें file और सेव पर click करें सेव dialog box खुलेगा हम इस फाइल को sample impress के रूप में सेव करेंगे और सेव button पर click करें ध्यान दें कि impress open document format extension odp के साथ सेव होगा अब हम फाइल बंद करेंगे प्रस्तुति को बंद करने के लिए फाइल और close पर click करें आगे सीखेंगे कि microsoft पावर प्वॉइंट प्रस्तुतिकरण के रूप में लिबर ऑफिस प्रस्तुतिकरण को सेव कैसे करें हम file और open पर फिर से click करके और सैम्पल impress चुनकर सैम्पल impress प्रस्तुतिकरण प्रेज़ेन्टैशन open करेंगे default रूप से लिबर ऑफिस impress documents को open documents format में सेव करता है\n>>>",
+  "generation_config": {
+   "max_output_tokens": 8192
+  },
+  "response_format": {
+   "mime_type": "application/json",
+   "schema": {
+    "$defs": {
+     "Fact": {
+      "properties": {
+       "fact": {
+        "title": "Fact",
+        "type": "string"
+       },
+       "evidence": {
+        "title": "Evidence",
+        "type": "string"
+       }
+      },
+      "required": [
+       "fact",
+       "evidence"
+      ],
+      "title": "Fact",
+      "type": "object"
+     }
+    },
+    "properties": {
+     "summary": {
+      "title": "Summary",
+      "type": "string"
+     },
+     "facts": {
+      "items": {
+       "$ref": "#/$defs/Fact"
+      },
+      "title": "Facts",
+      "type": "array"
+     }
+    },
+    "required": [
+     "summary",
+     "facts"
+    ],
+    "title": "Reference",
+    "type": "object"
+   }
+  }
+ },
+ "output_text": "{\n  \"summary\": \"LibreOffice Impress is a free, open-source presentation software equivalent to Microsoft Office PowerPoint, compatible with Windows and GNU/Linux operating systems. When installing via package management, the complete option should be selected. Impress can be launched through the Applications menu under Office, either directly or via the main LibreOffice startup dialog by choosing the presentation component. The Impress interface includes title, menu, standard, formatting, and status toolbars. Users can create a presentation from a template by selecting an option such as Recommendation of a Strategy, choosing slide designs like Presentation Backgrounds with a Blue Border, setting the output medium to Original, and specifying presenter details and presentation subjects. The default headings provided in the wizard can be retained to generate the slides. Finally, presentations are saved by selecting File and Save, which defaults to the Open Document Format with the .odp file extension, and can be reopened later from the File menu.\",\n  \"facts\": [\n    {\n      \"fact\": \"LibreOffice Impress is equivalent to Microsoft Office PowerPoint.\",\n      \"evidence\": \"यह microsoft office powerpoint के समतुल्य है\"\n    },\n    {\n      \"fact\": \"LibreOffice Impress is free, open-source software available at no cost for use and distribution.\",\n      \"evidence\": \"लिबर ऑफिस impress free open source साफ्टवेयर है उपयोग और वितरण के लिए निशुल्क उपलब्ध है\"\n    },\n    {\n      \"fact\": \"GNU/Linux can be used as the operating system for LibreOffice Impress.\",\n      \"evidence\": \"आप अपने operating system के रूप में gnu/linux का उपयोग कर सकते हैं\"\n    },\n    {\n      \"fact\": \"Users should choose the complete option when installing Impress.\",\n      \"evidence\": \"impress का संस्थापन करने के लिए complete option का उपयोग करें\"\n    },\n    {\n      \"fact\": \"The Impress window contains title bars, menu bars, standard bars, formatting bars, and status bars.\",\n      \"evidence\": \"impress window में विविध toolbar हैं जैसे– टाइटल bars menu bars standard bars formatting bars और status bars\"\n    },\n    {\n      \"fact\": \"A presentation can be initiated from a template by choosing Recommendation of a Strategy.\",\n      \"evidence\": \"from template पर click करें recommendation of a strategy चुनें और अगले button पर click करें\"\n    },\n    {\n      \"fact\": \"Slide designs can be selected by choosing Presentation Backgrounds and then Blue Border.\",\n      \"evidence\": \"select a slide design drop down में presentation backgrounds चुनें फिर blue border चुनें\"\n    },\n    {\n      \"fact\": \"Original can be chosen in the output medium field during presentation setup.\",\n      \"evidence\": \"select an output medium field में original चुनें अगले बटन पर क्लिक करें\"\n    },\n    {\n      \"fact\": \"The presenter's name or organization name can be entered in the designated name field.\",\n      \"evidence\": \"what is your name field में आप अपना या अपनी संस्था का name लिख सकते हैं\"\n    },\n    {\n      \"fact\": \"Impress presentations are saved with the Open Document Format odp extension.\",\n      \"evidence\": \"impress open document format extension odp के साथ सेव होगा\"\n    },\n    {\n      \"fact\": \"A presentation can be closed by clicking File and then Close.\",\n      \"evidence\": \"प्रस्तुति को बंद करने के लिए फाइल और close पर click करें\"\n    }\n  ]\n}",
+ "response_model": "gemini-3.8-flash",
+ "response_id": "v1_ChdUbl9rYXFQV0tyS1ZtdGtQclBqUG1BMBIXVG5fa2FxUFdLcktWbXRrUHJQalBtQTA",
+ "usage": {
+  "initial_input_tokens": 1187,
+  "input_tokens_by_modality": [
+   {
+    "modality": "text",
+    "tokens": 1053
+   }
+  ],
+  "total_cached_tokens": 0,
+  "total_input_tokens": 1053,
+  "total_output_tokens": 738,
+  "total_thought_tokens": 3789,
+  "total_tokens": 5580,
+  "total_tool_use_tokens": 0
+ },
+ "meta": {
+  "window_id": "W10"
+ }
+}

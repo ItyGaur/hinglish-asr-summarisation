@@ -1,0 +1,22 @@
+fact_id,fact,trelis_en_ok,trelis_en_dev,trelis_en_other,wsmall_en_ok,wsmall_en_dev,wsmall_en_other,n_en_tokens_in_evidence,supported_oracle,supported_asr:trelis-hinglish-preview,supported_asr:whisper-small
+W01_F05,The text color can be set to black from the Font Effects tab within the Character dialog box.,0.7,0.1,0.2,0.0,0.6,0.4,10,1,0,0
+W03_F01,Snippets is a default plugin in the gedit text editor.,0.0,1.0,0.0,0.0,1.0,0.0,6,0,0,0
+W03_F05,Auto-closing brackets and quotes is a feature of the intelligent text completion plugin.,1.0,0.0,0.0,0.0,1.0,0.0,8,1,0,0
+W03_F06,Selecting Tools and Manage Snippets from the main menu opens the Manage Snippets dialog box.,0.2222222222222222,0.6666666666666666,0.1111111111111111,0.0,1.0,0.0,9,1,0,0
+W04_F08,The animation direction can be adjusted to from right to top under settings.,0.875,0.0,0.125,0.0,1.0,0.0,8,0,0,0
+W06_F07,The compilation command entered in the terminal is gcc main-with-args.c -o args.,0.35714285714285715,0.6428571428571429,0.0,0.0,1.0,0.0,14,0,0,0
+W07_F09,A point concerning government institutions developing and promoting FOSS is added at the end of the document.,0.0,1.0,0.0,0.0,1.0,0.0,14,0,0,0
+W10_F04,"The Impress window contains title bars, menu bars, standard bars, formatting bars, and status bars.",0.16666666666666666,0.6666666666666666,0.16666666666666666,0.0,1.0,0.0,12,1,1,0
+W10_F06,Slide designs can be selected by choosing Presentation Backgrounds and then Blue Border.,0.9,0.0,0.1,0.0,1.0,0.0,10,0,0,0
+W10_F09,Impress presentations are saved with the Open Document Format odp extension.,1.0,0.0,0.0,0.16666666666666666,0.8333333333333334,0.0,6,1,1,1
+W11_F01,JChemPaint is launched from the desktop by running the Java jar command in the terminal.,0.2857142857142857,0.0,0.7142857142857143,0.14285714285714285,0.8571428571428571,0.0,7,0,0,0
+W11_F02,The lower toolbar includes buttons to enter an element symbol via keyboard and select a new drawing symbol from the periodic table.,0.0,1.0,0.0,0.0,1.0,0.0,16,1,0,0
+W11_F03,Clicking the periodic table button opens the Choose an element window containing a built-in periodic table.,0.4,0.6,0.0,0.0,1.0,0.0,15,0,0,0
+W12_F01,The syntax of typedef is typedef existing _ name alias _ name.,0.6666666666666666,0.3333333333333333,0.0,0.0,0.0,1.0,6,0,0,0
+W12_F02,An example of typedef is typedef unsigned int uint;.,0.75,0.0,0.25,0.0,0.0,1.0,4,1,1,0
+W12_F03,The palindrome program is compiled using the command gcc pallindrome.c -o pallindrome.,0.0,1.0,0.0,0.3333333333333333,0.5,0.16666666666666666,12,0,0,0
+W12_F04,Executing the palindrome program with the input 121 yields the output that the given number is a palindrome number.,0.875,0.125,0.0,0.5,0.375,0.125,8,0,0,0
+W12_F10,Running the compiled union program displays the output total is 228.,0.5,0.25,0.25,1.0,0.0,0.0,4,1,0,0
+W13_F07,Typing 'cd desktop' and pressing Enter navigates to the Desktop directory in the terminal.,0.8,0.2,0.0,0.4,0.6,0.0,5,1,0,0
+W13_F08,Running the Java jar command in the terminal launches the JChemPaint window.,0.4444444444444444,0.3333333333333333,0.2222222222222222,0.1111111111111111,0.8888888888888888,0.0,9,1,0,1
+W15_F06,Bullets and numbering can be disabled by selecting the Numbering Off option.,0.0,1.0,0.0,0.0,1.0,0.0,4,1,0,0

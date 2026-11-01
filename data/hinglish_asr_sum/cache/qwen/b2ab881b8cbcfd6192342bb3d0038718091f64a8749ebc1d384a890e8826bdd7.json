@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-30T15:56:37+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W10",
+ "condition": "noise:hi:0.4",
+ "out_lang": "en",
+ "input_tokens": 2475,
+ "summary": "This tutorial covers the basics of using LibreOffice Impress, a free and open-source presentation software. It explains how to install Impress on Linux systems compatible with GNU/Linux or Microsoft Windows. Key features include various toolbars such as Title Bars, Menu Bars, Standard Bars, Formatting Bars, and Status Bars. The tutorial guides users through creating a presentation by selecting templates, customizing slide designs, and adding text. Users learn to save their presentations in the Impress Open Document Format (ODP) and open them later. Additionally, it introduces Microsoft PowerPoint as a comparable tool, explaining how to open saved Impress presentations in PowerPoint. The tutorial emphasizes the free and open nature of LibreOffice Impress, making it accessible for both personal and professional use."
+}

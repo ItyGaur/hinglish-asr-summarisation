@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-30T15:54:20+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W14",
+ "condition": "noise:hi:0.3",
+ "out_lang": "en",
+ "input_tokens": 2738,
+ "summary": "This tutorial covers configuring email settings on a Linux system using Thunderbird. It explains how to add folders to a Gmail account, sort emails into specific folders, and set up advanced filters. To add a folder, you right-click on the Gmail account in the left panel, select \"New Folder,\" and enter a name like \"Important Mails.\" Dragging emails from the inbox to this folder sorts them accordingly. Advanced filtering can be done by selecting \"Advanced\" in the search bar, choosing \"Search Messages,\" and entering criteria such as \"Subject\" and \"Contains\" with specific terms. For managing filters, go to \"Message Filters,\" create a new rule, and specify actions like moving messages to a folder. This setup allows users to organize emails efficiently using Thunderbird, even for multiple accounts including Yahoo."
+}

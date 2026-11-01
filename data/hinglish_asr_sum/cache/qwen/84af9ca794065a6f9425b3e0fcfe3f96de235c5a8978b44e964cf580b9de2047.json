@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-31T12:46:11+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W16",
+ "condition": "noise:hi:0.1",
+ "out_lang": "en",
+ "input_tokens": 1893,
+ "summary": "This tutorial covers storage class specifiers in C programming, specifically focusing on `auto` and `static` keywords. The `auto` keyword declares a variable with automatic storage duration, meaning it is local to its scope and must be initialized at the point of declaration. Variables declared with `auto` do not persist beyond their scope. An example demonstrates this by initializing a variable `i` within a function named `increment`, which is called four times. After compiling and running the program, the variable's value changes with each call, showing that `auto` variables are reinitialized each time.\n\nThe `static` keyword, also briefly reviewed, initializes a variable to zero and retains its value between function calls. This means the variable persists for the entire program execution. An example shows modifying a code file to declare `i` as `static` within the `increment` function, ensuring its value remains unchanged across multiple function calls. The tutorial then compiles and runs the modified program, demonstrating that the `static` variable retains its initial value of zero throughout the program's execution."
+}

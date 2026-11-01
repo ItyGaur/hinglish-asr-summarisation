@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-31T12:54:51+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W16",
+ "condition": "oracle",
+ "out_lang": "hinglish",
+ "input_tokens": 1879,
+ "summary": "Storage class specifiers बताते हैं compiler को बारे में कि वेरिएबल को कहाँ संचित करना है, कैसे सेव करना है, और वेरिएबल की शुरुआती वैल्यू क्या होती है। उबन्टु ऑपरेटिंग सिस्टम और gcc कम्पाइलर का उपयोग किया गया है। अपने कोड में दो प्रकार के specifiers दिखाया गया है: auto और static। Auto वर्ड लोकल स्कोप में वेरिएबल को घोषित करता है और इनिशियालाइज़ करना आवश्यक है। Static वर्ड वेरिएबल को ब्लॉक स्कोप में घोषि�"
+}

@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-30T15:25:01+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W02",
+ "condition": "asr:whisper-small",
+ "out_lang": "en",
+ "input_tokens": 3156,
+ "summary": "This tutorial covers how to install and use Atit Text Editor on Ubuntu Linux and Windows operating systems. It starts with installing Atit Text Editor on Windows by visiting a link and following the instructions provided. On Ubuntu Linux, it is already installed. To open Atit Text Editor, you can click on its icon or use the terminal. The tutorial explains how to create a new document by opening Atit Text Editor and navigating through the menu options. It also demonstrates how to save a document named \"Atit Text Ator\" in the text section. The status bar at the bottom shows the current cursor position and mode (insert or overwrite). To save a file, you can select \"Save\" from the menu or use the keyboard shortcut Ctrl+S. The tutorial concludes by emphasizing the importance of not closing the editor without saving to avoid data loss."
+}

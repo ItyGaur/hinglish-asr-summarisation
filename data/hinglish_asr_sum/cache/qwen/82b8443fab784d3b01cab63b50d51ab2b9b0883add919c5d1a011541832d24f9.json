@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-31T12:31:55+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W17",
+ "condition": "oracle",
+ "out_lang": "en",
+ "input_tokens": 1819,
+ "summary": "This tutorial covers how to use presentation notes in Microsoft Impress, a free alternative to PowerPoint. Notes can serve two purposes: providing additional content or references for speakers on each slide, or offering notes for the audience. To add notes, select the \"Notes\" tab, click on the notes text box below the slide, and start typing. For formatting text, choose the desired font type and size from the Impress window's top-left corner. Bullet points can be added using the bullet icon. To create a notes master, go to the main menu, click on \"View,\" then \"Master,\" and finally \"Notes Master.\" This sets a standard format for all notes in the presentation. Notes can be formatted individually or according to the master settings. Additionally, you can add logos and shapes to notes by selecting them from the drawing toolbar, customizing their appearance through the formatting options."
+}

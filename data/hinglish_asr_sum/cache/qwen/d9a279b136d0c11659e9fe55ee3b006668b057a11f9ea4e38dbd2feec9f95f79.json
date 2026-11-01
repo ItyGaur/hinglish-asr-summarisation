@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-31T12:48:43+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W21",
+ "condition": "noise:hi:0.2",
+ "out_lang": "en",
+ "input_tokens": 2593,
+ "summary": "This tutorial explains how to print presentations using LibreOffice Impress. It covers various printing options such as slides, handouts, notes, and outlines. You can choose between different formats for your slides, including plain text or specific Impress stack options. For slides, you can customize colors, sizes, and include details like slide names, dates, and hidden pages. The tutorial also discusses options for arranging multiple slides on a single page, such as fitting them to the printable area or creating a brochure layout. Additionally, it covers printing notes alongside slides and adjusting the size of printed notes. The process involves selecting the appropriate tab, configuring settings, and clicking the print button to send the job to the configured printer."
+}

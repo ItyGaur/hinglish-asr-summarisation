@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-31T12:46:56+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W21",
+ "condition": "noise:hi:0.1",
+ "out_lang": "en",
+ "input_tokens": 2505,
+ "summary": "This tutorial explains how to print presentations from LibreOffice Impress, using GNU/Linux and version 3.3.4. You can print slides, handouts, notes, and outlines. To print slides, open your presentation, go to the \"Print\" dialog, select the desired options under the \"General\" tab, and choose the print method. Options include printing in color or grayscale, fitting slides to the page, and specifying the number of slides per sheet. For handouts, select the \"Handouts\" option, which defaults to four slides per page. Notes can be printed by selecting the \"Notes\" tab, typing your notes, and choosing the appropriate print settings. The tutorial covers various print options for enhancing the appearance of your printed slides, such as borders and layouts, and provides step-by-step guidance on configuring your printer for optimal results."
+}

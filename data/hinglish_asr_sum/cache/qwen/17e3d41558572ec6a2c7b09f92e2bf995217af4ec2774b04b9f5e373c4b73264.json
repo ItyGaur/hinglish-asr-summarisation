@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-31T12:42:13+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W16",
+ "condition": "noise:en:0.4",
+ "out_lang": "en",
+ "input_tokens": 2057,
+ "summary": "This tutorial explains storage class specifiers in C programming, specifically focusing on `auto` and `static`. The `auto` specifier indicates that a variable is local to its scope and must be initialized at the time of declaration. Variables declared with `auto` do not persist beyond their function's execution. An example demonstrates this by incrementing a local variable `i` within a function named `increment`, which is called four times. The initial value of `i` is set to zero, but attempting to declare it globally results in a scope error. This issue is fixed by initializing `i` within the function. \n\nThe `static` specifier, also briefly reviewed, initializes variables to zero and retains their values between function calls, occupying CPU memory. An example shows modifying a code file to use `static` for a variable `i`, ensuring its value persists across multiple function calls without needing reinitialization."
+}

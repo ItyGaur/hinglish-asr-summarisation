@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-30T15:42:05+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W15",
+ "condition": "noise:en:0.4",
+ "out_lang": "en",
+ "input_tokens": 2737,
+ "summary": "This tutorial covers basic text formatting in LibreOffice Writer, including aligning text, adding bullets and numbering, and using copy and paste functions. To align text, you can select the text and click on 'Align Left', 'Align Right', or 'Justify'. Bullets and numbering help organize points; to add them, go to the Format menu, choose Bullets & Numbering, and select a style. For indentation, use Tab and Shift keys. Copy and paste can be done by selecting text, right-clicking to copy, moving the cursor, right-clicking again, and choosing paste. Shortcuts for these actions are Ctrl+C for copy and Ctrl+V for paste. This tutorial uses the Linux system and LibreOffice suite browser version 3.3.4 to demonstrate these features."
+}

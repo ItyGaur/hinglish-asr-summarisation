@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-31T12:32:44+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W23",
+ "condition": "oracle",
+ "out_lang": "en",
+ "input_tokens": 2518,
+ "summary": "This tutorial covers various view options in LibreOffice Impress, a presentation software. It starts with the default Normal view and explains how to switch between different views like Outline, Slide Sorter, and Notes. The tutorial demonstrates changing slide designs using the Master Pages feature, which can be accessed from the Tasks Pane. Users learn to rearrange slides, modify slide layouts, and adjust the presentation layout. Key features discussed include the Outline view for organizing slides, Slide Sorter for reordering slides, and Notes view for adding notes that appear on the presenter's screen but not the audience's. The tutorial also shows how to customize the background and title areas of slides using Master Pages. Overall, it guides users through creating a new presentation with a dark blue background and light blue title area, encouraging them to practice these skills."
+}

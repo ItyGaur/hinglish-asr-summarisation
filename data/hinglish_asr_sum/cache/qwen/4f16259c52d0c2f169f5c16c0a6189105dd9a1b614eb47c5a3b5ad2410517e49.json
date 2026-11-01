@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-30T15:34:37+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W06",
+ "condition": "noise:en:0.2",
+ "out_lang": "en",
+ "input_tokens": 1742,
+ "summary": "This tutorial explains how to use command line arguments in C programming on Ubuntu 11.10 with GCC 4.6.1. It covers the `main` function, which takes two arguments: `argc` for the number of command line arguments and `argv` as an array of strings containing the actual arguments. The first argument (`argv[0]`) is the program name, and subsequent arguments are the command-line inputs. The tutorial demonstrates this by compiling and running a sample program that prints the number and values of command-line arguments. For example, running `gcc -o args args.c` followed by `./args Sunday Monday Tuesday` outputs the number of arguments (4) and their values. The tutorial concludes by summarizing that command line arguments allow programs to accept and process external inputs through the command line interface."
+}

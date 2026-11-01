@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-30T15:33:15+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W14",
+ "condition": "noise:en:0.1",
+ "out_lang": "en",
+ "input_tokens": 2788,
+ "summary": "This tutorial covers configuring account settings and email accounts using Thunderbird on Ubuntu 12.04. It explains how to add folders to an email account, such as creating a \"Important Mails\" folder by right-clicking on an email address and selecting \"New Folder.\" You can then drag and drop emails into this folder. Advanced filtering options allow you to search for specific messages based on criteria like subject or date. For example, you can create a filter to move all emails with \"Thunderbird\" in the subject to the \"Important Mails\" folder. Additionally, the tutorial demonstrates configuring Yahoo accounts manually since Gmail accounts configure automatically through Thunderbird. It guides users through logging into a Yahoo account and enabling POP access to sync emails. Overall, the tutorial provides comprehensive instructions for managing multiple email accounts efficiently within Thunderbird."
+}

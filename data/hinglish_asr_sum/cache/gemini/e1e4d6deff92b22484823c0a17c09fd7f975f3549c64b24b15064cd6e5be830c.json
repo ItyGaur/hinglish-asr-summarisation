@@ -1,0 +1,78 @@
+{
+ "created": "2026-10-30T16:42:37+00:00",
+ "template_id": "reference",
+ "variant": 0,
+ "request": {
+  "model": "gemini-3.8-flash",
+  "system_instruction": "You are a careful annotator building evaluation data for summarisation research. Follow the instructions exactly and output only JSON that matches the schema.",
+  "input": "Below is the exact human transcript of a segment of a recorded software tutorial. The speaker code-mixes Hindi and English: Hindi is mostly written in Devanagari and English mostly in Latin script, but some English words are written in Devanagari.\n\nProduce two things.\n\n1. \"summary\": an English summary of the segment's content, 120-180 words, plain prose, covering the main steps, concepts and facts taught. Do not mention the speaker, the tutorial series, greetings, credits, funding or websites.\n\n2. \"facts\": 8 to 15 atomic facts that a good summary of this segment should contain.\n- Each fact is one short, self-contained English sentence stating a single piece of content (a step, setting, definition, command or result).\n- Exclude greetings, credits, acknowledgements, funding and website information.\n- Facts must not overlap.\n- For each fact, \"evidence\" must be copied EXACTLY, character for character, from the transcript: one contiguous excerpt of 3 to 25 words that states the fact. Do not translate, transliterate, correct or shorten words inside the excerpt.\n\nTranscript:\n<<<\nएक्सफिग के प्रयोग से फीडबैक डाइअग्रैम बनाने के इस मौखिक ट्यूटोरियल में आपका स्वागत है ब्लॉक डाइअग्रैम क्रीएशन के मौखिक ट्यूटोरियल में हमने यह डाइअग्रैम बनाया था हम इन्हें ब्लॉक्स ट्यूटोरियल कहेंगे कृपया इस ट्यूटोरियल को शुरू करने से पहले ब्लॉक्स ट्यूटोरियल को अच्छे से समझ ले इस ट्यूटोरियल में हम समझाएंगे के इस पेज पर दिखाए गए इस तरह के ब्लॉक डाइअग्राम्स कैसे बनाए मैं एक्सफिग वर्ज़न 32 पैच लेवल 5 का इस्तेमाल करुँगी हम blockfig से शुरुआत करेंगे जोकी ब्लॉक्स ट्यूटोरियल में बनाए थे एक्सफिग पर चलते है फाइल को चुनते है और फिर ओपन एंट्री बॉक्स में block को एन्टर करे और ओपन प्रेस करे या फिर blockfig पर डबल क्लिक करे file पर save as आप्शन का प्रयोग कर हम इस फिगर को feedback के नाम से सेव करते है हमारे पास अब feedbackfig यह फाइल है grids पर क्लिक करके ग्रिड्स डालते है कैनवास को ऊपर या नीचे करने के लिए दाएँ तरफ स्क्रोल बार का प्रयोग करे प्रत्येक माउस बटन की भूमिका या कार्य ऊपर दाहिने तरफ दिखाया गया है यह कार्य गतिविधि पर निर्भर होता है इसे उदाहरण देकर स्पष्ट करते है  मैं माउस को वर्टिकल scroll bar पर ले चलती हूँ बाएं बटन के तरफ की टिप्पणी देखे मैं इसे बताने के लिए माउस को हटा नहीं सकती इसका कारण है बटंस का कार्य बदल जाएगा अगर मैं कर्सर स्क्रोल बार से दूर करू left button कैनवास को ऊपर ले जाएगा और right button उसे नीचे ले जाएगा हम left या right बटन को क्लिक करने के बजाय centre button सेंटर बटन पर क्लिक कर सकते है तथा ड्रैग करके कैनवास को ऊपर या नीचे कर सकते है उसी तरह से आप ऊपर के स्क्रोल बार का प्रयोग करके कैनवास को राईट या लेफ्ट में ले जा सकते है मैं अब middle buttonबीच के बटन पर क्लिक करके तथा कैनवास को पकड़कर और ड्रैग करके बॉक्स को बीच में याने सेंटर में  लाती  हूँ जैसे ही माउस को छोड़ देती हूँ  बॉक्स सेंटर में आ जाता है चलिए अब इस ब्लॉक से शुरू करके हम अब फीडबैक डाइअग्रैम बनाते है इस बॉक्स को कॉपी करते है बॉक्स पर क्लिक करे और उसे चुने माउस को एक नई जगह ले जाए और क्लिक करे अभी कुछ टेक्स्ट डालते है text box पर क्लिक करते है जो बाएं ओर के पैनल में t द्वारा बताया है टेक्स्ट का साइज़ चुनते है माउस को वाल्यू बॉक्स पर ले जाए और 16  एन्टर करे set पर क्लिक करे अट्रिब्यूट पैनल में से  text just बटन पर क्लिक करे सेंटर अलाइन्मन्ट याने मध्य संरेखण को चुनते है पहले बॉक्स के सेंटर में क्लिक करते है ओह मैंने सही जगह नहीं चुनी है कर्सर को हटाने के लिए मैं दूसरी जगह पर क्लिक करती हूँ फिर मैं सही जगह पर क्लिक करुँगी control यह टेक्स्ट अब टाइप कीजिये और माउस क्लिक करे अब हम एरो के साथ कुछ और लाइन्स एन्टर करना चाहते है polyline button पॉलीलाइन बटन को चुनते है अट्रिब्यूट पैनल में से  arrow mode बटन को चुनते है तथा दूसरे ऑप्शन को चुनते है arrow type बटन तथा एक एरो हेड को क्लिक करते है\n>>>",
+  "generation_config": {
+   "max_output_tokens": 8192
+  },
+  "response_format": {
+   "mime_type": "application/json",
+   "schema": {
+    "$defs": {
+     "Fact": {
+      "properties": {
+       "fact": {
+        "title": "Fact",
+        "type": "string"
+       },
+       "evidence": {
+        "title": "Evidence",
+        "type": "string"
+       }
+      },
+      "required": [
+       "fact",
+       "evidence"
+      ],
+      "title": "Fact",
+      "type": "object"
+     }
+    },
+    "properties": {
+     "summary": {
+      "title": "Summary",
+      "type": "string"
+     },
+     "facts": {
+      "items": {
+       "$ref": "#/$defs/Fact"
+      },
+      "title": "Facts",
+      "type": "array"
+     }
+    },
+    "required": [
+     "summary",
+     "facts"
+    ],
+    "title": "Reference",
+    "type": "object"
+   }
+  }
+ },
+ "output_text": "{\n  \"summary\": \"To create a feedback diagram in Xfig, start by opening the existing block.fig file and saving it under the new name feedback.fig. Grids can be enabled on the canvas to aid drawing. Navigation across the canvas is managed through scroll bars, with current mouse button functions dynamically indicated in the top-right corner. On the vertical scroll bar, the left mouse button moves the canvas up, the right button scrolls down, or the middle button can be dragged to reposition the view vertically. The horizontal scroll bar shifts the view left and right, allowing the drawn block to be centered. To duplicate diagram components, an existing box is copied by selecting it and clicking in the desired position. Text is added using the text tool from the left panel, where the font size can be adjusted to 16, and text justification is set to center alignment. After clicking inside the box, the label \\\"control\\\" is inserted. Finally, directional lines are initiated using the polyline tool with customized arrow modes and arrowheads.\",\n  \"facts\": [\n    {\n      \"fact\": \"The file block.fig is opened in Xfig and saved as feedback.fig using the Save As option.\",\n      \"evidence\": \"file पर save as आप्शन का प्रयोग कर हम इस फिगर को feedback के नाम से सेव करते है\"\n    },\n    {\n      \"fact\": \"Grids can be added to the drawing area by clicking on grids.\",\n      \"evidence\": \"grids पर क्लिक करके ग्रिड्स डालते है\"\n    },\n    {\n      \"fact\": \"The functions of the mouse buttons are displayed in the upper right and vary depending on the current activity.\",\n      \"evidence\": \"प्रत्येक माउस बटन की भूमिका या कार्य ऊपर दाहिने तरफ दिखाया गया है यह कार्य गतिविधि पर निर्भर होता है\"\n    },\n    {\n      \"fact\": \"Clicking the left mouse button on the vertical scroll bar scrolls the canvas up, while the right mouse button scrolls it down.\",\n      \"evidence\": \"left button कैनवास को ऊपर ले जाएगा और right button उसे नीचे ले जाएगा\"\n    },\n    {\n      \"fact\": \"The canvas can be moved up or down by clicking the middle mouse button and dragging.\",\n      \"evidence\": \"centre button सेंटर बटन पर क्लिक कर सकते है तथा ड्रैग करके कैनवास को ऊपर या नीचे कर सकते है\"\n    },\n    {\n      \"fact\": \"The top scroll bar is used to navigate the canvas horizontally to the left or right.\",\n      \"evidence\": \"उसी तरह से आप ऊपर के स्क्रोल बार का प्रयोग करके कैनवास को राईट या लेफ्ट में ले जा सकते है\"\n    },\n    {\n      \"fact\": \"A box is copied by clicking to select it, moving the cursor to a new location, and clicking again.\",\n      \"evidence\": \"इस बॉक्स को कॉपी करते है बॉक्स पर क्लिक करे और उसे चुने माउस को एक नई जगह ले जाए और क्लिक करे\"\n    },\n    {\n      \"fact\": \"The text tool is selected by clicking the text box icon marked by 't' on the left panel.\",\n      \"evidence\": \"text box पर क्लिक करते है जो बाएं ओर के पैनल में t द्वारा बताया है\"\n    },\n    {\n      \"fact\": \"The text font size is configured by entering 16 into the value box and clicking set.\",\n      \"evidence\": \"माउस को वाल्यू बॉक्स पर ले जाए और 16  एन्टर करे set पर क्लिक करे\"\n    },\n    {\n      \"fact\": \"Center alignment for text is chosen using the text justification button in the attribute panel.\",\n      \"evidence\": \"अट्रिब्यूट पैनल में से  text just बटन पर क्लिक करे सेंटर अलाइन्मन्ट याने मध्य संरेखण को चुनते है\"\n    },\n    {\n      \"fact\": \"The text \\\"control\\\" is entered in the center of the box.\",\n      \"evidence\": \"control यह टेक्स्ट अब टाइप कीजिये और माउस क्लिक करे\"\n    },\n    {\n      \"fact\": \"The polyline button is chosen to insert lines with arrows.\",\n      \"evidence\": \"polyline button पॉलीलाइन बटन को चुनते है\"\n    },\n    {\n      \"fact\": \"Arrowhead settings are adjusted using the arrow mode button in the attribute panel.\",\n      \"evidence\": \"अट्रिब्यूट पैनल में से  arrow mode बटन को चुनते है तथा दूसरे ऑप्शन को चुनते है\"\n    }\n  ]\n}",
+ "response_model": "gemini-3.8-flash",
+ "response_id": "v1_ChdtY2ZrYXRfOUU4S2YtOFlQZ3B2QjRROBIXbWNma2F0XzlFOEtmLThZUGdwdkI0UTg",
+ "usage": {
+  "initial_input_tokens": 1077,
+  "input_tokens_by_modality": [
+   {
+    "modality": "text",
+    "tokens": 943
+   }
+  ],
+  "total_cached_tokens": 0,
+  "total_input_tokens": 943,
+  "total_output_tokens": 953,
+  "total_thought_tokens": 4183,
+  "total_tokens": 6079,
+  "total_tool_use_tokens": 0
+ },
+ "meta": {
+  "window_id": "W24"
+ }
+}

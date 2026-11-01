@@ -1,0 +1,20 @@
+# audio and large downloads (MUCS audio is available from OpenSLR 104)
+*.wav
+*.flac
+*.mp3
+mucs_data/
+models/
+# python / notebooks
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+# secrets
+.env
+*.key
+# OS
+.DS_Store
+Thumbs.db
+# tutorial videos and extracted frames (downloaded by notebook 06)
+*.webm
+*.mp4
+frames/

@@ -1,0 +1,78 @@
+{
+ "created": "2026-10-30T11:15:01+00:00",
+ "template_id": "reference",
+ "variant": 0,
+ "request": {
+  "model": "gemini-3.8-flash",
+  "system_instruction": "You are a careful annotator building evaluation data for summarisation research. Follow the instructions exactly and output only JSON that matches the schema.",
+  "input": "Below is the exact human transcript of a segment of a recorded software tutorial. The speaker code-mixes Hindi and English: Hindi is mostly written in Devanagari and English mostly in Latin script, but some English words are written in Devanagari.\n\nProduce two things.\n\n1. \"summary\": an English summary of the segment's content, 120-180 words, plain prose, covering the main steps, concepts and facts taught. Do not mention the speaker, the tutorial series, greetings, credits, funding or websites.\n\n2. \"facts\": 8 to 15 atomic facts that a good summary of this segment should contain.\n- Each fact is one short, self-contained English sentence stating a single piece of content (a step, setting, definition, command or result).\n- Exclude greetings, credits, acknowledgements, funding and website information.\n- Facts must not overlap.\n- For each fact, \"evidence\" must be copied EXACTLY, character for character, from the transcript: one contiguous excerpt of 3 to 25 words that states the fact. Do not translate, transliterate, correct or shorten words inside the excerpt.\n\nTranscript:\n<<<\nनमस्कार ! command line arguments पर spoken tutorial में आपका स्वागत है इस tutorial में हम एक उदाहरण से arguments के साथ main function के बारे में सीखेंगे इस tutorial के लिए मैं उपयोग कर रही हूँ ubuntu operating system version 1110 और ubuntu पर gcc compiler version 461 इस tutorial के अनुसरण के लिए आपको c tutorials से परिचित होना चाहिए यदि नहीं तो सम्बंधित tutorials के लिए कृपया हमारी दर्शायी website पर जाएँ अब अपना program शुरू करते हैं मेरे पास एक code file है मैं इसे खोलूँगी main hyphen with hyphen args c file का name है अब मैं program को समझाती हूँ ये header files हैं stdio h core input और output functions को परिभाषित करता है stdlib h header file निम्न को परिभाषित करता है यह हमारा main function है इसके अंदर हमने दो arguments passed किये हैं argc program को दिए गए command line arguments की संख्या को दिखाता है यह program के वास्तविक name को सम्मिलित करता है argv index 0 से शुरू होने वाले वास्तविक arguments को रखता है index 0 उस program का name है index 1 program को passed किया गया पहला argument होगा index 2 program को passed किया गया दूसरा argument होगा और आगे भी इसी प्रकार यह statement program को passed किये गए arguments की कुल संख्या को दिखायेगा यह program को passed किये गए पहले argument को दिखायेगा 1 index 1 पर argument को दिखाता है while condition arguments की संख्या को घटाएगी यह statement program को passed किये गए सारे arguments को print करेगा at में हमारे पास return 0 statement है अब अपने keyboard पर एक साथ ctrl + alt + t कीज़ दबाकर terminal खोलते हैं type करें: gcc space main hyphen with hyphen args c space hyphen o space args enter दबाएं type करें: dot slash args enter दबाएं आप निम्न की तरह output देख सकते हैं: command line arguments निष्पादन के दौरान दिए जाते हैं arguments की कुल संख्या 1 है क्योंकि zeroth arguments अपने आप में निष्पादन योग्य filename है पहला argument null है क्योंकि हमने program को कोई भी argument passed नहीं किया है आर्ग्युमेंट्स केवल एक है जोकि dot slash args है अब दोबारा निष्पादन करते हैं अप arrow की दबाएं space type करें sunday space monday space tuesday enter दबाएं अब हम output देख सकते हैं: अब मैं output समझाती हूँ arguments की कुल संख्या 4 है जैसे कि /args sunday monday और tuesday पहला argument sunday है zeroeth argument हमेशा निष्पादन योग्य file का name देता है sunday पहले argument को नियुक्त किया गया है monday दूसरे argument को नियुक्त किया गया है tuesday तीसरे argument को नियुक्त किया गया है यह हमें इस tutorial के अंत में let है इसे सारांशित करते हैं इस tutorial में हमने निम्न करना सीखा कमांड लाइन आर्ग्युमेंट्सargcargv नियत कार्य में भिन्न arguments के साथ program का निष्पादन करें नीचे दिए गए link पर उपलब्ध video देखें यह spoken tutorial project को सारांशित करता है अच्छी bandwidth न मिलने पर आप इसे download करके देख सकते हैं\n>>>",
+  "generation_config": {
+   "max_output_tokens": 8192
+  },
+  "response_format": {
+   "mime_type": "application/json",
+   "schema": {
+    "$defs": {
+     "Fact": {
+      "properties": {
+       "fact": {
+        "title": "Fact",
+        "type": "string"
+       },
+       "evidence": {
+        "title": "Evidence",
+        "type": "string"
+       }
+      },
+      "required": [
+       "fact",
+       "evidence"
+      ],
+      "title": "Fact",
+      "type": "object"
+     }
+    },
+    "properties": {
+     "summary": {
+      "title": "Summary",
+      "type": "string"
+     },
+     "facts": {
+      "items": {
+       "$ref": "#/$defs/Fact"
+      },
+      "title": "Facts",
+      "type": "array"
+     }
+    },
+    "required": [
+     "summary",
+     "facts"
+    ],
+    "title": "Reference",
+    "type": "object"
+   }
+  }
+ },
+ "output_text": "{\"summary\": \"Command line arguments allow inputs to be passed to a program during execution. In a C program, the main function accepts two arguments: argc and argv. The parameter argc represents the total number of command-line arguments, including the program's actual executable name. The parameter argv is an array storing the actual arguments starting at index 0, where index 0 holds the program name, index 1 holds the first passed argument, and index 2 holds the second. To compile the code file main-with-args.c in Ubuntu using the GCC compiler, the command \\\"gcc main-with-args.c -o args\\\" is entered into the terminal. Running the program with \\\"./args\\\" results in an argument count of 1 because the zeroth argument is the executable filename itself, while the first argument is null. When executing the program with additional parameters like \\\"sunday monday tuesday\\\", the total argument count becomes 4, with \\\"sunday\\\" assigned as the first argument, \\\"monday\\\" as the second, and \\\"tuesday\\\" as the third.\", \"facts\": [{\"fact\": \"The stdio.h header file defines core input and output functions.\", \"evidence\": \"stdio h core input और output functions को परिभाषित करता है\"}, {\"fact\": \"argc shows the total number of command line arguments provided to the program.\", \"evidence\": \"argc program को दिए गए command line arguments की संख्या को दिखाता है\"}, {\"fact\": \"argc includes the actual name of the program in its count.\", \"evidence\": \"यह program के वास्तविक name को सम्मिलित करता है\"}, {\"fact\": \"argv stores the actual arguments beginning from index 0.\", \"evidence\": \"argv index 0 से शुरू होने वाले वास्तविक arguments को रखता है\"}, {\"fact\": \"Index 0 of argv contains the name of the program.\", \"evidence\": \"index 0 उस program का name है\"}, {\"fact\": \"Index 1 of argv contains the first argument passed to the program.\", \"evidence\": \"index 1 program को passed किया गया पहला argument होगा\"}, {\"fact\": \"The terminal is opened by pressing the Ctrl + Alt + T keys together.\", \"evidence\": \"keyboard पर एक साथ ctrl + alt + t कीज़ दबाकर terminal खोलते हैं\"}, {\"fact\": \"The compilation command entered in the terminal is gcc main-with-args.c -o args.\", \"evidence\": \"type करें: gcc space main hyphen with hyphen args c space hyphen o space args\"}, {\"fact\": \"Executing the program without arguments gives a total count of 1 because the zeroth argument is the executable filename itself.\", \"evidence\": \"arguments की कुल संख्या 1 है क्योंकि zeroth arguments अपने आप में निष्पादन योग्य filename है\"}, {\"fact\": \"Passing sunday, monday, and tuesday as arguments produces a total argument count of 4.\", \"evidence\": \"arguments की कुल संख्या 4 है जैसे कि /args sunday monday और tuesday\"}]}",
+ "response_model": "gemini-3.8-flash",
+ "response_id": "v1_ChdfWHJrYXFLa0llU2RxdHNQeWVMcnNRMBIXX1hya2FxS2tJZVNkcXRzUHllTHJzUTA",
+ "usage": {
+  "initial_input_tokens": 985,
+  "input_tokens_by_modality": [
+   {
+    "modality": "text",
+    "tokens": 851
+   }
+  ],
+  "total_cached_tokens": 0,
+  "total_input_tokens": 851,
+  "total_output_tokens": 595,
+  "total_thought_tokens": 2371,
+  "total_tokens": 3817,
+  "total_tool_use_tokens": 0
+ },
+ "meta": {
+  "window_id": "W06"
+ }
+}

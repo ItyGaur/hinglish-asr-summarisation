@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-31T12:54:51+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W24",
+ "condition": "noise:hi:0.5",
+ "out_lang": "en",
+ "input_tokens": 2478,
+ "summary": "This tutorial explains how to create a feedback diagram using the `blockfig` version 32 patch. You start by opening the `blockfig` file and selecting blocks from the tutorial. To create a feedback loop, you save the diagram as `feedbackfig`. You can navigate the canvas using the grid system and scroll bars. Clicking on the left mouse button moves the cursor, while clicking and dragging with the right button scrolls the canvas. The middle button zooms and drags the canvas. For editing, you can click and drag the canvas using the control key. To add a feedback path, select the text box, copy it, and paste it on the canvas. Adjust the text size and alignment using the attributes panel. To create a line for the feedback path, use the polyline button and choose the arrow type and mode from the attributes panel."
+}

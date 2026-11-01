@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-30T15:22:09+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W02",
+ "condition": "asr:trelis-hinglish-preview",
+ "out_lang": "en",
+ "input_tokens": 2789,
+ "summary": "This tutorial covers how to install and use the Gedit text editor on various operating systems, including Ubuntu Linux, Windows, and macOS. It explains the process for installing Gedit on Ubuntu Linux via the Ubuntu Software Center or by using the terminal. The tutorial demonstrates opening and closing Gedit, creating new files, and saving them with appropriate file extensions. It also highlights the status bar, which shows the current document's name, cursor position, and whether it's in overwrite or insert mode. The tutorial guides users through saving and closing files, emphasizing the importance of frequent saves to prevent data loss due to power outages or system crashes. Additionally, it introduces basic navigation within the Gedit interface, such as using the menu bar and toolbar."
+}

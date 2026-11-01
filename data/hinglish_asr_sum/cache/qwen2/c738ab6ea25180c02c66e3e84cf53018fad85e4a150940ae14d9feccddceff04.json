@@ -1,0 +1,18 @@
+{
+ "created": "recovered_from_summaries.csv",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W13",
+ "condition": "oracle",
+ "out_lang": "en",
+ "input_tokens": 1584,
+ "summary": "This tutorial introduces JChemPaint, a free and open-source 2D chemical structures editor and viewer developed in Java. It covers installation on both Ubuntu OS 12.04 and Windows 7. Key steps include downloading the latest JChemPaint JAR file from GitHub and saving it to the desktop. On Ubuntu, users then open a terminal, navigate to the desktop directory, and run `java -jar jchempaint331210.jar` to launch JChemPaint. For Windows, users download the Java SE Runtime Environment 7, install it, and subsequently download and run JChemPaint. The tutorial also highlights the importance of having Java installed for JChemPaint to function properly. Additionally, it explains how to use JChemPaint's interface, including its menu bar, toolbars, panels, and preferences, to create and save molecular structures with .mol file extensions."
+}

@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-30T15:43:37+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W06",
+ "condition": "noise:en:0.5",
+ "out_lang": "en",
+ "input_tokens": 1871,
+ "summary": "This tutorial covers the basics of command-line arguments in C programming using the GCC compiler on Ubuntu OS. It explains how to define and use `argc` and `argv` in the main function. `argc` represents the number of arguments passed to the program, while `argv` is an array of strings containing the actual arguments. The first argument (`argv[0]`) is the program name, and subsequent arguments are the actual command-line inputs. The tutorial demonstrates this by compiling and running a sample C program that prints the number of arguments and their values. It shows how to compile the program with different arguments and interpret the output, which includes the number of arguments and their respective values. The tutorial concludes by summarizing the key points covered and directing viewers to a video for further details if needed."
+}

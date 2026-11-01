@@ -1,0 +1,625 @@
+window_id,n_lines,screen_text,chars
+W00,31,"[00:06] Add the Thunderbird short cut to
+[00:06] How to use Thunderbird
+[00:18] Save As and Print Messages
+[00:24] View the Activity Manager
+[00:56] Recent Apps ‘sees mnreresults +
+[01:20] Get Gmail on your m...
+[01:20] Re: Learn more ab
+[01:20] My First Email Fro
+[01:20] Tip of the Week: Filter Messages
+[01:20] Did you know that Thunderbird has many message filtering capabilities? You can find out more on our knowledge: base.
+[01:50] & Get Mail #write Address Book
+[01:50] My First mail Fro
+[02:28] This way you can easily identify messages you want to open again
+[02:46] Glad you got a new account
+[02:50] Reply Forward Junk 8 Delete
+[02:52] Get Gmail on you
+[03:16] Gmail Team <mail-noreply@google.com>
+[03:16] Get Gmail on your mobile phone
+[03:16] To protect your privacy, Thunderbird has blocked remote content in this message.
+[03:16] The days of needing your computer to get to your inbox are long gone. You now use Gmail on your mobile phone to access your email from anywhere.
+[03:18] remote content in this message now use Gmail on vour mobile phone to access vour email from
+[03:26] Use the Quick Filter toolbar
+[03:30] To quickly filter and view
+[03:36] Show only messages with tags on them now use Gmail on vour mobile phone to access vour email from anywhere.
+[03:56] Messages that are displayed as sequence in a conversation
+[04:10] My First Email Fr.
+[04:20] Learn more about Thunderbird (2
+[04:20] Hi, You can learn more about Thunderbird, from the Thunderbird
+[04:52] be Reply Forward Archive @ © Delete
+[04:56] Congrats! - Inbox - Mozitla Thunderbird
+[04:56] Forward Archive © Junk © Delete",1614
+W01,25,"[00:00] Slide Master and Slide Design
+[00:28] to all the colors and effects applied to the slide
+[00:32] Many background options that help you create better
+[00:40] You can even create your own
+[00:48] Create a custom background for
+[01:08] Sample-impress.odp - LibreOffice Impress
+[01:14] Click to edit the title text format
+[01:32] Click to edit the outline te» the oul he format
+[01:40] Close Master View i
+[01:40] Normal Outline Notes Handout
+[02:02] Used in This Presentation
+[02:12] Fit object to paper format
+[02:54] Close Master View ij
+[02:58] TextEdit: Paragraph 1, Row 1, Column
+[03:00] This font has not been installed. The closest available font will be used
+[03:06] Font Font Effects Position
+[03:14] lick to edit the outline text format
+[03:22] insert Snap Point/Line...
+[03:26] Set Background Picture for Slide
+[03:26] ¥ Display Background of Master
+[03:26] ¥ Display Objects from Master
+[03:36] Seventh Out he Level
+[03:36] Click to edit the tile texd format
+[03:52] L } Close Master View
+[04:06] Click to Salt outline text format ed E the oul he",1063
+W02,23,"[00:00] Introduction to gedit Text
+[00:06] We will learn about
+[00:10] Installation of gedit in Ubuntu
+[00:10] Linux and Windows OS
+[00:20] Create a new file
+[00:20] Open, Save and Close an existing
+[00:34] Working knowledge of any
+[00:46] Download gedit by following the instructions on this website
+[00:54] Installation on Ubuntu Linux gedit Text editor is pre-installed in
+[01:00] It can be installed on Ubuntu
+[01:00] Linux using Ubuntu Software
+[01:06] For more details on Ubuntu
+[01:06] Software Centre, refer to the
+[01:26] q. Sy kearch your computer and online sources
+[01:28] Sorry, there is nothing that matches your
+[02:24] pe: plain text document (text/plain)
+[02:44] Below are the students details who have
+[03:32] udents details who have
+[03:54] students.txt (~/Desktop) - gedit
+[03:58] lain text document (text/plain)
+[04:38] Open the contents of your desktop ina folder
+[04:44] _j students.txt x
+[05:00] Auto save option can be used to save a file automatically, in a",983
+W03,32,"[00:06] We will learn how to
+[00:32] Working knowledge of any
+[00:40] Snippets are lines of text or source code that are used frequently while writing a program
+[00:48] It allows the user to avoid
+[00:52] Snippets is one of the default plugins in gedit Text editor
+[01:14] Display right margin at column:
+[01:14] Do not split words over two lines
+[01:20] This plugin intelligently completes your inp...
+[01:20] Emacs, Kate and Vim-style modelines supp...
+[01:20] Interactive Python console standing in the ...
+[01:20] Insert often-used pieces of text ina fast way
+[01:20] Sorts a document or selected text.
+[01:36] Numcheck.c (~/Desktop) - gedit
+[01:36] Numcheck.c x
+[01:40] #include<studio.h> void main() int num;
+[01:50] Bracket match Found on line: 6
+[02:16] if (num==0)
+[02:48] scanf(""%d"", printf(""Number is zero"")
+[02:52] C/C++/ObjC Header
+[03:02] #endif (Ctrl+Alt+.)
+[03:02] #include"".."" (inc)
+[03:10] if (${1:condition})
+[03:32] else if (${1:condition})
+[04:02] return 0;
+[04:12] printf(""Number is positive"") printf(""Number is negative"")
+[04:36] int main() printf(""Hello World"");
+[04:40] Single word the snippet is activated with after pres
+[04:42] #include<stdio.h>
+[04:54] B FR open + save
+[04:58] helloworld.c (~/Desktop) - gedit helloworld.c x
+[05:00] Name: ~/Desktop/helloworld.c
+[05:00] MIME Type: C source code (text/x-csrc)",1338
+W04,17,"[00:24] Sample-impress.odp - LibreOffice impress
+[00:24] Normal Notes Handout Slide Sorter
+[01:02] Normal Outline Notes Ha
+[02:00] “iy = Outline Text 1: Str...
+[02:04] ily = Outline Text 1: Str...
+[02:26] Normal Outline Notes Han
+[02:38] Normal Outline Notes Handout t ERO Fast Action }
+[02:58] “fy Outline Text 2: Str...
+[03:42] Effect Timing Text Animation
+[03:42] From left to bottom
+[04:16] ity =@ Outline Text 2: Str.
+[04:20] fie [IMPRESS-RCE - File Bro
+[04:30] {1.0sec
+[04:30] Rewind when done playing
+[04:30] Animate as part of click sequence
+[04:30] Start effect on click of
+[04:44] at = Outline Text 3: Du...",617
+W05,51,"[00:00] Introduction to Mozilla Thunderbird
+[00:14] Configure a new email account
+[00:20] Download and read messages
+[00:20] Compose and send mail messages
+[00:24] Log out of Thunderbird
+[00:26] Is a simple email client
+[00:36] Is a cross platform software
+[00:36] Allows you to download email
+[00:44] Lets you manage multiple email
+[01:02] If you use POP3 -
+[01:02] You can combine all POP3
+[01:10] You can group messages by attributes
+[01:26] Mozilla Thunderbird can be installed by using Ubuntu Software
+[01:34] For more information on Ubuntu
+[02:04] You must have at least two valid
+[02:16] The POP3 option must be enabled in both the email accounts
+[02:16] Ensure you are connected to the
+[02:40] & » #write Address Book
+[02:50] Thunderbird Mail - Local Folders
+[02:50] View settings for this account
+[03:44] We have created two email accounts for the purpose of this tutorial. They
+[04:02] Local Folders - Mozilla Thunderbird
+[04:18] Ubuntu Start Page - Mozilla Firefox
+[04:22] Gmail: Email from - Mozilla Firefox
+[04:22] ™1 Gmail: Email from Google
+[04:22] A Google approach to email.
+[04:22] Gmail is built on the idea that email can be more intuitive, efficient and useful. And maybe even fun. After all. Gmail has:
+[04:22] Over 10273.537516 megabytes (and counting) of free
+[04:22] Keep unwanted messages out of your inbox
+[04:22] Get Gmail on your mobile phone. Learn more
+[04:22] New features}
+[04:30] Loading stuserone@gmail.com...
+[04:32] inbox - stuserone@gmail.com - Gmail - Mozilla Firefox
+[04:32] Apply for MBA & Get iPad2 - - Get an
+[04:40] Forwarding and POP/IMAP
+[04:40] Gmail display language: (US)
+[04:40] Enable Transliteration - type using phonetic English - Learn more
+[04:40] Right-to-left editing support off external content (such as images) sent by trusted
+[04:46] inbox Filters Forwarding POP/IMAP
+[04:46] Add a forwarding address
+[04:46] Tip; You can also forward only some of your mail by creating a filter!",1940
+W06,21,"[00:08] We will learn about main function with arguments
+[00:20] Ubuntu Operating System version 11.10 gcc Compiler version 4.6.1 on Ubuntu
+[00:28] You should be familiar
+[00:32] For relevant tutorials please visit our
+[00:44] main-with-args.c (~) - gedit main-with-args.c i#include <stdio.h>
+[00:44] #include <stdlib.h> int main(int argc, char **argv) printf(""Total number of arguments are %d\n"",argc);
+[00:44] printf(""The first argument is %s
+[00:44] while(argc--) are %s\n"",
+[01:14] nt main(int arc c, char
+[01:50] printf(""arguments are %s\n"", return 0;
+[02:16] gcc main-with-args.c
+[02:26] gcc main-with-args.c -o args
+[02:30] The first argument is (null) arguments are ./args
+[03:06] tttettt:~$
+[03:14] ttte@ttt:~$ ./args
+[03:22] ./args Sunday Monday Tuesday
+[04:20] Execute the program with different
+[04:26] Watch the video available at can download and watch it
+[04:36] For more details, please write to
+[04:40] # Previous
+[04:40] More information on this Mission is",974
+W07,12,"[00:00] LibreOffice Writer - Track Changes
+[00:06] Peer review of documents
+[00:30] By using this feature a reviewer can -
+[00:42] This can be easily seen by the author who can accept or reject these
+[00:52] and thus incorporate these edit without the effort of making the same changes once again.
+[00:56] Here we are using:
+[01:20] Files being used in this tutorial will be using some documents -
+[03:46] so it can be used
+[03:46] Ubuntu GNU/Linux has 1
+[04:00] More than one person can edit the will show each edit in a different
+[04:24] Government support for free and open source in India government departments to use only open standards source for academic, administrative and financial policy on Device Drivers for Procurement of Hardware for e-Governance which requires hardware vendors to make their equipment work on Linux operating system as well
+[04:52] Department of Information Technology, Government of",917
+W08,16,"[00:00] LibreOffice Writer - Printing and
+[00:00] Talk To A Teach
+[00:10] Viewing and Printing documents
+[00:16] Here we are using:
+[00:32] There are two widely used viewing
+[00:40] Print Layout displays how the document will look when printed
+[00:50] Web Layout displays the document as seen in a Web
+[00:50] This is useful when you want to
+[01:00] resume.odt - LibreOffice Writer
+[01:04] i Find Text ij
+[01:18] FATHER'S OCCUPATION: GOVERNMENT SERVANT
+[01:18] MOTHER'S OCCUPATION; HOUSEWIFE
+[01:18] [Higher Secondary School Examination
+[01:28] int Layout
+[02:12] PATHER'S OCCUPATION: GOVERNMENT SERVANT
+[02:22] Eit width and height",632
+W09,30,"[00:14] The parts of the Impress window
+[00:22] Here we are using:
+[00:30] Normal Outline Notes Handout
+[00:30] Click to add title
+[00:30] Click to add text
+[00:32] Preview in Web Browser
+[00:36] Sample impress .odp - LibreOffice Impress
+[00:36] Normal Notes Handout Slide Sorter
+[00:58] Nermal Outline Notes Handout Slide Sorter
+[00:58] Summarize the main plans
+[00:58] Explain the long-term course to
+[00:58] State the desired goal f Sample impress .odp
+[03:20] Define the goal in more detail
+[03:44] Reduce dependence on few vendors
+[03:48] Normal Qutline Notes Handout
+[03:58] Reduce dependence on tew
+[04:10] This font has not been installed
+[04:10] The closest available font will be used
+[04:24] Development up to present
+[04:24] Development made up to the current situ-
+[04:24] Original forecasts which turned out to be
+[04:24] Development up to p
+[04:30] ment made up to the current situ:
+[04:30] Us ant coe ofeach
+[04:34] Us and coe ofeach
+[04:42] made up bo Fe oureri sir
+[04:56] ommend one or several strategies
+[04:56] Give a summary of the expected results
+[04:56] Name the next steps to be taken
+[04:56] Delegate the various tasks",1145
+W10,45,"[00:14] 3. Create a new presentation.
+[00:26] What is LibreOffice Impress?
+[00:26] the Presentation manager of the
+[00:36] used to create powerful the equivalent of Microsoft Office
+[00:40] Benefits of LibreOffice Impress
+[00:40] Free, open source software
+[00:48] To get started with LibreOffice suite
+[00:54] Higher versions like Windows XP
+[01:02] Here we are using:
+[01:12] LibreOffice Suite can be installed by using Synaptic Package
+[01:20] For more information on Synaptic
+[01:26] Download LibreOffice Suite by following the instructions on this
+[01:32] Home » LibreOffice - Mozilla Firefox
+[01:32] GNU/Linux, that gives you six feature-rich applications for all your document production and data processing needs: Writer, documentation is free from our large, dedicated community of users, contributors and developers. You, too, can get
+[01:32] See what LibreOffice can do for you »
+[01:32] Click here to download LibreOffice now!
+[01:32] Chat live with our
+[01:32] Chat live with TOF
+[01:32] News at TDF Bloa
+[01:34] Download Instructions » LibreOffice - Mozilla Firefox
+[01:34] Home of the LibreOffice Produc
+[01:34] Go to the Downloading Instructions page
+[01:34] Before downloading, please check the ystem requirements for your computer. You might also like to look notes and read about the new features in this version.
+[01:34] Please follow the links below for instructions about how to install LibreOffice on your operating system:
+[01:34] 3 on Windows;
+[01:34] 3.3 Macintosh;
+[01:40] .3 on Macintosh;
+[01:40] Installing LibreOffice 3.3 on Linux.
+[01:40] Detailed instructions about how to download LibreOffice
+[01:40] The way to use the Download page may not be clear to less-experienced computer users, so below you w
+[01:40] Most people will have JavaScript enabled in their browser. In this case, to download the right package for needs, you need to make selections from the two dropdown lists of the download widget.",1936
+W11,15,"[00:22] Ubuntu Linux OS v 12.04
+[00:34] You should be familiar with
+[00:38] If not, for relevant tutorials please
+[01:18] p-tute@designer-pc:~$ cd Desktop
+[01:54] File Edit View Atom Bond Tools R-groups Templates
+[01:54] Periodic Table of elements
+[01:54] Add Atom Or Change Element
+[01:54] Zoomfactor; 100%
+[02:44] Enter an element symbol or choose/enter a functional group
+[03:18] {¥) Explicit carbons
+[03:18] {¥] Show explicit methyl groups
+[03:18] Show aromatic ring circles
+[03:18] Color atoms by element
+[03:18] Show boxes around reactions
+[03:18] Set fit to screen",571
+W12,35,"[00:00] Typedef and Union in C
+[00:10] We will learn about
+[00:22] Ubuntu Operating System version 11.10 gcc Compiler version 4.6.1 on Ubuntu
+[00:34] You should be familiar with
+[00:34] For relevant tutorials please visit our
+[00:48] Used to give symbolic name to an existing type or user defined datatypes
+[01:02] It is a way to define alias to the
+[01:02] It helps to provide clarity to the code
+[01:12] typedef unsigned int uint;
+[01:26] pallindrome.c (~) - gedit pallindrome.c x
+[01:26] #inctude <stdio.h> int main() typedef unsigned int uint;
+[01:26] nl =n;
+[01:50] #include <stdio.h> uint rev = 0;
+[01:56] rev * 10 + rem;
+[01:56] if (nl == rev)
+[01:58] A pallindrome.c (~) - gedit
+[02:14] pallindrome.c - gedit spoken@st:~$ ff
+[02:28] pallindrome.c (-) spoken@st:~$ gcc pallindrome.c -o pallin
+[02:36] Enter any three digit number:
+[02:42] Given number is a palindrome number
+[02:50] Union is a collection of different
+[02:56] Union allocates one common storage space for all its members
+[03:08] union_variable;
+[03:24] union union_name union_variable;
+[03:44] union.c (~) - gedit union.c int eng;
+[03:44] int maths;
+[03:44] int science;
+[03:44] int total;
+[03:44] union student stud;
+[03:58] union.c X
+[04:00] stud.maths = 70;
+[04:00] total = stud.eng + stud.maths + printf(""Total is ;
+[04:00] return 0;
+[04:12] printf(""Total is %d\n"",total) ;
+[04:36] spoken@st:~$ gcc union.c -o U",1388
+W13,77,"[00:10] Install JChemPaint on Windows OS
+[00:18] We will also learn
+[00:20] Menu bar, Tool bars and Panel of
+[00:28] Draw structures using tools
+[00:42] Ubuntu Linux OS v 12.04
+[01:00] Synaptic Package Manager installed on
+[01:12] You should have Java installed on
+[01:20] Java can be installed on Ubuntu using Synaptic Package Manager
+[01:20] For example: openjdk-7-jre
+[01:32] 2D chemical structures editor and
+[01:42] Free & open-source cross platform application developed in Java
+[01:42] Allows to import & export structure data in plain-text formats
+[02:06] Ubuntu Start Page - Mozilla Firefox
+[02:06] Ubuntu help > Ubuntu shop ? Ubuntu community >
+[02:22] Chemical 2D structure editor application/applet based on the Chemistry Development Kit
+[02:22] JChemPaint (or JCP for short here) is the editor and viewer for 2D chemical structures developed using the Chemistry Development Kit (CDK). It is implemented in several forms: a Java application and two varieties of Java applet.
+[02:22] see the documentation at the github Wiki for more information.
+[02:22] browse the github source repository download a recent jar file from github (current is 3.3-1210):
+[02:22] the desktop application (6.8 MB)
+[02:26] using the Chemistry Development Kit (CDK). Itis implemented in several forms: a Java download a recent jar file from github (current is 3.3-1210):
+[02:26] the desktop application (6.8 MB) the zipped applet files (6.7 MB) or download the same from the Plovdiv maven repository see this link as an example HTML on how to deploy the applet or geta snapshot from rwst's bugfixes branch if you cannot wait for the monthly release
+[02:26] File Edit View Atom Bond Tools Templates
+[02:28] application and two varieties of Java applet see the documentation at the github Wiki for more information a recent jar file from github 3.3-1210) the zipped applet files (6.7 MB)
+[02:42] You have chosen to open whichis: JAR File (6.5 MB)
+[02:42] What should Firefox do with this File?",1980
+W14,48,"[00:00] Account settings and Configuring
+[00:00] Account settings and Configuring Gmail Accou
+[00:10] How to add new folders to an
+[00:18] Set advanced filters to search for
+[00:20] Configure Yahoo account manually
+[00:28] Manage multiple email accounts
+[00:28] Change account settings for a
+[00:44] Important Mails - Moziila Thunderbird
+[00:56] STUSERONE@GMAIL.COM - Mozilla Thunderbird
+[00:56] &, Get # write Address Book
+[00:56] Write a new message
+[00:56] View settings for this account
+[00:56] Create a new account
+[01:02] Open in New Tab
+[01:06] Thunderbird Mail - STUSERONE@GMAIL
+[01:24] Get Mail Address Book
+[01:24] Learn More about T...
+[01:24] My First Email Fro...
+[01:26] Glad you got a new account
+[01:30] Gmail Team <mail-noreply@google.com>
+[01:30] Get Gmail on your mobile phone
+[01:30] To protect your privacy, Thunderbird has blocked remote content in this message.
+[01:30] The days of needing your computer to get to your inbox are long gone. You now use Gmail on your mobile phone to access your email from anywhere.
+[01:50] arch for messages in:
+[01:50] Matchall of the following
+[01:50] Match any of the following
+[01:50] Save as Search Folder
+[02:06] Search For messages in:
+[02:14] Re: Ten interesting Thunderbird Featu...
+[02:14] Ten interesting Thunderbird features STUSER ONE
+[02:26] Search for mail by date and save them in a folder
+[02:32] Matchany of the following
+[02:38] A filter is rule that you can apply to the messages in your mail box
+[03:04] Enabled filters are runautomatically inthe order shown below.
+[03:10] Checking Mall or Manually Run
+[03:38] Set Junk Status to
+[03:38] Delete From POP Server
+[03:38] Fetch From POP Server
+[03:48] filter(s) on: Inbox
+[04:00] Moved 17 messages From to Important Mails
+[04:02] important Mails - Mozilla Thunderbird
+[04:02] Re: Learn more abo...
+[04:02] Re: ""Learn more ab...
+[04:12] You can manage multiple email
+[04:16] Receive, send and manage mails not only in your Gmail",1952
+W15,11,"[00:00] Typing text and basic formatting
+[00:22] Cut, Copy and Paste.
+[00:22] Bold, Underline and Italics.
+[00:22] Font name, Font size, Font color.
+[00:38] Here we are using:
+[00:56] resume.odt - LibreOffice Writer
+[01:40] i Find Text ij
+[01:42] Outline Graphics Position Options
+[01:52] Numbering type Outline Graphics Position Options
+[02:52] FATHER'S OCCUPATION: GOVERNMENT SERVANT
+[04:28] NAME: RA}",403
+W16,31,"[00:10] We will learn about
+[00:28] Ubuntu Operating System version 11.10 gcc Compiler version 4.6.1 on Ubuntu
+[00:36] You should be familiar
+[00:40] For relevant tutorials please visit our
+[00:58] Specifiers tell the compiler where to store
+[00:58] How to store the variable
+[00:58] What is the initial value of the variable
+[01:06] storage_specifier data_type variable_name
+[01:12] Types of storage class specifiers are:
+[01:22] Auto keyword declares an automatic
+[01:28] It has a local scope
+[01:28] Keywords are not initialized automatically
+[01:38] You should explicitly initialize keywords
+[01:38] Storage space of keywords is CPU
+[01:48] auto.c (~) - gedit auto.c
+[01:48] #include<stdio.h> int main() increment();
+[01:48] return 0;
+[01:58] void increment(void) ;
+[02:12] auto int i printf ( ""%d\n"", i )
+[02:36] tttettt:~$
+[02:40] gcc autoff
+[02:46] gcc auto.c -o auto
+[03:02] lauto int i printf ( 1 )
+[03:20] ttta@ttt:~$ ./auto auto.c:3:10: error: file-scope n of ‘i’ specifies ‘auto’
+[03:50] h of ‘1’ specifies ‘auto’
+[03:58] nh of ‘1’ specifies ‘auto’
+[04:02] tttattt:~$
+[04:26] static variables are initialized to 0
+[04:26] They are not destroyed even after program control exits from the block
+[04:34] Value of the variable persists between
+[05:00] B auto.c",1268
+W17,19,"[00:12] Notes are used for two purposes
+[00:20] As additional material or on each slide for the audience
+[00:20] As quick reference points
+[00:32] Sample-Impress.odp - LibreOffice Impress
+[00:32] Apply to selected slides—— +
+[00:32] Loop until next sou
+[00:52] Normal Gutline Notes Handout
+[01:04] Normal Outline Handout Slide Sorter
+[02:02] Dutline Notes Handout Slide Sorter
+[02:32] Click to edit the ttle text
+[03:18] Close Master View i
+[03:18] Click to edit the title text format
+[03:22] Font Font Effects Position
+[03:22] This font has not been installed. The closest available font will be used
+[03:46] ede the tect format
+[03:48] Click w edit forme ed the oul he format
+[03:56] lose Master View i the oul he text format
+[04:10] Area Shadow Transparency Colors Gradients Hatching Bitmaps
+[04:32] Normal Qutitline Notes Handout",833
+W18,23,"[00:00] Find, Replace and AutoCorrect
+[00:24] Here we are using:
+[00:24] Ubuntu Linux 10.04 as our
+[00:32] It searches for text and/or replaces text in the entire document.
+[00:46] resume.odt - LibreOffice Writer
+[00:46] FATHER'S OCCUPATION; GOVERNMENT SERVANT
+[00:48] TION; GOVERNMENT
+[00:52] FATHER'S OCCUPATION; GOVERNMENT SERVANI
+[01:46] FATHE R'S NAME MAHESH
+[02:00] FATHER'S NAME MAHE Sk
+[02:58] Spellcheck is used for checking the the entire document or
+[03:06] starts at the current cursor
+[03:10] advances to the end of the
+[03:18] Looks for spelling mistakes in
+[03:22] Gives you the option of adding an unknown word to a user dictionary.
+[03:30] i Find Text ia
+[03:42] o define general setting when working with Enter defaults to be used hen saving and paths te settings will be saved automatically and used jn later
+[03:48] Options - Language Settings - Languages
+[03:48] Eor the current document only
+[03:48] Enabled for complex text layout (CTL
+[04:02] Default languages for document
+[04:02] Enabled for Asian languages
+[04:32] i Find Text il",1056
+W19,42,"[00:14] 1. How to Create Newsletters in
+[00:14] 2. Few operations which can be
+[00:28] is used as a publication.
+[00:56] resume.odt - LibreOffice Writer
+[00:56] FATHER'S OCCUPATION: GOVERNMENT SERVANT
+[00:56] Higher Secondary School Examination
+[00:58] Preview in Web Browser
+[01:10] Browse for other folders
+[01:14] Newsletter.odt - LibreOffice Writer
+[02:20] i Find Text i
+[02:26] interaction generally are not considered part of nature, unless qualified as, for example, ""human
+[02:26] We love nature and nature and have a lot of ideas nature” or ""the whole of nature”.
+[02:26] boiling around in our heads about different article on these subjects. Here are a few examples.
+[02:26] Natural"" and ""Natural World"" redirect here. For other uses, see Natural See also: Natural
+[02:26] Nature, in the broadest sense, is equivalent to the natural world, physical world, or material world.
+[02:26] ""Nature"" refers to the phenomena of the physical world, and also to life in general. It ranges in scale from the subatomic to the cosmic.
+[02:40] boiling around in our heads about different articles world, and also to life in general. Itranges in scale
+[02:42] Within the various uses of the word today, ""nature"" often refers to geology and wildlife. Nature may refer to the general realm of various types of living plants and animals, and in some cases to the processes associated with inanimate objects the
+[02:54] Preformatted Text ly Liberation Serif sist despite human intervention.
+[02:54] Sports are usually governed by a set of rules or example, manufactured objects and human customs. Physical events such as scoring goals or crossing a line first often define the result of a nature"" or ""the whole of nature"" sport. However, the degree of skill and performance in some sports suc has diving,",1794
+W20,28,"[00:16] Use Slide Shows to present slides
+[00:22] Slide Shows can be shown on
+[00:26] Slide Shows occupy the entire
+[00:34] Presentations cannot be edited in the Slide Show mode
+[00:34] Slide Shows are for display only
+[00:42] Sample-impress.odp - LibreOffice Impress
+[00:42] Normal Outline Notes Handout Slide Sorter
+[00:44] Normal Gutline Notes Handout
+[01:16] Summarize the main plans
+[01:16] Explain the long-term course to follow
+[01:28] Press the Escape button from the
+[01:52] Mouse pointer as pen
+[01:52] Change slides by clicking on background
+[01:52] Presentation always on top
+[02:56] Open source is good For me-
+[02:56] T will Fully embrace &
+[02:56] I will folly embrace &
+[02:56] IT will Fully embrace
+[03:02] is good For me.
+[03:02] I will Fully embrace
+[03:06] Apply to selected slides ——
+[03:10] Transitions are effects that are
+[03:10] Applied to slides as we move
+[04:18] Apply to solacted slides =
+[04:22] Loop until next sot
+[04:40] Speed {Medium
+[04:50] Loop until next sou
+[04:52] oop until next sou",1022
+W21,24,"[00:00] Talk To A Teac
+[00:08] In this tutorial we will learn about the various options for printing -
+[00:18] Here we are using:
+[00:42] Sample-impress.odp - LibreOffice Impress
+[00:56] To know about the settings under
+[00:56] General and Options tabs, please see the tutorial on
+[00:58] Viewing and printing documents
+[01:26] General LibreOffice Impress Page Layout
+[01:26] Fit to printable page
+[01:26] Distribute on multiple sheets of paper
+[01:26] Tile sheet of paper with repeated slides
+[02:14] Impress Page Layout Options to right, then down
+[02:14] Draw a border around each page
+[03:04] Create single print jobs for collated output
+[03:04] Print in reverse page order
+[03:04] Use only paper tray from printer preferences
+[03:14] Normal Outline Notes Handout
+[03:14] Used in This Presentation
+[03:26] Preview in Web Browser
+[03:34] Slides per page order then down
+[04:10] ‘This is a not
+[04:12] General LibreOffice Impress PageLayout Options
+[04:18] This is a sample nate
+[04:54] Reduce dependence on few vendors",1021
+W22,25,"[00:10] We will learn to change
+[00:10] Background color of the Panel
+[00:14] Look and feel of the window
+[00:22] Generate SMILES and InChi keys for
+[00:38] Ubuntu Linux OS v 12.04
+[00:48] You should be familiar with
+[00:54] If not, for relevant tutorials please
+[01:18] sp-tute@designer-pc:~$ cd
+[01:24] sp-tute@designer-pc:~/Desktop$
+[01:28] Sp-tute@designer-pc:~/Desktop$ java -jar il
+[01:36] Sp-tute@designer-pc:~$ cd Desktop java -jar ./j
+[01:42] le Edit View Atom Bond Tools Templates
+[01:54] Show explicit methyl groups
+[01:54] Show aromatic ring circles
+[01:54] Color atoms by element
+[01:54] Show boxes around reactions
+[01:54] Set fit to screen
+[02:02] oO Sample Text Sample Text
+[02:54] Try various color combinations using
+[02:54] Choose background color window
+[03:00] File Edit View Atom Bond Tools R-groups Templates
+[03:14] Number of undoable operations:
+[03:14] Ask for CML settings when saving:
+[03:30] () (Ca) (Br)
+[04:10] Escala; 100%",954
+W23,24,"[00:00] Talk To A Teach
+[00:14] Here we are using:
+[00:30] Sampie-impress.odp - LibreOffice impress
+[00:30] Normal Outline Notes Handout
+[00:48] Sample-impress.odp - LibreOffice Impress
+[00:48] Outline Notes Handout Slide Sorter
+[00:56] Used in This Presentation
+[01:20] Summarize the main plans
+[01:20] Explain the long-term course to follow
+[01:52] 3ummarize the main plans
+[01:56] ‘ai Benefits of OpenSource
+[02:40] ‘i Benefits of OpenSource ail Table of Contents
+[03:12] summary of the stuaton
+[03:12] Reduce dependence on few
+[03:12] Development up to present
+[03:14] Development made up to he current
+[03:14] Recommend one or several strategies forecasts which turned out to be
+[03:40] lick to add notes
+[03:50] When your slides are viewed on a you will still be able to see your notes on your monitor,
+[03:56] but your audience won't.
+[03:58] i Used in This Presentation mber to thank Mr. Mohan
+[04:10] Development made up to the current pment up to present
+[04:14] elopment made up to the current iginal forecasts which turned out to be
+[05:00] Watch the video available at",1081
+W24,20,"[00:00] Feedback diagrams through Xfig
+[00:22] feedback-scr.pdf (page 5 of 18)
+[00:22] We created the diagram shown here
+[00:22] We will refer to it as the blocks tutorial
+[00:22] Please master the blocks tutorial before starting the current one
+[00:26] wil Explain how to Create this Figure
+[00:38] Begin with block.fig
+[00:38] We will begin with block.fig created in
+[00:44] Let us go to Xfig
+[00:48] ALL off}
+[00:50] 5 /Users/kannan/spoken/ latex/english/10-xfig/intro-fig.fig
+[00:52] / # of Objects
+[01:08] 2 /users/kannan/spoken/ ig/feedback.fig
+[01:10] File Status Not nodified
+[01:10] SPLINE drawing: specify control points
+[01:14] Drawing 4 of Ob jects
+[03:14] {] copy to cut buf
+[03:40] Delete Update; Edit,
+[03:54] cursor {]
+[04:52] first point single point",767

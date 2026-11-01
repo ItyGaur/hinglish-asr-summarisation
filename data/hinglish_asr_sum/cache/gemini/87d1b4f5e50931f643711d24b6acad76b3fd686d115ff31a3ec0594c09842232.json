@@ -1,0 +1,76 @@
+{
+ "created": "2026-10-31T02:36:59+00:00",
+ "template_id": "judge",
+ "variant": 0,
+ "request": {
+  "model": "gemini-3.8-flash",
+  "system_instruction": "You are a strict, consistent evaluator of summary content. Output only JSON that matches the schema.",
+  "input": "Decide, for each numbered fact, whether the SUMMARY conveys it.\n\nA fact is supported if the summary states its core information or clearly implies it, even in different words, in another language (English, Hindi or Hinglish) or in another script. It is not supported if it is missing, only vaguely related, or contradicted. Judge each fact independently, using only the summary.\n\nSUMMARY:\n<<<\nThis tutorial explains how to perform peer review using LibreOffice Writer's document peer review feature. It starts by opening an existing document and enabling the \"Record Changes\" option for tracking edits. When changes are made, they are highlighted in a different color, showing who made them and when. Users can insert comments, delete text, or modify content, which appears clearly in the document. The reviewer can accept or reject these changes, and approved edits are included in the final document upon saving. The tutorial demonstrates this process using documents like \"sevenreasonstoadoptfoss.odt\" and \"governmentsupportforfossinindia.odt\". It shows how multiple reviewers can edit the same document, with each change highlighted differently. The tutorial also highlights how the system identifies the reviewer based on their username set during LibreOffice installation.\n>>>\n\nFACTS:\n1. To activate change tracking, go to Edit, select Changes, and choose the Record option.\n2. The Show option under Changes must be enabled to visibly record upcoming edits.\n3. Newly inserted text appears in a different color.\n4. Hovering the mouse over inserted text displays the editor's name, insertion date, and time.\n5. The reviewer name attached to edits is determined by the username entered during LibreOffice installation.\n6. Deleting text does not erase it immediately, but flags the line as marked for deletion.\n7. Moving the cursor over deleted text displays the deletion message with reviewer name, date, and time.\n8. LibreOffice Writer displays edits from different reviewers in distinct colors to distinguish their work.\n9. Hovering over edited content in the document confirms whether additions and deletions were made by a specific peer.\n10. A point concerning government institutions developing and promoting FOSS is added at the end of the document.\n\nReturn exactly one judgement per fact id.",
+  "generation_config": {
+   "max_output_tokens": 4096
+  },
+  "response_format": {
+   "mime_type": "application/json",
+   "schema": {
+    "$defs": {
+     "Judgement": {
+      "properties": {
+       "id": {
+        "title": "Id",
+        "type": "integer"
+       },
+       "supported": {
+        "title": "Supported",
+        "type": "boolean"
+       }
+      },
+      "required": [
+       "id",
+       "supported"
+      ],
+      "title": "Judgement",
+      "type": "object"
+     }
+    },
+    "properties": {
+     "judgements": {
+      "items": {
+       "$ref": "#/$defs/Judgement"
+      },
+      "title": "Judgements",
+      "type": "array"
+     }
+    },
+    "required": [
+     "judgements"
+    ],
+    "title": "Judgements",
+    "type": "object"
+   }
+  }
+ },
+ "output_text": "{\n  \"judgements\": [\n    {\n      \"id\": 1,\n      \"supported\": false\n    },\n    {\n      \"id\": 2,\n      \"supported\": false\n    },\n    {\n      \"id\": 3,\n      \"supported\": true\n    },\n    {\n      \"id\": 4,\n      \"supported\": false\n    },\n    {\n      \"id\": 5,\n      \"supported\": true\n    },\n    {\n      \"id\": 6,\n      \"supported\": false\n    },\n    {\n      \"id\": 7,\n      \"supported\": false\n    },\n    {\n      \"id\": 8,\n      \"supported\": true\n    },\n    {\n      \"id\": 9,\n      \"supported\": false\n    },\n    {\n      \"id\": 10,\n      \"supported\": false\n    }\n  ]\n}",
+ "response_model": "gemini-3.8-flash",
+ "response_id": "v1_ChdBVlRsYXNEekJmLWh6N0lQcE5hdjhRMBIXQVZUbGFzRHpCZi1oejdJUHBOYXY4UTA",
+ "usage": {
+  "initial_input_tokens": 604,
+  "input_tokens_by_modality": [
+   {
+    "modality": "text",
+    "tokens": 486
+   }
+  ],
+  "total_cached_tokens": 0,
+  "total_input_tokens": 486,
+  "total_output_tokens": 215,
+  "total_thought_tokens": 1313,
+  "total_tokens": 2014,
+  "total_tool_use_tokens": 0
+ },
+ "meta": {
+  "window_id": "W07",
+  "condition": "oracle",
+  "out_lang": "en",
+  "kind": "summary"
+ }
+}

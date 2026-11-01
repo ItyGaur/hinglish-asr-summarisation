@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-31T12:46:56+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W20",
+ "condition": "noise:hi:0.1",
+ "out_lang": "en",
+ "input_tokens": 2063,
+ "summary": "This tutorial covers how to use LibreOffice Impress for creating and presenting slideshows. It explains that slideshows can be shown on desktops or projectors, filling the entire computer screen. To start a presentation, you can click on the \"Slide Show\" menu, then select \"Slide Show Settings,\" or press F5. During a slideshow, you can navigate through slides using arrow keys or right-clicking and selecting \"Next.\" To exit, right-click and choose \"End Show\" or press the Escape key.\n\nThe tutorial also covers slide transitions, which are effects applied when moving from one slide to another. To change the order of slides, go to the \"Slide Sorter\" tab and drag and drop slides. You can add different transitions to each slide by selecting them from the \"Slide Transitions\" section in the task pane. Adjust the transition speed and add sound effects using the respective options.\n\nLastly, the tutorial demonstrates how to use the \"Sketch Pen\" tool to draw on slides during a presentation, allowing you to interact with your audience creatively."
+}

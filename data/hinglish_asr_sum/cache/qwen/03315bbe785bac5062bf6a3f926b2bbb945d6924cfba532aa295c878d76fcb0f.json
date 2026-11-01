@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-31T12:50:13+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W20",
+ "condition": "noise:hi:0.3",
+ "out_lang": "en",
+ "input_tokens": 2332,
+ "summary": "This tutorial covers how to use LibreOffice Impress for creating and presenting slide shows. It explains how to open a presentation and start a slide show from the main menu or using the F5 key. Navigation within the slide show can be done using arrow keys, right-clicking on slides, or the context menu. Exiting the slide show can be done by clicking \"End Show\" in the context menu or pressing the Escape key.\n\nThe tutorial also discusses slide transitions, which are effects applied when moving from one slide to another during a presentation. To customize transitions, go to the Slide Sorter view, select a slide, and then choose \"Slide Transitions\" from the task pane. Various transition types like Master Wipe, Beam, and others can be applied, and their speed can be adjusted using the dropdown menus.\n\nAdditionally, the tutorial covers how to add text and shapes using the sketch pen tool during a slide show. It explains how to undo changes with Ctrl+Z and rearrange slides by dragging them in the Slide Sorter view. Overall, this tutorial provides a comprehensive guide to using LibreOffice Impress for presentations."
+}

@@ -1,0 +1,18 @@
+{
+ "created": "2026-10-31T12:58:56+00:00",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W22",
+ "condition": "asr:trelis-hinglish-preview",
+ "out_lang": "hinglish",
+ "input_tokens": 2386,
+ "summary": "नमस्कार, जे कैंपेंट के टोटोरियल में आपका स्वागत है। यहाँ आपको बताना है कि जे कैंपेंट विंडो का बैकग्राउंड रंग और यूजर इंटरफेस भाषा कैसे तय किया जाता है। बैकग्राउंड रंग तय करने के लिए, पहले डेस्कटॉप पर डॉट जार फाइल खोलें, फिर टर्मिनल में `java -jar jcampaign-3.3.1210.jar` टाइप करें और एंटर दबाएं। फिर एडिट मेनू से प्रेफरेंस्स चुनें, और बैकग्राउंड कलर ब"
+}

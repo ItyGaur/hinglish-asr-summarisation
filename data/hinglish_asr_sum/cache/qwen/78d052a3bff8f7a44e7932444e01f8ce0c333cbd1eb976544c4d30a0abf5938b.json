@@ -1,0 +1,18 @@
+{
+ "created": "recovered_from_summaries.csv",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "gen": {
+  "max_new_tokens": 320,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null
+ },
+ "batch": 4,
+ "window_id": "W05",
+ "condition": "oracle",
+ "out_lang": "en",
+ "input_tokens": 2961,
+ "summary": "This tutorial introduces Mozilla Thunderbird, a simple email client available on various platforms. It covers downloading and launching Thunderbird, configuring new email accounts, reading and writing emails, and sending messages. Thunderbird supports multiple email accounts and categorizes messages by date, sender, priority, or custom labels. The tutorial demonstrates setting up Thunderbird on Ubuntu Linux 12.04. To install Thunderbird, users can use the Ubuntu Software Center or download it from the Mozilla website for Windows versions as well. For Thunderbird to work, users need at least two valid email addresses with POP3 enabled. Thunderbird launches via the Home button on the desktop, and its interface includes a main menu with options like Get Mail, Write, and Address Book. Thunderbird is divided into two panels; the left panel shows folders from configured accounts, while the right panel offers advanced features and options. The tutorial sets up two email accounts, stuserone@gmail.com and stusertwo@yahoo.com, both with POP3 enabled, to demonstrate the process."
+}

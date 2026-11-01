@@ -1,0 +1,78 @@
+{
+ "created": "2026-10-30T15:55:00+00:00",
+ "template_id": "reference",
+ "variant": 0,
+ "request": {
+  "model": "gemini-3.8-flash",
+  "system_instruction": "You are a careful annotator building evaluation data for summarisation research. Follow the instructions exactly and output only JSON that matches the schema.",
+  "input": "Below is the exact human transcript of a segment of a recorded software tutorial. The speaker code-mixes Hindi and English: Hindi is mostly written in Devanagari and English mostly in Latin script, but some English words are written in Devanagari.\n\nProduce two things.\n\n1. \"summary\": an English summary of the segment's content, 120-180 words, plain prose, covering the main steps, concepts and facts taught. Do not mention the speaker, the tutorial series, greetings, credits, funding or websites.\n\n2. \"facts\": 8 to 15 atomic facts that a good summary of this segment should contain.\n- Each fact is one short, self-contained English sentence stating a single piece of content (a step, setting, definition, command or result).\n- Exclude greetings, credits, acknowledgements, funding and website information.\n- Facts must not overlap.\n- For each fact, \"evidence\" must be copied EXACTLY, character for character, from the transcript: one contiguous excerpt of 3 to 25 words that states the fact. Do not translate, transliterate, correct or shorten words inside the excerpt.\n\nTranscript:\n<<<\nलिबर ऑफिस impress में presentation notes पर spoken tutorial में आपका स्वागत है इस tutorial में हम notes के बारे में और उनको print कैसे करना सीखेंगे notes दो उद्देश्यों के लिए प्रयुक्त होता है दर्शकों के लिए प्रत्येक slide पर अतिरिक्त सामग्री या रेफ्रेन्सेस के लिए उद्घोषक को reference notes के ज़रिये मदद करने के लिए जब वह दर्शक के सामने slides प्रस्तुत करे प्रस्तुति sampleimpress odp खोलें बायीं तरफ पर slides pane से overview शीर्षक slides चुनें text को बदलें to achieve 30% shift to opensource software within 1 year to achieve 95% shift to opensource software within 5 years पेज में कुछ notes जोड़ें जिससे कि जब यह printed हो पाठक के पास कुछ reference सामग्री हो notes के संपादन के लिए notes टैब पर click करें slide के नीचे एक notes text box प्रदर्शित होता है यहाँ हम notes type कर सकते हैं click to add notes पर click करें ध्यान दें कि आप इस box का सम्पादन कर सकते हैं text box में type करें; management would like to explore cost saving from shifting to open source software open source software has now become a viable option to proprietary software open source software will free the company from arbitrary software updates of proprietary software हमने अपना पहला note बना लिया सीखते हैं कि notes में कैसे text को format करें text चुनें impress window के ऊपरी बाएँ कोने पर font type dropdown पर click करें और tlwgmono चुनें अब font size dropdown में 18 चुनें उसी task bar में bullet icon पर click करें अब text में bullet points हैं सभी notes को standard format में बदलने के लिए एक notes master बनाना सीखते हैं मुख्य menu में view पर click करें और फिर master पर click करें notes master पर click करें notes master view दिखता है ध्यान दें दो slides प्रदर्शित होती हैं इसका मतलब है कि प्रस्तुति में इस्तेमाल प्रत्येक master slide के लिए एक notes master होता है notes master slide template की तरह होती है आप यहाँ formatting प्राथमिकता निर्धारित कर सकते हैं जोकि बाद में प्रस्तुति में सभी notes पर लागू होगी slides pane से पहली slides चुनें notes place holder पर click करें और उस पर प्रदर्शित text को चुनें impress window के सबसे ऊपरी बाएँ कोने पर font size dropdown पर click करें और 32 चुनें मुख्य menu में format और character पर click करें character dialog box प्रदर्शित होता है font effects टैब पर click करें font color dropdown पर click करें और red चुनें ok पर click करें notes पर logo logo जोड़ते हैं चलिए त्रिकोण जोड़ते हैं drawing toolbar से basic shapes पर click करें और isosceles triangle चुनें notes text box के ऊपरीबाएँ कोने पर त्रिकोण प्रविष्ट करें त्रिकोण चुनें और context menu के लिए दायाँclick करें area पर click करें area dialog box प्रदर्शित होता है area टैब पर click करें fill dropdown पर click करें और color पर click करें अब blue 7 चुनें यह formatting और logo default रूप से सभी बनाये गये notes के लिए होंगे ok पर click करें master view toolbar में close master view पर click करें मुख्य main में notes टैब पर click करें बायीं ओर पर slides pane में शीर्षक overview slides चुनें ध्यान दें कि notes वैसे ही फ़ॉर्मेट हो गये हैं जैसा कि master notes में निर्धारित है अब सीखते हैं कि कैसे notes place holder और slide place holder का आकार बदलें slide placeholder चुनें बायाँ mouse button दबाएँ और इसे screen पर सबसे ऊपर ले जाएँ यह notes place holder का आकार बदलने के लिए अधिक स्थान बनाता है\n>>>",
+  "generation_config": {
+   "max_output_tokens": 8192
+  },
+  "response_format": {
+   "mime_type": "application/json",
+   "schema": {
+    "$defs": {
+     "Fact": {
+      "properties": {
+       "fact": {
+        "title": "Fact",
+        "type": "string"
+       },
+       "evidence": {
+        "title": "Evidence",
+        "type": "string"
+       }
+      },
+      "required": [
+       "fact",
+       "evidence"
+      ],
+      "title": "Fact",
+      "type": "object"
+     }
+    },
+    "properties": {
+     "summary": {
+      "title": "Summary",
+      "type": "string"
+     },
+     "facts": {
+      "items": {
+       "$ref": "#/$defs/Fact"
+      },
+      "title": "Facts",
+      "type": "array"
+     }
+    },
+    "required": [
+     "summary",
+     "facts"
+    ],
+    "title": "Reference",
+    "type": "object"
+   }
+  }
+ },
+ "output_text": "{\n  \"summary\": \"In LibreOffice Impress, presentation notes serve two main purposes: providing additional reference material for the audience on printed handouts and offering cues to guide the presenter during a delivery. To add notes to a slide, select the slide in the slides pane and switch to the Notes tab, where text can be typed into the notes text box beneath the slide. The text within the notes box can be formatted directly by adjusting the font type, changing the font size, and applying bullet points. To maintain consistent formatting across all notes, a Notes Master can be configured via View, Master, and Notes Master. Inside the Notes Master view, modifications made to the notes placeholder—such as altering text size and font color or inserting shapes and logos—automatically apply as defaults to all presentation notes. Finally, the layout can be customized by selecting and moving the slide placeholder, providing additional space to resize the notes placeholder.\",\n  \"facts\": [\n    {\n      \"fact\": \"Notes in Impress serve as additional reference material for the audience or as cues to assist the presenter during a talk.\",\n      \"evidence\": \"notes दो उद्देश्यों के लिए प्रयुक्त होता है दर्शकों के लिए प्रत्येक slide पर अतिरिक्त सामग्री या रेफ्रेन्सेस के लिए उद्घोषक को reference notes के ज़रिये मदद करने के लिए\"\n    },\n    {\n      \"fact\": \"Clicking on the Notes tab displays a notes text box below the slide for typing notes.\",\n      \"evidence\": \"notes के संपादन के लिए notes टैब पर click करें slide के नीचे एक notes text box प्रदर्शित होता है\"\n    },\n    {\n      \"fact\": \"Notes text can be formatted directly using the font type dropdown, font size dropdown, and bullet icon.\",\n      \"evidence\": \"font type dropdown पर click करें और tlwgmono चुनें अब font size dropdown में 18 चुनें उसी task bar में bullet icon पर click करें\"\n    },\n    {\n      \"fact\": \"To create standard formatting for all notes, open the Notes Master by clicking View, then Master, and selecting Notes Master.\",\n      \"evidence\": \"मुख्य menu में view पर click करें और फिर master पर click करें notes master पर click करें\"\n    },\n    {\n      \"fact\": \"There is a notes master for each master slide utilized in the presentation.\",\n      \"evidence\": \"इसका मतलब है कि प्रस्तुति में इस्तेमाल प्रत्येक master slide के लिए एक notes master होता है\"\n    },\n    {\n      \"fact\": \"Formatting preferences set on the notes master apply automatically to all notes throughout the presentation.\",\n      \"evidence\": \"आप यहाँ formatting प्राथमिकता निर्धारित कर सकते हैं जोकि बाद में प्रस्तुति में सभी notes पर लागू होगी\"\n    },\n    {\n      \"fact\": \"Text formatting in the notes master can be adjusted by choosing options such as font size 32 and red font color under Character dialog box.\",\n      \"evidence\": \"font size dropdown पर click करें और 32 चुनें मुख्य menu में format और character पर click करें character dialog box प्रदर्शित होता है font effects टैब पर click करें font color dropdown पर click करें और red चुनें\"\n    },\n    {\n      \"fact\": \"Shapes such as an isosceles triangle can be added from Basic Shapes on the drawing toolbar to act as a logo.\",\n      \"evidence\": \"drawing toolbar से basic shapes पर click करें और isosceles triangle चुनें\"\n    },\n    {\n      \"fact\": \"A shape's fill color can be modified via Area in the context menu by selecting Color and choosing Blue 7.\",\n      \"evidence\": \"area पर click करें area dialog box प्रदर्शित होता है area टैब पर click करें fill dropdown पर click करें और color पर click करें अब blue 7 चुनें\"\n    },\n    {\n      \"fact\": \"Moving the slide placeholder towards the top of the screen creates more space to resize the notes placeholder.\",\n      \"evidence\": \"slide placeholder चुनें बायाँ mouse button दबाएँ और इसे screen पर सबसे ऊपर ले जाएँ यह notes place holder का आकार बदलने के लिए अधिक स्थान बनाता है\"\n    }\n  ]\n}",
+ "response_model": "gemini-3.8-flash",
+ "response_id": "v1_Chc0THprYXJPT0FvV1JqckVQck0tTWtBURIXNEx6a2FyT09Bb1dSanJFUHJNLU1rQVE",
+ "usage": {
+  "initial_input_tokens": 1082,
+  "input_tokens_by_modality": [
+   {
+    "modality": "text",
+    "tokens": 948
+   }
+  ],
+  "total_cached_tokens": 0,
+  "total_input_tokens": 948,
+  "total_output_tokens": 857,
+  "total_thought_tokens": 0,
+  "total_tokens": 1805,
+  "total_tool_use_tokens": 0
+ },
+ "meta": {
+  "window_id": "W17"
+ }
+}
